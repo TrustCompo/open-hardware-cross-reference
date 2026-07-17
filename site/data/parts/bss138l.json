@@ -1,188 +1,6 @@
 {
   "comparisonRows": [
     {
-      "attribute": "Part Number",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "BSS138N"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "BSS138L"
-    },
-    {
-      "attribute": "VDS (Drain-Source)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "60 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "50 V"
-    },
-    {
-      "attribute": "ID (Continuous Drain)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "0.23 A (Ta)"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "200 mA (Ta)"
-    },
-    {
-      "attribute": "VGS (Gate-Source)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "±20 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "±20 V"
-    },
-    {
-      "attribute": "Vth (Threshold)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "0.7 V to 1.5 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "0.8 V to 1.5 V"
-    },
-    {
-      "attribute": "Power Dissipation (max)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "360 mW (Ta)"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "350 mW (Ta)"
-    },
-    {
-      "attribute": "Rds(on)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "3.5 ohm @ Vgs = 10 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "3.5 ohm @ Vgs = 4.5 V"
-    },
-    {
       "attribute": "RoHS Status",
       "candidates": [
         {
@@ -443,15 +261,15 @@
       "target": "SOT-23-3 (L suffix)"
     },
     {
-      "attribute": "Terminal Finish",
+      "attribute": "Part Number",
       "candidates": [
         {
           "productCode": "TCE000048009",
-          "value": "Matte Tin (Sn)"
+          "value": "-"
         },
         {
           "productCode": "TCE000042253",
-          "value": "Matte Tin (Sn)"
+          "value": "-"
         },
         {
           "productCode": "TCE000055878",
@@ -459,11 +277,193 @@
         },
         {
           "productCode": "TCE000056789",
-          "value": "-"
+          "value": "BSS138N"
         },
         {
           "productCode": "TCE000032963",
           "value": "-"
+        }
+      ],
+      "target": "BSS138L"
+    },
+    {
+      "attribute": "VDS (Drain-Source)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "60 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "50 V"
+    },
+    {
+      "attribute": "ID (Continuous Drain)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "0.23 A (Ta)"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "200 mA (Ta)"
+    },
+    {
+      "attribute": "VGS (Gate-Source)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "±20 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "±20 V"
+    },
+    {
+      "attribute": "Vth (Threshold)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "0.7 V to 1.5 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "0.8 V to 1.5 V"
+    },
+    {
+      "attribute": "Power Dissipation (max)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "360 mW (Ta)"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "350 mW (Ta)"
+    },
+    {
+      "attribute": "Rds(on)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "3.5 ohm @ Vgs = 10 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "3.5 ohm @ Vgs = 4.5 V"
+    },
+    {
+      "attribute": "JESD-609 Code",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "e3"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "e3"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "e3"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "e3"
         }
       ],
       "target": "-"
@@ -493,9 +493,9 @@
       "url": ""
     },
     {
-      "excerpt": "Functional alternative to the obsolete onsemi BSS138L. Vishay Si2302CDS-T1-E3 is a 20 V N-channel MOSFET in SOT-23-3 with identical pinout (1=Gate, 2=Drain, 3=Source) to BSS138L. Much lower RDS(on) (0.045 Ω at Vgs = 4.5 V) and higher ID (2.6 A) than BSS138L. ONLY use as functiona",
+      "excerpt": "Current live pairing overstates compatibility. SI2302CDS-T1-E3 is a 20 V trench MOSFET and should not be presented as a normal functional replacement for the 50 V BSS138L shortlist.",
       "signals": [
-        "functional"
+        "similar"
       ],
       "sourceType": "alternative-datasheet",
       "title": "SI2302CDS-T1-E3 datasheet",
@@ -520,9 +520,9 @@
       "url": "https://datasheet.trustcompo.com/diodes-incorporated-bsn20-7.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 15:54:21",
+  "generatedAt": "2026-07-17 18:05:57",
   "partNumber": "BSS138L",
-  "reasoning": "Functional alternative to the obsolete onsemi BSS138L. Vishay Si2302CDS-T1-E3 is a 20 V N-channel MOSFET in SOT-23-3 with identical pinout (1=Gate, 2=Drain, 3=Source) to BSS138L. Much lower RDS(on) (0.045 Ω at Vgs = 4.5 V) and higher ID (2.6 A) than BSS138L. ONLY use as functional drop-in when the application stays below 20 V VDS (e.g. 3.3 V or 5 V rail-level shifting). NOT a substitute in 24 V or 48 V circuits. Verify VDS margin before substitution.",
+  "reasoning": "Current live pairing overstates compatibility. SI2302CDS-T1-E3 is a 20 V trench MOSFET and should not be presented as a normal functional replacement for the 50 V BSS138L shortlist.",
   "replacementCandidates": [
     {
       "attributeGroups": {
@@ -598,14 +598,14 @@
         }
       },
       "brandName": "Vishay",
-      "bucket": "Functional",
+      "bucket": "Similar",
       "categoryName": "Discrete Semiconductor Products",
       "datasheetUrl": "https://datasheet.trustcompo.com/vishay-si2302cds-t1-e3.pdf",
       "description": "MOSFET N-CH 20V 2.6A SOT-23",
       "fitNotes": [
-        "Functional alternative to the obsolete onsemi BSS138L. Vishay Si2302CDS-T1-E3 is a 20 V N-channel MOSFET in SOT-23-3 with identical pinout (1=Gate, 2=Drain, 3=Source) to BSS138L. Much lower RDS(on) (0.045 Ω at Vgs = 4.5 V) and higher ID (2.6 A) than BSS138L. ONLY use as functional drop-in when the application stays below 20 V VDS (e.g. 3.3 V or 5 V rail-level shifting). NOT a substitute in 24 V or 48 V circuits. Verify VDS margin before substitution."
+        "Current live pairing overstates compatibility. SI2302CDS-T1-E3 is a 20 V trench MOSFET and should not be presented as a normal functional replacement for the 50 V BSS138L shortlist."
       ],
-      "fitScore": 40,
+      "fitScore": 20,
       "package": "SOT-23",
       "pricing": {
         "priceRange": "",
@@ -614,11 +614,11 @@
       "productCode": "TCE000048009",
       "productName": "SI2302CDS-T1-E3",
       "productOverview": "MOSFET N-CH 20V 2.6A SOT-23",
-      "reason": "Functional alternative to the obsolete onsemi BSS138L. Vishay Si2302CDS-T1-E3 is a 20 V N-channel MOSFET in SOT-23-3 with identical pinout (1=Gate, 2=Drain, 3=Source) to BSS138L. Much lower RDS(on) (0.045 Ω at Vgs = 4.5 V) and higher ID (2.6 A) than BSS138L. ONLY use as functional drop-in when the application stays below 20 V VDS (e.g. 3.3 V or 5 V rail-level shifting). NOT a substitute in 24 V or 48 V circuits. Verify VDS margin before substitution.",
+      "reason": "Current live pairing overstates compatibility. SI2302CDS-T1-E3 is a 20 V trench MOSFET and should not be presented as a normal functional replacement for the 50 V BSS138L shortlist.",
       "series": "TrenchFET®",
-      "slug": "SI2302CDS-T1-E3",
+      "slug": "TCE000048009-SI2302CDS-T1-E3",
       "subCategoryName": "Transistors - FETs, MOSFETs - Single",
-      "url": "https://www.trustcompo.com/product/detail/SI2302CDS-T1-E3"
+      "url": "https://www.trustcompo.com/product/detail/TCE000048009-SI2302CDS-T1-E3"
     },
     {
       "attributeGroups": {
@@ -713,9 +713,9 @@
       "productOverview": "The 2N7002K-7 is a N-channel MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) manufactured by Diodes Incorporated. It is designed for low-voltage applications and is widely used in various electronic circuits due to its efficiency and reliability. Key Features: Type : N-channel MOSFET Package : The 2N7002K-7 is typically available in a SOT-23 package, which is a small, surface-mount package that allows for efficient use of board space. Voltage Rating : The device has a maximum drain-source voltage (V_DS) of 60V, making it suitable for a variety of applications that require moderate voltage handling. Current Rating : It can handle a continuous drain current (I_D) of up to 200mA, which is adequate for many low-power switching applications. Gate Threshold Voltage (V_GS(th)) : The gate threshold voltage is typically in the range of 0.8V to 3V, allowing it to be driven by low-voltage logic levels. R_DS(on) : The on-resistance (R_DS(on)) is low, typically around 0.5 ohms at a gate-source voltage (V_GS) of 10V, which contributes to lower power losses during operation. Switching Speed : The 2N7002K-7 features fast switching capabilities, making it suitable for high-speed applications such as switching power supplies and signal switching. Thermal Characteristics : The device has a thermal resistance (RθJA) that allows it to operate efficiently without overheating, provided it is used within its specified limits. Applications: The 2N7002K-7 is commonly used in various applications, including: Switching Regulators : It can be used in DC-DC converters and other power management circuits. Signal Switching : Ideal for switching signals in digital circuits, such as microcontroller outputs. Load Switching : Suitable for controlling loads in automotive and industrial applications. Relay Replacement : Can be used to replace mechanical relays in low-power applications for faster switching and increased reliability. Electrical Characteristics: Maximum Gate-Source Voltage (V_GS) : ±20V Maximum Power Dissipation (P_D) : Typically around 300mW, depending on the thermal management of the PCB. Operating Temperature Range : The device can operate in a temperature range from -55°C to +150°C, making it suitable for a variety of environmental conditions. Conclusion: The 2N7002K-7 from Diodes Incorporated is a versatile and efficient N-channel MOSFET that is well-suited for low-voltage applications. Its compact size, low on-resistance, and fast switching capabilities make it a popular choice among engineers and designers for a wide range of electronic circuits.",
       "reason": "Functional alternative to the obsolete onsemi BSS138L. 2N7002K-7 (Nexperia / Diodes Incorporated) is a 60 V N-channel logic-level enhancement mode MOSFET in SOT-23-3 with the same pinout (1=Gate, 2=Drain, 3=Source). 0.115 A ID and ~3 Ω RDS(on) at Vgs = 10 V. Same logic-level gate drive and small-signal switching application class as BSS138L, but ~2x lower current rating. Use as drop-in when the design's continuous drain current is below 100 mA (level-shifting, load switch, simple analog switches).",
       "series": "-",
-      "slug": "2N7002K-7",
+      "slug": "TCE000042253-2N7002K-7",
       "subCategoryName": "Transistors - FETs, MOSFETs - Single",
-      "url": "https://www.trustcompo.com/product/detail/2N7002K-7"
+      "url": "https://www.trustcompo.com/product/detail/TCE000042253-2N7002K-7"
     },
     {
       "attributeGroups": {
@@ -808,9 +808,9 @@
       "productOverview": "MOSFET N-CH 50V 500MA SOT23",
       "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi BSS138L. Nexperia BSN20 (Diodes Incorporated 7-inch reel variant) is a 50 V N-channel enhancement mode MOSFET in SOT-23-3 with identical pinout to BSS138L. Logic-level gate drive (RDS(on) ~1.8 Ω at Vgs = 10 V), 0.18 A ID, 360 mW Pd. Same 50 V VDS class and SOT-23-3 footprint. Recommended when the design needs lower RDS(on) for reduced conduction loss vs BSS138L.",
       "series": "-",
-      "slug": "BSN20-7",
+      "slug": "TCE000055878-BSN20-7",
       "subCategoryName": "Transistors - FETs, MOSFETs - Single",
-      "url": "https://www.trustcompo.com/product/detail/BSN20-7"
+      "url": "https://www.trustcompo.com/product/detail/TCE000055878-BSN20-7"
     },
     {
       "attributeGroups": {
@@ -852,9 +852,9 @@
       "productOverview": "BSS138N is Infineon Technologies' SIPMOS small-signal N-channel enhancement mode MOSFET in PG-SOT-23 (3-pin). Rated 60 V VDS, 0.23 A ID, 3.5 Ω Rds(on) at Vgs = 10 V, 360 mW Pd. Pin-to-pin drop-in for onsemi BSS138L (SOT-23-3 footprint, identical pinout 1=Gate, 2=Drain, 3=Source). Identical RDS(on) (3.5 Ω) at the same gate drive as onsemi BSS138L, making it an exact parametric replacement per Ovaga cross-reference and DigiKey 'Similar' listing. Marketed as the Infineon successor to the BSS138 footprint.",
       "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi BSS138L. Infineon BSS138N is the SIPMOS small-signal N-channel MOSFET in PG-SOT-23 (3-pin) with identical SOT-23-3 footprint and pinout (1=Gate, 2=Drain, 3=Source). Same 3.5 Ω RDS(on) at the same gate drive — exact parametric replacement per Ovaga and DigiKey 'Similar' listings. 60 V VDS (vs BSS138L's 50 V) provides 20% extra voltage headroom. 0.23 A ID vs BSS138L's 0.20 A. Recommended primary drop-in for new designs after BSS138L is obsolete.",
       "series": "BSS138",
-      "slug": "BSS138N",
+      "slug": "TCE000056789-BSS138N",
       "subCategoryName": "Transistors - FETs, MOSFETs - Single",
-      "url": "https://www.trustcompo.com/product/detail/BSS138N"
+      "url": "https://www.trustcompo.com/product/detail/TCE000056789-BSS138N"
     },
     {
       "attributeGroups": {
@@ -952,9 +952,9 @@
       "productOverview": "The BSS138-7-F is a N-channel MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) manufactured by Diodes Incorporated. It is designed for low-voltage applications and is commonly used in switching and amplification circuits. Here’s a detailed description of its key features and specifications: General Characteristics: Type : N-channel MOSFET Package : Typically available in a small SOT-23 package, which is a surface-mount device (SMD) that allows for efficient use of PCB space. Pin Configuration : The SOT-23 package usually has three pins, which are designated as Gate (G), Drain (D), and Source (S). Electrical Specifications: Maximum Drain-Source Voltage (V_DS) : The BSS138 can handle a maximum V_DS of 50V, making it suitable for a variety of applications where moderate voltage levels are present. Continuous Drain Current (I_D) : It can support a continuous drain current of up to 220 mA at a temperature of 25°C, which is adequate for many low-power applications. Gate Threshold Voltage (V_GS(th)) : The gate threshold voltage typically ranges from 0.8V to 1.5V, indicating the minimum gate-to-source voltage required to turn the MOSFET on. R_DS(on) : The on-resistance (R_DS(on)) is typically around 3.5 ohms at a V_GS of 10V, which contributes to lower power losses during operation. Performance Characteristics: Switching Speed : The BSS138 is known for its fast switching capabilities, making it suitable for high-speed applications. Thermal Resistance : The thermal resistance from junction to ambient (RθJA) is relatively low, allowing for efficient heat dissipation during operation. Safe Operating Area (SOA) : The device is designed to operate within a safe area, ensuring reliability and longevity in various applications. Applications: The BSS138-7-F is widely used in: Switching Regulators : For efficient power management in DC-DC converters. Level Shifting : In interfacing between different voltage levels in digital circuits. Signal Switching : For controlling signals in various electronic devices. Load Switching : In applications where it is necessary to control larger loads with a smaller control signal. Additional Features: RoHS Compliant : The BSS138-7-F is compliant with the Restriction of Hazardous Substances (RoHS) directive, making it environmentally friendly. Low Gate Drive Power : The device requires minimal gate drive power, which is advantageous in battery-operated devices. Conclusion: The BSS138-7-F from Diodes Incorporated is a versatile and efficient N-channel MOSFET suitable for a wide range of applications, particularly in low-voltage and low-power environments. Its compact size, combined with its robust electrical characteristics, makes it a popular choice among engineers and designers in the electronics industry.",
       "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi BSS138L. Identical SOT-23-3 footprint and pinout (1=Gate, 2=Drain, 3=Source). Same 50 V VDS, 200 mA ID, 3.5 ohm Rds(on) ratings. onsemi product page (2025) shows BSS138L lifecycle as 'Last Shipments' (the onsemi glossary defines this as the final 6-month shipment window before Obsolete), and DigiKey lists the part as 'Obsolete'. Diodes BSS138-7-F is the universal cross-vendor BSS138 drop-in listed as the primary parametric equivalent on Z2Data and Octopart.",
       "series": "-",
-      "slug": "BSS138-7-F",
+      "slug": "TCE000032963-BSS138-7-F",
       "subCategoryName": "Transistors - FETs, MOSFETs - Single",
-      "url": "https://www.trustcompo.com/product/detail/BSS138-7-F"
+      "url": "https://www.trustcompo.com/product/detail/TCE000032963-BSS138-7-F"
     }
   ],
   "sourceReportFile": "api:/product/cross-references",
@@ -997,9 +997,9 @@
     "productName": "BSS138L",
     "productOverview": "BSS138L is onsemi's SOT-23-3 N-channel logic-level enhancement mode MOSFET rated 50 V VDS, 200 mA ID, 3.5 Ω Rds(on) at Vgs = 4.5 V, 350 mW Pd. onsemi product page (2025) shows lifecycle status 'Last Shipments' — the onsemi lifecycle glossary defines 'Last Shipments' as a 6-month period of final shipments, after which the part becomes Obsolete. DigiKey lists Part Status as 'Obsolete' for BSS138L. Direct P2P drop-in: Diodes Incorporated BSS138-7-F (SOT-23-3, 50 V, 200 mA, 3.5 Ω Rds(on)) — identical pinout and pin-for-pin spec match.",
     "series": "BSS138",
-    "slug": "BSS138L",
+    "slug": "TCE000056780-BSS138L",
     "subCategoryName": "Transistors - FETs, MOSFETs - Single",
-    "url": "https://www.trustcompo.com/product/detail/BSS138L"
+    "url": "https://www.trustcompo.com/product/detail/TCE000056780-BSS138L"
   },
   "vendor": "ON Semiconductor"
 }

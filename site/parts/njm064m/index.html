@@ -35,7 +35,7 @@
     .section { margin-top: 22px; padding: 22px; }
     .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
     .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
-    .candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .candidate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
     .candidate-card { padding: 18px; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
     th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
@@ -44,6 +44,9 @@
     a { color: var(--accent); }
     .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
     .hero h1, .section strong { font-variant-numeric: tabular-nums; }
+    @media (max-width: 760px) {
+      .candidate-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -52,14 +55,12 @@
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>NJM064M</h1>
       <p>Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/NJM064M">Open TrustCompo product page</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/NJM064M/datasheet">View datasheet</a></div>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000041557-NJM064M">Open NJM064M on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000041557-NJM064M/datasheet">View NJM064M datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>eol</div>
-        <div class="meta-card"><strong>Confidence</strong><br>100</div>
         <div class="meta-card"><strong>Vendor</strong><br>Nisshinbo Micro Devices Inc.</div>
         <div class="meta-card"><strong>Package</strong><br>DMP-14</div>
         <div class="meta-card"><strong>Category</strong><br>Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers</div>
-        <div class="meta-card"><strong>Unit price</strong><br>-</div>
       </div>
     </section>
 
@@ -67,59 +68,59 @@
       <h2>Target product summary</h2>
       <p><strong>NJM064M</strong></p>
       <p>NJM064M is a legacy DMP-14 / DIP-14 compatible member of Nisshinbo Micro Devices&#x27; NJM064 low-power quad J-FET input operational amplifier family. As of June 21, 2026, the current official Nisshinbo public references we verified are the NJM064C/NJM064CA pages, which describe the NJM064 family as the low-power version of the NJM072C/074C family and show 1 MHz typ GBW, 3.5 V/us typ slew rate, and 4 V to 36 V supply range. We did not verify a public manufacturer EOL/PDN notice for the exact NJM064M package variant, so this catalog entry should not present NJM064M as confirmed EOL. Buyers should still reconfirm exact DMP-14 package availability, temperature grade, and compliance for NJM064M lots before release to production.</p>
-      <p class="muted">Series: NJM064 | Datasheet landing page: https://www.trustcompo.com/product/detail/NJM064M/datasheet | TrustCompo code: TCE000041557</p>
+      <p class="muted">Series: NJM064 | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000041557-NJM064M/datasheet</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/LF347DT">LF347DT</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000039147-LF347DT">LF347DT</a></h3>
 <p><strong>Similar</strong> · Fit score 20</p>
 <p>IC OPAMP JFET 4MHZ 14SO</p>
-<p class="muted">Package: SOIC | Series: - | Unit price: -</p>
+<p class="muted">Package: SOIC | Series: -</p>
 <p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lead Free: Lead Free</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL084CD">TL084CD</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000033962-TL084CD">TL084CD</a></h3>
 <p><strong>Similar</strong> · Fit score 40</p>
 <p>IC OPAMP JFET 3MHZ 14SOIC</p>
-<p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
-<p class="muted">RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC; Moisture Sensitivity Level (MSL): 1 (Unlimited); JESD-609 Code: e4</p>
+<p class="muted">Package: 14SOIC | Series: -</p>
+<p class="muted">Part Status: Active; Lifecycle Status: ACTIVE (Last Updated: 4 days ago); Lead Free: Lead Free; Packaging: Tube</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064INSR">TL064INSR</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000037565-TL064INSR">TL064INSR</a></h3>
 <p><strong>Functional</strong> · Fit score 60</p>
 <p>IC OPAMP JFET 1MHZ 14SO</p>
-<p class="muted">Package: SOIC | Series: - | Unit price: -</p>
+<p class="muted">Package: SOIC | Series: -</p>
+<p class="muted">Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: RoHS non-compliant; JESD-609 Code: e4; HTSUS: 8542.33.0001</p>
+</article>
+<article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000008521-TL064IDR">TL064IDR</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
+<p>IC OPAMP JFET 1MHZ 14SOIC</p>
+<p class="muted">Package: 14SOIC | Series: -</p>
+<p class="muted">JESD-609 Code: e3; Moisture Sensitivity Level (MSL): 1  (Unlimited); ECCN Code: EAR99; RoHS Status: ROHS3 Compliant</p>
+</article>
+<article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000030931-TL064ACDR">TL064ACDR</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
+<p>IC OPAMP JFET 1MHZ 14SOIC</p>
+<p class="muted">Package: 14SOIC | Series: -</p>
 <p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lead Free: Lead Free</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064IDR">TL064IDR</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000037564-TL064BCDR">TL064BCDR</a></h3>
 <p><strong>Functional</strong> · Fit score 80</p>
 <p>IC OPAMP JFET 1MHZ 14SOIC</p>
-<p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
-<p class="muted">Part Status: Active; Radiation Hardening: NO; Contact Plating: Gold; Pbfree Code: Yes</p>
-</article>
-<article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064ACDR">TL064ACDR</a></h3>
-<p><strong>Functional</strong> · Fit score 80</p>
-<p>IC OPAMP JFET 1MHZ 14SOIC</p>
-<p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
+<p class="muted">Package: 14SOIC | Series: -</p>
 <p class="muted">Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: ROHS3 Compliant; JESD-609 Code: e4; HTSUS: 8542.33.0001</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064BCDR">TL064BCDR</a></h3>
-<p><strong>Functional</strong> · Fit score 80</p>
-<p>IC OPAMP JFET 1MHZ 14SOIC</p>
-<p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
-<p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lifecycle Status: ACTIVE (Last Updated: 1 day ago)</p>
-</article>
-<article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064CD">TL064CD</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000041141-TL064CD">TL064CD</a></h3>
 <p><strong>Functional</strong> · Fit score 100</p>
 <p>IC OPAMP JFET 1MHZ 14SOIC</p>
-<p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
+<p class="muted">Package: 14SOIC | Series: -</p>
 <p class="muted">RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC; Moisture Sensitivity Level (MSL): 1 (Unlimited); JESD-609 Code: e4</p>
 </article>
       </div>
@@ -139,94 +140,6 @@
 <th>TL064BCDR</th>
 <th>TL064CD</th>
 </tr></thead><tbody>
-<tr>
-<td>HTSUS</td>
-<td>8542.33.0001</td>
-<td>8542.33.0001</td>
-<td>-</td>
-<td>8542.33.0001</td>
-<td>8542.33.0001</td>
-<td>8542.33.0001</td>
-<td>8542.33.0001</td>
-<td>-</td>
-</tr>
-<tr>
-<td>RoHS Status</td>
-<td>Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default</td>
-<td>ROHS3 Compliant</td>
-<td>ROHS3 Compliant</td>
-<td>RoHS non-compliant</td>
-<td>ROHS3 Compliant</td>
-<td>ROHS3 Compliant</td>
-<td>ROHS3 Compliant</td>
-<td>ROHS3 Compliant</td>
-</tr>
-<tr>
-<td>Number of Channels</td>
-<td>4</td>
-<td>4</td>
-<td>4</td>
-<td>-</td>
-<td>4</td>
-<td>-</td>
-<td>-</td>
-<td>4</td>
-</tr>
-<tr>
-<td>Gain Bandwidth Product (GBP)</td>
-<td>3 MHz (typical, per JRC family datasheet)</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Supply Voltage (single)</td>
-<td>4 V to 36 V</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Supply Voltage (dual)</td>
-<td>+/-2 V to +/-18 V</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Part Number</td>
-<td>NJM064M</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Amplifier Type</td>
-<td>JFET-input operational amplifier</td>
-<td>J-FET</td>
-<td>J-FET</td>
-<td>J-FET</td>
-<td>J-FET</td>
-<td>J-FET</td>
-<td>J-FET</td>
-<td>J-FET</td>
-</tr>
 <tr>
 <td>ECCN</td>
 <td>EAR99</td>
@@ -327,6 +240,94 @@
 <td>14-SOIC (0.154, 3.90mm Width)</td>
 </tr>
 <tr>
+<td>HTSUS</td>
+<td>8542.33.0001</td>
+<td>8542.33.0001</td>
+<td>-</td>
+<td>8542.33.0001</td>
+<td>8542.33.0001</td>
+<td>8542.33.0001</td>
+<td>8542.33.0001</td>
+<td>-</td>
+</tr>
+<tr>
+<td>RoHS Status</td>
+<td>Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default</td>
+<td>ROHS3 Compliant</td>
+<td>ROHS3 Compliant</td>
+<td>RoHS non-compliant</td>
+<td>ROHS3 Compliant</td>
+<td>ROHS3 Compliant</td>
+<td>ROHS3 Compliant</td>
+<td>ROHS3 Compliant</td>
+</tr>
+<tr>
+<td>Number of Channels</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>-</td>
+<td>4</td>
+<td>-</td>
+<td>-</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Gain Bandwidth Product (GBP)</td>
+<td>3 MHz (typical, per JRC family datasheet)</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Supply Voltage (single)</td>
+<td>4 V to 36 V</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Supply Voltage (dual)</td>
+<td>+/-2 V to +/-18 V</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Part Number</td>
+<td>NJM064M</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Amplifier Type</td>
+<td>JFET-input operational amplifier</td>
+<td>J-FET</td>
+<td>J-FET</td>
+<td>J-FET</td>
+<td>J-FET</td>
+<td>J-FET</td>
+<td>J-FET</td>
+<td>J-FET</td>
+</tr>
+<tr>
 <td>Part Status</td>
 <td>-</td>
 <td>Active</td>
@@ -342,7 +343,7 @@
 
     <section class="section">
       <h2>Engineer review boundary</h2>
-      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change.</p>
+      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
     </section>
 
     <section class="section">
@@ -355,8 +356,13 @@
     </section>
 
     <section class="section">
+      <h2>Contribute feedback</h2>
+      <p class="muted">If this page helped your review work, please consider starring the project on <a href="https://github.com/TrustCompo/open-hardware-cross-reference">GitHub</a>. If you spot incorrect data, missing alternatives, or context that needs clarification, please <a href="https://github.com/TrustCompo/open-hardware-cross-reference/issues">open an issue</a>.</p>
+    </section>
+
+    <section class="section">
       <h2>Verification notes</h2>
-      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change.</p>
+      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
     </section>
   </main>
 </body>

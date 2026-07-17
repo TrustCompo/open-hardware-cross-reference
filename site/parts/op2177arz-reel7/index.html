@@ -35,7 +35,7 @@
     .section { margin-top: 22px; padding: 22px; }
     .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
     .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
-    .candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .candidate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
     .candidate-card { padding: 18px; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
     th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
@@ -44,6 +44,9 @@
     a { color: var(--accent); }
     .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
     .hero h1, .section strong { font-variant-numeric: tabular-nums; }
+    @media (max-width: 760px) {
+      .candidate-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -52,14 +55,12 @@
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>OP2177ARZ-REEL7</h1>
       <p>ADA4177-2ARZ is a protected precision dual op amp with 32V beyond-rail input overvoltage tolerance and 70dB EMI rejection, making it the more rugged OP2177 replacement for noisy or fault-prone field environments.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/OP2177ARZ-REEL7">Open TrustCompo product page</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/OP2177ARZ-REEL7/datasheet">View datasheet</a></div>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000046366-OP2177ARZ-REEL7">Open OP2177ARZ-REEL7 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000046366-OP2177ARZ-REEL7/datasheet">View OP2177ARZ-REEL7 datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>production</div>
-        <div class="meta-card"><strong>Confidence</strong><br>100</div>
         <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
         <div class="meta-card"><strong>Package</strong><br>8SOIC</div>
         <div class="meta-card"><strong>Category</strong><br>Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers</div>
-        <div class="meta-card"><strong>Unit price</strong><br>-</div>
       </div>
     </section>
 
@@ -67,25 +68,25 @@
       <h2>Target product summary</h2>
       <p><strong>OP2177ARZ-REEL7</strong></p>
       <p>IC OPAMP GP 1.3MHZ 8SOIC</p>
-      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/OP2177ARZ-REEL7/datasheet | TrustCompo code: TCE000046366</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000046366-OP2177ARZ-REEL7/datasheet</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/ADA4177-2ARZ">ADA4177-2ARZ</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000065941-ADA4177-2ARZ">ADA4177-2ARZ</a></h3>
 <p><strong>P2P</strong> · Fit score 60</p>
 <p>Protected precision dual op amp with EMI filters and 3.5MHz bandwidth in 8-lead SOIC.</p>
-<p class="muted">Package: 8SOIC | Series: - | Unit price: -</p>
-<p class="muted">Height Seated (Max): 1.75mm; Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99</p>
+<p class="muted">Package: 8SOIC | Series: -</p>
+<p class="muted">JESD-609 Code: e3; RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC; Moisture Sensitivity Level (MSL): 1 (Unlimited)</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/ADA4077-2ARZ">ADA4077-2ARZ</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000032783-ADA4077-2ARZ">ADA4077-2ARZ</a></h3>
 <p><strong>P2P</strong> · Fit score 60</p>
 <p>IC OPAMP GP 3.9MHZ 8SOIC</p>
-<p class="muted">Package: 8SOIC | Series: - | Unit price: -</p>
-<p class="muted">JESD-609 Code: e3; Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC</p>
+<p class="muted">Package: 8SOIC | Series: -</p>
+<p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Packaging: Tube</p>
 </article>
       </div>
     </section>
@@ -100,119 +101,119 @@
 <th>ADA4077-2ARZ</th>
 </tr></thead><tbody>
 <tr>
+<td>Terminal Finish</td>
+<td>Matte Tin (Sn)</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Neg Supply Voltage-Nom (Vsup)</td>
+<td>-5V</td>
+<td>-5V</td>
+<td>-5V</td>
+</tr>
+<tr>
+<td>Voltage - Supply, Single/Dual (±)</td>
+<td>5V~36V ±2.5V~18V</td>
+<td>5V~30V ±2.5V~15V</td>
+<td>±5V~15V</td>
+</tr>
+<tr>
+<td>Voltage - Input Offset</td>
+<td>15μV</td>
+<td>15uV</td>
+<td>15μV</td>
+</tr>
+<tr>
+<td>Power Supply Rejection Ratio (PSRR)</td>
+<td>125dB</td>
+<td>125dB</td>
+<td>128dB</td>
+</tr>
+<tr>
+<td>Unity Gain BW-Nom</td>
+<td>1300 kHz</td>
+<td>3500kHz</td>
+<td>3900 kHz</td>
+</tr>
+<tr>
+<td>Number of Channels</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Micropower</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Low-Offset</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Frequency Compensation</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Amplifier Type</td>
+<td>General Purpose</td>
+<td>General Purpose</td>
+<td>General Purpose</td>
+</tr>
+<tr>
+<td>Programmable Power</td>
+<td>NO</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Wideband</td>
+<td>NO</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Low-Bias</td>
+<td>NO</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Supply Type</td>
+<td>Dual</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Voltage Gain</td>
+<td>126.02dB</td>
+<td>130dB</td>
+<td>130dB</td>
+</tr>
+<tr>
+<td>Current - Input Bias</td>
+<td>500pA</td>
+<td>300pA</td>
+<td>400pA</td>
+</tr>
+<tr>
 <td>JESD-609 Code</td>
 <td>e3</td>
 <td>e3</td>
 <td>e3</td>
-</tr>
-<tr>
-<td>Moisture Sensitivity Level (MSL)</td>
-<td>1  (Unlimited)</td>
-<td>1 (Unlimited)</td>
-<td>1  (Unlimited)</td>
-</tr>
-<tr>
-<td>RoHS Status</td>
-<td>ROHS3 Compliant</td>
-<td>ROHS3 Compliant</td>
-<td>ROHS3 Compliant</td>
-</tr>
-<tr>
-<td>HTSUS</td>
-<td>8542.33.0001</td>
-<td>8542.33.0001</td>
-<td>8542.33.0001</td>
-</tr>
-<tr>
-<td>ECCN Code</td>
-<td>EAR99</td>
-<td>EAR99</td>
-<td>EAR99</td>
-</tr>
-<tr>
-<td>Height Seated (Max)</td>
-<td>1.75mm</td>
-<td>1.75mm</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Part Status</td>
-<td>Active</td>
-<td>Active</td>
-<td>Active</td>
-</tr>
-<tr>
-<td>REACH Status</td>
-<td>REACH Unaffected</td>
-<td>REACH Unaffected</td>
-<td>REACH Unaffected</td>
-</tr>
-<tr>
-<td>ECCN</td>
-<td>EAR99</td>
-<td>EAR99</td>
-<td>EAR99</td>
-</tr>
-<tr>
-<td>Lead Free</td>
-<td>Contains Lead</td>
-<td>Contains Lead</td>
-<td>Contains Lead</td>
-</tr>
-<tr>
-<td>Mounting Type</td>
-<td>Surface Mount</td>
-<td>Surface Mount</td>
-<td>Surface Mount</td>
-</tr>
-<tr>
-<td>Factory Lead Time</td>
-<td>8 Weeks</td>
-<td>16 Weeks</td>
-<td>16 Weeks</td>
-</tr>
-<tr>
-<td>Packaging</td>
-<td>Tape &amp; Reel (TR)</td>
-<td>Tube</td>
-<td>Tube</td>
-</tr>
-<tr>
-<td>Categories</td>
-<td>Integrated Circuits (ICs)</td>
-<td>Integrated Circuits (ICs)</td>
-<td>Integrated Circuits (ICs)</td>
-</tr>
-<tr>
-<td>Manufacturer</td>
-<td>Analog Devices Inc./Maxim Integrated</td>
-<td>Analog Devices Inc./Maxim Integrated</td>
-<td>Analog Devices Inc./Maxim Integrated</td>
-</tr>
-<tr>
-<td>Peak Reflow Temperature (Cel)</td>
-<td>260</td>
-<td>260</td>
-<td>260</td>
-</tr>
-<tr>
-<td>Terminal Form</td>
-<td>GULL WING</td>
-<td>GULL WING</td>
-<td>GULL WING</td>
-</tr>
-<tr>
-<td>Operating Temperature</td>
-<td>-40°C~125°C</td>
-<td>-40C~125C</td>
-<td>-40°C~125°C</td>
 </tr>
 </tbody></table>
     </section>
 
     <section class="section">
       <h2>Engineer review boundary</h2>
-      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change.</p>
+      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
     </section>
 
     <section class="section">
@@ -226,8 +227,13 @@
     </section>
 
     <section class="section">
+      <h2>Contribute feedback</h2>
+      <p class="muted">If this page helped your review work, please consider starring the project on <a href="https://github.com/TrustCompo/open-hardware-cross-reference">GitHub</a>. If you spot incorrect data, missing alternatives, or context that needs clarification, please <a href="https://github.com/TrustCompo/open-hardware-cross-reference/issues">open an issue</a>.</p>
+    </section>
+
+    <section class="section">
       <h2>Verification notes</h2>
-      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change.</p>
+      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
     </section>
   </main>
 </body>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17 15:54:38",
+  "generatedAt": "2026-07-17 18:06:13",
   "workflowVersion": "2026-07-17-quality-gated-v2",
   "environment": "prod",
   "repoPath": "/home/chenxiaosen/workspace/trustcompo-open-source/repos/open-hardware-cross-reference",
@@ -7,16 +7,16 @@
   "totalGroups": 5,
   "apiReportedTotal": 5,
   "sourceProductCodes": [
-    "TCE000041557",
-    "TCE000056780",
     "TCE000041826",
+    "TCE000056780",
+    "TCE000041557",
     "TCE000056779",
     "TCE000046366"
   ],
   "sourceProducts": {
     "TCE000041557": {
       "contentHash": "ea86db02e8be4100041232ec748cf41c0a07e3fd111b2da00423bd6c9cff7c26",
-      "syncedAt": "2026-07-17 15:54:16",
+      "syncedAt": "2026-07-17 18:06:04",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/njm064m/",
@@ -33,8 +33,8 @@
       ]
     },
     "TCE000056780": {
-      "contentHash": "28ddf3824d9dc0bf3667e41e85b482a0164590eb22306ff211b3e3b2a38d770e",
-      "syncedAt": "2026-07-17 15:54:21",
+      "contentHash": "d203e7baae54ae71df666602c6d59c9f1ea5ec0257f66fb9cd7264f02a37a158",
+      "syncedAt": "2026-07-17 18:05:57",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/bss138l/",
@@ -49,8 +49,8 @@
       ]
     },
     "TCE000041826": {
-      "contentHash": "17f624f0cfe57ac626c5863e4c731dd8e64f36e49080d10699b2ef7dfcc901dc",
-      "syncedAt": "2026-07-17 15:54:28",
+      "contentHash": "0547ddbf8dbd0ee5807308351d6bed39c9bcf2c2928cce47f111757dfabf0a36",
+      "syncedAt": "2026-07-17 18:05:52",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ncp1117st25t3g/",
@@ -58,15 +58,15 @@
       "displayPartNumber": "NCP1117ST25T3G",
       "alternativeProductCodes": [
         "TCE000056788",
-        "TCE000056787",
-        "TCE000056786",
-        "TCE000056785",
+        "TCE000090874",
+        "TCE000090875",
+        "TCE000090876",
         "TCE000056782"
       ]
     },
     "TCE000056779": {
       "contentHash": "0ba8395018ac35e7909bc691d072981122a46da44823d1bcaa41734b3f4bbf3d",
-      "syncedAt": "2026-07-17 15:54:34",
+      "syncedAt": "2026-07-17 18:06:10",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/nc7sz125/",
@@ -82,7 +82,7 @@
     },
     "TCE000046366": {
       "contentHash": "582c825c76b790206e2b0e6ef66f68e791904991c3a7652486cc0385b914c7f8",
-      "syncedAt": "2026-07-17 15:54:38",
+      "syncedAt": "2026-07-17 18:06:13",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/op2177arz-reel7/",

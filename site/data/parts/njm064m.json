@@ -1,278 +1,6 @@
 {
   "comparisonRows": [
     {
-      "attribute": "HTSUS",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "-"
-        }
-      ],
-      "target": "8542.33.0001"
-    },
-    {
-      "attribute": "RoHS Status",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "RoHS non-compliant"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "ROHS3 Compliant"
-        }
-      ],
-      "target": "Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default"
-    },
-    {
-      "attribute": "Number of Channels",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "4"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "4"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "4"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "4"
-        }
-      ],
-      "target": "4"
-    },
-    {
-      "attribute": "Gain Bandwidth Product (GBP)",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "-"
-        }
-      ],
-      "target": "3 MHz (typical, per JRC family datasheet)"
-    },
-    {
-      "attribute": "Supply Voltage (single)",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "-"
-        }
-      ],
-      "target": "4 V to 36 V"
-    },
-    {
-      "attribute": "Supply Voltage (dual)",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "-"
-        }
-      ],
-      "target": "+/-2 V to +/-18 V"
-    },
-    {
-      "attribute": "Part Number",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "-"
-        }
-      ],
-      "target": "NJM064M"
-    },
-    {
-      "attribute": "Amplifier Type",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "J-FET"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "J-FET"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "J-FET"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "J-FET"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "J-FET"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "J-FET"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "J-FET"
-        }
-      ],
-      "target": "JFET-input operational amplifier"
-    },
-    {
       "attribute": "ECCN",
       "candidates": [
         {
@@ -579,6 +307,278 @@
       "target": "DMP-14 (DIP-14 compatible)"
     },
     {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "8542.33.0001"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "RoHS non-compliant"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "ROHS3 Compliant"
+        }
+      ],
+      "target": "Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default"
+    },
+    {
+      "attribute": "Number of Channels",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "4"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "4"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "4"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "4"
+        }
+      ],
+      "target": "4"
+    },
+    {
+      "attribute": "Gain Bandwidth Product (GBP)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "3 MHz (typical, per JRC family datasheet)"
+    },
+    {
+      "attribute": "Supply Voltage (single)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "4 V to 36 V"
+    },
+    {
+      "attribute": "Supply Voltage (dual)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "+/-2 V to +/-18 V"
+    },
+    {
+      "attribute": "Part Number",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "NJM064M"
+    },
+    {
+      "attribute": "Amplifier Type",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "J-FET"
+        }
+      ],
+      "target": "JFET-input operational amplifier"
+    },
+    {
       "attribute": "Part Status",
       "candidates": [
         {
@@ -646,7 +646,7 @@
       "url": "https://datasheet.trustcompo.com/stmicroelectronics-lf347dt.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 15:54:16",
+  "generatedAt": "2026-07-17 18:06:04",
   "partNumber": "NJM064M",
   "reasoning": "Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.",
   "replacementCandidates": [
@@ -744,9 +744,9 @@
       "productOverview": "IC OPAMP JFET 4MHZ 14SO",
       "reason": "Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.",
       "series": "-",
-      "slug": "LF347DT",
+      "slug": "TCE000039147-LF347DT",
       "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-      "url": "https://www.trustcompo.com/product/detail/LF347DT"
+      "url": "https://www.trustcompo.com/product/detail/TCE000039147-LF347DT"
     },
     {
       "attributeGroups": {
@@ -843,9 +843,9 @@
       "productOverview": "The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient. Features • Wide common-mode (up to VCC+) and differential voltage range • Low input bias and offset current • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch-up free operation • High slew rate: 16V/μs (typ)",
       "reason": "Higher-speed TL084-family option. It belongs to the same broader quad J-FET op-amp lineage but is not the same low-power class as NJM064M, so treat it as a performance-variant shortlist item rather than a direct replacement.",
       "series": "-",
-      "slug": "TL084CD",
+      "slug": "TCE000033962-TL084CD",
       "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-      "url": "https://www.trustcompo.com/product/detail/TL084CD"
+      "url": "https://www.trustcompo.com/product/detail/TCE000033962-TL084CD"
     },
     {
       "attributeGroups": {
@@ -941,9 +941,9 @@
       "productOverview": "Description The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. Features • Very low power consumption: 200 µA • Wide common-mode (up to VCC+) and differential voltage ranges • Low input bias and offset currents • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch up free operation • High slew rate: 3.5 V/µs",
       "reason": "Industrial-temperature TL064 family alternative in narrow SOIC. Use only when moving away from the legacy DMP-14 package is acceptable.",
       "series": "-",
-      "slug": "TL064INSR",
+      "slug": "TCE000037565-TL064INSR",
       "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-      "url": "https://www.trustcompo.com/product/detail/TL064INSR"
+      "url": "https://www.trustcompo.com/product/detail/TCE000037565-TL064INSR"
     },
     {
       "attributeGroups": {
@@ -1046,9 +1046,9 @@
       "productOverview": "Description: The LM78L05ACMX is a linear voltage regulator from Texas Instruments Integrated Circuits (ICs). It is a positive fixed regulator with one output and a maximum output current of 100mA. It has an operating temperature range of 0°C to 125°C and a surface mount mounting type. The input voltage range is 6.7V to 35V and the output voltage is 5V. Features of the LM78L05ACMX include low dropout voltage, low quiescent current, and low noise. It also has short circuit protection, thermal overload protection, and reverse polarity protection.Applications of the LM78L05ACMX include powering microcontrollers, digital signal processors, and other low power devices. It can also be used in battery-powered systems, automotive systems, and portable electronics.",
       "reason": "Industrial-temperature TL064 family functional alternative in SOIC-14. Electrical family is closer to NJM064 than the previous TL074-class shortlist, but package migration is still required.",
       "series": "-",
-      "slug": "TL064IDR",
+      "slug": "TCE000008521-TL064IDR",
       "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-      "url": "https://www.trustcompo.com/product/detail/TL064IDR"
+      "url": "https://www.trustcompo.com/product/detail/TCE000008521-TL064IDR"
     },
     {
       "attributeGroups": {
@@ -1146,9 +1146,9 @@
       "productOverview": "Description: The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is a four-channel amplifier with a unit weight of 0.004564 oz. It has an operating temperature range of 0°C to +70°C and a maximum operating temperature of +70°C. It has an operating supply current of 1 mA and no shutdown feature. The Vos-Input-Offset-Voltage is 6 mV and the en-Input-Voltage-Noise-Density is 42 nV/sqrt Hz. It is packaged in a SOIC-14 case and has a maximum supply voltage of 36 V. Features of the TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier include a low operating supply current of 1 mA, low Vos-Input-Offset-Voltage of 6 mV, and low en-Input-Voltage-Noise-Density of 42 nV/sqrt Hz. It also has a wide operating temperature range of 0°C to +70°C and a maximum supply voltage of 36 V. The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is suitable for a variety of applications, including signal conditioning, data acquisition, and instrumentation. It is also suitable for use in medical, industrial, and automotive applications.",
       "reason": "A-grade TL064 family functional alternative in SOIC-14. Use when the design needs a low-power J-FET quad op-amp from the TL064/NJM064 class and a surface-mount package is acceptable.",
       "series": "-",
-      "slug": "TL064ACDR",
+      "slug": "TCE000030931-TL064ACDR",
       "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-      "url": "https://www.trustcompo.com/product/detail/TL064ACDR"
+      "url": "https://www.trustcompo.com/product/detail/TCE000030931-TL064ACDR"
     },
     {
       "attributeGroups": {
@@ -1244,9 +1244,9 @@
       "productOverview": "Description The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. Features • Very low power consumption: 200 µA • Wide common-mode (up to VCC+) and differential voltage ranges • Low input bias and offset currents • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch up free operation • High slew rate: 3.5 V/µs",
       "reason": "B-grade TL064 family functional alternative in SOIC-14. Better aligned with NJM064 low-power behavior than TL074/LF347-class parts, but still not a DIP-14 pin-for-package replacement.",
       "series": "-",
-      "slug": "TL064BCDR",
+      "slug": "TCE000037564-TL064BCDR",
       "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-      "url": "https://www.trustcompo.com/product/detail/TL064BCDR"
+      "url": "https://www.trustcompo.com/product/detail/TCE000037564-TL064BCDR"
     },
     {
       "attributeGroups": {
@@ -1342,9 +1342,9 @@
       "productOverview": "The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient. Features • Wide common-mode (up to VCC+) and differential voltage range • Low input bias and offset current • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch-up free operation • High slew rate: 16V/μs (typ)",
       "reason": "Closest same-family functional alternative in live catalog. TL064CD stays in the low-power TL064/NJM064 class, but it is SOIC-14 rather than the legacy DMP-14 / DIP-14 NJM064M package.",
       "series": "-",
-      "slug": "TL064CD",
+      "slug": "TCE000041141-TL064CD",
       "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-      "url": "https://www.trustcompo.com/product/detail/TL064CD"
+      "url": "https://www.trustcompo.com/product/detail/TCE000041141-TL064CD"
     }
   ],
   "sourceReportFile": "api:/product/cross-references",
@@ -1387,9 +1387,9 @@
     "productName": "NJM064M",
     "productOverview": "NJM064M is a legacy DMP-14 / DIP-14 compatible member of Nisshinbo Micro Devices' NJM064 low-power quad J-FET input operational amplifier family. As of June 21, 2026, the current official Nisshinbo public references we verified are the NJM064C/NJM064CA pages, which describe the NJM064 family as the low-power version of the NJM072C/074C family and show 1 MHz typ GBW, 3.5 V/us typ slew rate, and 4 V to 36 V supply range. We did not verify a public manufacturer EOL/PDN notice for the exact NJM064M package variant, so this catalog entry should not present NJM064M as confirmed EOL. Buyers should still reconfirm exact DMP-14 package availability, temperature grade, and compliance for NJM064M lots before release to production.",
     "series": "NJM064",
-    "slug": "NJM064M",
+    "slug": "TCE000041557-NJM064M",
     "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
-    "url": "https://www.trustcompo.com/product/detail/NJM064M"
+    "url": "https://www.trustcompo.com/product/detail/TCE000041557-NJM064M"
   },
   "vendor": "Nisshinbo Micro Devices Inc."
 }

@@ -35,7 +35,7 @@
     .section { margin-top: 22px; padding: 22px; }
     .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
     .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
-    .candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .candidate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
     .candidate-card { padding: 18px; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
     th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
@@ -44,6 +44,9 @@
     a { color: var(--accent); }
     .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
     .hero h1, .section strong { font-variant-numeric: tabular-nums; }
+    @media (max-width: 760px) {
+      .candidate-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -52,14 +55,12 @@
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>NC7SZ125</h1>
       <p>Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, &lt;1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ&#x27;s UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ&#x27;s UHS current is excessive.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/NC7SZ125">Open TrustCompo product page</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/NC7SZ125/datasheet">View datasheet</a></div>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000056779-NC7SZ125">Open NC7SZ125 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000056779-NC7SZ125/datasheet">View NC7SZ125 datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>at-risk</div>
-        <div class="meta-card"><strong>Confidence</strong><br>100</div>
         <div class="meta-card"><strong>Vendor</strong><br>ON Semiconductor</div>
         <div class="meta-card"><strong>Package</strong><br>SOT-23-5</div>
         <div class="meta-card"><strong>Category</strong><br>Logic - Buffers, Drivers, Receivers, Transceivers</div>
-        <div class="meta-card"><strong>Unit price</strong><br>-</div>
       </div>
     </section>
 
@@ -67,46 +68,46 @@
       <h2>Target product summary</h2>
       <p><strong>NC7SZ125</strong></p>
       <p>NC7SZ125 is onsemi&#x27;s single TinyLogic UHS buffer / line driver with three-state output in SOT-23-5. Fabricated in advanced CMOS, propagation delay ~2.0 ns at 5 V, quiescent current &lt;1 µA. onsemi has marked this family &#x27;DISCONTINUED: These devices are not available&#x27; in the official datasheet Rev. 4 (Page 5). For new designs use SN74LVC1G125DBVR (TI) which is the industry-standard pin-compatible drop-in.</p>
-      <p class="muted">Series: TinyLogic UHS | Datasheet landing page: https://www.trustcompo.com/product/detail/NC7SZ125/datasheet | TrustCompo code: TCE000056779</p>
+      <p class="muted">Series: TinyLogic UHS | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000056779-NC7SZ125/datasheet</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/74AUP1G125GW">74AUP1G125GW</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000014499-74AUP1G125GW">74AUP1G125GW</a></h3>
 <p><strong>Functional</strong> · Fit score 60</p>
 <p>Single buffer/line driver (3-state)</p>
-<p class="muted">Package: SOT353-1 | Series: AUP | Unit price: -</p>
+<p class="muted">Package: SOT353-1 | Series: AUP</p>
 <p class="muted">Nr of pins: 5; Logic switching levels: CMOS; VCC(A) (V): n.a.; VCC(B) (V): n.a.</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/SN74AHC1G125DBVR">SN74AHC1G125DBVR</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000056784-SN74AHC1G125DBVR">SN74AHC1G125DBVR</a></h3>
 <p><strong>Functional</strong> · Fit score 60</p>
 <p>Single 2 V to 5.5 V bus buffer gate with 3-state output, SOT-23-5. Functional alternative to onsemi NC7SZ125 with higher drive strength.</p>
-<p class="muted">Package: SOT-23-5 | Series: SN74AHC1G125 | Unit price: -</p>
-<p class="muted">Mounting Type: Surface Mount; Pin Count: 5; Output Type: 3-State; Manufacturer: Texas Instruments</p>
+<p class="muted">Package: SOT-23-5 | Series: SN74AHC1G125</p>
+<p class="muted">Number of Channels: 1; Quiescent Current (ICC): 10 uA (max); Function: Single bus buffer gate with 3-state output; Logic Family: AHC (Advanced High-Speed CMOS)</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/SN74AUP1G125DBVR">SN74AUP1G125DBVR</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000056783-SN74AUP1G125DBVR">SN74AUP1G125DBVR</a></h3>
 <p><strong>P2P</strong> · Fit score 80</p>
 <p>Single low-power single bus buffer gate with 3-state output, 0.8 V to 3.3 V VCC, SOT-23-5. P2P drop-in for onsemi NC7SZ125 in ultra-low-power applications.</p>
-<p class="muted">Package: SOT-23-5 | Series: SN74AUP1G125 | Unit price: -</p>
+<p class="muted">Package: SOT-23-5 | Series: SN74AUP1G125</p>
 <p class="muted">Number of Channels: 1; Function: Single low-power bus buffer gate with 3-state output; Propagation Delay (tPD): 0.9 ns (typical at 3.3 V); Quiescent Current (ICC): &lt;1 uA (max)</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/74LVC1G125GV">74LVC1G125GV</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000016368-74LVC1G125GV">74LVC1G125GV</a></h3>
 <p><strong>P2P</strong> · Fit score 80</p>
 <p>Single buffer/line driver; TTL enabled (3-state)</p>
-<p class="muted">Package: SOT753 | Series: LVC | Unit price: -</p>
+<p class="muted">Package: SOT753 | Series: LVC</p>
 <p class="muted">Nr of pins: 5; VCC(B) (V): n.a.; VCC(A) (V): n.a.; Product status: Production</p>
 </article>
 <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/SN74LVC1G125DBVR">SN74LVC1G125DBVR</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000056781-SN74LVC1G125DBVR">SN74LVC1G125DBVR</a></h3>
 <p><strong>P2P</strong> · Fit score 100</p>
 <p>Single 1.65 V to 5.5 V bus buffer gate with 3-state output, SOT-23-5. Pin-compatible direct P2P replacement for onsemi NC7SZ125.</p>
-<p class="muted">Package: SOT-23-5 | Series: SN74LVC1G125 | Unit price: -</p>
-<p class="muted">ECCN: EAR99; Mounting Type: Surface Mount; Pin Count: 5; Output Type: 3-State</p>
+<p class="muted">Package: SOT-23-5 | Series: SN74LVC1G125</p>
+<p class="muted">RoHS Status: RoHS Compliant; HTSUS: 8542.39.0001; ECCN: EAR99; Mounting Type: Surface Mount</p>
 </article>
       </div>
     </section>
@@ -123,6 +124,69 @@
 <th>74LVC1G125GV</th>
 <th>SN74LVC1G125DBVR</th>
 </tr></thead><tbody>
+<tr>
+<td>Number of Channels</td>
+<td>1</td>
+<td>-</td>
+<td>1</td>
+<td>1</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Function</td>
+<td>Single buffer / line driver</td>
+<td>Buffers/inverters/drivers</td>
+<td>Single bus buffer gate with 3-state output</td>
+<td>Single low-power bus buffer gate with 3-state output</td>
+<td>Buffers/inverters/drivers</td>
+<td>Single bus buffer gate with 3-state output</td>
+</tr>
+<tr>
+<td>Propagation Delay (tPD)</td>
+<td>2.0 ns (typical at 5 V)</td>
+<td>-</td>
+<td>3.5 ns (typical at 5 V)</td>
+<td>0.9 ns (typical at 3.3 V)</td>
+<td>-</td>
+<td>2.5 ns (typical at 3.3 V)</td>
+</tr>
+<tr>
+<td>Part Number</td>
+<td>NC7SZ125</td>
+<td>-</td>
+<td>SN74AHC1G125DBVR</td>
+<td>SN74AUP1G125DBVR</td>
+<td>-</td>
+<td>SN74LVC1G125DBVR</td>
+</tr>
+<tr>
+<td>Logic Family</td>
+<td>TinyLogic UHS (CMOS)</td>
+<td>-</td>
+<td>AHC (Advanced High-Speed CMOS)</td>
+<td>AUP (CMOS)</td>
+<td>-</td>
+<td>LVC (CMOS)</td>
+</tr>
+<tr>
+<td>Supply Voltage (VCC)</td>
+<td>1.65 V to 5.5 V</td>
+<td>-</td>
+<td>2 V to 5.5 V</td>
+<td>0.8 V to 3.6 V</td>
+<td>-</td>
+<td>1.65 V to 5.5 V</td>
+</tr>
+<tr>
+<td>Quiescent Current (ICC)</td>
+<td>&lt;1 uA</td>
+<td>-</td>
+<td>10 uA (max)</td>
+<td>&lt;1 uA (max)</td>
+<td>-</td>
+<td>10 uA (max)</td>
+</tr>
 <tr>
 <td>RoHS Status</td>
 <td>RoHS Compliant</td>
@@ -214,69 +278,6 @@
 <td>SOT-23-5 (DBV suffix)</td>
 </tr>
 <tr>
-<td>Number of Channels</td>
-<td>1</td>
-<td>-</td>
-<td>1</td>
-<td>1</td>
-<td>-</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Function</td>
-<td>Single buffer / line driver</td>
-<td>Buffers/inverters/drivers</td>
-<td>Single bus buffer gate with 3-state output</td>
-<td>Single low-power bus buffer gate with 3-state output</td>
-<td>Buffers/inverters/drivers</td>
-<td>Single bus buffer gate with 3-state output</td>
-</tr>
-<tr>
-<td>Propagation Delay (tPD)</td>
-<td>2.0 ns (typical at 5 V)</td>
-<td>-</td>
-<td>3.5 ns (typical at 5 V)</td>
-<td>0.9 ns (typical at 3.3 V)</td>
-<td>-</td>
-<td>2.5 ns (typical at 3.3 V)</td>
-</tr>
-<tr>
-<td>Part Number</td>
-<td>NC7SZ125</td>
-<td>-</td>
-<td>SN74AHC1G125DBVR</td>
-<td>SN74AUP1G125DBVR</td>
-<td>-</td>
-<td>SN74LVC1G125DBVR</td>
-</tr>
-<tr>
-<td>Logic Family</td>
-<td>TinyLogic UHS (CMOS)</td>
-<td>-</td>
-<td>AHC (Advanced High-Speed CMOS)</td>
-<td>AUP (CMOS)</td>
-<td>-</td>
-<td>LVC (CMOS)</td>
-</tr>
-<tr>
-<td>Supply Voltage (VCC)</td>
-<td>1.65 V to 5.5 V</td>
-<td>-</td>
-<td>2 V to 5.5 V</td>
-<td>0.8 V to 3.6 V</td>
-<td>-</td>
-<td>1.65 V to 5.5 V</td>
-</tr>
-<tr>
-<td>Quiescent Current (ICC)</td>
-<td>&lt;1 uA</td>
-<td>-</td>
-<td>10 uA (max)</td>
-<td>&lt;1 uA (max)</td>
-<td>-</td>
-<td>10 uA (max)</td>
-</tr>
-<tr>
 <td>Nr of pins</td>
 <td>-</td>
 <td>5</td>
@@ -290,7 +291,7 @@
 
     <section class="section">
       <h2>Engineer review boundary</h2>
-      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change.</p>
+      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
     </section>
 
     <section class="section">
@@ -305,8 +306,13 @@
     </section>
 
     <section class="section">
+      <h2>Contribute feedback</h2>
+      <p class="muted">If this page helped your review work, please consider starring the project on <a href="https://github.com/TrustCompo/open-hardware-cross-reference">GitHub</a>. If you spot incorrect data, missing alternatives, or context that needs clarification, please <a href="https://github.com/TrustCompo/open-hardware-cross-reference/issues">open an issue</a>.</p>
+    </section>
+
+    <section class="section">
       <h2>Verification notes</h2>
-      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change.</p>
+      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
     </section>
   </main>
 </body>
