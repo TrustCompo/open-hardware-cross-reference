@@ -1,0 +1,745 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "EAR99"
+        }
+      ],
+      "target": "EAR99"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "Surface Mount"
+    },
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "Nexperia"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "Texas Instruments"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "Texas Instruments"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "Nexperia"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "Texas Instruments"
+        }
+      ],
+      "target": "ON Semiconductor"
+    },
+    {
+      "attribute": "Pin Count",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "5"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "5"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "5"
+        }
+      ],
+      "target": "5"
+    },
+    {
+      "attribute": "Output Type",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "3-State"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "3-State"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "3-State"
+        }
+      ],
+      "target": "3-State"
+    },
+    {
+      "attribute": "Operating Temperature",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "-40 C to +85 C"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "-40 C to +85 C"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "-40 C to +125 C"
+        }
+      ],
+      "target": "-40 C to +85 C"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "Active"
+        }
+      ],
+      "target": "Discontinued (2025)"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "SOT-23-5 (DBV suffix)"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "SOT-23-5 (DBV suffix)"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "SOT-23-5 (DBV suffix)"
+        }
+      ],
+      "target": "SOT-23-5 (M5X suffix)"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "RoHS Compliant"
+        }
+      ],
+      "target": "RoHS Compliant"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "8542.39.0001"
+        }
+      ],
+      "target": "8542.39.0001"
+    },
+    {
+      "attribute": "Number of Channels",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "1"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "1"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "1"
+        }
+      ],
+      "target": "1"
+    },
+    {
+      "attribute": "Function",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "Buffers/inverters/drivers"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "Single bus buffer gate with 3-state output"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "Single low-power bus buffer gate with 3-state output"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "Buffers/inverters/drivers"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "Single bus buffer gate with 3-state output"
+        }
+      ],
+      "target": "Single buffer / line driver"
+    },
+    {
+      "attribute": "Propagation Delay (tPD)",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "3.5 ns (typical at 5 V)"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "0.9 ns (typical at 3.3 V)"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "2.5 ns (typical at 3.3 V)"
+        }
+      ],
+      "target": "2.0 ns (typical at 5 V)"
+    },
+    {
+      "attribute": "Part Number",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "SN74AHC1G125DBVR"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "SN74AUP1G125DBVR"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "SN74LVC1G125DBVR"
+        }
+      ],
+      "target": "NC7SZ125"
+    },
+    {
+      "attribute": "Logic Family",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "AHC (Advanced High-Speed CMOS)"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "AUP (CMOS)"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "LVC (CMOS)"
+        }
+      ],
+      "target": "TinyLogic UHS (CMOS)"
+    },
+    {
+      "attribute": "Supply Voltage (VCC)",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "2 V to 5.5 V"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "0.8 V to 3.6 V"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "1.65 V to 5.5 V"
+        }
+      ],
+      "target": "1.65 V to 5.5 V"
+    },
+    {
+      "attribute": "Quiescent Current (ICC)",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "10 uA (max)"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "<1 uA (max)"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "10 uA (max)"
+        }
+      ],
+      "target": "<1 uA"
+    },
+    {
+      "attribute": "Nr of pins",
+      "candidates": [
+        {
+          "productCode": "TCE000014499",
+          "value": "5"
+        },
+        {
+          "productCode": "TCE000056784",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056783",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000016368",
+          "value": "5"
+        },
+        {
+          "productCode": "TCE000056781",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "at-risk",
+  "evidenceSummary": [],
+  "generatedAt": "2026-07-17 13:07:36",
+  "partNumber": "TCE000056779",
+  "reasoning": "Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, <1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ's UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ's UHS current is excessive.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Logic switching levels": "CMOS",
+          "Manufacturer": "Nexperia",
+          "Nr of pins": "5",
+          "Package name": "TSSOP5",
+          "Power dissipation considerations": "ultra low",
+          "Product status": "Production",
+          "Tamb (°C)": "-40~125",
+          "VCC (V)": "0.8 - 3.6",
+          "VCC(A) (V)": "n.a.",
+          "VCC(B) (V)": "n.a."
+        },
+        "Product Parameter": {
+          "Function": "Buffers/inverters/drivers"
+        }
+      },
+      "brandName": "Nexperia",
+      "bucket": "Functional",
+      "categoryName": "Analog & Logic ICs",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, <1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ's UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ's UHS current is excessive."
+      ],
+      "fitScore": 60,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000014499",
+      "productName": "74AUP1G125GW",
+      "productOverview": "",
+      "reason": "Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, <1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ's UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ's UHS current is excessive.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Logic",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Texas Instruments",
+          "Mounting Type": "Surface Mount",
+          "Operating Temperature": "-40 C to +85 C",
+          "Output Type": "3-State",
+          "Package / Case": "SOT-23-5 (DBV suffix)",
+          "Pin Count": "5"
+        },
+        "Product Parameter": {
+          "Function": "Single bus buffer gate with 3-state output",
+          "Logic Family": "AHC (Advanced High-Speed CMOS)",
+          "Number of Channels": "1",
+          "Part Number": "SN74AHC1G125DBVR",
+          "Propagation Delay (tPD)": "3.5 ns (typical at 5 V)",
+          "Quiescent Current (ICC)": "10 uA (max)",
+          "Supply Voltage (VCC)": "2 V to 5.5 V"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Functional alternative to the obsolete onsemi NC7SZ125. SN74AHC1G125DBVR is the TI AHC (Advanced High-Speed CMOS) single bus buffer gate in SOT-23-5 with the same pinout and 3-state output enable as NC7SZ125. AHC family operates at 2 V to 5.5 V VCC and provides higher output drive (±8 mA) than UHS NC7SZ. Same 3-state buffer function but functionally equivalent for applications where the higher drive is acceptable. Use as drop-in when design needs more output drive than the low-power NC7SZ can deliver."
+      ],
+      "fitScore": 60,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056784",
+      "productName": "SN74AHC1G125DBVR",
+      "productOverview": "SN74AHC1G125DBVR is TI's SOT-23-5 single bus buffer gate with 3-state output in the AHC (Advanced High-Speed CMOS) family. Operating voltage 2 V to 5.5 V, ±8 mA output drive, ~3.5 ns propagation delay at 5 V. Pin-for-pin compatible with onsemi NC7SZ125 (SOT-23-5, same pinout). AHC is the legacy higher-drive equivalent of LVC; same 3-state buffer function. Suitable as functional alternative where higher drive current is required (vs the lower-power UHS NC7SZ family).",
+      "reason": "Functional alternative to the obsolete onsemi NC7SZ125. SN74AHC1G125DBVR is the TI AHC (Advanced High-Speed CMOS) single bus buffer gate in SOT-23-5 with the same pinout and 3-state output enable as NC7SZ125. AHC family operates at 2 V to 5.5 V VCC and provides higher output drive (±8 mA) than UHS NC7SZ. Same 3-state buffer function but functionally equivalent for applications where the higher drive is acceptable. Use as drop-in when design needs more output drive than the low-power NC7SZ can deliver.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Texas Instruments",
+          "Mounting Type": "Surface Mount",
+          "Operating Temperature": "-40 C to +85 C",
+          "Output Type": "3-State",
+          "Package / Case": "SOT-23-5 (DBV suffix)",
+          "Pin Count": "5"
+        },
+        "Product Parameter": {
+          "Function": "Single low-power bus buffer gate with 3-state output",
+          "Logic Family": "AUP (CMOS)",
+          "Number of Channels": "1",
+          "Part Number": "SN74AUP1G125DBVR",
+          "Propagation Delay (tPD)": "0.9 ns (typical at 3.3 V)",
+          "Quiescent Current (ICC)": "<1 uA (max)",
+          "Supply Voltage (VCC)": "0.8 V to 3.6 V"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from TI. SN74AUP1G125DBVR is the TI AUP-family single bus buffer gate in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Listed in TI's Little Logic Guide as the cross-reference for the NC7SZ family. Lower-power variant of LVC with 0.8 V to 3.6 V VCC range; compatible at the 1.8 V to 3.3 V operating range where NC7SZ is typically deployed. Recommended when the application is in the 1.8 V core logic domain."
+      ],
+      "fitScore": 80,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056783",
+      "productName": "SN74AUP1G125DBVR",
+      "productOverview": "SN74AUP1G125DBVR is TI's SOT-23-5 single low-power bus buffer gate with 3-state output. AUP family supports 0.8 V to 3.6 V VCC, ~0.9 ns propagation delay at 3.3 V, <1 uA quiescent current. Pin-for-pin drop-in for onsemi NC7SZ125 (SOT-23-5, same pinout 1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Listed in TI's Little Logic Guide as the industry cross-reference for the NC7SZ family. Lower power and lower voltage than NC7SZ; compatible at the 1.8 V to 3.3 V operating range where NC7SZ is typically deployed.",
+      "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from TI. SN74AUP1G125DBVR is the TI AUP-family single bus buffer gate in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Listed in TI's Little Logic Guide as the cross-reference for the NC7SZ family. Lower-power variant of LVC with 0.8 V to 3.6 V VCC range; compatible at the 1.8 V to 3.3 V operating range where NC7SZ is typically deployed. Recommended when the application is in the 1.8 V core logic domain.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Logic switching levels": "CMOS/LVTTL",
+          "Manufacturer": "Nexperia",
+          "Nr of pins": "5",
+          "Package name": "TSOP5",
+          "Power dissipation considerations": "low",
+          "Product status": "Production",
+          "Tamb (°C)": "-40~125",
+          "VCC (V)": "1.65 - 5.5",
+          "VCC(A) (V)": "n.a.",
+          "VCC(B) (V)": "n.a."
+        },
+        "Product Parameter": {
+          "Function": "Buffers/inverters/drivers"
+        }
+      },
+      "brandName": "Nexperia",
+      "bucket": "P2P",
+      "categoryName": "Analog & Logic ICs",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from Nexperia. 74LVC1G125GV is the Nexperia / NXP equivalent in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), 1.65 V to 5.5 V VCC range, and the same CMOS 3-state buffer topology. Industry-standard cross-vendor drop-in for the TinyLogic NC7SZ family. Same 3-state output enable behavior, same quiescent current class."
+      ],
+      "fitScore": 80,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000016368",
+      "productName": "74LVC1G125GV",
+      "productOverview": "",
+      "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from Nexperia. 74LVC1G125GV is the Nexperia / NXP equivalent in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), 1.65 V to 5.5 V VCC range, and the same CMOS 3-state buffer topology. Industry-standard cross-vendor drop-in for the TinyLogic NC7SZ family. Same 3-state output enable behavior, same quiescent current class.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Logic",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "HTSUS": "8542.39.0001",
+          "RoHS Status": "RoHS Compliant"
+        },
+        "Product Attribute": {
+          "ECCN": "EAR99",
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Texas Instruments",
+          "Mounting Type": "Surface Mount",
+          "Operating Temperature": "-40 C to +125 C",
+          "Output Type": "3-State",
+          "Package / Case": "SOT-23-5 (DBV suffix)",
+          "Pin Count": "5"
+        },
+        "Product Parameter": {
+          "Function": "Single bus buffer gate with 3-state output",
+          "Logic Family": "LVC (CMOS)",
+          "Number of Channels": "1",
+          "Output Drive (IOH/IOL)": "±32 mA @ 4.5 V",
+          "Part Number": "SN74LVC1G125DBVR",
+          "Propagation Delay (tPD)": "2.5 ns (typical at 3.3 V)",
+          "Quiescent Current (ICC)": "10 uA (max)",
+          "Supply Voltage (VCC)": "1.65 V to 5.5 V"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125. Same SOT-23-5 footprint, same pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), same 3-state buffer function, similar propagation delay (~2.5 ns at 3.3 V vs ~2.0 ns for NC7SZ125). The SN74LVC1G125 family from TI is the industry-standard cross-vendor alternative and the recommended direct replacement per Z2Data and Ovaga part cross-reference. Operating voltage range is identical (1.65 V to 5.5 V). onsemi has marked NC7SZ125 as 'DISCONTINUED' in the official datasheet (Rev. 4, Page 5)."
+      ],
+      "fitScore": 100,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056781",
+      "productName": "SN74LVC1G125DBVR",
+      "productOverview": "SN74LVC1G125DBVR is TI's SOT-23-5 single bus buffer gate with 3-state output (active-low OE). LVC family supports 1.65 V to 5.5 V VCC, ±24 mA output drive, 3.7 ns propagation delay at 3.3 V. Pin-for-pin drop-in for onsemi NC7SZ125 (SOT-23-5 footprint, identical pinout: 1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Industry-standard cross-reference listed on Z2Data and Ovaga for the obsolete onsemi NC7SZ125. Same CMOS topology, same 3-state output, same quiescent current class.",
+      "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125. Same SOT-23-5 footprint, same pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), same 3-state buffer function, similar propagation delay (~2.5 ns at 3.3 V vs ~2.0 ns for NC7SZ125). The SN74LVC1G125 family from TI is the industry-standard cross-vendor alternative and the recommended direct replacement per Z2Data and Ovaga part cross-reference. Operating voltage range is identical (1.65 V to 5.5 V). onsemi has marked NC7SZ125 as 'DISCONTINUED' in the official datasheet (Rev. 4, Page 5).",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
+      "url": ""
+    }
+  ],
+  "sourceReportFile": "api:/product/cross-references",
+  "target": {
+    "attributeGroups": {
+      "Export Classifications & Environmental": {
+        "HTSUS": "8542.39.0001",
+        "RoHS Status": "RoHS Compliant"
+      },
+      "Product Attribute": {
+        "ECCN": "EAR99",
+        "Lifecycle Status": "Discontinued (2025)",
+        "Manufacturer": "ON Semiconductor",
+        "Mounting Type": "Surface Mount",
+        "Operating Temperature": "-40 C to +85 C",
+        "Output Type": "3-State",
+        "Package / Case": "SOT-23-5 (M5X suffix)",
+        "Pin Count": "5"
+      },
+      "Product Parameter": {
+        "Function": "Single buffer / line driver",
+        "Logic Family": "TinyLogic UHS (CMOS)",
+        "Number of Channels": "1",
+        "Part Number": "NC7SZ125",
+        "Propagation Delay (tPD)": "2.0 ns (typical at 5 V)",
+        "Quiescent Current (ICC)": "<1 uA",
+        "Supply Voltage (VCC)": "1.65 V to 5.5 V"
+      }
+    },
+    "brandName": "ON Semiconductor",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "",
+    "description": "",
+    "package": "",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000056779",
+    "productName": "NC7SZ125",
+    "productOverview": "NC7SZ125 is onsemi's single TinyLogic UHS buffer / line driver with three-state output in SOT-23-5. Fabricated in advanced CMOS, propagation delay ~2.0 ns at 5 V, quiescent current <1 µA. onsemi has marked this family 'DISCONTINUED: These devices are not available' in the official datasheet Rev. 4 (Page 5). For new designs use SN74LVC1G125DBVR (TI) which is the industry-standard pin-compatible drop-in.",
+    "series": "",
+    "slug": "",
+    "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
+    "url": ""
+  },
+  "vendor": "ON Semiconductor"
+}

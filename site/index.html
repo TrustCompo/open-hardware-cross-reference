@@ -4,96 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TrustCompo Open Hardware Cross Reference</title>
-  <meta name="description" content="Public hardware cross-reference pages with lifecycle context, replacement candidates, and links back to TrustCompo product pages.">
   <style>
-    :root {
-      --bg: #f4efe6;
-      --paper: rgba(255, 252, 245, 0.95);
-      --ink: #1c2732;
-      --muted: #536271;
-      --line: #d9ceb9;
-      --accent: #a74f2a;
-      --accent-soft: #f5dfd2;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      color: var(--ink);
-      background:
-        radial-gradient(circle at top left, rgba(167,79,42,0.10), transparent 30%),
-        linear-gradient(180deg, #efe5d4 0%, var(--bg) 45%, #fbf8f2 100%);
-    }
-    main { max-width: 980px; margin: 0 auto; padding: 36px 20px 72px; }
-    .hero, .panel {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      box-shadow: 0 18px 48px rgba(28,39,50,0.08);
-    }
-    .hero { padding: 30px; }
-    .panel { margin-top: 20px; padding: 24px; }
-    .eyebrow {
-      color: var(--accent);
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-    }
-    h1, h2 { line-height: 1.1; }
-    h1 { margin: 12px 0; font-size: clamp(2rem, 4vw, 3.4rem); }
-    p, li { line-height: 1.65; }
-    .muted { color: var(--muted); }
-    .button {
-      display: inline-block;
-      margin-top: 8px;
-      padding: 11px 15px;
-      border-radius: 999px;
-      background: var(--accent);
-      color: #fff;
-      text-decoration: none;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-      margin-top: 18px;
-    }
-    .card {
-      background: #fffdf8;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 16px;
-    }
-    a { color: var(--accent); }
-    code { font-family: "SFMono-Regular", Consolas, monospace; }
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #efe6d5 0%, #fbfaf6 100%); color: #1d2a35; }
+    main { max-width: 960px; margin: 0 auto; padding: 36px 20px 72px; }
+    .hero, .panel { background: rgba(255,253,248,0.94); border: 1px solid #d4c9b8; border-radius: 24px; padding: 26px; }
+    .panel { margin-top: 20px; }
+    .muted { color: #52606d; }
+    a { color: #b5522d; }
   </style>
 </head>
 <body>
   <main>
     <section class="hero">
-      <div class="eyebrow">Open Hardware Cross Reference</div>
-      <h1>Useful replacement references for hardware engineers</h1>
-      <p>This GitHub Pages site publishes practical lifecycle and replacement pages for parts affected by obsolescence, NRND status, or supply-chain risk. Each page is designed to stand on its own before linking back to the matching TrustCompo product page.</p>
-      <a class="button" href="https://www.trustcompo.com/">Visit TrustCompo</a>
-      <div class="grid">
-        <div class="card">
-          <h2>What you will find</h2>
-          <p class="muted">Lifecycle status, evidence summaries, replacement buckets, and quick comparison context.</p>
-        </div>
-        <div class="card">
-          <h2>Why it exists</h2>
-          <p class="muted">To help engineers review alternatives faster while still validating footprint, electrical limits, and qualification details.</p>
-        </div>
-        <div class="card">
-          <h2>Current state</h2>
-          <p class="muted">Repository scaffold is ready. Published part pages and vendor indexes will appear here as automation runs.</p>
-        </div>
-      </div>
+      <h1>TrustCompo Open Hardware Cross Reference</h1>
+      <p class="muted">A public reference surface for lifecycle-affected parts, replacement candidates, parameter comparisons, and supporting evidence summaries sourced from TrustCompo catalog operations.</p>
     </section>
-
     <section class="panel">
-      <h2>Planned public structure</h2>
-      <p class="muted">Pages are generated into <code>site/parts/</code>, vendor browse pages into <code>site/vendors/</code>, and machine-readable exports into <code>site/data/</code>.</p>
+      <h2>Latest published pages</h2>
+      <ul><li><a href="parts/tce000046366/">TCE000046366</a> <span class="muted">Analog Devices Inc./Maxim Integrated · production</span></li>
+<li><a href="parts/tce000056779/">TCE000056779</a> <span class="muted">ON Semiconductor · at-risk</span></li>
+<li><a href="parts/tce000041826/">TCE000041826</a> <span class="muted">ON Semiconductor · at-risk</span></li>
+<li><a href="parts/tce000056780/">TCE000056780</a> <span class="muted">ON Semiconductor · at-risk</span></li>
+<li><a href="parts/tce000041557/">TCE000041557</a> <span class="muted">Nisshinbo Micro Devices Inc. · eol</span></li></ul>
     </section>
   </main>
 </body>

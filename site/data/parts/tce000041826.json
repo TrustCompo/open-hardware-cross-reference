@@ -1,0 +1,798 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "JESD-609 Code",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "e3"
+    },
+    {
+      "attribute": "Moisture Sensitivity Level (MSL)",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "1  (Unlimited)"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "RoHS Compliant"
+        }
+      ],
+      "target": "RoHS non-compliant"
+    },
+    {
+      "attribute": "REACH SVHC",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "No SVHC"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "8542.39.0001"
+        }
+      ],
+      "target": "8542.39.0001"
+    },
+    {
+      "attribute": "ECCN Code",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "EAR99"
+    },
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "Active"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "REACH Unaffected"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "EAR99"
+        }
+      ],
+      "target": "EAR99"
+    },
+    {
+      "attribute": "Lead Free",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "Lead Free"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "Active"
+        }
+      ],
+      "target": "ACTIVE (Last Updated: 3 days ago)"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "Surface Mount (D2PAK equivalent)"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "Surface Mount"
+    },
+    {
+      "attribute": "Factory Lead Time",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "4 Weeks"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "Tape & Reel (TR)"
+    },
+    {
+      "attribute": "Published",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "2010"
+    },
+    {
+      "attribute": "Halogen Free",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "Halogen Free"
+    },
+    {
+      "attribute": "Categories",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "Integrated Circuits (ICs)"
+    },
+    {
+      "attribute": "Terminal Position",
+      "candidates": [
+        {
+          "productCode": "TCE000056788",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056787",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056786",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056785",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056782",
+          "value": "-"
+        }
+      ],
+      "target": "DUAL"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "at-risk",
+  "evidenceSummary": [],
+  "generatedAt": "2026-07-17 13:07:32",
+  "partNumber": "TCE000041826",
+  "reasoning": "Functional higher-current alternative to the obsolete onsemi NCP1117ST25T3G. Microchip MIC29150-12WU is a 1.5 A high-current LDO (50% more current than NCP1117's 1.0 A) in TO-263-3 (3-pin D2PAK). NOT pin-compatible (TO-263 vs SOT-223) — PCB redesign required. Same low-dropout topology and 3-terminal LDO architecture. Use when the application needs >1.0 A and can accommodate the larger TO-263 thermal footprint. Note: 12 V fixed output; for 2.5 V fixed order MIC29150-2.5WU.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Microchip Technology",
+          "Mounting Type": "Surface Mount (D2PAK equivalent)",
+          "Operating Temperature": "-40 C to +125 C",
+          "Output Current": "1.5 A",
+          "Output Voltage": "12 V",
+          "Package / Case": "TO-263-3 (WU suffix, 3-pin tab)",
+          "Pin Count": "3+tab",
+          "Quiescent Current": "12 mA (typical)"
+        },
+        "Product Parameter": {
+          "Dropout Voltage (max)": "625 mV at 1.5 A",
+          "Input Voltage (Max)": "26 V",
+          "Output Tolerance": "±1%",
+          "Part Number": "MIC29150-12WU",
+          "Regulator Type": "LDO, Fixed"
+        }
+      },
+      "brandName": "Microchip Technology",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Functional higher-current alternative to the obsolete onsemi NCP1117ST25T3G. Microchip MIC29150-12WU is a 1.5 A high-current LDO (50% more current than NCP1117's 1.0 A) in TO-263-3 (3-pin D2PAK). NOT pin-compatible (TO-263 vs SOT-223) — PCB redesign required. Same low-dropout topology and 3-terminal LDO architecture. Use when the application needs >1.0 A and can accommodate the larger TO-263 thermal footprint. Note: 12 V fixed output; for 2.5 V fixed order MIC29150-2.5WU."
+      ],
+      "fitScore": 60,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056788",
+      "productName": "MIC29150-12WU",
+      "productOverview": "MIC29150-12WU is Microchip Technology's 1.5 A high-current low-dropout regulator in TO-263-3 (3-pin tab package). MIC2915x family provides 1.5 A output current at 12 V fixed (also available 3.3 V, 5.0 V, 7.5 V, adjustable), 350 mV typical dropout at 1.5 A, ±1% output tolerance. Functional alternative to onsemi NCP1117ST25T3G (1.0 A, 2.5 V fixed, SOT-223) where the 1.5x current capacity and TO-263 thermal performance are acceptable. Same low-dropout topology and 3-terminal LDO architecture. NOT pin-compatible (TO-263-3 vs SOT-223) — verify footprint and PCB layout.",
+      "reason": "Functional higher-current alternative to the obsolete onsemi NCP1117ST25T3G. Microchip MIC29150-12WU is a 1.5 A high-current LDO (50% more current than NCP1117's 1.0 A) in TO-263-3 (3-pin D2PAK). NOT pin-compatible (TO-263 vs SOT-223) — PCB redesign required. Same low-dropout topology and 3-terminal LDO architecture. Use when the application needs >1.0 A and can accommodate the larger TO-263 thermal footprint. Note: 12 V fixed output; for 2.5 V fixed order MIC29150-2.5WU.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "PMIC - Voltage Regulators - Linear",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Diodes Incorporated",
+          "Mounting Type": "Surface Mount",
+          "Operating Temperature": "-40 C to +125 C",
+          "Output Current": "1.0 A",
+          "Output Voltage": "2.5 V",
+          "Package / Case": "SOT-223 (K suffix)",
+          "Pin Count": "3+tab",
+          "Quiescent Current": "5 mA (typical)"
+        },
+        "Product Parameter": {
+          "Dropout Voltage (max)": "1.3 V at 1.0 A",
+          "Input Voltage (Max)": "15 V",
+          "Output Tolerance": "±1%",
+          "Part Number": "AZ1117-25",
+          "Regulator Type": "LDO, Fixed"
+        }
+      },
+      "brandName": "Diodes Incorporated",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Functional enhanced alternative to the obsolete onsemi NCP1117ST25T3G. Diodes AZ1117-25 is the 1117 family with ±1% tolerance and -40 C to +125 C industrial temperature range, in the same SOT-223 footprint (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin). Better load regulation and wider operating temperature than NCP1117. Same LDO topology and 3-terminal architecture. Use as drop-in for 1.0 A LDO designs that need tighter voltage accuracy than NCP1117's ±1% provides."
+      ],
+      "fitScore": 60,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056787",
+      "productName": "AZ1117-25",
+      "productOverview": "AZ1117-25 is Diodes Incorporated's 1.0 A low-dropout positive fixed 2.5 V voltage regulator in SOT-223 (enhanced 1117 family). Maximum dropout 1.3 V at 1.0 A, 15 V max input, ±1% output tolerance. Same SOT-223 1117-family pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin). Tighter tolerance and better load regulation than onsemi NCP1117ST25T3G (±1% vs ±1%) — functional alternative with improved accuracy. Direct drop-in for 1.0 A LDO applications migrating from NCP1117 family after onsemi's 1Q2021 PDN (Last Ship 2025-04-08).",
+      "reason": "Functional enhanced alternative to the obsolete onsemi NCP1117ST25T3G. Diodes AZ1117-25 is the 1117 family with ±1% tolerance and -40 C to +125 C industrial temperature range, in the same SOT-223 footprint (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin). Better load regulation and wider operating temperature than NCP1117. Same LDO topology and 3-terminal architecture. Use as drop-in for 1.0 A LDO designs that need tighter voltage accuracy than NCP1117's ±1% provides.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "PMIC - Voltage Regulators - Linear",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Advanced Monolithic Systems",
+          "Mounting Type": "Surface Mount",
+          "Operating Temperature": "0 C to +125 C",
+          "Output Current": "1.0 A",
+          "Output Voltage": "2.5 V",
+          "Package / Case": "SOT-223",
+          "Pin Count": "3+tab",
+          "Quiescent Current": "5 mA (typical)"
+        },
+        "Product Parameter": {
+          "Dropout Voltage (max)": "1.3 V at 1.0 A",
+          "Input Voltage (Max)": "15 V",
+          "Output Tolerance": "±2%",
+          "Part Number": "AMS1117-2.5",
+          "Regulator Type": "LDO, Fixed"
+        }
+      },
+      "brandName": "Advanced Monolithic Systems",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Footprint- and pin-function-compatible P2P replacement for the onsemi NCP1117ST25T3G from Advanced Monolithic Systems. AMS1117-2.5 is the original 1117 family in SOT-223 with identical pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin), 1.3 V max dropout at 1.0 A. Per AMS datasheet, the AMS1117 is 'pin compatible with other three-terminal SCSI regulators' including the onsemi NCP1117 family. Lowest cost 1117-family alternative."
+      ],
+      "fitScore": 80,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056786",
+      "productName": "AMS1117-2.5",
+      "productOverview": "AMS1117-2.5 is Advanced Monolithic Systems' 1.0 A low-dropout positive fixed 2.5 V voltage regulator in SOT-223. Maximum dropout 1.3 V at 1.0 A, 15 V max input, ±2% output tolerance. The AMS1117 is the original 1117-family pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin) and is pin-for-pin footprint-compatible with onsemi NCP1117ST25T3G (2.5 V fixed, 1.0 A, SOT-223). Lowest cost 1117-family alternative. Documented as 'pin compatible with other three-terminal SCSI regulators' in AMS datasheet.",
+      "reason": "Footprint- and pin-function-compatible P2P replacement for the onsemi NCP1117ST25T3G from Advanced Monolithic Systems. AMS1117-2.5 is the original 1117 family in SOT-223 with identical pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin), 1.3 V max dropout at 1.0 A. Per AMS datasheet, the AMS1117 is 'pin compatible with other three-terminal SCSI regulators' including the onsemi NCP1117 family. Lowest cost 1117-family alternative.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "PMIC - Voltage Regulators - Linear",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Product Attribute": {
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Diodes Incorporated",
+          "Mounting Type": "Surface Mount",
+          "Operating Temperature": "0 C to +125 C",
+          "Output Current": "1.0 A",
+          "Output Voltage": "2.5 V",
+          "Package / Case": "SOT-223 (K suffix)",
+          "Pin Count": "3+tab",
+          "Quiescent Current": "5 mA (typical)"
+        },
+        "Product Parameter": {
+          "Dropout Voltage (max)": "1.3 V at 1.0 A",
+          "Input Voltage (Max)": "18 V",
+          "Output Tolerance": "±2%",
+          "Part Number": "AP1117-25",
+          "Regulator Type": "LDO, Fixed"
+        }
+      },
+      "brandName": "Diodes Incorporated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Footprint- and pin-function-compatible P2P replacement for the onsemi NCP1117ST25T3G (2.5 V fixed, 1.0 A LDO, SOT-223). Diodes AP1117-25 is the industry-standard 1117 family variant with the same SOT-223 pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin), 1.3 V max dropout at 1.0 A, ±2% tolerance. Direct drop-in for designs migrating from the onsemi NCP1117 family after onsemi's 1Q2021 PDN (Last Ship 2025-04-08)."
+      ],
+      "fitScore": 100,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056785",
+      "productName": "AP1117-25",
+      "productOverview": "AP1117-25 is Diodes Incorporated's 1.0 A low-dropout positive fixed 2.5 V voltage regulator in SOT-223 (K suffix). Maximum dropout 1.3 V at 1.0 A, 18 V max input, ±2% output tolerance. Industry-standard 1117 family pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin). Pin-for-pin footprint- and pin-function-compatible with onsemi NCP1117ST25T3G (2.5 V fixed, 1.0 A, SOT-223). Standard '1117 family' alternative recommended after onsemi's 1Q2021 PDN (Last Ship 2025-04-08).",
+      "reason": "Footprint- and pin-function-compatible P2P replacement for the onsemi NCP1117ST25T3G (2.5 V fixed, 1.0 A LDO, SOT-223). Diodes AP1117-25 is the industry-standard 1117 family variant with the same SOT-223 pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin), 1.3 V max dropout at 1.0 A, ±2% tolerance. Direct drop-in for designs migrating from the onsemi NCP1117 family after onsemi's 1Q2021 PDN (Last Ship 2025-04-08).",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "PMIC - Voltage Regulators - Linear",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "HTSUS": "8542.39.0001",
+          "RoHS Status": "RoHS Compliant"
+        },
+        "Product Attribute": {
+          "ECCN": "EAR99",
+          "Lifecycle Status": "Active",
+          "Manufacturer": "Texas Instruments",
+          "Mounting Type": "Surface Mount",
+          "Operating Temperature": "-40 C to +125 C",
+          "Output Current": "1.0 A",
+          "Output Voltage": "2.5 V",
+          "Package / Case": "SOT-223 (DCY suffix)",
+          "Pin Count": "3+tab",
+          "Quiescent Current": "100 uA (typical)"
+        },
+        "Product Parameter": {
+          "Dropout Voltage (max)": "455 mV @ 1.0 A",
+          "Input Voltage (Max)": "6 V",
+          "Output Tolerance": "±1.5%",
+          "Part Number": "TLV1117LV25DCYR",
+          "Regulator Type": "LDO, Fixed"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Footprint- and pin-function-compatible P2P replacement for the onsemi NCP1117ST25T3G (2.5 V fixed, 1.0 A LDO, SOT-223). Same SOT-223 pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin). TLV1117LV drops 455 mV at 1.0 A versus 1.2 V for NCP1117, and quiescent current is 100 uA versus 5 mA. onsemi published 1Q2021 PDN for the NCP1117 family with Last Time Buy 2024-10-08 and Last Ship Date 2025-04-08. TLV1117LV is the recommended P2P migration target per TI cross-reference documentation."
+      ],
+      "fitScore": 100,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000056782",
+      "productName": "TLV1117LV25DCYR",
+      "productOverview": "TLV1117LV25DCYR is TI's 1.0 A LDO fixed 2.5 V in SOT-223 (DCY package), part of TLV1117LV family. Maximum dropout 455 mV at 1.0 A, 6 V max input, ±1.5% output tolerance. Footprint- and pin-function-compatible with onsemi NCP1117ST25T3G (same SOT-223 pinout: pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin). Lower quiescent current than NCP1117 (100 uA vs 5 mA). Recommended as direct P2P drop-in for designs migrating from NCP1117 family after onsemi's 1Q2021 PDN (Last Ship 2025-04-08).",
+      "reason": "Footprint- and pin-function-compatible P2P replacement for the onsemi NCP1117ST25T3G (2.5 V fixed, 1.0 A LDO, SOT-223). Same SOT-223 pinout (pin 1=Adj/GND, pin 2=Vout, pin 3=Vin, tab=Vin). TLV1117LV drops 455 mV at 1.0 A versus 1.2 V for NCP1117, and quiescent current is 100 uA versus 5 mA. onsemi published 1Q2021 PDN for the NCP1117 family with Last Time Buy 2024-10-08 and Last Ship Date 2025-04-08. TLV1117LV is the recommended P2P migration target per TI cross-reference documentation.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "PMIC - Voltage Regulators - Linear",
+      "url": ""
+    }
+  ],
+  "sourceReportFile": "api:/product/cross-references",
+  "target": {
+    "attributeGroups": {
+      "Export Classifications & Environmental": {
+        "ECCN Code": "EAR99",
+        "HTSUS": "8542.39.0001",
+        "JESD-609 Code": "e3",
+        "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+        "REACH SVHC": "No SVHC",
+        "RoHS Status": "RoHS non-compliant"
+      },
+      "Product Attribute": {
+        "Base Part Number": "NCP1117ST25",
+        "Categories": "Integrated Circuits (ICs)",
+        "Contact Plating": "Tin",
+        "ECCN": "EAR99",
+        "Factory Lead Time": "4 Weeks",
+        "Halogen Free": "Halogen Free",
+        "Height": "1.69mm",
+        "Input Bias Current": "5.2mA",
+        "Lead Free": "Lead Free",
+        "Length": "6.7mm",
+        "Lifecycle Status": "ACTIVE (Last Updated: 3 days ago)",
+        "Manufacturer": "ON Semiconductor",
+        "Manufacturer's Part No.": "NCP1117ST25T3G",
+        "Max Output Current": "1A",
+        "Min Input Voltage": "15V",
+        "Min Output Voltage": "2.5V",
+        "Mount": "Surface Mount",
+        "Mounting Type": "Surface Mount",
+        "Number of Functions": "1",
+        "Number of Outputs": "1",
+        "Number of Pins": "4",
+        "Number of Terminations": "4",
+        "Operating Temperature": "0°C~125°C",
+        "Output Type": "Fixed",
+        "Output Voltage": "2.5V",
+        "Package / Case": "TO-261-4, TO-261AA",
+        "Packaging": "Tape & Reel (TR)",
+        "Packing Method": "TAPE AND REEL",
+        "Part Status": "Active",
+        "Pbfree Code": "yes",
+        "Peak Reflow Temperature (Cel)": "260",
+        "Pin Count": "4",
+        "Published": "2010",
+        "Quiescent Current": "10mA",
+        "REACH Status": "REACH Unaffected",
+        "Radiation Hardening": "No",
+        "Reference Voltage": "1.25V",
+        "Reflow Temperature-Max (s)": "40",
+        "Sub-Categories": "PMIC - Voltage Regulators - Linear",
+        "Subcategory": "Other Regulators",
+        "Technology": "BIPOLAR",
+        "Terminal Form": "GULL WING",
+        "Terminal Pitch": "2.3mm",
+        "Terminal Position": "DUAL",
+        "Voltage Tolerance-Max": "2%",
+        "Width": "3.7mm"
+      },
+      "Product Parameter": {
+        "Accuracy": "1 %",
+        "Dropout Voltage": "1.07V",
+        "Dropout Voltage1-Nom": "1.07V",
+        "Min Current Limit": "1A",
+        "Nominal Output Voltage": "2.5V",
+        "Number of Regulators": "1",
+        "Output Configuration": "Positive",
+        "Output Voltage 1": "2.5V",
+        "Output Voltage Accuracy": "1 %",
+        "PSRR": "68dB (120Hz)",
+        "Protection Features": "Over Current, Over Temperature",
+        "Voltage - Input (Max)": "20V",
+        "Voltage Dropout (Max)": "1.2V @ 800mA"
+      }
+    },
+    "brandName": "ON Semiconductor",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "",
+    "description": "",
+    "package": "",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000041826",
+    "productName": "NCP1117ST25T3G",
+    "productOverview": "1.0 A Low-Dropout Positive Fixed and Adjustable Voltage Regulators<br/>The NCP1117 series are low dropout positive voltage regulators that are capable of providing an output current that is in excess of 1.0 A with a maximum dropout voltage of 1.2 V at 800 mA over temperature. This series contains eight fixed output voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V that have no minimum load requirement to maintain regulation. Also included is an adjustable output version that can be programmed from 1.25 V to 18.8 V with two external resistors. On chip trimming adjusts the reference/output voltage to within ±1.0% accuracy. Internal protection features consist of output current limiting, safe operating area compensation, and thermal shutdown. <br/>The NCP1117 series can operate with up to 20 V input. Devices are available in SOT−223 and DPAK packages.<br/>Features<br/>• Output Current in Excess of 1.0 A<br/>• 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature<br/>• Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V<br/>• Adjustable Output Voltage Option<br/>• No Minimum Load Requirement for Fixed Voltage Output Devices<br/>• Reference/Output Voltage Trimmed to ±1.0%<br/>• Current Limit, Safe Operating and <br/>Thermal Shutdown Protection<br/>• Operation to 20 V Input<br/>• NCV Prefix for Automotive and Other Applications Requiring Site and Control Changes<br/>• Pb−Free Packages are AvailableApplications<br/>• Consumer and Industrial Equipment Point of Regulation<br/>• Active SCSI Termination for 2.85 V Version<br/>• Switching Power Supply Post Regulation<br/>• Hard Drive Controllers<br/>• Battery Chargers",
+    "series": "",
+    "slug": "",
+    "subCategoryName": "PMIC - Voltage Regulators - Linear",
+    "url": ""
+  },
+  "vendor": "ON Semiconductor"
+}

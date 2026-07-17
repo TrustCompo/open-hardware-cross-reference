@@ -1,0 +1,1365 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "EAR99"
+    },
+    {
+      "attribute": "Pin Count",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "14"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "14"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "14"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "14"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "14"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "14"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "14"
+        }
+      ],
+      "target": "14"
+    },
+    {
+      "attribute": "Operating Temperature",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "0°C~70°C"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "0°C~70°C"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-40°C~85°C"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-40°C~85°C"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "0°C~70°C"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "0°C~70°C"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "0°C~70°C"
+        }
+      ],
+      "target": "-20 C to +75 C (commercial) / -40 C to +85 C (industrial on request)"
+    },
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "STMicroelectronics"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "Texas"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "Texas"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "Texas"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "Texas"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "Texas"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "Texas"
+        }
+      ],
+      "target": "Nisshinbo Micro Devices Inc."
+    },
+    {
+      "attribute": "Input Bias Current",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "30 pA (typical, JFET input)"
+    },
+    {
+      "attribute": "Slew Rate",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "16V/μs"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "13V/μs"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "3.5V/μs"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "3.5V/μs"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "3.5V/μs"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "3.5V/μs"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "3.5V/μs"
+        }
+      ],
+      "target": "13 V/us (typical)"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "ACTIVE (Last Updated: 7 months ago)"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "ACTIVE (Last Updated: 4 days ago)"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "ACTIVE (Last Updated: 1 week ago)"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "ACTIVE (Last Updated: 3 days ago)"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "ACTIVE (Last Updated: 3 days ago)"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "ACTIVE (Last Updated: 1 day ago)"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "ACTIVE (Last Updated: 4 days ago)"
+        }
+      ],
+      "target": "EOL (per 2026 vendor notice)"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "Through-hole / DIP"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "14-SOIC (0.154, 3.90mm Width)"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "14-SOIC (0.154, 3.90mm Width)"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "14-SOIC (0.209, 5.30mm Width)"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "14-SOIC (0.154, 3.90mm Width)"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "14-SOIC (0.154, 3.90mm Width)"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "14-SOIC (0.154, 3.90mm Width)"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "14-SOIC (0.154, 3.90mm Width)"
+        }
+      ],
+      "target": "DMP-14 (DIP-14 compatible)"
+    },
+    {
+      "attribute": "Number of Channels",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "4"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "4"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "4"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "4"
+        }
+      ],
+      "target": "4"
+    },
+    {
+      "attribute": "Gain Bandwidth Product (GBP)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "3 MHz (typical, per JRC family datasheet)"
+    },
+    {
+      "attribute": "Supply Voltage (single)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "4 V to 36 V"
+    },
+    {
+      "attribute": "Supply Voltage (dual)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "+/-2 V to +/-18 V"
+    },
+    {
+      "attribute": "Part Number",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "NJM064M"
+    },
+    {
+      "attribute": "Amplifier Type",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "J-FET"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "J-FET"
+        }
+      ],
+      "target": "JFET-input operational amplifier"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "8542.33.0001"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "-"
+        }
+      ],
+      "target": "8542.33.0001"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "RoHS non-compliant"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "ROHS3 Compliant"
+        }
+      ],
+      "target": "Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default"
+    },
+    {
+      "attribute": "Moisture Sensitivity Level (MSL)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "1 (Unlimited)"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "1 (Unlimited)"
+        }
+      ],
+      "target": "-"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "eol",
+  "evidenceSummary": [],
+  "generatedAt": "2026-07-17 13:07:18",
+  "partNumber": "TCE000041557",
+  "reasoning": "Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e4",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "4MHz",
+          "Base Part Number": "LF347",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "70 dB",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "10 Weeks",
+          "Height": "1.6mm",
+          "Input Offset Voltage (Vos)": "10mV",
+          "Lead Free": "Lead Free",
+          "Length": "8.75mm",
+          "Lifecycle Status": "ACTIVE (Last Updated: 7 months ago)",
+          "Manufacturer": "STMicroelectronics",
+          "Manufacturer's Part No.": "LF347DT",
+          "Max Input Voltage": "18V",
+          "Min Input Voltage": "-18V",
+          "Mount": "Surface Mount",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "10.8mA",
+          "Number of Functions": "4",
+          "Number of Pins": "14",
+          "Number of Terminations": "14",
+          "Operating Supply Current": "1.4mA",
+          "Operating Temperature": "0°C~70°C",
+          "Output Current": "60mA",
+          "Output Current per Channel": "40mA",
+          "Package / Case": "14-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Tape & Reel (TR)",
+          "Packing Method": "TAPE AND REEL",
+          "Part Status": "Active",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "14",
+          "Power Dissipation": "680mW",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "No",
+          "Reflow Temperature-Max (s)": "40",
+          "Slew Rate": "16V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "1.27mm",
+          "Terminal Position": "DUAL",
+          "Width": "4mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "J-FET",
+          "Average Bias Current-Max (IIB)": "0.02μA",
+          "Bias Current-Max (IIB) @25C": "0.0002μA",
+          "Current - Input Bias": "20pA",
+          "Dual Supply Voltage": "15V",
+          "Frequency Compensation": "YES",
+          "Low-Bias": "YES",
+          "Low-Offset": "NO",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Number of Channels": "4",
+          "Terminal Finish": "Nickel/Palladium/Gold (Ni/Pd/Au)",
+          "Unity Gain BW-Nom": "4000 kHz",
+          "Voltage - Input Offset": "3mV",
+          "Voltage - Supply, Single/Dual (±)": "8V~36V ±4V~18V",
+          "Voltage Gain": "106.02dB"
+        }
+      },
+      "brandName": "STMicroelectronics",
+      "bucket": "Similar",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design."
+      ],
+      "fitScore": 20,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000039147",
+      "productName": "LF347DT",
+      "productOverview": "IC OPAMP JFET 4MHZ 14SO",
+      "reason": "Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "JESD-609 Code": "e4",
+          "Moisture Sensitivity Level (MSL)": "1 (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Bandwidth": "3MHz",
+          "Base Part Number": "TL084",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "70 dB",
+          "Contact Plating": "Gold",
+          "Factory Lead Time": "6 Weeks",
+          "Height": "1.75mm",
+          "Input Offset Voltage (Vos)": "3mV",
+          "Lead Free": "Lead Free",
+          "Length": "8.65mm",
+          "Lifecycle Status": "ACTIVE (Last Updated: 4 days ago)",
+          "Manufacturer": "Texas",
+          "Manufacturer's Part No.": "TL084CD",
+          "Max Power Dissipation": "680mW",
+          "Max Supply Current": "11.2mA",
+          "Max Supply Voltage (AC)": "3000 kHz",
+          "Mount": "Surface Mount",
+          "Mounting Type": "Surface Mount",
+          "Neg Supply Voltage-Min (Vsup)": "3MHz",
+          "Nominal Supply Current": "11.2mA",
+          "Number of Functions": "4",
+          "Number of Pins": "14",
+          "Number of Terminations": "14",
+          "Operating Supply Current": "1.4mA",
+          "Operating Temperature": "0°C~70°C",
+          "Package / Case": "14-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "yes",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "14",
+          "Power Dissipation": "680mW",
+          "Radiation Hardening": "No",
+          "Slew Rate": "13V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "1.27mm",
+          "Terminal Position": "DUAL",
+          "Width": "3.91mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "J-FET",
+          "Average Bias Current-Max (IIB)": "0.01μA",
+          "Count Direction": "YES",
+          "Current - Input": "YES",
+          "Current - Input Bias": "30pA",
+          "Diode Element Material": "0.002μA",
+          "Dual Supply Voltage": "5V",
+          "Frequency (Max)": "-18V",
+          "Load\\/Preset Input": "NO",
+          "Max I/O Voltage": "15mV",
+          "Mode of Operation": "NO",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Nominal Gain Bandwidth Product": "106.02dB",
+          "Number of Channels": "4",
+          "Number of Lines": "VOLTAGE-FEEDBACK",
+          "Positive Input Voltage-Max": "18V",
+          "Rise Time": "50ns",
+          "Total Dose": "1.58mm",
+          "Voltage - Clamping": "NO",
+          "Voltage - Supply, Single/Dual (±)": "7V~36V ±3.5V~18V"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "Similar",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Higher-speed TL084-family option. It belongs to the same broader quad J-FET op-amp lineage but is not the same low-power class as NJM064M, so treat it as a performance-variant shortlist item rather than a direct replacement."
+      ],
+      "fitScore": 40,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000033962",
+      "productName": "TL084CD",
+      "productOverview": "<br/>The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient.<br/>Features<br/>• Wide common-mode (up to VCC+) and differential voltage range<br/>• Low input bias and offset current<br/>• Output short-circuit protection<br/>• High input impedance JFET input stage<br/>• Internal frequency compensation<br/>• Latch-up free operation<br/>• High slew rate: 16V/μs (typ)",
+      "reason": "Higher-speed TL084-family option. It belongs to the same broader quad J-FET op-amp lineage but is not the same low-power class as NJM064M, so treat it as a performance-variant shortlist item rather than a direct replacement.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e4",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "RoHS Status": "RoHS non-compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "1MHz",
+          "Base Part Number": "TL064",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "80 dB",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "6 Weeks",
+          "Height": "2mm",
+          "Input Offset Voltage (Vos)": "3mV",
+          "Lead Free": "Lead Free",
+          "Length": "10.3mm",
+          "Lifecycle Status": "ACTIVE (Last Updated: 1 week ago)",
+          "Manufacturer": "Texas",
+          "Manufacturer's Part No.": "TL064INSR",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "1mA",
+          "Number of Circuits": "4",
+          "Number of Functions": "4",
+          "Number of Pins": "14",
+          "Number of Terminations": "14",
+          "Operating Supply Current": "200μA",
+          "Operating Supply Voltage": "18V",
+          "Operating Temperature": "-40°C~85°C",
+          "Package / Case": "14-SOIC (0.209, 5.30mm Width)",
+          "Packaging": "Tape & Reel (TR)",
+          "Packing Method": "TR",
+          "Part Status": "Active",
+          "Pbfree Code": "yes",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "14",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "No",
+          "Slew Rate": "3.5V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "1.27mm",
+          "Terminal Position": "DUAL",
+          "Thickness": "1.95mm",
+          "Width": "5.3mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "J-FET",
+          "Average Bias Current-Max (IIB)": "0.02μA",
+          "Bias Current-Max (IIB) @25C": "0.0002μA",
+          "Current - Input Bias": "30pA",
+          "Frequency Compensation": "YES",
+          "Input Offset Current-Max (IIO)": "0.0001μA",
+          "Low-Bias": "YES",
+          "Low-Offset": "NO",
+          "Max I/O Voltage": "6mV",
+          "Micropower": "YES",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Nominal Gain Bandwidth Product": "1MHz",
+          "Power Supplies": "+-15V",
+          "Programmable Power": "NO",
+          "Terminal Finish": "Nickel/Palladium/Gold (Ni/Pd/Au)",
+          "Unity Gain BW-Nom": "1000 kHz",
+          "Voltage - Supply, Single/Dual (±)": "7V~36V ±3.5V~18V",
+          "Voltage Gain": "75.56dB"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Industrial-temperature TL064 family alternative in narrow SOIC. Use only when moving away from the legacy DMP-14 package is acceptable."
+      ],
+      "fitScore": 60,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000037565",
+      "productName": "TL064INSR",
+      "productOverview": "Description <br/>The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>Features <br/>• Very low power consumption: 200 µA <br/>• Wide common-mode (up to VCC+) and differential voltage ranges <br/>• Low input bias and offset currents <br/>• Output short-circuit protection <br/>• High input impedance JFET input stage <br/>• Internal frequency compensation <br/>• Latch up free operation <br/>• High slew rate: 3.5 V/µs",
+      "reason": "Industrial-temperature TL064 family alternative in narrow SOIC. Use only when moving away from the legacy DMP-14 package is acceptable.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "1MHz",
+          "Base Part Number": "TL064",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "80 dB",
+          "Contact Plating": "Gold",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "6 Weeks",
+          "Height": "1.75mm",
+          "Input Offset Voltage (Vos)": "6mV",
+          "Lead Free": "Lead Free",
+          "Length": "8.65mm",
+          "Lifecycle Status": "ACTIVE (Last Updated: 3 days ago)",
+          "Manufacturer": "Texas",
+          "Manufacturer's Part No.": "TL064IDR",
+          "Max Power Dissipation": "30mW",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "1mA",
+          "Number of Functions": "4",
+          "Number of Pins": "14",
+          "Number of Terminations": "14",
+          "Operating Supply Current": "200μA",
+          "Operating Supply Voltage": "18V",
+          "Operating Temperature": "-40°C~85°C",
+          "Package / Case": "14-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Cut Tape (CT)",
+          "Packing Method": "TR",
+          "Part Status": "Active",
+          "Pbfree Code": "Yes",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "14",
+          "Quiescent Current": "250mA",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "NO",
+          "Series": "-",
+          "Slew Rate": "3.5V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Surface Mount": "Yes",
+          "Technology": "Bipolar",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "1.27mm",
+          "Terminal Position": "DUAL",
+          "Thickness": "1.58mm",
+          "Width": "3.91mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "J-FET",
+          "Average Bias Current-Max (IIB)": "0.02μA",
+          "Bias Current-Max (IIB) @25C": "0.0002μA",
+          "Current - Input Bias": "30pA",
+          "Dual Supply Voltage": "9V",
+          "Frequency Compensation": "Yes",
+          "Input Offset Current-Max (IIO)": "0.0001μA",
+          "Low-Bias": "Yes",
+          "Low-Offset": "NO",
+          "Max I/O Voltage": "6mV",
+          "Micropower": "Yes",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Nominal Gain Bandwidth Product": "1MHz",
+          "Number of Channels": "4",
+          "Power Supplies": "+-15V",
+          "Programmable Power": "NO",
+          "Terminal Finish": "Matte Tin (Sn)",
+          "Unity Gain BW-Nom": "1000 kHz",
+          "Voltage - Input Offset": "3mV",
+          "Voltage - Supply, Single/Dual (±)": "7V~36V ±3.5V~18V",
+          "Voltage Gain": "75.56dB"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Industrial-temperature TL064 family functional alternative in SOIC-14. Electrical family is closer to NJM064 than the previous TL074-class shortlist, but package migration is still required."
+      ],
+      "fitScore": 80,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000008521",
+      "productName": "TL064IDR",
+      "productOverview": "Description:<br/>The LM78L05ACMX is a linear voltage regulator from Texas Instruments Integrated Circuits (ICs). It is a positive fixed regulator with one output and a maximum output current of 100mA. It has an operating temperature range of 0°C to 125°C and a surface mount mounting type. <br/>The input voltage range is 6.7V to 35V and the output voltage is 5V.<br/>Features of the LM78L05ACMX include low dropout voltage, low quiescent current, and low noise. It also has short circuit protection, thermal overload protection, and reverse polarity protection.Applications of the LM78L05ACMX include powering microcontrollers, digital signal processors, and other low power devices. It can also be used in battery-powered systems, automotive systems, and portable electronics.",
+      "reason": "Industrial-temperature TL064 family functional alternative in SOIC-14. Electrical family is closer to NJM064 than the previous TL074-class shortlist, but package migration is still required.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e4",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "1MHz",
+          "Base Part Number": "TL064",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "80 dB",
+          "Contact Plating": "Gold",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "6 Weeks",
+          "Height": "1.75mm",
+          "Input Offset Voltage (Vos)": "6mV",
+          "Lead Free": "Lead Free",
+          "Length": "8.65mm",
+          "Lifecycle Status": "ACTIVE (Last Updated: 3 days ago)",
+          "Manufacturer": "Texas",
+          "Manufacturer's Part No.": "TL064ACDR",
+          "Mounting Type": "Surface Mount",
+          "Neg Supply Voltage-Max (Vsup)": "-18V",
+          "Nominal Supply Current": "1mA",
+          "Number of Functions": "4",
+          "Number of Pins": "14",
+          "Number of Terminations": "14",
+          "Operating Supply Current": "200μA",
+          "Operating Temperature": "0°C~70°C",
+          "Package / Case": "14-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Cut Tape (CT)",
+          "Packing Method": "TR",
+          "Part Status": "Active",
+          "Pbfree Code": "yes",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "14",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "No",
+          "Slew Rate": "3.5V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "1.27mm",
+          "Terminal Position": "DUAL",
+          "Thickness": "1.58mm",
+          "Width": "3.91mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "J-FET",
+          "Average Bias Current-Max (IIB)": "0.007μA",
+          "Bias Current-Max (IIB) @25C": "0.0002μA",
+          "Current - Input Bias": "30pA",
+          "Frequency Compensation": "YES",
+          "Input Offset Current-Max (IIO)": "0.0001μA",
+          "Low-Bias": "YES",
+          "Low-Offset": "NO",
+          "Max I/O Voltage": "6mV",
+          "Micropower": "YES",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Nominal Gain Bandwidth Product": "1MHz",
+          "Number of Elements": "4",
+          "Power Supplies": "+-15V",
+          "Programmable Power": "NO",
+          "Supply Voltage Limit-Max": "18V",
+          "Unity Gain BW-Nom": "1000 kHz",
+          "Voltage - Input Offset": "3mV",
+          "Voltage - Supply, Single/Dual (±)": "7V~36V ±3.5V~18V",
+          "Voltage Gain": "75.56dB"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "A-grade TL064 family functional alternative in SOIC-14. Use when the design needs a low-power J-FET quad op-amp from the TL064/NJM064 class and a surface-mount package is acceptable."
+      ],
+      "fitScore": 80,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000030931",
+      "productName": "TL064ACDR",
+      "productOverview": "Description: <br/>The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is a four-channel amplifier with a unit weight of 0.004564 oz. It has an operating temperature range of 0°C to +70°C and a maximum operating temperature of +70°C. It has an operating supply current of 1 mA and no shutdown feature. <br/>The Vos-Input-Offset-Voltage is 6 mV and the en-Input-Voltage-Noise-Density is 42 nV/sqrt Hz. It is packaged in a SOIC-14 case and has a maximum supply voltage of 36 V.<br/>Features of the TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier include a low operating supply current of 1 mA, low Vos-Input-Offset-Voltage of 6 mV, and low en-Input-Voltage-Noise-Density of 42 nV/sqrt Hz. It also has a wide operating temperature range of 0°C to +70°C and a maximum supply voltage of 36 V.<br/>The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is suitable for a variety of applications, including signal conditioning, data acquisition, and instrumentation. It is also suitable for use in medical, industrial, and automotive applications.",
+      "reason": "A-grade TL064 family functional alternative in SOIC-14. Use when the design needs a low-power J-FET quad op-amp from the TL064/NJM064 class and a surface-mount package is acceptable.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e4",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "1MHz",
+          "Base Part Number": "TL064",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "80 dB",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "6 Weeks",
+          "Height": "1.75mm",
+          "Input Offset Voltage (Vos)": "3mV",
+          "Lead Free": "Lead Free",
+          "Length": "8.65mm",
+          "Lifecycle Status": "ACTIVE (Last Updated: 1 day ago)",
+          "Manufacturer": "Texas",
+          "Manufacturer's Part No.": "TL064BCDR",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "1mA",
+          "Number of Functions": "4",
+          "Number of Pins": "14",
+          "Number of Terminations": "14",
+          "Operating Supply Current": "200μA",
+          "Operating Supply Voltage": "18V",
+          "Operating Temperature": "0°C~70°C",
+          "Package / Case": "14-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Cut Tape (CT)",
+          "Packing Method": "TR",
+          "Part Status": "Active",
+          "Pbfree Code": "yes",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "14",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "No",
+          "Slew Rate": "3.5V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "1.27mm",
+          "Terminal Position": "DUAL",
+          "Thickness": "1.58mm",
+          "Width": "3.91mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "J-FET",
+          "Average Bias Current-Max (IIB)": "0.007μA",
+          "Bias Current-Max (IIB) @25C": "0.0002μA",
+          "Current - Input Bias": "30pA",
+          "Frequency Compensation": "YES",
+          "Input Offset Current-Max (IIO)": "0.0001μA",
+          "Low-Bias": "YES",
+          "Low-Offset": "NO",
+          "Max I/O Voltage": "3mV",
+          "Micropower": "YES",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Nominal Gain Bandwidth Product": "1MHz",
+          "Number of Elements": "4",
+          "Power Supplies": "+-15V",
+          "Programmable Power": "NO",
+          "Terminal Finish": "Nickel/Palladium/Gold (Ni/Pd/Au)",
+          "Unity Gain BW-Nom": "1000 kHz",
+          "Voltage - Supply, Single/Dual (±)": "7V~36V ±3.5V~18V",
+          "Voltage Gain": "75.56dB"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "B-grade TL064 family functional alternative in SOIC-14. Better aligned with NJM064 low-power behavior than TL074/LF347-class parts, but still not a DIP-14 pin-for-package replacement."
+      ],
+      "fitScore": 80,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000037564",
+      "productName": "TL064BCDR",
+      "productOverview": "Description <br/>The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>Features <br/>• Very low power consumption: 200 µA <br/>• Wide common-mode (up to VCC+) and differential voltage ranges <br/>• Low input bias and offset currents <br/>• Output short-circuit protection <br/>• High input impedance JFET input stage <br/>• Internal frequency compensation <br/>• Latch up free operation <br/>• High slew rate: 3.5 V/µs",
+      "reason": "B-grade TL064 family functional alternative in SOIC-14. Better aligned with NJM064 low-power behavior than TL074/LF347-class parts, but still not a DIP-14 pin-for-package replacement.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "JESD-609 Code": "e4",
+          "Moisture Sensitivity Level (MSL)": "1 (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Bandwidth": "1MHz",
+          "Base Part Number": "TL064",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "70 dB",
+          "Contact Plating": "Gold",
+          "Factory Lead Time": "6 Weeks",
+          "Height": "1.75mm",
+          "Input Offset Voltage (Vos)": "15mV",
+          "Lead Free": "Lead Free",
+          "Length": "8.65mm",
+          "Lifecycle Status": "ACTIVE (Last Updated: 4 days ago)",
+          "Manufacturer": "Texas",
+          "Manufacturer's Part No.": "TL064CD",
+          "Max Power Dissipation": "30mW",
+          "Max Supply Current": "1mA",
+          "Max Supply Voltage (AC)": "1000 kHz",
+          "Mounting Type": "Surface Mount",
+          "Neg Supply Voltage-Min (Vsup)": "1MHz",
+          "Nominal Supply Current": "1mA",
+          "Number of Functions": "4",
+          "Number of Pins": "14",
+          "Number of Terminations": "14",
+          "Operating Supply Current": "200μA",
+          "Operating Supply Voltage": "18V",
+          "Operating Temperature": "0°C~70°C",
+          "Package / Case": "14-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "yes",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "14",
+          "Radiation Hardening": "No",
+          "Slew Rate": "3.5V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "1.27mm",
+          "Terminal Position": "DUAL",
+          "Width": "3.91mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "J-FET",
+          "Average Bias Current-Max (IIB)": "0.01μA",
+          "Count Direction": "YES",
+          "Current - Input": "YES",
+          "Current - Input Bias": "30pA",
+          "Diode Element Material": "0.0002μA",
+          "Dual Supply Voltage": "9V",
+          "Load\\/Preset Input": "YES",
+          "Max I/O Voltage": "15mV",
+          "Mode of Operation": "NO",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Nominal Gain Bandwidth Product": "75.56dB",
+          "Number of Channels": "4",
+          "Number of Lines": "VOLTAGE-FEEDBACK",
+          "Power Supplies": "+-15V",
+          "Total Dose": "1.58mm",
+          "Voltage - Clamping": "NO",
+          "Voltage - Input Offset": "3mV",
+          "Voltage - Supply, Single/Dual (±)": "7V~36V ±3.5V~18V"
+        }
+      },
+      "brandName": "Texas Instruments",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "Closest same-family functional alternative in live catalog. TL064CD stays in the low-power TL064/NJM064 class, but it is SOIC-14 rather than the legacy DMP-14 / DIP-14 NJM064M package."
+      ],
+      "fitScore": 100,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000041141",
+      "productName": "TL064CD",
+      "productOverview": "<br/>The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient.<br/>Features<br/>• Wide common-mode (up to VCC+) and differential voltage range<br/>• Low input bias and offset current<br/>• Output short-circuit protection<br/>• High input impedance JFET input stage<br/>• Internal frequency compensation<br/>• Latch-up free operation<br/>• High slew rate: 16V/μs (typ)",
+      "reason": "Closest same-family functional alternative in live catalog. TL064CD stays in the low-power TL064/NJM064 class, but it is SOIC-14 rather than the legacy DMP-14 / DIP-14 NJM064M package.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    }
+  ],
+  "sourceReportFile": "api:/product/cross-references",
+  "target": {
+    "attributeGroups": {
+      "Export Classifications & Environmental": {
+        "HTSUS": "8542.33.0001",
+        "RoHS Status": "Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default"
+      },
+      "Product Attribute": {
+        "ECCN": "EAR99",
+        "Input Bias Current": "30 pA (typical, JFET input)",
+        "Lifecycle Status": "EOL (per 2026 vendor notice)",
+        "Manufacturer": "Nisshinbo Micro Devices Inc.",
+        "Mounting Type": "Through-hole / DIP",
+        "Operating Temperature": "-20 C to +75 C (commercial) / -40 C to +85 C (industrial on request)",
+        "Package / Case": "DMP-14 (DIP-14 compatible)",
+        "Pin Count": "14",
+        "Slew Rate": "13 V/us (typical)"
+      },
+      "Product Parameter": {
+        "Amplifier Type": "JFET-input operational amplifier",
+        "Gain Bandwidth Product (GBP)": "3 MHz (typical, per JRC family datasheet)",
+        "Number of Channels": "4",
+        "Part Number": "NJM064M",
+        "Supply Voltage (dual)": "+/-2 V to +/-18 V",
+        "Supply Voltage (single)": "4 V to 36 V"
+      }
+    },
+    "brandName": "Nisshinbo Micro Devices Inc.",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "",
+    "description": "",
+    "package": "",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000041557",
+    "productName": "NJM064M",
+    "productOverview": "NJM064M is a legacy DMP-14 / DIP-14 compatible member of Nisshinbo Micro Devices' NJM064 low-power quad J-FET input operational amplifier family. As of June 21, 2026, the current official Nisshinbo public references we verified are the NJM064C/NJM064CA pages, which describe the NJM064 family as the low-power version of the NJM072C/074C family and show 1 MHz typ GBW, 3.5 V/us typ slew rate, and 4 V to 36 V supply range. We did not verify a public manufacturer EOL/PDN notice for the exact NJM064M package variant, so this catalog entry should not present NJM064M as confirmed EOL. Buyers should still reconfirm exact DMP-14 package availability, temperature grade, and compliance for NJM064M lots before release to production.",
+    "series": "",
+    "slug": "",
+    "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+    "url": ""
+  },
+  "vendor": "Nisshinbo Micro Devices Inc."
+}

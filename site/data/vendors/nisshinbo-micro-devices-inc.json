@@ -1,0 +1,14 @@
+[
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/tce000041557.json",
+    "discontinuationStatus": "eol",
+    "generatedAt": "2026-07-17 13:07:18",
+    "pagePath": "parts/tce000041557/index.html",
+    "partNumber": "TCE000041557",
+    "partNumberSlug": "tce000041557",
+    "targetProductCode": "TCE000041557",
+    "targetProductName": "NJM064M",
+    "vendor": "Nisshinbo Micro Devices Inc."
+  }
+]

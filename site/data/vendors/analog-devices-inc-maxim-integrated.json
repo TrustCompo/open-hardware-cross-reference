@@ -1,0 +1,14 @@
+[
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/tce000046366.json",
+    "discontinuationStatus": "production",
+    "generatedAt": "2026-07-17 13:07:39",
+    "pagePath": "parts/tce000046366/index.html",
+    "partNumber": "TCE000046366",
+    "partNumberSlug": "tce000046366",
+    "targetProductCode": "TCE000046366",
+    "targetProductName": "OP2177ARZ-REEL7",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  }
+]

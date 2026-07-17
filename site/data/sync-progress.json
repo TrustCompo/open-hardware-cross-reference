@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-07-17 13:08:17",
+  "environment": "prod",
+  "repoPath": "/home/chenxiaosen/workspace/trustcompo-open-source/repos/open-hardware-cross-reference",
+  "repoProgressFile": "site/data/sync-progress.json",
+  "totalGroups": 5,
+  "apiReportedTotal": 5,
+  "sourceProductCodes": [
+    "TCE000041557",
+    "TCE000056780",
+    "TCE000041826",
+    "TCE000056779",
+    "TCE000046366"
+  ],
+  "sourceProducts": {
+    "TCE000041557": {
+      "contentHash": "ea86db02e8be4100041232ec748cf41c0a07e3fd111b2da00423bd6c9cff7c26",
+      "syncedAt": "2026-07-17 13:07:18",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000041557/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/nisshinbo-micro-devices-inc/",
+      "alternativeProductCodes": [
+        "TCE000039147",
+        "TCE000033962",
+        "TCE000037565",
+        "TCE000008521",
+        "TCE000030931",
+        "TCE000037564",
+        "TCE000041141"
+      ]
+    },
+    "TCE000056780": {
+      "contentHash": "28ddf3824d9dc0bf3667e41e85b482a0164590eb22306ff211b3e3b2a38d770e",
+      "syncedAt": "2026-07-17 13:07:23",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000056780/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/on-semiconductor/",
+      "alternativeProductCodes": [
+        "TCE000048009",
+        "TCE000042253",
+        "TCE000055878",
+        "TCE000056789",
+        "TCE000032963"
+      ]
+    },
+    "TCE000041826": {
+      "contentHash": "17f624f0cfe57ac626c5863e4c731dd8e64f36e49080d10699b2ef7dfcc901dc",
+      "syncedAt": "2026-07-17 13:07:32",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000041826/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/on-semiconductor/",
+      "alternativeProductCodes": [
+        "TCE000056788",
+        "TCE000056787",
+        "TCE000056786",
+        "TCE000056785",
+        "TCE000056782"
+      ]
+    },
+    "TCE000056779": {
+      "contentHash": "0ba8395018ac35e7909bc691d072981122a46da44823d1bcaa41734b3f4bbf3d",
+      "syncedAt": "2026-07-17 13:07:36",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000056779/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/on-semiconductor/",
+      "alternativeProductCodes": [
+        "TCE000014499",
+        "TCE000056784",
+        "TCE000056783",
+        "TCE000016368",
+        "TCE000056781"
+      ]
+    },
+    "TCE000046366": {
+      "contentHash": "582c825c76b790206e2b0e6ef66f68e791904991c3a7652486cc0385b914c7f8",
+      "syncedAt": "2026-07-17 13:07:39",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000046366/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "alternativeProductCodes": [
+        "TCE000065941",
+        "TCE000032783"
+      ]
+    }
+  },
+  "lastRun": {
+    "syncedCount": 0,
+    "skippedCount": 5
+  }
+}

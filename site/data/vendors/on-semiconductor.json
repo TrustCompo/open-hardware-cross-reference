@@ -1,18 +1,6 @@
 [
   {
     "confidence": 100,
-    "dataPath": "data/parts/tce000041557.json",
-    "discontinuationStatus": "eol",
-    "generatedAt": "2026-07-17 13:07:18",
-    "pagePath": "parts/tce000041557/index.html",
-    "partNumber": "TCE000041557",
-    "partNumberSlug": "tce000041557",
-    "targetProductCode": "TCE000041557",
-    "targetProductName": "NJM064M",
-    "vendor": "Nisshinbo Micro Devices Inc."
-  },
-  {
-    "confidence": 100,
     "dataPath": "data/parts/tce000041826.json",
     "discontinuationStatus": "at-risk",
     "generatedAt": "2026-07-17 13:07:32",
@@ -22,18 +10,6 @@
     "targetProductCode": "TCE000041826",
     "targetProductName": "NCP1117ST25T3G",
     "vendor": "ON Semiconductor"
-  },
-  {
-    "confidence": 100,
-    "dataPath": "data/parts/tce000046366.json",
-    "discontinuationStatus": "production",
-    "generatedAt": "2026-07-17 13:07:39",
-    "pagePath": "parts/tce000046366/index.html",
-    "partNumber": "TCE000046366",
-    "partNumberSlug": "tce000046366",
-    "targetProductCode": "TCE000046366",
-    "targetProductName": "OP2177ARZ-REEL7",
-    "vendor": "Analog Devices Inc./Maxim Integrated"
   },
   {
     "confidence": 100,

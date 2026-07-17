@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://trustcompo.github.io/open-hardware-cross-reference/</loc>
-  </url>
+  <url><loc>https://trustcompo.github.io/open-hardware-cross-reference/</loc></url>
+  <url><loc>https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000041557/</loc></url>
+  <url><loc>https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000041826/</loc></url>
+  <url><loc>https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000046366/</loc></url>
+  <url><loc>https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000056779/</loc></url>
+  <url><loc>https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000056780/</loc></url>
 </urlset>

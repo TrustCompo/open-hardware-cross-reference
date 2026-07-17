@@ -1,0 +1,564 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Active"
+        }
+      ],
+      "target": "Active"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "REACH Unaffected"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "REACH Unaffected"
+        }
+      ],
+      "target": "REACH Unaffected"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "EAR99"
+        }
+      ],
+      "target": "EAR99"
+    },
+    {
+      "attribute": "Lead Free",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Contains Lead"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Contains Lead"
+        }
+      ],
+      "target": "Contains Lead"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "Surface Mount"
+    },
+    {
+      "attribute": "Factory Lead Time",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "16 Weeks"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "16 Weeks"
+        }
+      ],
+      "target": "8 Weeks"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Tube"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Tube"
+        }
+      ],
+      "target": "Tape & Reel (TR)"
+    },
+    {
+      "attribute": "Categories",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Integrated Circuits (ICs)"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Integrated Circuits (ICs)"
+        }
+      ],
+      "target": "Integrated Circuits (ICs)"
+    },
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Peak Reflow Temperature (Cel)",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "260"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "260"
+        }
+      ],
+      "target": "260"
+    },
+    {
+      "attribute": "Terminal Form",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "GULL WING"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "GULL WING"
+        }
+      ],
+      "target": "GULL WING"
+    },
+    {
+      "attribute": "Operating Temperature",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "-40C~125C"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "-40°C~125°C"
+        }
+      ],
+      "target": "-40°C~125°C"
+    },
+    {
+      "attribute": "Supply Voltage",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "5V"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "5V"
+        }
+      ],
+      "target": "5V"
+    },
+    {
+      "attribute": "Packing Method",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "-"
+        }
+      ],
+      "target": "TAPE AND REEL"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "8-SOIC (0.154, 3.90mm Width)"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "8-SOIC (0.154, 3.90mm Width)"
+        }
+      ],
+      "target": "8-SOIC (0.154, 3.90mm Width)"
+    },
+    {
+      "attribute": "Subcategory",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Operational Amplifier"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Operational Amplifier"
+        }
+      ],
+      "target": "Operational Amplifier"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "PRODUCTION"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "PRODUCTION (Last Updated: 1 month ago)"
+        }
+      ],
+      "target": "PRODUCTION (Last Updated: 1 week ago)"
+    },
+    {
+      "attribute": "Sub-Categories",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
+        }
+      ],
+      "target": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "production",
+  "evidenceSummary": [],
+  "generatedAt": "2026-07-17 13:07:39",
+  "partNumber": "TCE000046366",
+  "reasoning": "ADA4177-2ARZ is a protected precision dual op amp with 32V beyond-rail input overvoltage tolerance and 70dB EMI rejection, making it the more rugged OP2177 replacement for noisy or fault-prone field environments.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1 (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Package Parameter": {
+          "Height Seated (Max)": "1.75mm"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "6MHz",
+          "Base Part Number": "ADA4177",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "125dB",
+          "Contact Plating": "Tin",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "16 Weeks",
+          "Gain Bandwidth Product": "3.5MHz",
+          "Height": "1.5mm",
+          "Input Capacitance": "5pF",
+          "Input Offset Voltage (Vos)": "15uV",
+          "Input Voltage Noise Density": "8nV/sqrt Hz",
+          "Lead Free": "Contains Lead",
+          "Length": "5mm",
+          "Lifecycle Status": "PRODUCTION",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "ADA4177-2ARZ",
+          "Mounting Type": "Surface Mount",
+          "Number of Functions": "2",
+          "Number of Pins": "8",
+          "Number of Terminations": "8",
+          "Offset Voltage Drift": "0.1uV/C",
+          "Operating Supply Current": "500uA",
+          "Operating Temperature": "-40C~125C",
+          "Output Current per Channel": "24mA",
+          "Package / Case": "8-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "8",
+          "Qualification Status": "Not Qualified",
+          "Quiescent Current": "1mA",
+          "REACH Status": "REACH Unaffected",
+          "Reflow Temperature-Max (s)": "30",
+          "Slew Rate": "1.5V/us",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "5V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Position": "DUAL",
+          "Weight": "540mg",
+          "Width": "4mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "General Purpose",
+          "Average Bias Current-Max (IIB)": "0.0003uA",
+          "Bias Current-Max (IIB) @25C": "0.0003uA",
+          "Current - Input Bias": "300pA",
+          "Current - Output / Channel": "24mA",
+          "EMI Rejection": "70dB at 1000MHz",
+          "Frequency Compensation": "YES",
+          "Input Overvoltage Protection": "32V beyond either supply rail",
+          "Low-Offset": "YES",
+          "Max Frequency": "1kHz",
+          "Micropower": "YES",
+          "Neg Supply Voltage-Nom (Vsup)": "-5V",
+          "Number of Channels": "2",
+          "Power Supply Rejection Ratio (PSRR)": "125dB",
+          "Supply Current-Max": "1.2mA",
+          "Unity Gain BW-Nom": "3500kHz",
+          "Voltage - Input Offset": "15uV",
+          "Voltage - Supply, Single/Dual (±)": "5V~30V ±2.5V~15V",
+          "Voltage Gain": "130dB"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "ADA4177-2ARZ is a protected precision dual op amp with 32V beyond-rail input overvoltage tolerance and 70dB EMI rejection, making it the more rugged OP2177 replacement for noisy or fault-prone field environments."
+      ],
+      "fitScore": 60,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000065941",
+      "productName": "ADA4177-2ARZ",
+      "productOverview": "ADA4177-2ARZ is a dual precision operational amplifier that adds robust input overvoltage protection and EMI filtering while preserving low offset, low drift, and low bias current behavior. It is a strong precision drop-in path for OP2177 designs that need tougher field robustness, 32V beyond-rail input survivability, and 70dB EMI rejection at 1000MHz.",
+      "reason": "ADA4177-2ARZ is a protected precision dual op amp with 32V beyond-rail input overvoltage tolerance and 70dB EMI rejection, making it the more rugged OP2177 replacement for noisy or fault-prone field environments.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    },
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "4MHz",
+          "Base Part Number": "ADA4077",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "128 dB",
+          "Contact Plating": "Tin",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "16 Weeks",
+          "Gain Bandwidth Product": "3.6MHz",
+          "Height": "1.5mm",
+          "Input Capacitance": "5pF",
+          "Input Offset Voltage (Vos)": "35μV",
+          "Input Voltage Noise Density": "8nV/sqrt Hz",
+          "Lead Free": "Contains Lead",
+          "Length": "5mm",
+          "Lifecycle Status": "PRODUCTION (Last Updated: 1 month ago)",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "ADA4077-2ARZ",
+          "Mounting Type": "Surface Mount",
+          "Number of Functions": "2",
+          "Number of Pins": "8",
+          "Number of Terminations": "8",
+          "Operating Supply Current": "400μA",
+          "Operating Temperature": "-40°C~125°C",
+          "Output Current per Channel": "22mA",
+          "Package / Case": "8-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "8",
+          "Qualification Status": "Not Qualified",
+          "Quiescent Current": "400μA",
+          "REACH Status": "REACH Unaffected",
+          "Reflow Temperature-Max (s)": "30",
+          "Slew Rate": "1.2V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "5V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Terminal Position": "DUAL",
+          "Weight": "540.001716mg",
+          "Width": "4mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "General Purpose",
+          "Average Bias Current-Max (IIB)": "0.0015μA",
+          "Bias Current-Max (IIB) @25C": "0.001μA",
+          "Current - Input Bias": "400pA",
+          "Current - Output / Channel": "10mA",
+          "Frequency Compensation": "YES",
+          "Low-Offset": "YES",
+          "Max Frequency": "1kHz",
+          "Micropower": "YES",
+          "Neg Supply Voltage-Nom (Vsup)": "-5V",
+          "Number of Channels": "2",
+          "Power Supply Rejection Ratio (PSRR)": "128dB",
+          "Supply Current-Max": "1.3mA",
+          "Unity Gain BW-Nom": "3900 kHz",
+          "Voltage - Input Offset": "15μV",
+          "Voltage - Supply, Single/Dual (±)": "±5V~15V",
+          "Voltage Gain": "130dB"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "",
+      "description": "",
+      "fitNotes": [
+        "ADA4077-2ARZ is the comprehensive precision upgrade path for OP2177, with lower bias current and drift plus higher bandwidth and slew rate for the same 8-SOIC signal-chain footprint."
+      ],
+      "fitScore": 60,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000032783",
+      "productName": "ADA4077-2ARZ",
+      "productOverview": "IC OPAMP GP 3.9MHZ 8SOIC",
+      "reason": "ADA4077-2ARZ is the comprehensive precision upgrade path for OP2177, with lower bias current and drift plus higher bandwidth and slew rate for the same 8-SOIC signal-chain footprint.",
+      "series": "",
+      "slug": "",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": ""
+    }
+  ],
+  "sourceReportFile": "api:/product/cross-references",
+  "target": {
+    "attributeGroups": {
+      "Export Classifications & Environmental": {
+        "ECCN Code": "EAR99",
+        "HTSUS": "8542.33.0001",
+        "JESD-609 Code": "e3",
+        "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+        "RoHS Status": "ROHS3 Compliant"
+      },
+      "Package Parameter": {
+        "Height Seated (Max)": "1.75mm"
+      },
+      "Product Attribute": {
+        "Architecture": "VOLTAGE-FEEDBACK",
+        "Base Part Number": "OP2177",
+        "Categories": "Integrated Circuits (ICs)",
+        "Common Mode Rejection Ratio": "125 dB",
+        "ECCN": "EAR99",
+        "Factory Lead Time": "8 Weeks",
+        "Gain Bandwidth Product": "1.3MHz",
+        "Input Offset Voltage (Vos)": "75μV",
+        "Lead Free": "Contains Lead",
+        "Length": "4.9mm",
+        "Lifecycle Status": "PRODUCTION (Last Updated: 1 week ago)",
+        "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+        "Manufacturer's Part No.": "OP2177ARZ-REEL7",
+        "Max Input Voltage": "15V",
+        "Mounting Type": "Surface Mount",
+        "Nominal Supply Current": "400μA",
+        "Number of Functions": "2",
+        "Number of Pins": "8",
+        "Number of Terminations": "8",
+        "Operating Supply Current": "1mA",
+        "Operating Temperature": "-40°C~125°C",
+        "Output Current": "10mA",
+        "Output Current per Channel": "10mA",
+        "Package / Case": "8-SOIC (0.154, 3.90mm Width)",
+        "Packaging": "Tape & Reel (TR)",
+        "Packing Method": "TAPE AND REEL",
+        "Part Status": "Active",
+        "Pbfree Code": "no",
+        "Peak Reflow Temperature (Cel)": "260",
+        "Pin Count": "8",
+        "Quiescent Current": "500μA",
+        "REACH Status": "REACH Unaffected",
+        "Radiation Hardening": "No",
+        "Reflow Temperature-Max (s)": "30",
+        "Slew Rate": "0.7V/μs",
+        "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+        "Subcategory": "Operational Amplifier",
+        "Supply Voltage": "5V",
+        "Surface Mount": "YES",
+        "Technology": "BIPOLAR",
+        "Terminal Form": "GULL WING"
+      },
+      "Product Parameter": {
+        "Amplifier Type": "General Purpose",
+        "Current - Input Bias": "500pA",
+        "Frequency Compensation": "YES",
+        "Low-Bias": "NO",
+        "Low-Offset": "YES",
+        "Micropower": "YES",
+        "Neg Supply Voltage-Nom (Vsup)": "-5V",
+        "Number of Channels": "2",
+        "Power Supply Rejection Ratio (PSRR)": "125dB",
+        "Programmable Power": "NO",
+        "Supply Type": "Dual",
+        "Terminal Finish": "Matte Tin (Sn)",
+        "Unity Gain BW-Nom": "1300 kHz",
+        "Voltage - Input Offset": "15μV",
+        "Voltage - Supply, Single/Dual (±)": "5V~36V ±2.5V~18V",
+        "Voltage Gain": "126.02dB",
+        "Wideband": "NO"
+      }
+    },
+    "brandName": "Analog Devices Inc./Maxim Integrated",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "",
+    "description": "",
+    "package": "",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000046366",
+    "productName": "OP2177ARZ-REEL7",
+    "productOverview": "IC OPAMP GP 1.3MHZ 8SOIC",
+    "series": "",
+    "slug": "",
+    "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+    "url": ""
+  },
+  "vendor": "Analog Devices Inc./Maxim Integrated"
+}
