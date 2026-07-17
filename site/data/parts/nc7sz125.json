@@ -471,9 +471,57 @@
   ],
   "confidence": 100,
   "discontinuationStatus": "at-risk",
-  "evidenceSummary": [],
-  "generatedAt": "2026-07-17 13:07:36",
-  "partNumber": "TCE000056779",
+  "displayPartNumber": "NC7SZ125",
+  "evidenceSummary": [
+    {
+      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "signals": [
+        "datasheet",
+        "target-part"
+      ],
+      "sourceType": "catalog-datasheet",
+      "title": "NC7SZ125 datasheet",
+      "url": "https://www.onsemi.com/download/data-sheet/pdf/nc7sz125-d.pdf"
+    },
+    {
+      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as at-risk. Reconfirm against current manufacturer notices before release.",
+      "signals": [
+        "at-risk"
+      ],
+      "sourceType": "catalog-lifecycle",
+      "title": "NC7SZ125 lifecycle note",
+      "url": ""
+    },
+    {
+      "excerpt": "Functional alternative to the obsolete onsemi NC7SZ125. SN74AHC1G125DBVR is the TI AHC (Advanced High-Speed CMOS) single bus buffer gate in SOT-23-5 with the same pinout and 3-state output enable as NC7SZ125. AHC family operates at 2 V to 5.5 V VCC and provides higher output driv",
+      "signals": [
+        "functional"
+      ],
+      "sourceType": "alternative-datasheet",
+      "title": "SN74AHC1G125DBVR datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahc1g125.pdf"
+    },
+    {
+      "excerpt": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from TI. SN74AUP1G125DBVR is the TI AUP-family single bus buffer gate in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Listed in TI's Little Logic Guide as the cross-reference for the NC7SZ family. Lower-pow",
+      "signals": [
+        "p2p"
+      ],
+      "sourceType": "alternative-datasheet",
+      "title": "SN74AUP1G125DBVR datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g125.pdf"
+    },
+    {
+      "excerpt": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125. Same SOT-23-5 footprint, same pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), same 3-state buffer function, similar propagation delay (~2.5 ns at 3.3 V vs ~2.0 ns for NC7SZ125). The SN74LVC1G125 family from TI is the industry-standa",
+      "signals": [
+        "p2p"
+      ],
+      "sourceType": "alternative-datasheet",
+      "title": "SN74LVC1G125DBVR datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+    }
+  ],
+  "generatedAt": "2026-07-17 13:26:34",
+  "partNumber": "NC7SZ125",
   "reasoning": "Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, <1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ's UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ's UHS current is excessive.",
   "replacementCandidates": [
     {
@@ -498,24 +546,24 @@
       "bucket": "Functional",
       "categoryName": "Analog & Logic ICs",
       "datasheetUrl": "",
-      "description": "",
+      "description": "Single buffer/line driver (3-state)",
       "fitNotes": [
         "Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, <1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ's UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ's UHS current is excessive."
       ],
       "fitScore": 60,
-      "package": "",
+      "package": "SOT353-1",
       "pricing": {
         "priceRange": "",
         "unitPrice": ""
       },
       "productCode": "TCE000014499",
       "productName": "74AUP1G125GW",
-      "productOverview": "",
+      "productOverview": "Single buffer/line driver (3-state)",
       "reason": "Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, <1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ's UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ's UHS current is excessive.",
-      "series": "",
-      "slug": "",
+      "series": "AUP",
+      "slug": "74AUP1G125GW",
       "subCategoryName": "Logic",
-      "url": ""
+      "url": "https://www.trustcompo.com/product/detail/74AUP1G125GW"
     },
     {
       "attributeGroups": {
@@ -541,13 +589,13 @@
       "brandName": "Texas Instruments",
       "bucket": "Functional",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "",
-      "description": "",
+      "datasheetUrl": "https://www.ti.com/lit/ds/symlink/sn74ahc1g125.pdf",
+      "description": "Single 2 V to 5.5 V bus buffer gate with 3-state output, SOT-23-5. Functional alternative to onsemi NC7SZ125 with higher drive strength.",
       "fitNotes": [
         "Functional alternative to the obsolete onsemi NC7SZ125. SN74AHC1G125DBVR is the TI AHC (Advanced High-Speed CMOS) single bus buffer gate in SOT-23-5 with the same pinout and 3-state output enable as NC7SZ125. AHC family operates at 2 V to 5.5 V VCC and provides higher output drive (±8 mA) than UHS NC7SZ. Same 3-state buffer function but functionally equivalent for applications where the higher drive is acceptable. Use as drop-in when design needs more output drive than the low-power NC7SZ can deliver."
       ],
       "fitScore": 60,
-      "package": "",
+      "package": "SOT-23-5",
       "pricing": {
         "priceRange": "",
         "unitPrice": ""
@@ -556,10 +604,10 @@
       "productName": "SN74AHC1G125DBVR",
       "productOverview": "SN74AHC1G125DBVR is TI's SOT-23-5 single bus buffer gate with 3-state output in the AHC (Advanced High-Speed CMOS) family. Operating voltage 2 V to 5.5 V, ±8 mA output drive, ~3.5 ns propagation delay at 5 V. Pin-for-pin compatible with onsemi NC7SZ125 (SOT-23-5, same pinout). AHC is the legacy higher-drive equivalent of LVC; same 3-state buffer function. Suitable as functional alternative where higher drive current is required (vs the lower-power UHS NC7SZ family).",
       "reason": "Functional alternative to the obsolete onsemi NC7SZ125. SN74AHC1G125DBVR is the TI AHC (Advanced High-Speed CMOS) single bus buffer gate in SOT-23-5 with the same pinout and 3-state output enable as NC7SZ125. AHC family operates at 2 V to 5.5 V VCC and provides higher output drive (±8 mA) than UHS NC7SZ. Same 3-state buffer function but functionally equivalent for applications where the higher drive is acceptable. Use as drop-in when design needs more output drive than the low-power NC7SZ can deliver.",
-      "series": "",
-      "slug": "",
+      "series": "SN74AHC1G125",
+      "slug": "SN74AHC1G125DBVR",
       "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
-      "url": ""
+      "url": "https://www.trustcompo.com/product/detail/SN74AHC1G125DBVR"
     },
     {
       "attributeGroups": {
@@ -585,13 +633,13 @@
       "brandName": "Texas Instruments",
       "bucket": "P2P",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "",
-      "description": "",
+      "datasheetUrl": "https://www.ti.com/lit/ds/symlink/sn74aup1g125.pdf",
+      "description": "Single low-power single bus buffer gate with 3-state output, 0.8 V to 3.3 V VCC, SOT-23-5. P2P drop-in for onsemi NC7SZ125 in ultra-low-power applications.",
       "fitNotes": [
         "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from TI. SN74AUP1G125DBVR is the TI AUP-family single bus buffer gate in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Listed in TI's Little Logic Guide as the cross-reference for the NC7SZ family. Lower-power variant of LVC with 0.8 V to 3.6 V VCC range; compatible at the 1.8 V to 3.3 V operating range where NC7SZ is typically deployed. Recommended when the application is in the 1.8 V core logic domain."
       ],
       "fitScore": 80,
-      "package": "",
+      "package": "SOT-23-5",
       "pricing": {
         "priceRange": "",
         "unitPrice": ""
@@ -600,10 +648,10 @@
       "productName": "SN74AUP1G125DBVR",
       "productOverview": "SN74AUP1G125DBVR is TI's SOT-23-5 single low-power bus buffer gate with 3-state output. AUP family supports 0.8 V to 3.6 V VCC, ~0.9 ns propagation delay at 3.3 V, <1 uA quiescent current. Pin-for-pin drop-in for onsemi NC7SZ125 (SOT-23-5, same pinout 1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Listed in TI's Little Logic Guide as the industry cross-reference for the NC7SZ family. Lower power and lower voltage than NC7SZ; compatible at the 1.8 V to 3.3 V operating range where NC7SZ is typically deployed.",
       "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from TI. SN74AUP1G125DBVR is the TI AUP-family single bus buffer gate in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Listed in TI's Little Logic Guide as the cross-reference for the NC7SZ family. Lower-power variant of LVC with 0.8 V to 3.6 V VCC range; compatible at the 1.8 V to 3.3 V operating range where NC7SZ is typically deployed. Recommended when the application is in the 1.8 V core logic domain.",
-      "series": "",
-      "slug": "",
+      "series": "SN74AUP1G125",
+      "slug": "SN74AUP1G125DBVR",
       "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
-      "url": ""
+      "url": "https://www.trustcompo.com/product/detail/SN74AUP1G125DBVR"
     },
     {
       "attributeGroups": {
@@ -627,24 +675,24 @@
       "bucket": "P2P",
       "categoryName": "Analog & Logic ICs",
       "datasheetUrl": "",
-      "description": "",
+      "description": "Single buffer/line driver; TTL enabled (3-state)",
       "fitNotes": [
         "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from Nexperia. 74LVC1G125GV is the Nexperia / NXP equivalent in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), 1.65 V to 5.5 V VCC range, and the same CMOS 3-state buffer topology. Industry-standard cross-vendor drop-in for the TinyLogic NC7SZ family. Same 3-state output enable behavior, same quiescent current class."
       ],
       "fitScore": 80,
-      "package": "",
+      "package": "SOT753",
       "pricing": {
         "priceRange": "",
         "unitPrice": ""
       },
       "productCode": "TCE000016368",
       "productName": "74LVC1G125GV",
-      "productOverview": "",
+      "productOverview": "Single buffer/line driver; TTL enabled (3-state)",
       "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125 from Nexperia. 74LVC1G125GV is the Nexperia / NXP equivalent in SOT-23-5 with identical pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), 1.65 V to 5.5 V VCC range, and the same CMOS 3-state buffer topology. Industry-standard cross-vendor drop-in for the TinyLogic NC7SZ family. Same 3-state output enable behavior, same quiescent current class.",
-      "series": "",
-      "slug": "",
+      "series": "LVC",
+      "slug": "74LVC1G125GV",
       "subCategoryName": "Logic",
-      "url": ""
+      "url": "https://www.trustcompo.com/product/detail/74LVC1G125GV"
     },
     {
       "attributeGroups": {
@@ -676,13 +724,13 @@
       "brandName": "Texas Instruments",
       "bucket": "P2P",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "",
-      "description": "",
+      "datasheetUrl": "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf",
+      "description": "Single 1.65 V to 5.5 V bus buffer gate with 3-state output, SOT-23-5. Pin-compatible direct P2P replacement for onsemi NC7SZ125.",
       "fitNotes": [
         "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125. Same SOT-23-5 footprint, same pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), same 3-state buffer function, similar propagation delay (~2.5 ns at 3.3 V vs ~2.0 ns for NC7SZ125). The SN74LVC1G125 family from TI is the industry-standard cross-vendor alternative and the recommended direct replacement per Z2Data and Ovaga part cross-reference. Operating voltage range is identical (1.65 V to 5.5 V). onsemi has marked NC7SZ125 as 'DISCONTINUED' in the official datasheet (Rev. 4, Page 5)."
       ],
       "fitScore": 100,
-      "package": "",
+      "package": "SOT-23-5",
       "pricing": {
         "priceRange": "",
         "unitPrice": ""
@@ -691,10 +739,10 @@
       "productName": "SN74LVC1G125DBVR",
       "productOverview": "SN74LVC1G125DBVR is TI's SOT-23-5 single bus buffer gate with 3-state output (active-low OE). LVC family supports 1.65 V to 5.5 V VCC, ±24 mA output drive, 3.7 ns propagation delay at 3.3 V. Pin-for-pin drop-in for onsemi NC7SZ125 (SOT-23-5 footprint, identical pinout: 1=OE, 2=A, 3=GND, 4=Y, 5=VCC). Industry-standard cross-reference listed on Z2Data and Ovaga for the obsolete onsemi NC7SZ125. Same CMOS topology, same 3-state output, same quiescent current class.",
       "reason": "Pin-to-pin P2P drop-in for the obsolete onsemi NC7SZ125. Same SOT-23-5 footprint, same pinout (1=OE, 2=A, 3=GND, 4=Y, 5=VCC), same 3-state buffer function, similar propagation delay (~2.5 ns at 3.3 V vs ~2.0 ns for NC7SZ125). The SN74LVC1G125 family from TI is the industry-standard cross-vendor alternative and the recommended direct replacement per Z2Data and Ovaga part cross-reference. Operating voltage range is identical (1.65 V to 5.5 V). onsemi has marked NC7SZ125 as 'DISCONTINUED' in the official datasheet (Rev. 4, Page 5).",
-      "series": "",
-      "slug": "",
+      "series": "SN74LVC1G125",
+      "slug": "SN74LVC1G125DBVR",
       "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
-      "url": ""
+      "url": "https://www.trustcompo.com/product/detail/SN74LVC1G125DBVR"
     }
   ],
   "sourceReportFile": "api:/product/cross-references",
@@ -726,9 +774,9 @@
     },
     "brandName": "ON Semiconductor",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "",
-    "description": "",
-    "package": "",
+    "datasheetUrl": "https://www.onsemi.com/download/data-sheet/pdf/nc7sz125-d.pdf",
+    "description": "Single UHS buffer gate with 3-state output, TinyLogic UHS series, SOT-23-5. Discontinued by onsemi (2025).",
+    "package": "SOT-23-5",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
@@ -736,10 +784,10 @@
     "productCode": "TCE000056779",
     "productName": "NC7SZ125",
     "productOverview": "NC7SZ125 is onsemi's single TinyLogic UHS buffer / line driver with three-state output in SOT-23-5. Fabricated in advanced CMOS, propagation delay ~2.0 ns at 5 V, quiescent current <1 µA. onsemi has marked this family 'DISCONTINUED: These devices are not available' in the official datasheet Rev. 4 (Page 5). For new designs use SN74LVC1G125DBVR (TI) which is the industry-standard pin-compatible drop-in.",
-    "series": "",
-    "slug": "",
+    "series": "TinyLogic UHS",
+    "slug": "NC7SZ125",
     "subCategoryName": "Logic - Buffers, Drivers, Receivers, Transceivers",
-    "url": ""
+    "url": "https://www.trustcompo.com/product/detail/NC7SZ125"
   },
   "vendor": "ON Semiconductor"
 }

@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-07-17 13:08:17",
+  "generatedAt": "2026-07-17 13:26:36",
+  "workflowVersion": "2026-07-17-quality-gated-v2",
   "environment": "prod",
   "repoPath": "/home/chenxiaosen/workspace/trustcompo-open-source/repos/open-hardware-cross-reference",
   "repoProgressFile": "site/data/sync-progress.json",
@@ -15,9 +16,12 @@
   "sourceProducts": {
     "TCE000041557": {
       "contentHash": "ea86db02e8be4100041232ec748cf41c0a07e3fd111b2da00423bd6c9cff7c26",
-      "syncedAt": "2026-07-17 13:07:18",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000041557/",
+      "syncedAt": "2026-07-17 13:26:19",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/njm064m/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/nisshinbo-micro-devices-inc/",
+      "displayPartNumber": "NJM064M",
       "alternativeProductCodes": [
         "TCE000039147",
         "TCE000033962",
@@ -30,9 +34,12 @@
     },
     "TCE000056780": {
       "contentHash": "28ddf3824d9dc0bf3667e41e85b482a0164590eb22306ff211b3e3b2a38d770e",
-      "syncedAt": "2026-07-17 13:07:23",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000056780/",
+      "syncedAt": "2026-07-17 13:26:23",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/bss138l/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/on-semiconductor/",
+      "displayPartNumber": "BSS138L",
       "alternativeProductCodes": [
         "TCE000048009",
         "TCE000042253",
@@ -43,9 +50,12 @@
     },
     "TCE000041826": {
       "contentHash": "17f624f0cfe57ac626c5863e4c731dd8e64f36e49080d10699b2ef7dfcc901dc",
-      "syncedAt": "2026-07-17 13:07:32",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000041826/",
+      "syncedAt": "2026-07-17 13:26:27",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ncp1117st25t3g/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/on-semiconductor/",
+      "displayPartNumber": "NCP1117ST25T3G",
       "alternativeProductCodes": [
         "TCE000056788",
         "TCE000056787",
@@ -56,9 +66,12 @@
     },
     "TCE000056779": {
       "contentHash": "0ba8395018ac35e7909bc691d072981122a46da44823d1bcaa41734b3f4bbf3d",
-      "syncedAt": "2026-07-17 13:07:36",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000056779/",
+      "syncedAt": "2026-07-17 13:26:34",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/nc7sz125/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/on-semiconductor/",
+      "displayPartNumber": "NC7SZ125",
       "alternativeProductCodes": [
         "TCE000014499",
         "TCE000056784",
@@ -69,9 +82,12 @@
     },
     "TCE000046366": {
       "contentHash": "582c825c76b790206e2b0e6ef66f68e791904991c3a7652486cc0385b914c7f8",
-      "syncedAt": "2026-07-17 13:07:39",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/tce000046366/",
+      "syncedAt": "2026-07-17 13:26:36",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/op2177arz-reel7/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "displayPartNumber": "OP2177ARZ-REEL7",
       "alternativeProductCodes": [
         "TCE000065941",
         "TCE000032783"
@@ -79,7 +95,8 @@
     }
   },
   "lastRun": {
-    "syncedCount": 0,
-    "skippedCount": 5
+    "syncedCount": 5,
+    "skippedCount": 0,
+    "gatedCount": 0
   }
 }

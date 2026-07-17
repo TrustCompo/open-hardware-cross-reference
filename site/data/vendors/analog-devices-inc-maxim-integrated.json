@@ -1,12 +1,12 @@
 [
   {
     "confidence": 100,
-    "dataPath": "data/parts/tce000046366.json",
+    "dataPath": "data/parts/op2177arz-reel7.json",
     "discontinuationStatus": "production",
-    "generatedAt": "2026-07-17 13:07:39",
-    "pagePath": "parts/tce000046366/index.html",
-    "partNumber": "TCE000046366",
-    "partNumberSlug": "tce000046366",
+    "generatedAt": "2026-07-17 13:26:36",
+    "pagePath": "parts/op2177arz-reel7/index.html",
+    "partNumber": "OP2177ARZ-REEL7",
+    "partNumberSlug": "op2177arz-reel7",
     "targetProductCode": "TCE000046366",
     "targetProductName": "OP2177ARZ-REEL7",
     "vendor": "Analog Devices Inc./Maxim Integrated"
