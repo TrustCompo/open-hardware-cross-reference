@@ -5,18 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BSS138L cross reference | TrustCompo Open Hardware Cross Reference</title>
   <meta name="description" content="Functional alternative to the obsolete onsemi BSS138L. Vishay Si2302CDS-T1-E3 is a 20 V N-channel MOSFET in SOT-23-3 with identical pinout (1=Gate, 2=Drain, 3=Source) to BSS138L. Much lower RDS(on) (0.045 Ω at Vgs = 4.5 V) and higher ID (2.6 A) than BSS138L. ONLY use as functional drop-in when the application stays below 20 V VDS (e.g. 3.3 V or 5 V rail-level shifting). NOT a substitute in 24 V or 48 V circuits. Verify VDS margin before substitution.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
-      --bg: #f5f1e8;
-      --ink: #1d2a35;
-      --muted: #52606d;
-      --line: #d4c9b8;
-      --card: #fffdf8;
-      --accent: #b5522d;
-      --accent-soft: #f7dfd4;
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --card: rgba(255,253,248,0.96);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --accent-ink: #6a2f17;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #efe6d5 0%, var(--bg) 45%, #fbfaf6 100%); color: var(--ink); }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.10), transparent 28%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 24%),
+      linear-gradient(180deg, #eee4d4 0%, var(--bg) 42%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
     main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
     .hero { background: rgba(255,253,248,0.92); border: 1px solid var(--line); border-radius: 24px; padding: 28px; box-shadow: 0 18px 48px rgba(29,42,53,0.08); }
     .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
@@ -29,7 +34,7 @@
     .meta-card { padding: 16px; }
     .section { margin-top: 22px; padding: 22px; }
     .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
-    .button.secondary { background: var(--accent-soft); color: var(--accent); }
+    .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
     .candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
     .candidate-card { padding: 18px; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -37,6 +42,8 @@
     th { background: #f7f2e8; }
     .evidence-list { padding-left: 18px; }
     a { color: var(--accent); }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .hero h1, .section strong { font-variant-numeric: tabular-nums; }
   </style>
 </head>
 <body>
@@ -44,9 +51,8 @@
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>BSS138L</h1>
-      <p class="muted">TrustCompo code: TCE000056780</p>
       <p>Functional alternative to the obsolete onsemi BSS138L. Vishay Si2302CDS-T1-E3 is a 20 V N-channel MOSFET in SOT-23-3 with identical pinout (1=Gate, 2=Drain, 3=Source) to BSS138L. Much lower RDS(on) (0.045 Ω at Vgs = 4.5 V) and higher ID (2.6 A) than BSS138L. ONLY use as functional drop-in when the application stays below 20 V VDS (e.g. 3.3 V or 5 V rail-level shifting). NOT a substitute in 24 V or 48 V circuits. Verify VDS margin before substitution.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/BSS138L">Open TrustCompo product page</a><a class="button secondary" href="https://datasheet.trustcompo.com/on-semiconductor-bss138l.pdf">View datasheet</a></div>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/BSS138L">Open TrustCompo product page</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/BSS138L/datasheet">View datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>at-risk</div>
         <div class="meta-card"><strong>Confidence</strong><br>100</div>
@@ -59,48 +65,48 @@
 
     <section class="section">
       <h2>Target product summary</h2>
-      <p><strong>BSS138L</strong> · TCE000056780</p>
+      <p><strong>BSS138L</strong></p>
       <p>BSS138L is onsemi&#x27;s SOT-23-3 N-channel logic-level enhancement mode MOSFET rated 50 V VDS, 200 mA ID, 3.5 Ω Rds(on) at Vgs = 4.5 V, 350 mW Pd. onsemi product page (2025) shows lifecycle status &#x27;Last Shipments&#x27; — the onsemi lifecycle glossary defines &#x27;Last Shipments&#x27; as a 6-month period of final shipments, after which the part becomes Obsolete. DigiKey lists Part Status as &#x27;Obsolete&#x27; for BSS138L. Direct P2P drop-in: Diodes Incorporated BSS138-7-F (SOT-23-3, 50 V, 200 mA, 3.5 Ω Rds(on)) — identical pinout and pin-for-pin spec match.</p>
-      <p class="muted">Series: BSS138 | Datasheet: https://datasheet.trustcompo.com/on-semiconductor-bss138l.pdf</p>
+      <p class="muted">Series: BSS138 | Datasheet landing page: https://www.trustcompo.com/product/detail/BSS138L/datasheet | TrustCompo code: TCE000056780</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/SI2302CDS-T1-E3">SI2302CDS-T1-E3</a></h3>
-<p><strong>TCE000048009</strong> · Functional · Fit score 40</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/SI2302CDS-T1-E3">SI2302CDS-T1-E3</a></h3>
+<p><strong>Functional</strong> · Fit score 40</p>
 <p>MOSFET N-CH 20V 2.6A SOT-23</p>
 <p class="muted">Package: SOT-23 | Series: TrenchFET® | Unit price: -</p>
-<p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lead Free: Lead Free</p>
+<p class="muted">Terminal Finish: Matte Tin (Sn); Number of Channels: 1; Number of Elements: 1; Turn-Off Delay Time: 30 ns</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/2N7002K-7">2N7002K-7</a></h3>
-<p><strong>TCE000042253</strong> · Functional · Fit score 60</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/2N7002K-7">2N7002K-7</a></h3>
+<p><strong>Functional</strong> · Fit score 60</p>
 <p>MOSFET N-CH 60V 0.38A SOT23-3</p>
 <p class="muted">Package: SOT23 | Series: - | Unit price: -</p>
 <p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lead Free: Lead Free</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/BSN20-7">BSN20-7</a></h3>
-<p><strong>TCE000055878</strong> · P2P · Fit score 80</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/BSN20-7">BSN20-7</a></h3>
+<p><strong>P2P</strong> · Fit score 80</p>
 <p>MOSFET N-CH 50V 500MA SOT23</p>
 <p class="muted">Package: SOT23 | Series: - | Unit price: -</p>
 <p class="muted">Number of Channels: 1; Number of Elements: 1; Turn-Off Delay Time: 9.45 ns; Rise Time: 2.99ns</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/BSS138N">BSS138N</a></h3>
-<p><strong>TCE000056789</strong> · P2P · Fit score 100</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/BSS138N">BSS138N</a></h3>
+<p><strong>P2P</strong> · Fit score 100</p>
 <p>N-channel logic-level enhancement mode MOSFET, 60 V, 0.23 A, SOT-23-3. Pin-to-pin drop-in replacement for onsemi BSS138L.</p>
 <p class="muted">Package: SOT-23-3 | Series: BSS138 | Unit price: -</p>
 <p class="muted">Mounting Type: Surface Mount; Manufacturer: Infineon Technologies; Pin Count: 3; Lifecycle Status: Active</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/BSS138-7-F">BSS138-7-F</a></h3>
-<p><strong>TCE000032963</strong> · P2P · Fit score 100</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/BSS138-7-F">BSS138-7-F</a></h3>
+<p><strong>P2P</strong> · Fit score 100</p>
 <p>MOSFET N-CH 50V 200MA SOT23-3</p>
 <p class="muted">Package: SOT23 | Series: - | Unit price: -</p>
-<p class="muted">JESD-609 Code: e3; Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC</p>
+<p class="muted">Turn-Off Delay Time: 20 ns; Number of Channels: 1; Number of Elements: 1; Turn On Delay Time: 20 ns</p>
 </article>
       </div>
     </section>
@@ -110,12 +116,12 @@
       <table>
 <thead><tr>
 <th>Attribute</th>
-<th>TCE000056780</th>
-<th>TCE000048009</th>
-<th>TCE000042253</th>
-<th>TCE000055878</th>
-<th>TCE000056789</th>
-<th>TCE000032963</th>
+<th>BSS138L</th>
+<th>SI2302CDS-T1-E3</th>
+<th>2N7002K-7</th>
+<th>BSN20-7</th>
+<th>BSS138N</th>
+<th>BSS138-7-F</th>
 </tr></thead><tbody>
 <tr>
 <td>Part Number</td>
@@ -271,13 +277,13 @@
 <td>TO-236-3, SC-59, SOT-23-3</td>
 </tr>
 <tr>
-<td>Part Status</td>
+<td>Terminal Finish</td>
 <td>-</td>
-<td>Active</td>
-<td>Active</td>
-<td>Active</td>
+<td>Matte Tin (Sn)</td>
+<td>Matte Tin (Sn)</td>
 <td>-</td>
-<td>Active</td>
+<td>-</td>
+<td>-</td>
 </tr>
 </tbody></table>
     </section>

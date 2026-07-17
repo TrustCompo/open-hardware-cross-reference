@@ -579,35 +579,35 @@
       "target": "DMP-14 (DIP-14 compatible)"
     },
     {
-      "attribute": "Moisture Sensitivity Level (MSL)",
+      "attribute": "Part Status",
       "candidates": [
         {
           "productCode": "TCE000039147",
-          "value": "1  (Unlimited)"
+          "value": "Active"
         },
         {
           "productCode": "TCE000033962",
-          "value": "1 (Unlimited)"
+          "value": "Active"
         },
         {
           "productCode": "TCE000037565",
-          "value": "1  (Unlimited)"
+          "value": "Active"
         },
         {
           "productCode": "TCE000008521",
-          "value": "1  (Unlimited)"
+          "value": "Active"
         },
         {
           "productCode": "TCE000030931",
-          "value": "1  (Unlimited)"
+          "value": "Active"
         },
         {
           "productCode": "TCE000037564",
-          "value": "1  (Unlimited)"
+          "value": "Active"
         },
         {
           "productCode": "TCE000041141",
-          "value": "1 (Unlimited)"
+          "value": "Active"
         }
       ],
       "target": "-"
@@ -646,7 +646,7 @@
       "url": "https://datasheet.trustcompo.com/stmicroelectronics-lf347dt.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 13:26:19",
+  "generatedAt": "2026-07-17 15:54:16",
   "partNumber": "NJM064M",
   "reasoning": "Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.",
   "replacementCandidates": [
@@ -840,7 +840,7 @@
       },
       "productCode": "TCE000033962",
       "productName": "TL084CD",
-      "productOverview": "<br/>The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient.<br/>Features<br/>• Wide common-mode (up to VCC+) and differential voltage range<br/>• Low input bias and offset current<br/>• Output short-circuit protection<br/>• High input impedance JFET input stage<br/>• Internal frequency compensation<br/>• Latch-up free operation<br/>• High slew rate: 16V/μs (typ)",
+      "productOverview": "The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient. Features • Wide common-mode (up to VCC+) and differential voltage range • Low input bias and offset current • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch-up free operation • High slew rate: 16V/μs (typ)",
       "reason": "Higher-speed TL084-family option. It belongs to the same broader quad J-FET op-amp lineage but is not the same low-power class as NJM064M, so treat it as a performance-variant shortlist item rather than a direct replacement.",
       "series": "-",
       "slug": "TL084CD",
@@ -938,7 +938,7 @@
       },
       "productCode": "TCE000037565",
       "productName": "TL064INSR",
-      "productOverview": "Description <br/>The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>Features <br/>• Very low power consumption: 200 µA <br/>• Wide common-mode (up to VCC+) and differential voltage ranges <br/>• Low input bias and offset currents <br/>• Output short-circuit protection <br/>• High input impedance JFET input stage <br/>• Internal frequency compensation <br/>• Latch up free operation <br/>• High slew rate: 3.5 V/µs",
+      "productOverview": "Description The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. Features • Very low power consumption: 200 µA • Wide common-mode (up to VCC+) and differential voltage ranges • Low input bias and offset currents • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch up free operation • High slew rate: 3.5 V/µs",
       "reason": "Industrial-temperature TL064 family alternative in narrow SOIC. Use only when moving away from the legacy DMP-14 package is acceptable.",
       "series": "-",
       "slug": "TL064INSR",
@@ -1043,7 +1043,7 @@
       },
       "productCode": "TCE000008521",
       "productName": "TL064IDR",
-      "productOverview": "Description:<br/>The LM78L05ACMX is a linear voltage regulator from Texas Instruments Integrated Circuits (ICs). It is a positive fixed regulator with one output and a maximum output current of 100mA. It has an operating temperature range of 0°C to 125°C and a surface mount mounting type. <br/>The input voltage range is 6.7V to 35V and the output voltage is 5V.<br/>Features of the LM78L05ACMX include low dropout voltage, low quiescent current, and low noise. It also has short circuit protection, thermal overload protection, and reverse polarity protection.Applications of the LM78L05ACMX include powering microcontrollers, digital signal processors, and other low power devices. It can also be used in battery-powered systems, automotive systems, and portable electronics.",
+      "productOverview": "Description: The LM78L05ACMX is a linear voltage regulator from Texas Instruments Integrated Circuits (ICs). It is a positive fixed regulator with one output and a maximum output current of 100mA. It has an operating temperature range of 0°C to 125°C and a surface mount mounting type. The input voltage range is 6.7V to 35V and the output voltage is 5V. Features of the LM78L05ACMX include low dropout voltage, low quiescent current, and low noise. It also has short circuit protection, thermal overload protection, and reverse polarity protection.Applications of the LM78L05ACMX include powering microcontrollers, digital signal processors, and other low power devices. It can also be used in battery-powered systems, automotive systems, and portable electronics.",
       "reason": "Industrial-temperature TL064 family functional alternative in SOIC-14. Electrical family is closer to NJM064 than the previous TL074-class shortlist, but package migration is still required.",
       "series": "-",
       "slug": "TL064IDR",
@@ -1143,7 +1143,7 @@
       },
       "productCode": "TCE000030931",
       "productName": "TL064ACDR",
-      "productOverview": "Description: <br/>The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is a four-channel amplifier with a unit weight of 0.004564 oz. It has an operating temperature range of 0°C to +70°C and a maximum operating temperature of +70°C. It has an operating supply current of 1 mA and no shutdown feature. <br/>The Vos-Input-Offset-Voltage is 6 mV and the en-Input-Voltage-Noise-Density is 42 nV/sqrt Hz. It is packaged in a SOIC-14 case and has a maximum supply voltage of 36 V.<br/>Features of the TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier include a low operating supply current of 1 mA, low Vos-Input-Offset-Voltage of 6 mV, and low en-Input-Voltage-Noise-Density of 42 nV/sqrt Hz. It also has a wide operating temperature range of 0°C to +70°C and a maximum supply voltage of 36 V.<br/>The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is suitable for a variety of applications, including signal conditioning, data acquisition, and instrumentation. It is also suitable for use in medical, industrial, and automotive applications.",
+      "productOverview": "Description: The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is a four-channel amplifier with a unit weight of 0.004564 oz. It has an operating temperature range of 0°C to +70°C and a maximum operating temperature of +70°C. It has an operating supply current of 1 mA and no shutdown feature. The Vos-Input-Offset-Voltage is 6 mV and the en-Input-Voltage-Noise-Density is 42 nV/sqrt Hz. It is packaged in a SOIC-14 case and has a maximum supply voltage of 36 V. Features of the TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier include a low operating supply current of 1 mA, low Vos-Input-Offset-Voltage of 6 mV, and low en-Input-Voltage-Noise-Density of 42 nV/sqrt Hz. It also has a wide operating temperature range of 0°C to +70°C and a maximum supply voltage of 36 V. The TL064ACDR Texas Instruments Integrated Circuits (ICs) Instrumentation Amplifier is suitable for a variety of applications, including signal conditioning, data acquisition, and instrumentation. It is also suitable for use in medical, industrial, and automotive applications.",
       "reason": "A-grade TL064 family functional alternative in SOIC-14. Use when the design needs a low-power J-FET quad op-amp from the TL064/NJM064 class and a surface-mount package is acceptable.",
       "series": "-",
       "slug": "TL064ACDR",
@@ -1241,7 +1241,7 @@
       },
       "productCode": "TCE000037564",
       "productName": "TL064BCDR",
-      "productOverview": "Description <br/>The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>Features <br/>• Very low power consumption: 200 µA <br/>• Wide common-mode (up to VCC+) and differential voltage ranges <br/>• Low input bias and offset currents <br/>• Output short-circuit protection <br/>• High input impedance JFET input stage <br/>• Internal frequency compensation <br/>• Latch up free operation <br/>• High slew rate: 3.5 V/µs",
+      "productOverview": "Description The TL064, TL064A and TL064B are high-speed JFET input single operational amplifiers. Each of these JFET input operational amplifiers incorporates well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. Features • Very low power consumption: 200 µA • Wide common-mode (up to VCC+) and differential voltage ranges • Low input bias and offset currents • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch up free operation • High slew rate: 3.5 V/µs",
       "reason": "B-grade TL064 family functional alternative in SOIC-14. Better aligned with NJM064 low-power behavior than TL074/LF347-class parts, but still not a DIP-14 pin-for-package replacement.",
       "series": "-",
       "slug": "TL064BCDR",
@@ -1339,7 +1339,7 @@
       },
       "productCode": "TCE000041141",
       "productName": "TL064CD",
-      "productOverview": "<br/>The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit.<br/>The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient.<br/>Features<br/>• Wide common-mode (up to VCC+) and differential voltage range<br/>• Low input bias and offset current<br/>• Output short-circuit protection<br/>• High input impedance JFET input stage<br/>• Internal frequency compensation<br/>• Latch-up free operation<br/>• High slew rate: 16V/μs (typ)",
+      "productOverview": "The TL081, TL081A and TL081B are high-speed JFET input single operational amplifiers incorporating well matched, high-voltage JFET and bipolar transistors in a monolithic integrated circuit. The devices feature high slew rates, low input bias and offset currents, and low offset voltage temperature coefficient. Features • Wide common-mode (up to VCC+) and differential voltage range • Low input bias and offset current • Output short-circuit protection • High input impedance JFET input stage • Internal frequency compensation • Latch-up free operation • High slew rate: 16V/μs (typ)",
       "reason": "Closest same-family functional alternative in live catalog. TL064CD stays in the low-power TL064/NJM064 class, but it is SOIC-14 rather than the legacy DMP-14 / DIP-14 NJM064M package.",
       "series": "-",
       "slug": "TL064CD",

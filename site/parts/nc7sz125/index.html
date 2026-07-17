@@ -5,18 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NC7SZ125 cross reference | TrustCompo Open Hardware Cross Reference</title>
   <meta name="description" content="Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, &lt;1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ&#x27;s UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ&#x27;s UHS current is excessive.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
-      --bg: #f5f1e8;
-      --ink: #1d2a35;
-      --muted: #52606d;
-      --line: #d4c9b8;
-      --card: #fffdf8;
-      --accent: #b5522d;
-      --accent-soft: #f7dfd4;
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --card: rgba(255,253,248,0.96);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --accent-ink: #6a2f17;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #efe6d5 0%, var(--bg) 45%, #fbfaf6 100%); color: var(--ink); }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.10), transparent 28%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 24%),
+      linear-gradient(180deg, #eee4d4 0%, var(--bg) 42%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
     main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
     .hero { background: rgba(255,253,248,0.92); border: 1px solid var(--line); border-radius: 24px; padding: 28px; box-shadow: 0 18px 48px rgba(29,42,53,0.08); }
     .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
@@ -29,7 +34,7 @@
     .meta-card { padding: 16px; }
     .section { margin-top: 22px; padding: 22px; }
     .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
-    .button.secondary { background: var(--accent-soft); color: var(--accent); }
+    .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
     .candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
     .candidate-card { padding: 18px; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -37,6 +42,8 @@
     th { background: #f7f2e8; }
     .evidence-list { padding-left: 18px; }
     a { color: var(--accent); }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .hero h1, .section strong { font-variant-numeric: tabular-nums; }
   </style>
 </head>
 <body>
@@ -44,9 +51,8 @@
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>NC7SZ125</h1>
-      <p class="muted">TrustCompo code: TCE000056779</p>
       <p>Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, &lt;1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ&#x27;s UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ&#x27;s UHS current is excessive.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/NC7SZ125">Open TrustCompo product page</a><a class="button secondary" href="https://www.onsemi.com/download/data-sheet/pdf/nc7sz125-d.pdf">View datasheet</a></div>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/NC7SZ125">Open TrustCompo product page</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/NC7SZ125/datasheet">View datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>at-risk</div>
         <div class="meta-card"><strong>Confidence</strong><br>100</div>
@@ -59,48 +65,48 @@
 
     <section class="section">
       <h2>Target product summary</h2>
-      <p><strong>NC7SZ125</strong> · TCE000056779</p>
+      <p><strong>NC7SZ125</strong></p>
       <p>NC7SZ125 is onsemi&#x27;s single TinyLogic UHS buffer / line driver with three-state output in SOT-23-5. Fabricated in advanced CMOS, propagation delay ~2.0 ns at 5 V, quiescent current &lt;1 µA. onsemi has marked this family &#x27;DISCONTINUED: These devices are not available&#x27; in the official datasheet Rev. 4 (Page 5). For new designs use SN74LVC1G125DBVR (TI) which is the industry-standard pin-compatible drop-in.</p>
-      <p class="muted">Series: TinyLogic UHS | Datasheet: https://www.onsemi.com/download/data-sheet/pdf/nc7sz125-d.pdf</p>
+      <p class="muted">Series: TinyLogic UHS | Datasheet landing page: https://www.trustcompo.com/product/detail/NC7SZ125/datasheet | TrustCompo code: TCE000056779</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/74AUP1G125GW">74AUP1G125GW</a></h3>
-<p><strong>TCE000014499</strong> · Functional · Fit score 60</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/74AUP1G125GW">74AUP1G125GW</a></h3>
+<p><strong>Functional</strong> · Fit score 60</p>
 <p>Single buffer/line driver (3-state)</p>
 <p class="muted">Package: SOT353-1 | Series: AUP | Unit price: -</p>
 <p class="muted">Nr of pins: 5; Logic switching levels: CMOS; VCC(A) (V): n.a.; VCC(B) (V): n.a.</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/SN74AHC1G125DBVR">SN74AHC1G125DBVR</a></h3>
-<p><strong>TCE000056784</strong> · Functional · Fit score 60</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/SN74AHC1G125DBVR">SN74AHC1G125DBVR</a></h3>
+<p><strong>Functional</strong> · Fit score 60</p>
 <p>Single 2 V to 5.5 V bus buffer gate with 3-state output, SOT-23-5. Functional alternative to onsemi NC7SZ125 with higher drive strength.</p>
 <p class="muted">Package: SOT-23-5 | Series: SN74AHC1G125 | Unit price: -</p>
 <p class="muted">Mounting Type: Surface Mount; Pin Count: 5; Output Type: 3-State; Manufacturer: Texas Instruments</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/SN74AUP1G125DBVR">SN74AUP1G125DBVR</a></h3>
-<p><strong>TCE000056783</strong> · P2P · Fit score 80</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/SN74AUP1G125DBVR">SN74AUP1G125DBVR</a></h3>
+<p><strong>P2P</strong> · Fit score 80</p>
 <p>Single low-power single bus buffer gate with 3-state output, 0.8 V to 3.3 V VCC, SOT-23-5. P2P drop-in for onsemi NC7SZ125 in ultra-low-power applications.</p>
 <p class="muted">Package: SOT-23-5 | Series: SN74AUP1G125 | Unit price: -</p>
-<p class="muted">Mounting Type: Surface Mount; Pin Count: 5; Output Type: 3-State; Manufacturer: Texas Instruments</p>
+<p class="muted">Number of Channels: 1; Function: Single low-power bus buffer gate with 3-state output; Propagation Delay (tPD): 0.9 ns (typical at 3.3 V); Quiescent Current (ICC): &lt;1 uA (max)</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/74LVC1G125GV">74LVC1G125GV</a></h3>
-<p><strong>TCE000016368</strong> · P2P · Fit score 80</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/74LVC1G125GV">74LVC1G125GV</a></h3>
+<p><strong>P2P</strong> · Fit score 80</p>
 <p>Single buffer/line driver; TTL enabled (3-state)</p>
 <p class="muted">Package: SOT753 | Series: LVC | Unit price: -</p>
-<p class="muted">Function: Buffers/inverters/drivers; Nr of pins: 5; VCC(B) (V): n.a.; VCC(A) (V): n.a.</p>
+<p class="muted">Nr of pins: 5; VCC(B) (V): n.a.; VCC(A) (V): n.a.; Product status: Production</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/SN74LVC1G125DBVR">SN74LVC1G125DBVR</a></h3>
-<p><strong>TCE000056781</strong> · P2P · Fit score 100</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/SN74LVC1G125DBVR">SN74LVC1G125DBVR</a></h3>
+<p><strong>P2P</strong> · Fit score 100</p>
 <p>Single 1.65 V to 5.5 V bus buffer gate with 3-state output, SOT-23-5. Pin-compatible direct P2P replacement for onsemi NC7SZ125.</p>
 <p class="muted">Package: SOT-23-5 | Series: SN74LVC1G125 | Unit price: -</p>
-<p class="muted">RoHS Status: RoHS Compliant; HTSUS: 8542.39.0001; ECCN: EAR99; Mounting Type: Surface Mount</p>
+<p class="muted">ECCN: EAR99; Mounting Type: Surface Mount; Pin Count: 5; Output Type: 3-State</p>
 </article>
       </div>
     </section>
@@ -110,13 +116,31 @@
       <table>
 <thead><tr>
 <th>Attribute</th>
-<th>TCE000056779</th>
-<th>TCE000014499</th>
-<th>TCE000056784</th>
-<th>TCE000056783</th>
-<th>TCE000016368</th>
-<th>TCE000056781</th>
+<th>NC7SZ125</th>
+<th>74AUP1G125GW</th>
+<th>SN74AHC1G125DBVR</th>
+<th>SN74AUP1G125DBVR</th>
+<th>74LVC1G125GV</th>
+<th>SN74LVC1G125DBVR</th>
 </tr></thead><tbody>
+<tr>
+<td>RoHS Status</td>
+<td>RoHS Compliant</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>RoHS Compliant</td>
+</tr>
+<tr>
+<td>HTSUS</td>
+<td>8542.39.0001</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>8542.39.0001</td>
+</tr>
 <tr>
 <td>ECCN</td>
 <td>EAR99</td>
@@ -188,24 +212,6 @@
 <td>SOT-23-5 (DBV suffix)</td>
 <td>-</td>
 <td>SOT-23-5 (DBV suffix)</td>
-</tr>
-<tr>
-<td>RoHS Status</td>
-<td>RoHS Compliant</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>RoHS Compliant</td>
-</tr>
-<tr>
-<td>HTSUS</td>
-<td>8542.39.0001</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>8542.39.0001</td>
 </tr>
 <tr>
 <td>Number of Channels</td>

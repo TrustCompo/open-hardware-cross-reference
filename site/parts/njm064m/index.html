@@ -5,18 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NJM064M cross reference | TrustCompo Open Hardware Cross Reference</title>
   <meta name="description" content="Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
-      --bg: #f5f1e8;
-      --ink: #1d2a35;
-      --muted: #52606d;
-      --line: #d4c9b8;
-      --card: #fffdf8;
-      --accent: #b5522d;
-      --accent-soft: #f7dfd4;
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --card: rgba(255,253,248,0.96);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --accent-ink: #6a2f17;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #efe6d5 0%, var(--bg) 45%, #fbfaf6 100%); color: var(--ink); }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.10), transparent 28%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 24%),
+      linear-gradient(180deg, #eee4d4 0%, var(--bg) 42%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
     main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
     .hero { background: rgba(255,253,248,0.92); border: 1px solid var(--line); border-radius: 24px; padding: 28px; box-shadow: 0 18px 48px rgba(29,42,53,0.08); }
     .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
@@ -29,7 +34,7 @@
     .meta-card { padding: 16px; }
     .section { margin-top: 22px; padding: 22px; }
     .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
-    .button.secondary { background: var(--accent-soft); color: var(--accent); }
+    .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
     .candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
     .candidate-card { padding: 18px; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -37,6 +42,8 @@
     th { background: #f7f2e8; }
     .evidence-list { padding-left: 18px; }
     a { color: var(--accent); }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .hero h1, .section strong { font-variant-numeric: tabular-nums; }
   </style>
 </head>
 <body>
@@ -44,9 +51,8 @@
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>NJM064M</h1>
-      <p class="muted">TrustCompo code: TCE000041557</p>
       <p>Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/NJM064M">Open TrustCompo product page</a><a class="button secondary" href="https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/NJM062C_NJM062CA_NJM064C_NJM064CA_E.pdf">View datasheet</a></div>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/NJM064M">Open TrustCompo product page</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/NJM064M/datasheet">View datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>eol</div>
         <div class="meta-card"><strong>Confidence</strong><br>100</div>
@@ -59,62 +65,62 @@
 
     <section class="section">
       <h2>Target product summary</h2>
-      <p><strong>NJM064M</strong> · TCE000041557</p>
+      <p><strong>NJM064M</strong></p>
       <p>NJM064M is a legacy DMP-14 / DIP-14 compatible member of Nisshinbo Micro Devices&#x27; NJM064 low-power quad J-FET input operational amplifier family. As of June 21, 2026, the current official Nisshinbo public references we verified are the NJM064C/NJM064CA pages, which describe the NJM064 family as the low-power version of the NJM072C/074C family and show 1 MHz typ GBW, 3.5 V/us typ slew rate, and 4 V to 36 V supply range. We did not verify a public manufacturer EOL/PDN notice for the exact NJM064M package variant, so this catalog entry should not present NJM064M as confirmed EOL. Buyers should still reconfirm exact DMP-14 package availability, temperature grade, and compliance for NJM064M lots before release to production.</p>
-      <p class="muted">Series: NJM064 | Datasheet: https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/NJM062C_NJM062CA_NJM064C_NJM064CA_E.pdf</p>
+      <p class="muted">Series: NJM064 | Datasheet landing page: https://www.trustcompo.com/product/detail/NJM064M/datasheet | TrustCompo code: TCE000041557</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/LF347DT">LF347DT</a></h3>
-<p><strong>TCE000039147</strong> · Similar · Fit score 20</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/LF347DT">LF347DT</a></h3>
+<p><strong>Similar</strong> · Fit score 20</p>
 <p>IC OPAMP JFET 4MHZ 14SO</p>
 <p class="muted">Package: SOIC | Series: - | Unit price: -</p>
-<p class="muted">Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC; JESD-609 Code: e4</p>
+<p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lead Free: Lead Free</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/TL084CD">TL084CD</a></h3>
-<p><strong>TCE000033962</strong> · Similar · Fit score 40</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL084CD">TL084CD</a></h3>
+<p><strong>Similar</strong> · Fit score 40</p>
 <p>IC OPAMP JFET 3MHZ 14SOIC</p>
 <p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
 <p class="muted">RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC; Moisture Sensitivity Level (MSL): 1 (Unlimited); JESD-609 Code: e4</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/TL064INSR">TL064INSR</a></h3>
-<p><strong>TCE000037565</strong> · Functional · Fit score 60</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064INSR">TL064INSR</a></h3>
+<p><strong>Functional</strong> · Fit score 60</p>
 <p>IC OPAMP JFET 1MHZ 14SO</p>
 <p class="muted">Package: SOIC | Series: - | Unit price: -</p>
-<p class="muted">Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: RoHS non-compliant; JESD-609 Code: e4; HTSUS: 8542.33.0001</p>
+<p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lead Free: Lead Free</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/TL064IDR">TL064IDR</a></h3>
-<p><strong>TCE000008521</strong> · Functional · Fit score 80</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064IDR">TL064IDR</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
 <p>IC OPAMP JFET 1MHZ 14SOIC</p>
 <p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
 <p class="muted">Part Status: Active; Radiation Hardening: NO; Contact Plating: Gold; Pbfree Code: Yes</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/TL064ACDR">TL064ACDR</a></h3>
-<p><strong>TCE000030931</strong> · Functional · Fit score 80</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064ACDR">TL064ACDR</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
 <p>IC OPAMP JFET 1MHZ 14SOIC</p>
 <p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
 <p class="muted">Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: ROHS3 Compliant; JESD-609 Code: e4; HTSUS: 8542.33.0001</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/TL064BCDR">TL064BCDR</a></h3>
-<p><strong>TCE000037564</strong> · Functional · Fit score 80</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064BCDR">TL064BCDR</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
 <p>IC OPAMP JFET 1MHZ 14SOIC</p>
 <p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
-<p class="muted">Moisture Sensitivity Level (MSL): 1  (Unlimited); RoHS Status: ROHS3 Compliant; JESD-609 Code: e4; HTSUS: 8542.33.0001</p>
+<p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Lifecycle Status: ACTIVE (Last Updated: 1 day ago)</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/TL064CD">TL064CD</a></h3>
-<p><strong>TCE000041141</strong> · Functional · Fit score 100</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TL064CD">TL064CD</a></h3>
+<p><strong>Functional</strong> · Fit score 100</p>
 <p>IC OPAMP JFET 1MHZ 14SOIC</p>
 <p class="muted">Package: 14SOIC | Series: - | Unit price: -</p>
-<p class="muted">Part Status: Active; Lifecycle Status: ACTIVE (Last Updated: 4 days ago); Lead Free: Lead Free; Packaging: Tube</p>
+<p class="muted">RoHS Status: ROHS3 Compliant; REACH SVHC: No SVHC; Moisture Sensitivity Level (MSL): 1 (Unlimited); JESD-609 Code: e4</p>
 </article>
       </div>
     </section>
@@ -124,14 +130,14 @@
       <table>
 <thead><tr>
 <th>Attribute</th>
-<th>TCE000041557</th>
-<th>TCE000039147</th>
-<th>TCE000033962</th>
-<th>TCE000037565</th>
-<th>TCE000008521</th>
-<th>TCE000030931</th>
-<th>TCE000037564</th>
-<th>TCE000041141</th>
+<th>NJM064M</th>
+<th>LF347DT</th>
+<th>TL084CD</th>
+<th>TL064INSR</th>
+<th>TL064IDR</th>
+<th>TL064ACDR</th>
+<th>TL064BCDR</th>
+<th>TL064CD</th>
 </tr></thead><tbody>
 <tr>
 <td>HTSUS</td>
@@ -321,15 +327,15 @@
 <td>14-SOIC (0.154, 3.90mm Width)</td>
 </tr>
 <tr>
-<td>Moisture Sensitivity Level (MSL)</td>
+<td>Part Status</td>
 <td>-</td>
-<td>1  (Unlimited)</td>
-<td>1 (Unlimited)</td>
-<td>1  (Unlimited)</td>
-<td>1  (Unlimited)</td>
-<td>1  (Unlimited)</td>
-<td>1  (Unlimited)</td>
-<td>1 (Unlimited)</td>
+<td>Active</td>
+<td>Active</td>
+<td>Active</td>
+<td>Active</td>
+<td>Active</td>
+<td>Active</td>
+<td>Active</td>
 </tr>
 </tbody></table>
     </section>

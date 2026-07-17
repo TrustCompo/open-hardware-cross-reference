@@ -5,34 +5,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TrustCompo Open Hardware Cross Reference</title>
   <meta name="description" content="Open hardware cross-reference pages for engineers comparing lifecycle-affected parts, shortlist replacements, and review boundaries before BOM changes.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"TrustCompo Open Hardware Cross Reference","url":"https://trustcompo.github.io/open-hardware-cross-reference/","description":"A public engineering reference surface for lifecycle-affected parts, shortlist replacements, and first-pass review boundaries.","mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"url":"https://trustcompo.github.io/open-hardware-cross-reference/parts/op2177arz-reel7/","name":"OP2177ARZ-REEL7"},{"@type":"ListItem","position":2,"url":"https://trustcompo.github.io/open-hardware-cross-reference/parts/nc7sz125/","name":"NC7SZ125"},{"@type":"ListItem","position":3,"url":"https://trustcompo.github.io/open-hardware-cross-reference/parts/ncp1117st25t3g/","name":"NCP1117ST25T3G"},{"@type":"ListItem","position":4,"url":"https://trustcompo.github.io/open-hardware-cross-reference/parts/bss138l/","name":"BSS138L"},{"@type":"ListItem","position":5,"url":"https://trustcompo.github.io/open-hardware-cross-reference/parts/njm064m/","name":"NJM064M"}]},"isPartOf":{"@type":"WebSite","name":"TrustCompo Open Hardware Cross Reference","url":"https://trustcompo.github.io/open-hardware-cross-reference/"}}</script>
   <style>
-    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #efe6d5 0%, #fbfaf6 100%); color: #1d2a35; }
-    main { max-width: 960px; margin: 0 auto; padding: 36px 20px 72px; }
-    .hero, .panel { background: rgba(255,253,248,0.94); border: 1px solid #d4c9b8; border-radius: 24px; padding: 26px; }
+    :root {
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --panel: rgba(255,253,248,0.95);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --hero-ink: #0f1820;
+    }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.12), transparent 24%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 20%),
+      linear-gradient(180deg, #efe5d4 0%, var(--bg) 45%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
+    main { max-width: 1120px; margin: 0 auto; padding: 36px 20px 72px; }
+    .hero, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 24px; padding: 26px; box-shadow: 0 18px 48px rgba(22,32,42,0.08); }
     .panel { margin-top: 20px; }
-    .muted { color: #52606d; }
-    a { color: #b5522d; }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); }
+    .hero h1 { margin: 0 0 10px; font-size: clamp(2.4rem, 6vw, 4.6rem); color: var(--hero-ink); }
+    .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+    .button { display: inline-block; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
+    .button.secondary { background: var(--accent-soft); color: #5e2b18; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-top: 20px; }
+    .stat { background: rgba(255,255,255,0.66); border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
+    .stat strong { display: block; font-size: 1.6rem; margin-bottom: 4px; }
+    .search-box { width: 100%; margin-top: 16px; padding: 14px 16px; border-radius: 16px; border: 1px solid var(--line); font-size: 16px; background: #fffdf9; }
+    .result-list { padding-left: 18px; }
+    .result-link { font-weight: 600; }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .vendor-cloud { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .vendor-pill { display: inline-block; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); background: #fffdf8; text-decoration: none; }
   </style>
 </head>
 <body>
   <main>
     <section class="hero">
+      <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>TrustCompo Open Hardware Cross Reference</h1>
       <p class="muted">A public engineering reference surface for lifecycle-affected parts, replacement candidates, parameter comparisons, and shortlist review boundaries sourced from TrustCompo catalog operations.</p>
       <p class="muted">These pages are meant to help engineers and sourcing teams start evaluation faster, not to bypass qualification.</p>
+      <div class="hero-actions">
+        <a class="button" href="https://github.com/TrustCompo/open-hardware-cross-reference">View project on GitHub</a>
+        <a class="button secondary" href="https://www.trustcompo.com/">Visit TrustCompo</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>5</strong><span class="muted">Published part pages</span></div>
+        <div class="stat"><strong>3</strong><span class="muted">Vendors covered</span></div>
+        <div class="stat"><strong>HTML + JSON</strong><span class="muted">Static pages with machine-readable exports</span></div>
+      </div>
     </section>
     <section class="panel">
-      <h2>Latest published pages</h2>
-      <ul><li><a href="parts/op2177arz-reel7/">OP2177ARZ-REEL7</a> <span class="muted">Analog Devices Inc./Maxim Integrated · production · TCE000046366</span></li>
-<li><a href="parts/nc7sz125/">NC7SZ125</a> <span class="muted">ON Semiconductor · at-risk · TCE000056779</span></li>
-<li><a href="parts/ncp1117st25t3g/">NCP1117ST25T3G</a> <span class="muted">ON Semiconductor · at-risk · TCE000041826</span></li>
-<li><a href="parts/bss138l/">BSS138L</a> <span class="muted">ON Semiconductor · at-risk · TCE000056780</span></li>
-<li><a href="parts/njm064m/">NJM064M</a> <span class="muted">Nisshinbo Micro Devices Inc. · eol · TCE000041557</span></li></ul>
+      <h2>What engineers get here</h2>
+      <p class="muted">Each part page is structured to answer the first questions an engineer or component specialist usually asks during replacement screening: which lifecycle-affected part we are looking at, which replacements belong in the first shortlist, where parameter differences start to appear, and which validation checks still belong in the formal review flow.</p>
+      <p class="muted">The linked TrustCompo product and datasheet pages are follow-through steps for deeper validation, not the entire value of this repository.</p>
     </section>
     <section class="panel">
-      <h2>How to use this site</h2>
-      <p class="muted">Start with the target MPN, review replacement buckets and comparison rows, then open the linked TrustCompo product page or datasheet for deeper validation work.</p>
+      <h2>Find a part</h2>
+      <p class="muted">Search by MPN or vendor name. This search runs locally in your browser and filters the currently published pages only.</p>
+      <input id="part-search" class="search-box mpn" type="search" placeholder="Search MPNs like NCP1117ST25T3G, OP2177ARZ-REEL7, BSS138L" aria-label="Search published part pages">
+      <ul id="search-results" class="result-list"><li data-part-item><a class="result-link mpn" href="parts/op2177arz-reel7/">OP2177ARZ-REEL7</a> <span class="muted">Analog Devices Inc./Maxim Integrated · production</span></li>
+<li data-part-item><a class="result-link mpn" href="parts/nc7sz125/">NC7SZ125</a> <span class="muted">ON Semiconductor · at-risk</span></li>
+<li data-part-item><a class="result-link mpn" href="parts/ncp1117st25t3g/">NCP1117ST25T3G</a> <span class="muted">ON Semiconductor · at-risk</span></li>
+<li data-part-item><a class="result-link mpn" href="parts/bss138l/">BSS138L</a> <span class="muted">ON Semiconductor · at-risk</span></li>
+<li data-part-item><a class="result-link mpn" href="parts/njm064m/">NJM064M</a> <span class="muted">Nisshinbo Micro Devices Inc. · eol</span></li></ul>
+    </section>
+    <section class="panel">
+      <h2>Browse by vendor</h2>
+      <p class="muted">Use vendor pages when you want to scan all currently published replacement references for one manufacturer family.</p>
+      <div class="vendor-cloud">
+        <a class="vendor-pill" href="vendors/analog-devices-inc-maxim-integrated/">Analog Devices Inc./Maxim Integrated</a>
+<a class="vendor-pill" href="vendors/nisshinbo-micro-devices-inc/">Nisshinbo Micro Devices Inc.</a>
+<a class="vendor-pill" href="vendors/on-semiconductor/">ON Semiconductor</a>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>How to use this project</h2>
+      <p class="muted">Start with the target MPN, review replacement buckets and comparison rows, then open the linked TrustCompo product page or datasheet landing page for deeper validation work. Treat each page as a shortlist and review aid, not as automatic equivalence approval.</p>
     </section>
   </main>
+  <script id="part-index-data" type="application/json">[{&quot;confidence&quot;: 100, &quot;dataPath&quot;: &quot;data/parts/bss138l.json&quot;, &quot;discontinuationStatus&quot;: &quot;at-risk&quot;, &quot;generatedAt&quot;: &quot;2026-07-17 15:54:21&quot;, &quot;pagePath&quot;: &quot;parts/bss138l/index.html&quot;, &quot;partNumber&quot;: &quot;BSS138L&quot;, &quot;partNumberSlug&quot;: &quot;bss138l&quot;, &quot;targetProductCode&quot;: &quot;TCE000056780&quot;, &quot;targetProductName&quot;: &quot;BSS138L&quot;, &quot;vendor&quot;: &quot;ON Semiconductor&quot;}, {&quot;confidence&quot;: 100, &quot;dataPath&quot;: &quot;data/parts/nc7sz125.json&quot;, &quot;discontinuationStatus&quot;: &quot;at-risk&quot;, &quot;generatedAt&quot;: &quot;2026-07-17 15:54:34&quot;, &quot;pagePath&quot;: &quot;parts/nc7sz125/index.html&quot;, &quot;partNumber&quot;: &quot;NC7SZ125&quot;, &quot;partNumberSlug&quot;: &quot;nc7sz125&quot;, &quot;targetProductCode&quot;: &quot;TCE000056779&quot;, &quot;targetProductName&quot;: &quot;NC7SZ125&quot;, &quot;vendor&quot;: &quot;ON Semiconductor&quot;}, {&quot;confidence&quot;: 100, &quot;dataPath&quot;: &quot;data/parts/ncp1117st25t3g.json&quot;, &quot;discontinuationStatus&quot;: &quot;at-risk&quot;, &quot;generatedAt&quot;: &quot;2026-07-17 15:54:27&quot;, &quot;pagePath&quot;: &quot;parts/ncp1117st25t3g/index.html&quot;, &quot;partNumber&quot;: &quot;NCP1117ST25T3G&quot;, &quot;partNumberSlug&quot;: &quot;ncp1117st25t3g&quot;, &quot;targetProductCode&quot;: &quot;TCE000041826&quot;, &quot;targetProductName&quot;: &quot;NCP1117ST25T3G&quot;, &quot;vendor&quot;: &quot;ON Semiconductor&quot;}, {&quot;confidence&quot;: 100, &quot;dataPath&quot;: &quot;data/parts/njm064m.json&quot;, &quot;discontinuationStatus&quot;: &quot;eol&quot;, &quot;generatedAt&quot;: &quot;2026-07-17 15:54:16&quot;, &quot;pagePath&quot;: &quot;parts/njm064m/index.html&quot;, &quot;partNumber&quot;: &quot;NJM064M&quot;, &quot;partNumberSlug&quot;: &quot;njm064m&quot;, &quot;targetProductCode&quot;: &quot;TCE000041557&quot;, &quot;targetProductName&quot;: &quot;NJM064M&quot;, &quot;vendor&quot;: &quot;Nisshinbo Micro Devices Inc.&quot;}, {&quot;partNumber&quot;: &quot;OP2177ARZ-REEL7&quot;, &quot;partNumberSlug&quot;: &quot;op2177arz-reel7&quot;, &quot;vendor&quot;: &quot;Analog Devices Inc./Maxim Integrated&quot;, &quot;targetProductCode&quot;: &quot;TCE000046366&quot;, &quot;targetProductName&quot;: &quot;OP2177ARZ-REEL7&quot;, &quot;discontinuationStatus&quot;: &quot;production&quot;, &quot;confidence&quot;: 100, &quot;generatedAt&quot;: &quot;2026-07-17 15:54:38&quot;, &quot;pagePath&quot;: &quot;parts/op2177arz-reel7/index.html&quot;, &quot;dataPath&quot;: &quot;data/parts/op2177arz-reel7.json&quot;}]</script>
+  <script>
+    (() => {
+      const input = document.getElementById('part-search');
+      const list = document.getElementById('search-results');
+      const data = JSON.parse(document.getElementById('part-index-data').textContent || '[]');
+      const render = (query) => {
+        const normalized = String(query || '').trim().toLowerCase();
+        const rows = normalized
+          ? data.filter((row) => [row.partNumber, row.targetProductName, row.vendor].some((value) => String(value || '').toLowerCase().includes(normalized)))
+          : data.slice().sort((a, b) => String(b.generatedAt || '').localeCompare(String(a.generatedAt || '')));
+        const topRows = rows.slice(0, 50);
+        list.innerHTML = topRows.map((row) =>
+          `<li data-part-item><a class="result-link mpn" href="parts/${row.partNumberSlug}/">${row.partNumber || row.targetProductName || 'Unknown Part'}</a> <span class="muted">${row.vendor || '-'} · ${row.discontinuationStatus || '-'}</span></li>`
+        ).join('') || '<li class="muted">No published parts matched this search yet.</li>';
+      };
+      input.addEventListener('input', (event) => render(event.target.value));
+      render('');
+    })();
+  </script>
 </body>
 </html>

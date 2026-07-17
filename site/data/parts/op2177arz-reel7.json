@@ -1,242 +1,88 @@
 {
   "comparisonRows": [
     {
-      "attribute": "Terminal Finish",
+      "attribute": "JESD-609 Code",
       "candidates": [
         {
           "productCode": "TCE000065941",
-          "value": "-"
+          "value": "e3"
         },
         {
           "productCode": "TCE000032783",
-          "value": "-"
+          "value": "e3"
         }
       ],
-      "target": "Matte Tin (Sn)"
+      "target": "e3"
     },
     {
-      "attribute": "Neg Supply Voltage-Nom (Vsup)",
+      "attribute": "Moisture Sensitivity Level (MSL)",
       "candidates": [
         {
           "productCode": "TCE000065941",
-          "value": "-5V"
+          "value": "1 (Unlimited)"
         },
         {
           "productCode": "TCE000032783",
-          "value": "-5V"
+          "value": "1  (Unlimited)"
         }
       ],
-      "target": "-5V"
+      "target": "1  (Unlimited)"
     },
     {
-      "attribute": "Voltage - Supply, Single/Dual (±)",
+      "attribute": "RoHS Status",
       "candidates": [
         {
           "productCode": "TCE000065941",
-          "value": "5V~30V ±2.5V~15V"
+          "value": "ROHS3 Compliant"
         },
         {
           "productCode": "TCE000032783",
-          "value": "±5V~15V"
+          "value": "ROHS3 Compliant"
         }
       ],
-      "target": "5V~36V ±2.5V~18V"
+      "target": "ROHS3 Compliant"
     },
     {
-      "attribute": "Voltage - Input Offset",
+      "attribute": "HTSUS",
       "candidates": [
         {
           "productCode": "TCE000065941",
-          "value": "15uV"
+          "value": "8542.33.0001"
         },
         {
           "productCode": "TCE000032783",
-          "value": "15μV"
+          "value": "8542.33.0001"
         }
       ],
-      "target": "15μV"
+      "target": "8542.33.0001"
     },
     {
-      "attribute": "Power Supply Rejection Ratio (PSRR)",
+      "attribute": "ECCN Code",
       "candidates": [
         {
           "productCode": "TCE000065941",
-          "value": "125dB"
+          "value": "EAR99"
         },
         {
           "productCode": "TCE000032783",
-          "value": "128dB"
+          "value": "EAR99"
         }
       ],
-      "target": "125dB"
+      "target": "EAR99"
     },
     {
-      "attribute": "Unity Gain BW-Nom",
+      "attribute": "Height Seated (Max)",
       "candidates": [
         {
           "productCode": "TCE000065941",
-          "value": "3500kHz"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "3900 kHz"
-        }
-      ],
-      "target": "1300 kHz"
-    },
-    {
-      "attribute": "Number of Channels",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "2"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "2"
-        }
-      ],
-      "target": "2"
-    },
-    {
-      "attribute": "Micropower",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "YES"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "YES"
-        }
-      ],
-      "target": "YES"
-    },
-    {
-      "attribute": "Low-Offset",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "YES"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "YES"
-        }
-      ],
-      "target": "YES"
-    },
-    {
-      "attribute": "Frequency Compensation",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "YES"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "YES"
-        }
-      ],
-      "target": "YES"
-    },
-    {
-      "attribute": "Amplifier Type",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "General Purpose"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "General Purpose"
-        }
-      ],
-      "target": "General Purpose"
-    },
-    {
-      "attribute": "Programmable Power",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "-"
+          "value": "1.75mm"
         },
         {
           "productCode": "TCE000032783",
           "value": "-"
         }
       ],
-      "target": "NO"
-    },
-    {
-      "attribute": "Wideband",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "-"
-        }
-      ],
-      "target": "NO"
-    },
-    {
-      "attribute": "Low-Bias",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "-"
-        }
-      ],
-      "target": "NO"
-    },
-    {
-      "attribute": "Supply Type",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "-"
-        }
-      ],
-      "target": "Dual"
-    },
-    {
-      "attribute": "Voltage Gain",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "130dB"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "130dB"
-        }
-      ],
-      "target": "126.02dB"
-    },
-    {
-      "attribute": "Current - Input Bias",
-      "candidates": [
-        {
-          "productCode": "TCE000065941",
-          "value": "300pA"
-        },
-        {
-          "productCode": "TCE000032783",
-          "value": "400pA"
-        }
-      ],
-      "target": "500pA"
+      "target": "1.75mm"
     },
     {
       "attribute": "Part Status",
@@ -251,6 +97,160 @@
         }
       ],
       "target": "Active"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "REACH Unaffected"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "REACH Unaffected"
+        }
+      ],
+      "target": "REACH Unaffected"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "EAR99"
+        }
+      ],
+      "target": "EAR99"
+    },
+    {
+      "attribute": "Lead Free",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Contains Lead"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Contains Lead"
+        }
+      ],
+      "target": "Contains Lead"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "Surface Mount"
+    },
+    {
+      "attribute": "Factory Lead Time",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "16 Weeks"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "16 Weeks"
+        }
+      ],
+      "target": "8 Weeks"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Tube"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Tube"
+        }
+      ],
+      "target": "Tape & Reel (TR)"
+    },
+    {
+      "attribute": "Categories",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Integrated Circuits (ICs)"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Integrated Circuits (ICs)"
+        }
+      ],
+      "target": "Integrated Circuits (ICs)"
+    },
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Peak Reflow Temperature (Cel)",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "260"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "260"
+        }
+      ],
+      "target": "260"
+    },
+    {
+      "attribute": "Terminal Form",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "GULL WING"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "GULL WING"
+        }
+      ],
+      "target": "GULL WING"
+    },
+    {
+      "attribute": "Operating Temperature",
+      "candidates": [
+        {
+          "productCode": "TCE000065941",
+          "value": "-40C~125C"
+        },
+        {
+          "productCode": "TCE000032783",
+          "value": "-40°C~125°C"
+        }
+      ],
+      "target": "-40°C~125°C"
     }
   ],
   "confidence": 100,
@@ -295,7 +295,7 @@
       "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ada4077-2arz.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 13:26:36",
+  "generatedAt": "2026-07-17 15:54:38",
   "partNumber": "OP2177ARZ-REEL7",
   "reasoning": "ADA4177-2ARZ is a protected precision dual op amp with 32V beyond-rail input overvoltage tolerance and 70dB EMI rejection, making it the more rugged OP2177 replacement for noisy or fault-prone field environments.",
   "replacementCandidates": [

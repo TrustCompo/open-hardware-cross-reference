@@ -5,18 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NCP1117ST25T3G cross reference | TrustCompo Open Hardware Cross Reference</title>
   <meta name="description" content="Functional higher-current alternative to the obsolete onsemi NCP1117ST25T3G. Microchip MIC29150-12WU is a 1.5 A high-current LDO (50% more current than NCP1117&#x27;s 1.0 A) in TO-263-3 (3-pin D2PAK). NOT pin-compatible (TO-263 vs SOT-223) — PCB redesign required. Same low-dropout topology and 3-terminal LDO architecture. Use when the application needs &gt;1.0 A and can accommodate the larger TO-263 thermal footprint. Note: 12 V fixed output; for 2.5 V fixed order MIC29150-2.5WU.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
-      --bg: #f5f1e8;
-      --ink: #1d2a35;
-      --muted: #52606d;
-      --line: #d4c9b8;
-      --card: #fffdf8;
-      --accent: #b5522d;
-      --accent-soft: #f7dfd4;
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --card: rgba(255,253,248,0.96);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --accent-ink: #6a2f17;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #efe6d5 0%, var(--bg) 45%, #fbfaf6 100%); color: var(--ink); }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.10), transparent 28%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 24%),
+      linear-gradient(180deg, #eee4d4 0%, var(--bg) 42%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
     main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
     .hero { background: rgba(255,253,248,0.92); border: 1px solid var(--line); border-radius: 24px; padding: 28px; box-shadow: 0 18px 48px rgba(29,42,53,0.08); }
     .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
@@ -29,7 +34,7 @@
     .meta-card { padding: 16px; }
     .section { margin-top: 22px; padding: 22px; }
     .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
-    .button.secondary { background: var(--accent-soft); color: var(--accent); }
+    .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
     .candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
     .candidate-card { padding: 18px; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -37,6 +42,8 @@
     th { background: #f7f2e8; }
     .evidence-list { padding-left: 18px; }
     a { color: var(--accent); }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .hero h1, .section strong { font-variant-numeric: tabular-nums; }
   </style>
 </head>
 <body>
@@ -44,9 +51,8 @@
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>NCP1117ST25T3G</h1>
-      <p class="muted">TrustCompo code: TCE000041826</p>
       <p>Functional higher-current alternative to the obsolete onsemi NCP1117ST25T3G. Microchip MIC29150-12WU is a 1.5 A high-current LDO (50% more current than NCP1117&#x27;s 1.0 A) in TO-263-3 (3-pin D2PAK). NOT pin-compatible (TO-263 vs SOT-223) — PCB redesign required. Same low-dropout topology and 3-terminal LDO architecture. Use when the application needs &gt;1.0 A and can accommodate the larger TO-263 thermal footprint. Note: 12 V fixed output; for 2.5 V fixed order MIC29150-2.5WU.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/NCP1117ST25T3G">Open TrustCompo product page</a><a class="button secondary" href="https://datasheet.trustcompo.com/on-semiconductor-ncp1117st25t3g.pdf">View datasheet</a></div>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/NCP1117ST25T3G">Open TrustCompo product page</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/NCP1117ST25T3G/datasheet">View datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>at-risk</div>
         <div class="meta-card"><strong>Confidence</strong><br>100</div>
@@ -59,45 +65,45 @@
 
     <section class="section">
       <h2>Target product summary</h2>
-      <p><strong>NCP1117ST25T3G</strong> · TCE000041826</p>
-      <p>1.0 A Low-Dropout Positive Fixed and Adjustable Voltage Regulators&lt;br/&gt;The NCP1117 series are low dropout positive voltage regulators that are capable of providing an output current that is in excess of 1.0 A with a maximum dropout voltage of 1.2 V at 800 mA over temperature. This series contains eight fixed output voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V that have no minimum load requirement to maintain regulation. Also included is an adjustable output version that can be programmed from 1.25 V to 18.8 V with two external resistors. On chip trimming adjusts the reference/output voltage to within ±1.0% accuracy. Internal protection features consist of output current limiting, safe operating area compensation, and thermal shutdown. &lt;br/&gt;The NCP1117 series can operate with up to 20 V input. Devices are available in SOT−223 and DPAK packages.&lt;br/&gt;Features&lt;br/&gt;• Output Current in Excess of 1.0 A&lt;br/&gt;• 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature&lt;br/&gt;• Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V&lt;br/&gt;• Adjustable Output Voltage Option&lt;br/&gt;• No Minimum Load Requirement for Fixed Voltage Output Devices&lt;br/&gt;• Reference/Output Voltage Trimmed to ±1.0%&lt;br/&gt;• Current Limit, Safe Operating and &lt;br/&gt;Thermal Shutdown Protection&lt;br/&gt;• Operation to 20 V Input&lt;br/&gt;• NCV Prefix for Automotive and Other Applications Requiring Site and Control Changes&lt;br/&gt;• Pb−Free Packages are AvailableApplications&lt;br/&gt;• Consumer and Industrial Equipment Point of Regulation&lt;br/&gt;• Active SCSI Termination for 2.85 V Version&lt;br/&gt;• Switching Power Supply Post Regulation&lt;br/&gt;• Hard Drive Controllers&lt;br/&gt;• Battery Chargers</p>
-      <p class="muted">Series: - | Datasheet: https://datasheet.trustcompo.com/on-semiconductor-ncp1117st25t3g.pdf</p>
+      <p><strong>NCP1117ST25T3G</strong></p>
+      <p>1.0 A Low-Dropout Positive Fixed and Adjustable Voltage Regulators The NCP1117 series are low dropout positive voltage regulators that are capable of providing an output current that is in excess of 1.0 A with a maximum dropout voltage of 1.2 V at 800 mA over temperature. This series contains eight fixed output voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V that have no minimum load requirement to maintain regulation. Also included is an adjustable output version that can be programmed from 1.25 V to 18.8 V with two external resistors. On chip trimming adjusts the reference/output voltage to within ±1.0% accuracy. Internal protection features consist of output current limiting, safe operating area compensation, and thermal shutdown. The NCP1117 series can operate with up to 20 V input. Devices are available in SOT−223 and DPAK packages. Features • Output Current in Excess of 1.0 A • 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature • Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V • Adjustable Output Voltage Option • No Minimum Load Requirement for Fixed Voltage Output Devices • Reference/Output Voltage Trimmed to ±1.0% • Current Limit, Safe Operating and Thermal Shutdown Protection • Operation to 20 V Input • NCV Prefix for Automotive and Other Applications Requiring Site and Control Changes • Pb−Free Packages are AvailableApplications • Consumer and Industrial Equipment Point of Regulation • Active SCSI Termination for 2.85 V Version • Switching Power Supply Post Regulation • Hard Drive Controllers • Battery Chargers</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/NCP1117ST25T3G/datasheet | TrustCompo code: TCE000041826</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/MIC29150-12WU">MIC29150-12WU</a></h3>
-<p><strong>TCE000056788</strong> · Functional · Fit score 60</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/MIC29150-12WU">MIC29150-12WU</a></h3>
+<p><strong>Functional</strong> · Fit score 60</p>
 <p>1.5 A high-current low-dropout voltage regulator, fixed 12 V, TO-263. Functional alternative to onsemi NCP1117ST25T3G (higher current, larger package).</p>
 <p class="muted">Package: TO-263-3 | Series: MIC29150 | Unit price: -</p>
 <p class="muted">Manufacturer: Microchip Technology; Lifecycle Status: Active; Operating Temperature: -40 C to +125 C; Pin Count: 3+tab</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/AZ1117-25">AZ1117-25</a></h3>
-<p><strong>TCE000056787</strong> · Functional · Fit score 60</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/AZ1117-25">AZ1117-25</a></h3>
+<p><strong>Functional</strong> · Fit score 60</p>
 <p>1.0 A low-dropout positive fixed 2.5 V voltage regulator, SOT-223. Enhanced 1117-family alternative with tighter ±1% output tolerance.</p>
 <p class="muted">Package: SOT-223 | Series: AZ1117 | Unit price: -</p>
 <p class="muted">Regulator Type: LDO, Fixed; Dropout Voltage (max): 1.3 V at 1.0 A; Input Voltage (Max): 15 V; Output Tolerance: ±1%</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/AMS1117-2-5">AMS1117-2.5</a></h3>
-<p><strong>TCE000056786</strong> · P2P · Fit score 80</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/AMS1117-2-5">AMS1117-2.5</a></h3>
+<p><strong>P2P</strong> · Fit score 80</p>
 <p>1.0 A low-dropout positive fixed 2.5 V voltage regulator, SOT-223. Industry-standard 1117 family pinout, P2P with onsemi NCP1117ST25T3G.</p>
 <p class="muted">Package: SOT-223 | Series: AMS1117 | Unit price: -</p>
-<p class="muted">Mounting Type: Surface Mount; Lifecycle Status: Active; Output Voltage: 2.5 V; Output Current: 1.0 A</p>
+<p class="muted">Regulator Type: LDO, Fixed; Dropout Voltage (max): 1.3 V at 1.0 A; Output Tolerance: ±2%; Part Number: AMS1117-2.5</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/AP1117-25">AP1117-25</a></h3>
-<p><strong>TCE000056785</strong> · P2P · Fit score 100</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/AP1117-25">AP1117-25</a></h3>
+<p><strong>P2P</strong> · Fit score 100</p>
 <p>1.0 A low-dropout positive fixed 2.5 V voltage regulator, SOT-223. Footprint- and pin-compatible with onsemi NCP1117ST25T3G.</p>
 <p class="muted">Package: SOT-223 | Series: AP1117 | Unit price: -</p>
-<p class="muted">Regulator Type: LDO, Fixed; Part Number: AP1117-25; Dropout Voltage (max): 1.3 V at 1.0 A; Output Tolerance: ±2%</p>
+<p class="muted">Mounting Type: Surface Mount; Manufacturer: Diodes Incorporated; Lifecycle Status: Active; Output Voltage: 2.5 V</p>
 </article>
 <article class="candidate-card">
-<h3><a href="https://www.trustcompo.com/product/detail/TLV1117LV25DCYR">TLV1117LV25DCYR</a></h3>
-<p><strong>TCE000056782</strong> · P2P · Fit score 100</p>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TLV1117LV25DCYR">TLV1117LV25DCYR</a></h3>
+<p><strong>P2P</strong> · Fit score 100</p>
 <p>1.0 A low-dropout positive fixed 2.5 V voltage regulator, SOT-223. Footprint and pin-function compatible with onsemi NCP1117ST25T3G.</p>
 <p class="muted">Package: SOT-223 | Series: TLV1117LV | Unit price: -</p>
 <p class="muted">RoHS Status: RoHS Compliant; HTSUS: 8542.39.0001; Input Voltage (Max): 6 V; Output Tolerance: ±1.5%</p>
@@ -110,12 +116,12 @@
       <table>
 <thead><tr>
 <th>Attribute</th>
-<th>TCE000041826</th>
-<th>TCE000056788</th>
-<th>TCE000056787</th>
-<th>TCE000056786</th>
-<th>TCE000056785</th>
-<th>TCE000056782</th>
+<th>NCP1117ST25T3G</th>
+<th>MIC29150-12WU</th>
+<th>AZ1117-25</th>
+<th>AMS1117-2.5</th>
+<th>AP1117-25</th>
+<th>TLV1117LV25DCYR</th>
 </tr></thead><tbody>
 <tr>
 <td>Part Status</td>
