@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AD5564 cross reference | TrustCompo Open Hardware Cross Reference</title>
-  <meta name="description" content="As of July 18, 2026, ADI marks AD5564 obsolete and states that AD5532 is the replacement path for sustainment review work.">
+  <title>AD5564-S3 cross reference | TrustCompo Open Hardware Cross Reference</title>
+  <meta name="description" content="As of July 18, 2026, ADI marks AD5564 obsolete and lists the AD5532 family as the migration path.">
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
@@ -53,9 +53,9 @@
   <main>
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
-      <h1>AD5564</h1>
-      <p>As of July 18, 2026, ADI marks AD5564 obsolete and states that AD5532 is the replacement path for sustainment review work.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564">Open AD5564 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564/datasheet">View AD5564 datasheet</a></div>
+      <h1>AD5564-S3</h1>
+      <p>As of July 18, 2026, ADI marks AD5564 obsolete and lists the AD5532 family as the migration path.</p>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564-S3">Open AD5564-S3 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564-S3/datasheet">View AD5564-S3 datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>obsolete</div>
         <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
@@ -66,20 +66,27 @@
 
     <section class="section">
       <h2>Target product summary</h2>
-      <p><strong>AD5564</strong></p>
-      <p>ADI marks AD5564 as obsolete and points designers to AD5532 as the suggested replacement path. We retained AD5564 here as the complete published MPN used on the manufacturer product page, and this legacy 32-channel bipolar voltage-output DAC should be reviewed only for sustainment work after rechecking package fit, output range, calibration behavior, and interface constraints against the obsolete datasheet.</p>
-      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090877-AD5564/datasheet</p>
+      <p><strong>AD5564-S3</strong></p>
+      <p>ADI marks the AD5564 family obsolete and points designers to AD5532 as the suggested replacement path. We updated this source record to the full MPN AD5564-S3 for public publication consistency, and sustainment users should still recheck package fit, output range, calibration behavior, and interface constraints against the obsolete family datasheet before approving any redesign or field-service substitution.</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090877-AD5564-S3/datasheet</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000088335-AD5532ABC-2">AD5532ABC-2</a></h3>
+<p><strong>P2P</strong> · Fit score 80</p>
+<p>IC DAC 14BIT 32CH 74CSBGA</p>
+<p class="muted">Package: - | Series: -</p>
+<p class="muted">JESD-609 Code: e0; RoHS Status: Non-RoHS Compliant; Moisture Sensitivity Level (MSL): 3 (168 Hours); ECCN Code: EAR99</p>
+</article>
+<article class="candidate-card">
 <h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000088337-AD5532ABC-1">AD5532ABC-1</a></h3>
 <p><strong>Functional</strong> · Fit score 80</p>
 <p>IC DAC 14BIT 32CH 74CSBGA</p>
 <p class="muted">Package: - | Series: -</p>
-<p class="muted">JESD-609 Code: e0; RoHS Status: Non-RoHS Compliant; Moisture Sensitivity Level (MSL): 3 (168 Hours); ECCN Code: EAR99</p>
+<p class="muted">Height Seated (Max): 1.7mm; Terminal Finish: Tin/Lead (Sn63Pb37); Time@Peak Reflow Temperature-Max (s): 30; Low-Bias: BINARY</p>
 </article>
       </div>
     </section>
@@ -89,21 +96,25 @@
       <table>
 <thead><tr>
 <th>Attribute</th>
-<th>AD5564</th>
+<th>AD5564-S3</th>
+<th>AD5532ABC-2</th>
 <th>AD5532ABC-1</th>
 </tr></thead><tbody>
 <tr>
 <td>Number of Channels</td>
 <td>32</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Application Note</td>
 <td>Sustainment only; replacement review required</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Manufacturer</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 </tr>
@@ -111,76 +122,91 @@
 <td>Converter Type</td>
 <td>D/A CONVERTER</td>
 <td>D/A CONVERTER</td>
+<td>D/A CONVERTER</td>
 </tr>
 <tr>
 <td>Output Type</td>
 <td>VOLTAGE OUTPUT</td>
+<td>Voltage - Unbuffered</td>
 <td>Voltage - Unbuffered</td>
 </tr>
 <tr>
 <td>Lifecycle Status</td>
 <td>OBSOLETE</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Package / Case</td>
 <td>Legacy package variants</td>
+<td>74-LBGA, CSPBGA</td>
 <td>74-LBGA, CSPBGA</td>
 </tr>
 <tr>
 <td>Replacement Path</td>
 <td>AD5532 family</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Resolution</td>
 <td>Legacy family; review obsolete datasheet</td>
+<td>1.75 B</td>
 <td>1.75 B</td>
 </tr>
 <tr>
 <td>JESD-609 Code</td>
 <td>-</td>
 <td>e0</td>
+<td>e0</td>
 </tr>
 <tr>
 <td>RoHS Status</td>
 <td>-</td>
+<td>Non-RoHS Compliant</td>
 <td>Non-RoHS Compliant</td>
 </tr>
 <tr>
 <td>Moisture Sensitivity Level (MSL)</td>
 <td>-</td>
 <td>3 (168 Hours)</td>
+<td>3 (168 Hours)</td>
 </tr>
 <tr>
 <td>ECCN Code</td>
 <td>-</td>
 <td>EAR99</td>
+<td>EAR99</td>
 </tr>
 <tr>
-<td>Packaging</td>
+<td>Height Seated (Max)</td>
 <td>-</td>
-<td>Tray</td>
+<td>1.7mm</td>
+<td>1.7mm</td>
 </tr>
 <tr>
-<td>Lead Free</td>
+<td>Terminal Finish</td>
 <td>-</td>
-<td>Contains Lead</td>
+<td>Tin/Lead (Sn63Pb37)</td>
+<td>Tin/Lead (Sn63Pb37)</td>
 </tr>
 <tr>
-<td>Mounting Type</td>
+<td>Time@Peak Reflow Temperature-Max (s)</td>
 <td>-</td>
-<td>Surface Mount</td>
+<td>30</td>
+<td>30</td>
 </tr>
 <tr>
-<td>Part Status</td>
+<td>Low-Bias</td>
 <td>-</td>
-<td>Obsolete</td>
+<td>BINARY</td>
+<td>BINARY</td>
 </tr>
 <tr>
-<td>Contact Plating</td>
+<td>Special Feature</td>
 <td>-</td>
-<td>Lead, Tin</td>
+<td>Parallel, SPI</td>
+<td>Parallel, SPI</td>
 </tr>
 </tbody></table>
     </section>
@@ -193,7 +219,7 @@
     <section class="section">
       <h2>Evidence summary</h2>
       <ul class="evidence-list">
-<li><strong><a href="https://www.analog.com/en/products/ad5564.html">AD5564 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD5564 obsolete and states that the product is replaced by AD5532. Signals: obsolete, replacement.</li>
+<li><strong><a href="https://www.analog.com/en/products/ad5564.html">AD5564 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD5564 obsolete and lists the AD5532 family as the migration path. Signals: obsolete, replacement.</li>
 <li><strong><a href="https://www.analog.com/en/support/product-life-cycle-information.html">ADI product life cycle information</a></strong> <span class="muted">(official-lifecycle-page)</span><br>ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools. Signals: obsolete, lifecycle.</li>
 </ul>
     </section>

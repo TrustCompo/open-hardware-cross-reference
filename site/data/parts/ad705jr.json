@@ -1,68 +1,12 @@
 {
   "comparisonRows": [
     {
-      "attribute": "Manufacturer",
-      "candidates": [
-        {
-          "productCode": "TCE000034007",
-          "value": "Analog Devices Inc./Maxim Integrated"
-        }
-      ],
-      "target": "Analog Devices Inc./Maxim Integrated"
-    },
-    {
-      "attribute": "Lifecycle Status",
-      "candidates": [
-        {
-          "productCode": "TCE000034007",
-          "value": "PRODUCTION (Last Updated: 1 week ago)"
-        }
-      ],
-      "target": "OBSOLETE"
-    },
-    {
-      "attribute": "Package / Case",
-      "candidates": [
-        {
-          "productCode": "TCE000034007",
-          "value": "8-SOIC (0.154, 3.90mm Width)"
-        }
-      ],
-      "target": "Legacy package variants"
-    },
-    {
-      "attribute": "Replacement Path",
-      "candidates": [
-        {
-          "productCode": "TCE000034007",
-          "value": "-"
-        }
-      ],
-      "target": "OP97"
-    },
-    {
-      "attribute": "Category",
-      "candidates": [
-        {
-          "productCode": "TCE000034007",
-          "value": "-"
-        }
-      ],
-      "target": "Precision operational amplifier"
-    },
-    {
-      "attribute": "Input Bias Current",
-      "candidates": [
-        {
-          "productCode": "TCE000034007",
-          "value": "-"
-        }
-      ],
-      "target": "Picoampere class"
-    },
-    {
       "attribute": "Supply Note",
       "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        },
         {
           "productCode": "TCE000034007",
           "value": "-"
@@ -74,6 +18,10 @@
       "attribute": "Amplifier Type",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "General Purpose"
+        },
+        {
           "productCode": "TCE000034007",
           "value": "General Purpose"
         }
@@ -84,6 +32,10 @@
       "attribute": "Application Note",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000034007",
           "value": "-"
         }
@@ -91,91 +43,211 @@
       "target": "Sustainment-only review and precision revalidation required"
     },
     {
-      "attribute": "Part Status",
+      "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "Active"
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "PRODUCTION (Last Updated: 3 months ago)"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "PRODUCTION (Last Updated: 1 week ago)"
+        }
+      ],
+      "target": "OBSOLETE"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "8-SOIC (0.154, 3.90mm Width)"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "8-SOIC (0.154, 3.90mm Width)"
+        }
+      ],
+      "target": "Legacy package variants"
+    },
+    {
+      "attribute": "Replacement Path",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "-"
+        }
+      ],
+      "target": "OP97"
+    },
+    {
+      "attribute": "Category",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "-"
+        }
+      ],
+      "target": "Precision operational amplifier"
+    },
+    {
+      "attribute": "Input Bias Current",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "-"
+        }
+      ],
+      "target": "Picoampere class"
+    },
+    {
+      "attribute": "Terminal Finish",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "Matte Tin (Sn)"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "-"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "REACH Status",
+      "attribute": "Voltage - Input Offset",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "20μV"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "REACH Unaffected"
+          "value": "30μV"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "ECCN",
+      "attribute": "Power Supply Rejection Ratio (PSRR)",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "125dB"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "EAR99"
+          "value": "132dB"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Packaging",
+      "attribute": "Voltage Gain",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "135.56dB"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "Tube"
+          "value": "126.02dB"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Lead Free",
+      "attribute": "Voltage - Supply, Single/Dual (±)",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "6V~36V ±3V~18V"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "Contains Lead"
+          "value": "±2V~20V"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Mounting Type",
+      "attribute": "Number of Channels",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "1"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "Surface Mount"
+          "value": "1"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Factory Lead Time",
+      "attribute": "Dual Supply Voltage",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "15V"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "8 Weeks"
+          "value": "15V"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Operating Temperature",
+      "attribute": "Neg Supply Voltage-Nom (Vsup)",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "-15V"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "-40°C~85°C"
+          "value": "-15V"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Categories",
+      "attribute": "Low-Offset",
       "candidates": [
         {
+          "productCode": "TCE000041681",
+          "value": "YES"
+        },
+        {
           "productCode": "TCE000034007",
-          "value": "Integrated Circuits (ICs)"
+          "value": "YES"
         }
       ],
       "target": "-"
@@ -186,38 +258,127 @@
   "displayPartNumber": "AD705JR",
   "evidenceSummary": [
     {
-      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "excerpt": "ADI marks AD705 obsolete and lists OP97 as the suggested replacement.",
       "signals": [
-        "datasheet",
-        "target-part"
+        "obsolete",
+        "replacement"
       ],
-      "sourceType": "catalog-datasheet",
-      "title": "AD705JR datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD705.pdf"
+      "sourceType": "official-product-page",
+      "title": "AD705 product page",
+      "url": "https://www.analog.com/en/products/ad705.html"
     },
     {
-      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "catalog-lifecycle",
-      "title": "AD705JR lifecycle note",
-      "url": ""
-    },
-    {
-      "excerpt": "ADI currently marks AD705 obsolete and lists OP97 as the suggested replacement for sustainment review.",
-      "signals": [
-        "functional"
-      ],
-      "sourceType": "alternative-datasheet",
-      "title": "OP97FSZ datasheet",
-      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-op97fsz.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:26:09",
+  "generatedAt": "2026-07-18 15:18:11",
   "partNumber": "AD705JR",
-  "reasoning": "ADI currently marks AD705 obsolete and lists OP97 as the suggested replacement for sustainment review.",
+  "reasoning": "As of July 18, 2026, ADI marks AD705 obsolete and lists OP97 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "600 kHz",
+          "Base Part Number": "OP177",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "140 dB",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "8 Weeks",
+          "Height": "1.5mm",
+          "Input Offset Voltage (Vos)": "25μV",
+          "Lead Free": "Contains Lead",
+          "Length": "5mm",
+          "Lifecycle Status": "PRODUCTION (Last Updated: 3 months ago)",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "OP177GSZ",
+          "Max Input Voltage": "14V",
+          "Max Power Dissipation": "500mW",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "1.6mA",
+          "Number of Functions": "1",
+          "Number of Pins": "8",
+          "Number of Terminations": "8",
+          "Operating Supply Current": "2mA",
+          "Operating Supply Voltage": "15V",
+          "Operating Temperature": "-40°C~85°C",
+          "Package / Case": "8-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "8",
+          "Power Dissipation": "500mW",
+          "Qualification Status": "Not Qualified",
+          "Quiescent Current": "2mA",
+          "REACH Status": "REACH Unaffected",
+          "Reflow Temperature-Max (s)": "30",
+          "Slew Rate": "0.3V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Width": "4mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "General Purpose",
+          "Average Bias Current-Max (IIB)": "0.006μA",
+          "Current - Input Bias": "1.2nA",
+          "Dual Supply Voltage": "15V",
+          "Frequency Compensation": "YES",
+          "Low-Offset": "YES",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Number of Channels": "1",
+          "Power Supply Rejection Ratio (PSRR)": "125dB",
+          "Supply Type": "Dual",
+          "Supply Voltage Limit-Max": "22V",
+          "Terminal Finish": "Matte Tin (Sn)",
+          "Unity Gain BW-Nom": "600 kHz",
+          "Voltage - Input Offset": "20μV",
+          "Voltage - Supply, Single/Dual (±)": "6V~36V ±3V~18V",
+          "Voltage Gain": "135.56dB"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-op177gsz.pdf",
+      "description": "IC OPAMP GP 600KHZ 8SOIC",
+      "fitNotes": [
+        "OP177GSZ is published as an 8-SOIC pin-compatible precision op amp candidate for AD705JR sustainment review."
+      ],
+      "fitScore": 60,
+      "package": "8SOIC",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000041681",
+      "productName": "OP177GSZ",
+      "productOverview": "IC OPAMP GP 600KHZ 8SOIC",
+      "reason": "OP177GSZ is published as an 8-SOIC pin-compatible precision op amp candidate for AD705JR sustainment review.",
+      "series": "-",
+      "slug": "TCE000041681-OP177GSZ",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": "https://www.trustcompo.com/product/detail/TCE000041681-OP177GSZ"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {

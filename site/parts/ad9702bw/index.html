@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AD9702BW cross reference | TrustCompo Open Hardware Cross Reference</title>
-  <meta name="description" content="ADI currently marks AD9702 obsolete and lists ADV7123 as the suggested video DAC replacement.">
+  <meta name="description" content="As of July 18, 2026, ADI marks AD9702 obsolete and lists ADV7123 as the suggested replacement.">
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
@@ -54,12 +54,12 @@
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>AD9702BW</h1>
-      <p>ADI currently marks AD9702 obsolete and lists ADV7123 as the suggested video DAC replacement.</p>
+      <p>As of July 18, 2026, ADI marks AD9702 obsolete and lists ADV7123 as the suggested replacement.</p>
       <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090886-AD9702BW">Open AD9702BW on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090886-AD9702BW/datasheet">View AD9702BW datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>obsolete</div>
         <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
-        <div class="meta-card"><strong>Package</strong><br>44-CQFP</div>
+        <div class="meta-card"><strong>Package</strong><br>24-CDIP</div>
         <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Digital to Analog Converters (DAC)</div>
       </div>
     </section>
@@ -67,7 +67,7 @@
     <section class="section">
       <h2>Target product summary</h2>
       <p><strong>AD9702BW</strong></p>
-      <p>ADI marks the AD9702 family as obsolete and points users to ADV7123 as the suggested replacement. We published AD9702BW as the complete MPN for this obsolete triple video DAC variant, and any migration to ADV7123JSTZ330 should include a deliberate review of channel count, speed, output behavior, package constraints, video timing, and downstream analog interface assumptions before release.</p>
+      <p>ADI marks the AD9702 family as obsolete and points users to ADV7123 as the suggested replacement. We corrected the package presentation for AD9702BW to the legacy 24-CDIP form reflected by distributor references, and any migration to ADV7123JSTZ330 should include a deliberate review of channel count, speed, output behavior, package constraints, video timing, and downstream analog interface assumptions before release.</p>
       <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090886-AD9702BW/datasheet</p>
     </section>
 
@@ -75,11 +75,18 @@
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000090893-AD9702BD">AD9702BD</a></h3>
+<p><strong>P2P</strong> · Fit score 80</p>
+<p>Legacy triple video DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9702 family.</p>
+<p class="muted">Package: 24-CDIP | Series: AD9702</p>
+<p class="muted">Manufacturer: Analog Devices Inc./Maxim Integrated; Converter Type: D/A CONVERTER; Package / Case: 24-CDIP; Family Relationship: AD9702 sibling variant</p>
+</article>
+<article class="candidate-card">
 <h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000032583-ADV7123JSTZ330">ADV7123JSTZ330</a></h3>
 <p><strong>Functional</strong> · Fit score 80</p>
 <p>IC DAC VIDEO 3CH 330MHZ 48-LQFP</p>
 <p class="muted">Package: LQFP | Series: -</p>
-<p class="muted">Linearity Error-Max (EL): 0.0977%; Analog Output Voltage-Max: 1.4V; JESD-609 Code: e3; RoHS Status: ROHS3 Compliant</p>
+<p class="muted">Linearity Error-Max (EL): 0.0977%; Analog Output Voltage-Max: 1.4V; Part Status: Active; Packaging: Tray</p>
 </article>
       </div>
     </section>
@@ -90,10 +97,12 @@
 <thead><tr>
 <th>Attribute</th>
 <th>AD9702BW</th>
+<th>AD9702BD</th>
 <th>ADV7123JSTZ330</th>
 </tr></thead><tbody>
 <tr>
 <td>Manufacturer</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 </tr>
@@ -101,86 +110,103 @@
 <td>Converter Type</td>
 <td>D/A CONVERTER</td>
 <td>D/A CONVERTER</td>
+<td>D/A CONVERTER</td>
 </tr>
 <tr>
 <td>Lifecycle Status</td>
 <td>OBSOLETE</td>
+<td>-</td>
 <td>PRODUCTION (Last Updated: 2 weeks ago)</td>
 </tr>
 <tr>
 <td>Package / Case</td>
 <td>Legacy package variants</td>
+<td>24-CDIP</td>
 <td>48-LQFP</td>
 </tr>
 <tr>
 <td>Replacement Path</td>
 <td>ADV7123</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Output Type</td>
 <td>Triple DAC</td>
+<td>-</td>
 <td>Current - Unbuffered</td>
 </tr>
 <tr>
 <td>Resolution</td>
 <td>Triple 4-bit</td>
+<td>4-bit x 3</td>
 <td>1.25 B</td>
 </tr>
 <tr>
 <td>Application Focus</td>
 <td>Legacy video DAC</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Application Note</td>
 <td>Video timing and analog path review required</td>
 <td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Family Relationship</td>
+<td>-</td>
+<td>AD9702 sibling variant</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>-</td>
+<td>Video DAC</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Channel Count</td>
+<td>-</td>
+<td>Triple</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lifecycle Note</td>
+<td>-</td>
+<td>Legacy sustainment candidate</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Linearity Error-Max (EL)</td>
+<td>-</td>
 <td>-</td>
 <td>0.0977%</td>
 </tr>
 <tr>
 <td>Analog Output Voltage-Max</td>
 <td>-</td>
+<td>-</td>
 <td>1.4V</td>
-</tr>
-<tr>
-<td>JESD-609 Code</td>
-<td>-</td>
-<td>e3</td>
-</tr>
-<tr>
-<td>RoHS Status</td>
-<td>-</td>
-<td>ROHS3 Compliant</td>
-</tr>
-<tr>
-<td>REACH SVHC</td>
-<td>-</td>
-<td>No SVHC</td>
-</tr>
-<tr>
-<td>HTSUS</td>
-<td>-</td>
-<td>8542.39.0001</td>
-</tr>
-<tr>
-<td>Moisture Sensitivity Level (MSL)</td>
-<td>-</td>
-<td>3  (168 Hours)</td>
-</tr>
-<tr>
-<td>ECCN Code</td>
-<td>-</td>
-<td>EAR99</td>
 </tr>
 <tr>
 <td>Part Status</td>
 <td>-</td>
+<td>-</td>
 <td>Active</td>
+</tr>
+<tr>
+<td>Packaging</td>
+<td>-</td>
+<td>-</td>
+<td>Tray</td>
+</tr>
+<tr>
+<td>REACH Status</td>
+<td>-</td>
+<td>-</td>
+<td>REACH Unaffected</td>
 </tr>
 </tbody></table>
     </section>
@@ -193,9 +219,8 @@
     <section class="section">
       <h2>Evidence summary</h2>
       <ul class="evidence-list">
-<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9702.pdf">AD9702BW datasheet</a></strong> <span class="muted">(catalog-datasheet)</span><br>Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point. Signals: datasheet, target-part.</li>
-<li><strong>AD9702BW lifecycle note</strong> <span class="muted">(catalog-lifecycle)</span><br>TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release. Signals: obsolete.</li>
-<li><strong><a href="https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-adv7123jstz330.pdf">ADV7123JSTZ330 datasheet</a></strong> <span class="muted">(alternative-datasheet)</span><br>ADI currently marks AD9702 obsolete and lists ADV7123 as the suggested video DAC replacement. Signals: functional.</li>
+<li><strong><a href="https://www.analog.com/en/products/ad9702.html">AD9702 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD9702 obsolete and lists ADV7123 as the suggested replacement. Signals: obsolete, replacement.</li>
+<li><strong><a href="https://www.analog.com/en/support/product-life-cycle-information.html">ADI product life cycle information</a></strong> <span class="muted">(official-lifecycle-page)</span><br>ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools. Signals: obsolete, lifecycle.</li>
 </ul>
     </section>
 

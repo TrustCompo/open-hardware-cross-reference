@@ -4,6 +4,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Converter Type",
       "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "D/A CONVERTER"
+        },
         {
           "productCode": "TCE000036721",
           "value": "D/A CONVERTER"
@@ -24,6 +32,10 @@
       "attribute": "Resolution",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "12-bit"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "1.5 B"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Lifecycle Status",
       "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
         {
           "productCode": "TCE000036721",
           "value": "PRODUCTION (Last Updated: 2 weeks ago)"
@@ -44,6 +60,10 @@
       "attribute": "Package / Case",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "24-CDIP"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "20-TSSOP (0.173, 4.40mm Width)"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Replacement Path",
       "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
         {
           "productCode": "TCE000036721",
           "value": "-"
@@ -64,6 +88,10 @@
       "attribute": "Interface",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "Parallel"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "-"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Output Type",
       "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "Multiplying DAC"
+        },
         {
           "productCode": "TCE000036721",
           "value": "Current - Unbuffered"
@@ -84,6 +116,10 @@
       "attribute": "Application Note",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "-"
         }
@@ -91,8 +127,54 @@
       "target": "Replacement review required before reuse"
     },
     {
+      "attribute": "Family Relationship",
+      "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "AD563 sibling variant"
+        },
+        {
+          "productCode": "TCE000036721",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Lifecycle Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "Legacy sustainment candidate"
+        },
+        {
+          "productCode": "TCE000036721",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Linearity Error-Max (EL)",
+      "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000036721",
+          "value": "0.0244%"
+        }
+      ],
+      "target": "-"
+    },
+    {
       "attribute": "Part Status",
       "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
         {
           "productCode": "TCE000036721",
           "value": "Active"
@@ -104,6 +186,10 @@
       "attribute": "REACH Status",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "REACH Unaffected"
         }
@@ -113,6 +199,10 @@
     {
       "attribute": "ECCN",
       "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
         {
           "productCode": "TCE000036721",
           "value": "EAR99"
@@ -124,6 +214,10 @@
       "attribute": "Packaging",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "Tube"
         }
@@ -133,6 +227,10 @@
     {
       "attribute": "Lead Free",
       "candidates": [
+        {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
         {
           "productCode": "TCE000036721",
           "value": "Contains Lead"
@@ -144,38 +242,12 @@
       "attribute": "Mounting Type",
       "candidates": [
         {
+          "productCode": "TCE000090887",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000036721",
           "value": "Surface Mount"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Factory Lead Time",
-      "candidates": [
-        {
-          "productCode": "TCE000036721",
-          "value": "8 Weeks"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Subcategory",
-      "candidates": [
-        {
-          "productCode": "TCE000036721",
-          "value": "Other Converters"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Categories",
-      "candidates": [
-        {
-          "productCode": "TCE000036721",
-          "value": "Integrated Circuits (ICs)"
         }
       ],
       "target": "-"
@@ -206,10 +278,48 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:28:13",
+  "generatedAt": "2026-07-18 15:17:58",
   "partNumber": "AD563JD/BIN/+",
-  "reasoning": "As of July 18, 2026, ADI marks the AD563 family obsolete and points designers to AD5445 as the replacement path; this page uses the full obsolete MPN AD563JD/BIN/+.",
+  "reasoning": "As of July 18, 2026, ADI marks AD563 obsolete and lists AD5445 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Identification": {
+          "Lifecycle Note": "Legacy sustainment candidate"
+        },
+        "Product Attribute": {
+          "Converter Type": "D/A CONVERTER",
+          "Family Relationship": "AD563 sibling variant",
+          "Interface": "Parallel",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Output Type": "Multiplying DAC",
+          "Package / Case": "24-CDIP",
+          "Resolution": "12-bit"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD563.pdf",
+      "description": "Legacy 12-bit multiplying DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD563 family.",
+      "fitNotes": [
+        "AD563SD/BCD is published as a pin-compatible sibling candidate within the obsolete AD563 family for AD563JD/BIN/+ review."
+      ],
+      "fitScore": 80,
+      "package": "24-CDIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000090887",
+      "productName": "AD563SD/BCD",
+      "productOverview": "AD563SD/BCD is a legacy exact-MPN variant within the obsolete AD563 12-bit multiplying DAC family. It is published here as a first-pass pin-compatible sibling candidate for sustainment review alongside the same family datasheet and should still be verified against package, grade, and calibration constraints before substitution.",
+      "reason": "AD563SD/BCD is published as a pin-compatible sibling candidate within the obsolete AD563 family for AD563JD/BIN/+ review.",
+      "series": "AD563",
+      "slug": "TCE000090887-AD563SD%2FBCD",
+      "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000090887-AD563SD%2FBCD"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
@@ -292,7 +402,7 @@
       "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad5445yruz.pdf",
       "description": "IC DAC 12BIT PARALL IOUT 20TSSOP",
       "fitNotes": [
-        "Official ADI product page lists AD5445 as the suggested replacement."
+        "ADI currently marks AD563 obsolete and points designers to AD5445 as the suggested replacement."
       ],
       "fitScore": 80,
       "package": "TSSOP",
@@ -303,14 +413,14 @@
       "productCode": "TCE000036721",
       "productName": "AD5445YRUZ",
       "productOverview": "IC DAC 12BIT PARALL IOUT 20TSSOP",
-      "reason": "ADI lists AD5445 as the suggested replacement for AD563.",
+      "reason": "ADI currently marks AD563 obsolete and points designers to AD5445 as the suggested replacement.",
       "series": "-",
       "slug": "TCE000036721-AD5445YRUZ",
       "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
       "url": "https://www.trustcompo.com/product/detail/TCE000036721-AD5445YRUZ"
     }
   ],
-  "sourceReportFile": "runtime/catalog-batches/2026-07-18-adi-obsolete-wave-1/lifecycle-and-crossrefs.json",
+  "sourceReportFile": "api:/product/cross-references",
   "target": {
     "attributeGroups": {
       "Product Attribute": {

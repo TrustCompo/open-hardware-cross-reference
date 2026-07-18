@@ -4,6 +4,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Sampling Rate",
       "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "1.25 Msps"
+        },
         {
           "productCode": "TCE000030773",
           "value": "1.5 Msps"
@@ -24,6 +32,10 @@
       "attribute": "Converter Type",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "A/D CONVERTER"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "ADC, FLASH METHOD"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Resolution",
       "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "12-bit"
+        },
         {
           "productCode": "TCE000030773",
           "value": "1.5 B"
@@ -44,6 +60,10 @@
       "attribute": "Lifecycle Status",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "PRODUCTION (Last Updated: 2 weeks ago)"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Package / Case",
       "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "28-PDIP"
+        },
         {
           "productCode": "TCE000030773",
           "value": "28-SOIC (0.295, 7.50mm Width)"
@@ -64,6 +88,10 @@
       "attribute": "Replacement Path",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "-"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Architecture",
       "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "Monolithic ADC"
+        },
         {
           "productCode": "TCE000030773",
           "value": "Pipelined"
@@ -84,6 +116,10 @@
       "attribute": "Application Note",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "-"
         }
@@ -91,8 +127,40 @@
       "target": "Sustainment-only review and interface revalidation required"
     },
     {
+      "attribute": "Lifecycle Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "Legacy sustainment candidate"
+        },
+        {
+          "productCode": "TCE000030773",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Family Relationship",
+      "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "High-speed 12-bit ADC shortlist candidate"
+        },
+        {
+          "productCode": "TCE000030773",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
       "attribute": "Part Status",
       "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
         {
           "productCode": "TCE000030773",
           "value": "Active"
@@ -104,6 +172,10 @@
       "attribute": "REACH Status",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "REACH Unaffected"
         }
@@ -113,6 +185,10 @@
     {
       "attribute": "ECCN",
       "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
         {
           "productCode": "TCE000030773",
           "value": "EAR99"
@@ -124,6 +200,10 @@
       "attribute": "Packaging",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "Tube"
         }
@@ -133,6 +213,10 @@
     {
       "attribute": "Lead Free",
       "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
         {
           "productCode": "TCE000030773",
           "value": "Contains Lead"
@@ -144,6 +228,10 @@
       "attribute": "Mounting Type",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "Surface Mount"
         }
@@ -154,28 +242,12 @@
       "attribute": "Factory Lead Time",
       "candidates": [
         {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000030773",
           "value": "8 Weeks"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Operating Temperature",
-      "candidates": [
-        {
-          "productCode": "TCE000030773",
-          "value": "-40°C~85°C"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Categories",
-      "candidates": [
-        {
-          "productCode": "TCE000030773",
-          "value": "Integrated Circuits (ICs)"
         }
       ],
       "target": "-"
@@ -186,38 +258,68 @@
   "displayPartNumber": "AD1672AP",
   "evidenceSummary": [
     {
-      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "excerpt": "ADI marks AD1672 obsolete and lists AD9221 as the suggested replacement.",
       "signals": [
-        "datasheet",
-        "target-part"
+        "obsolete",
+        "replacement"
       ],
-      "sourceType": "catalog-datasheet",
-      "title": "AD1672AP datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1672.pdf"
+      "sourceType": "official-product-page",
+      "title": "AD1672 product page",
+      "url": "https://www.analog.com/en/products/ad1672.html"
     },
     {
-      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "catalog-lifecycle",
-      "title": "AD1672AP lifecycle note",
-      "url": ""
-    },
-    {
-      "excerpt": "ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family.",
-      "signals": [
-        "functional"
-      ],
-      "sourceType": "alternative-datasheet",
-      "title": "AD9221ARZ datasheet",
-      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9221arz.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:26:05",
+  "generatedAt": "2026-07-18 15:18:15",
   "partNumber": "AD1672AP",
-  "reasoning": "ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family.",
+  "reasoning": "As of July 18, 2026, ADI marks AD1672 obsolete and lists AD9221 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Identification": {
+          "Lifecycle Note": "Legacy sustainment candidate"
+        },
+        "Product Attribute": {
+          "Architecture": "Monolithic ADC",
+          "Converter Type": "A/D CONVERTER",
+          "Family Relationship": "High-speed 12-bit ADC shortlist candidate",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Package / Case": "28-PDIP",
+          "Resolution": "12-bit",
+          "Sampling Rate": "1.25 Msps"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD1671.pdf",
+      "description": "Legacy 12-bit 1.25 MSPS ADC exact MPN used as a pin-compatible shortlist candidate for AD1672AP sustainment review.",
+      "fitNotes": [
+        "AD1671AP is published as a first-pass pin-compatible shortlist candidate for AD1672AP sustainment review and must be verified against timing and interface needs."
+      ],
+      "fitScore": 60,
+      "package": "28-PDIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000090891",
+      "productName": "AD1671AP",
+      "productOverview": "AD1671AP is a legacy exact-MPN ADC within ADI's early high-speed 12-bit converter line. It is published here as a first-pass pin-compatible shortlist candidate for AD1672AP sustainment work and should be checked carefully against throughput, interface, and package behavior before substitution.",
+      "reason": "AD1671AP is published as a first-pass pin-compatible shortlist candidate for AD1672AP sustainment review and must be verified against timing and interface needs.",
+      "series": "AD1671",
+      "slug": "TCE000090891-AD1671AP",
+      "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000090891-AD1671AP"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
@@ -340,14 +442,14 @@
     "categoryName": "Integrated Circuits (ICs)",
     "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1672.pdf",
     "description": "AD1672AP obsolete 12-bit 3 MSPS monolithic ADC listed by ADI and redirected to AD9221.",
-    "package": "28-PLCC",
+    "package": "28-PDIP",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
     },
     "productCode": "TCE000090883",
     "productName": "AD1672AP",
-    "productOverview": "ADI lists the AD1672 family as obsolete and names AD9221 as the suggested replacement on the current product page. We published AD1672AP as the complete MPN for this obsolete 12-bit 3 MSPS monolithic ADC variant, and sustainment or redesign work should compare resolution, throughput, input architecture, supply rails, package constraints, and timing interface behavior before treating AD9221ARZ as the qualified successor.",
+    "productOverview": "ADI lists the AD1672 family as obsolete and names AD9221 as the suggested replacement on the current product page. We retained AD1672AP as the source MPN but corrected the package presentation to match the legacy ordering information, and sustainment or redesign work should compare resolution, throughput, input architecture, supply rails, package constraints, and timing interface behavior before treating AD9221ARZ as the qualified successor.",
     "series": "-",
     "slug": "TCE000090883-AD1672AP",
     "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",

@@ -4,6 +4,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Sampling Rate",
       "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "10 Msps"
+        },
         {
           "productCode": "TCE000011423",
           "value": "10 Msps"
@@ -24,6 +32,10 @@
       "attribute": "Converter Type",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "A/D CONVERTER"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "ADC, FLASH METHOD"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Resolution",
       "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "12-bit"
+        },
         {
           "productCode": "TCE000011423",
           "value": "1.5 B"
@@ -44,6 +60,10 @@
       "attribute": "Lifecycle Status",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "PRODUCTION (Last Updated: 3 weeks ago)"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Package / Case",
       "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "46-DIP Module"
+        },
         {
           "productCode": "TCE000011423",
           "value": "28-SOIC (0.295, 7.50mm Width)"
@@ -64,6 +88,10 @@
       "attribute": "Architecture",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "Subranging ADC"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "Pipelined"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Replacement Path",
       "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
         {
           "productCode": "TCE000011423",
           "value": "-"
@@ -84,6 +116,10 @@
       "attribute": "Application Note",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "-"
         }
@@ -91,8 +127,40 @@
       "target": "Legacy sustainment review required before substitution"
     },
     {
+      "attribute": "Family Relationship",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "AD9007 sibling variant"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Lifecycle Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "Legacy sustainment candidate"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
       "attribute": "JESD-609 Code",
       "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
         {
           "productCode": "TCE000011423",
           "value": "e3"
@@ -104,6 +172,10 @@
       "attribute": "ECCN Code",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "EAR99"
         }
@@ -113,6 +185,10 @@
     {
       "attribute": "RoHS Status",
       "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
         {
           "productCode": "TCE000011423",
           "value": "ROHS3 Compliant"
@@ -124,6 +200,10 @@
       "attribute": "REACH SVHC",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "No SVHC"
         }
@@ -133,6 +213,10 @@
     {
       "attribute": "HTSUS",
       "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
         {
           "productCode": "TCE000011423",
           "value": "8542.39.0001"
@@ -144,6 +228,10 @@
       "attribute": "Moisture Sensitivity Level (MSL)",
       "candidates": [
         {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000011423",
           "value": "3  (168 Hours)"
         }
@@ -151,31 +239,15 @@
       "target": "-"
     },
     {
-      "attribute": "Contact Plating",
+      "attribute": "Number of Analog In Channels",
       "candidates": [
         {
-          "productCode": "TCE000011423",
-          "value": "Tin"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Part Status",
-      "candidates": [
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
         {
           "productCode": "TCE000011423",
-          "value": "Active"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Radiation Hardening",
-      "candidates": [
-        {
-          "productCode": "TCE000011423",
-          "value": "NO"
+          "value": "1"
         }
       ],
       "target": "-"
@@ -186,38 +258,68 @@
   "displayPartNumber": "AD9007AM",
   "evidenceSummary": [
     {
-      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "excerpt": "ADI marks AD9007 obsolete and lists AD9220 as the suggested replacement.",
       "signals": [
-        "datasheet",
-        "target-part"
+        "obsolete",
+        "replacement"
       ],
-      "sourceType": "catalog-datasheet",
-      "title": "AD9007AM datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9007.pdf"
+      "sourceType": "official-product-page",
+      "title": "AD9007 product page",
+      "url": "https://www.analog.com/en/products/ad9007.html"
     },
     {
-      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "catalog-lifecycle",
-      "title": "AD9007AM lifecycle note",
-      "url": ""
-    },
-    {
-      "excerpt": "ADI currently marks AD9007 obsolete and lists AD9220 as the suggested replacement ADC.",
-      "signals": [
-        "functional"
-      ],
-      "sourceType": "alternative-datasheet",
-      "title": "AD9220ARZ datasheet",
-      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9220arz.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:26:00",
+  "generatedAt": "2026-07-18 15:18:22",
   "partNumber": "AD9007AM",
-  "reasoning": "ADI currently marks AD9007 obsolete and lists AD9220 as the suggested replacement ADC.",
+  "reasoning": "As of July 18, 2026, ADI marks AD9007 obsolete and lists AD9220 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Identification": {
+          "Lifecycle Note": "Legacy sustainment candidate"
+        },
+        "Product Attribute": {
+          "Architecture": "Subranging ADC",
+          "Converter Type": "A/D CONVERTER",
+          "Family Relationship": "AD9007 sibling variant",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Package / Case": "46-DIP Module",
+          "Resolution": "12-bit",
+          "Sampling Rate": "10 Msps"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9007.pdf",
+      "description": "Legacy 12-bit 10 MSPS ADC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9007 family.",
+      "fitNotes": [
+        "AD9007BM is published as a pin-compatible sibling candidate within the obsolete AD9007 family for AD9007AM sustainment review."
+      ],
+      "fitScore": 80,
+      "package": "46-DIP Module",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000090892",
+      "productName": "AD9007BM",
+      "productOverview": "AD9007BM is a legacy exact-MPN variant in the obsolete AD9007 12-bit 10 MSPS ADC family. It is published as a first-pass pin-compatible sibling candidate for AD9007AM sustainment review and should be validated against grade, packaging, and system timing requirements before substitution.",
+      "reason": "AD9007BM is published as a pin-compatible sibling candidate within the obsolete AD9007 family for AD9007AM sustainment review.",
+      "series": "AD9007",
+      "slug": "TCE000090892-AD9007BM",
+      "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000090892-AD9007BM"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
@@ -343,15 +445,15 @@
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
     "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9007.pdf",
-    "description": "AD9007AM obsolete high-speed ADC listed by ADI and redirected to AD9220.",
-    "package": "28-PLCC",
+    "description": "AD9007AM obsolete 12-bit 10 MSPS ADC listed by ADI and redirected to AD9220.",
+    "package": "46-DIP Module",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
     },
     "productCode": "TCE000090885",
     "productName": "AD9007AM",
-    "productOverview": "ADI lists the AD9007 family as obsolete and explicitly names AD9220 as the suggested replacement. We published AD9007AM as the complete MPN for this obsolete high-speed ADC variant, and engineers should confirm throughput, reference behavior, track-and-hold expectations, package constraints, and downstream interface timing before using AD9220ARZ as the service successor.",
+    "productOverview": "ADI lists the AD9007 family as obsolete and explicitly names AD9220 as the suggested replacement. We corrected the source-package presentation for AD9007AM to match the legacy module packaging used in distributor and datasheet records, and engineers should confirm throughput, reference behavior, track-and-hold expectations, package constraints, and downstream interface timing before using AD9220ARZ as the service successor.",
     "series": "-",
     "slug": "TCE000090885-AD9007AM",
     "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",

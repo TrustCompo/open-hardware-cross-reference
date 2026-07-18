@@ -4,6 +4,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000090889",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000012458",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Converter Type",
       "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "D/A CONVERTER"
+        },
         {
           "productCode": "TCE000012458",
           "value": "D/A CONVERTER"
@@ -24,6 +32,10 @@
       "attribute": "Sampling Rate",
       "candidates": [
         {
+          "productCode": "TCE000090889",
+          "value": "80 Msps"
+        },
+        {
           "productCode": "TCE000012458",
           "value": "125 Msps"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Operating Temperature",
       "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
         {
           "productCode": "TCE000012458",
           "value": "-40°C~85°C"
@@ -44,6 +60,10 @@
       "attribute": "Resolution",
       "candidates": [
         {
+          "productCode": "TCE000090889",
+          "value": "12-bit"
+        },
+        {
           "productCode": "TCE000012458",
           "value": "1.25 B"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Lifecycle Status",
       "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
         {
           "productCode": "TCE000012458",
           "value": "PRODUCTION (Last Updated: 2 weeks ago)"
@@ -64,6 +88,10 @@
       "attribute": "Package / Case",
       "candidates": [
         {
+          "productCode": "TCE000090889",
+          "value": "28-PDIP"
+        },
+        {
           "productCode": "TCE000012458",
           "value": "28-SOIC (0.295, 7.50mm Width)"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Replacement Path",
       "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
         {
           "productCode": "TCE000012458",
           "value": "-"
@@ -84,6 +116,10 @@
       "attribute": "Logic Compatibility",
       "candidates": [
         {
+          "productCode": "TCE000090889",
+          "value": "TTL compatible"
+        },
+        {
           "productCode": "TCE000012458",
           "value": "-"
         }
@@ -91,8 +127,68 @@
       "target": "TTL compatible"
     },
     {
+      "attribute": "Lifecycle Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "Legacy sustainment candidate"
+        },
+        {
+          "productCode": "TCE000012458",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Family Relationship",
+      "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "AD9713B sibling variant"
+        },
+        {
+          "productCode": "TCE000012458",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Power Supplies",
+      "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000012458",
+          "value": "5V"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Linearity Error-Max (EL)",
+      "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000012458",
+          "value": "0.0977%"
+        }
+      ],
+      "target": "-"
+    },
+    {
       "attribute": "Contact Plating",
       "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
         {
           "productCode": "TCE000012458",
           "value": "Tin"
@@ -104,6 +200,10 @@
       "attribute": "Number of Bits",
       "candidates": [
         {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000012458",
           "value": "10"
         }
@@ -113,6 +213,10 @@
     {
       "attribute": "Part Status",
       "candidates": [
+        {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
         {
           "productCode": "TCE000012458",
           "value": "Active"
@@ -124,6 +228,10 @@
       "attribute": "Pbfree Code",
       "candidates": [
         {
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000012458",
           "value": "NO"
         }
@@ -134,48 +242,12 @@
       "attribute": "Differential Output",
       "candidates": [
         {
-          "productCode": "TCE000012458",
-          "value": "Yes"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Surface Mount",
-      "candidates": [
+          "productCode": "TCE000090889",
+          "value": "-"
+        },
         {
           "productCode": "TCE000012458",
           "value": "Yes"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "REACH Status",
-      "candidates": [
-        {
-          "productCode": "TCE000012458",
-          "value": "REACH Unaffected"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "ECCN",
-      "candidates": [
-        {
-          "productCode": "TCE000012458",
-          "value": "EAR99"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Number of Converters",
-      "candidates": [
-        {
-          "productCode": "TCE000012458",
-          "value": "1"
         }
       ],
       "target": "-"
@@ -186,11 +258,10 @@
   "displayPartNumber": "AD9713BAP",
   "evidenceSummary": [
     {
-      "excerpt": "ADI marks AD9713B obsolete and advises customers to consider the AD975X and AD976X product families instead.",
+      "excerpt": "ADI marks AD9713B obsolete and points designers to the AD975X/AD976X successor path.",
       "signals": [
         "obsolete",
-        "ad975x",
-        "ad976x"
+        "replacement"
       ],
       "sourceType": "official-product-page",
       "title": "AD9713B product page",
@@ -207,10 +278,50 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:28:40",
+  "generatedAt": "2026-07-18 15:18:04",
   "partNumber": "AD9713BAP",
-  "reasoning": "As of July 18, 2026, ADI marks the AD9713B family obsolete and advises designers to evaluate AD975X or AD976X successors; this publication uses the full obsolete MPN AD9713BAP and maps it to AD9760ARZ for first-pass review.",
+  "reasoning": "As of July 18, 2026, ADI marks AD9713B obsolete and points designers to the AD975X/AD976X successor path.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Identification": {
+          "Lifecycle Note": "Legacy sustainment candidate"
+        },
+        "Product Attribute": {
+          "Converter Type": "D/A CONVERTER",
+          "Family Relationship": "AD9713B sibling variant",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Package / Case": "28-PDIP",
+          "Resolution": "12-bit",
+          "Sampling Rate": "80 Msps"
+        },
+        "Product Parameter": {
+          "Logic Compatibility": "TTL compatible"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9713B.pdf",
+      "description": "Legacy 12-bit 80 MSPS DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9713B family.",
+      "fitNotes": [
+        "AD9713BAN is published as a pin-compatible sibling candidate within the obsolete AD9713B family for AD9713BAP sustainment review."
+      ],
+      "fitScore": 80,
+      "package": "28-PDIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000090889",
+      "productName": "AD9713BAN",
+      "productOverview": "AD9713BAN is a legacy exact-MPN variant within the obsolete AD9713B DAC family. It is published as a first-pass pin-compatible sibling candidate for sustainment review and should be verified against grade, package, and timing behavior before substitution.",
+      "reason": "AD9713BAN is published as a pin-compatible sibling candidate within the obsolete AD9713B family for AD9713BAP sustainment review.",
+      "series": "AD9713B",
+      "slug": "TCE000090889-AD9713BAN",
+      "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000090889-AD9713BAN"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
@@ -296,7 +407,7 @@
       "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9760arz.pdf",
       "description": "IC DAC 10BIT 125MSPS 28-SOIC",
       "fitNotes": [
-        "ADI names the AD976X family as the successor path for AD9713B."
+        "ADI currently marks AD9713B obsolete and advises customers to evaluate the AD975X and AD976X successor families."
       ],
       "fitScore": 80,
       "package": "28-SOIC",
@@ -307,14 +418,14 @@
       "productCode": "TCE000012458",
       "productName": "AD9760ARZ",
       "productOverview": "IC DAC 10BIT 125MSPS 28-SOIC",
-      "reason": "ADI lists the AD976X family as a successor path for AD9713B.",
+      "reason": "ADI currently marks AD9713B obsolete and advises customers to evaluate the AD975X and AD976X successor families.",
       "series": "TxDAC®",
       "slug": "TCE000012458-AD9760ARZ",
       "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
       "url": "https://www.trustcompo.com/product/detail/TCE000012458-AD9760ARZ"
     }
   ],
-  "sourceReportFile": "runtime/catalog-batches/2026-07-18-adi-obsolete-wave-1/lifecycle-and-crossrefs.json",
+  "sourceReportFile": "api:/product/cross-references",
   "target": {
     "attributeGroups": {
       "Product Attribute": {

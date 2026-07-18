@@ -4,6 +4,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000041681",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Lifecycle Status",
       "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
         {
           "productCode": "TCE000041681",
           "value": "PRODUCTION (Last Updated: 3 months ago)"
@@ -24,6 +32,10 @@
       "attribute": "Package / Case",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "8-CERDIP"
+        },
+        {
           "productCode": "TCE000041681",
           "value": "8-SOIC (0.154, 3.90mm Width)"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Replacement Path",
       "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
         {
           "productCode": "TCE000041681",
           "value": "-"
@@ -44,6 +60,10 @@
       "attribute": "Category",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "Operational Amplifier"
+        },
+        {
           "productCode": "TCE000041681",
           "value": "-"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Amplifier Type",
       "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "Precision Operational Amplifier"
+        },
         {
           "productCode": "TCE000041681",
           "value": "General Purpose"
@@ -64,6 +88,10 @@
       "attribute": "Precision Class",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "Precision"
+        },
+        {
           "productCode": "TCE000041681",
           "value": "-"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Application Note",
       "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
         {
           "productCode": "TCE000041681",
           "value": "-"
@@ -84,6 +116,10 @@
       "attribute": "Supply Note",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "Check obsolete datasheet for variant-specific limits"
+        },
+        {
           "productCode": "TCE000041681",
           "value": "-"
         }
@@ -91,61 +127,29 @@
       "target": "Check obsolete datasheet for model-specific limits"
     },
     {
-      "attribute": "JESD-609 Code",
+      "attribute": "Lifecycle Note",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "Legacy sustainment candidate"
+        },
+        {
           "productCode": "TCE000041681",
-          "value": "e3"
+          "value": "-"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Moisture Sensitivity Level (MSL)",
+      "attribute": "Family Relationship",
       "candidates": [
         {
-          "productCode": "TCE000041681",
-          "value": "1  (Unlimited)"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "RoHS Status",
-      "candidates": [
+          "productCode": "TCE000090890",
+          "value": "OP01 sibling variant"
+        },
         {
           "productCode": "TCE000041681",
-          "value": "ROHS3 Compliant"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "REACH SVHC",
-      "candidates": [
-        {
-          "productCode": "TCE000041681",
-          "value": "No SVHC"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "HTSUS",
-      "candidates": [
-        {
-          "productCode": "TCE000041681",
-          "value": "8542.33.0001"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "ECCN Code",
-      "candidates": [
-        {
-          "productCode": "TCE000041681",
-          "value": "EAR99"
+          "value": "-"
         }
       ],
       "target": "-"
@@ -153,6 +157,10 @@
     {
       "attribute": "Part Status",
       "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
         {
           "productCode": "TCE000041681",
           "value": "Active"
@@ -164,6 +172,10 @@
       "attribute": "REACH Status",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000041681",
           "value": "REACH Unaffected"
         }
@@ -174,8 +186,68 @@
       "attribute": "ECCN",
       "candidates": [
         {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000041681",
           "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "Tube"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Lead Free",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "Contains Lead"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Factory Lead Time",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "8 Weeks"
         }
       ],
       "target": "-"
@@ -186,38 +258,70 @@
   "displayPartNumber": "OP01CJ",
   "evidenceSummary": [
     {
-      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "excerpt": "ADI marks OP01 obsolete and lists OP177 as the suggested replacement.",
       "signals": [
-        "datasheet",
-        "target-part"
+        "obsolete",
+        "replacement"
       ],
-      "sourceType": "catalog-datasheet",
-      "title": "OP01CJ datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/OP01.pdf"
+      "sourceType": "official-product-page",
+      "title": "OP01 product page",
+      "url": "https://www.analog.com/en/products/op01.html"
     },
     {
-      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "catalog-lifecycle",
-      "title": "OP01CJ lifecycle note",
-      "url": ""
-    },
-    {
-      "excerpt": "ADI currently marks OP01 obsolete and lists OP177 as the suggested precision replacement path.",
-      "signals": [
-        "functional"
-      ],
-      "sourceType": "alternative-datasheet",
-      "title": "OP177GSZ datasheet",
-      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-op177gsz.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:26:10",
+  "generatedAt": "2026-07-18 15:18:08",
   "partNumber": "OP01CJ",
-  "reasoning": "ADI currently marks OP01 obsolete and lists OP177 as the suggested precision replacement path.",
+  "reasoning": "As of July 18, 2026, ADI marks OP01 obsolete and lists OP177 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Identification": {
+          "Lifecycle Note": "Legacy sustainment candidate"
+        },
+        "Product Attribute": {
+          "Category": "Operational Amplifier",
+          "Family Relationship": "OP01 sibling variant",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Package / Case": "8-CERDIP"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "Precision Operational Amplifier",
+          "Precision Class": "Precision",
+          "Supply Note": "Check obsolete datasheet for variant-specific limits"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/OP01.pdf",
+      "description": "Legacy precision operational amplifier exact MPN variant used as a pin-compatible sibling candidate within the obsolete OP01 family.",
+      "fitNotes": [
+        "OP01GJ is published as a pin-compatible sibling candidate within the obsolete OP01 family for OP01CJ sustainment review."
+      ],
+      "fitScore": 80,
+      "package": "8-CERDIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000090890",
+      "productName": "OP01GJ",
+      "productOverview": "OP01GJ is a legacy exact-MPN variant within the obsolete OP01 precision operational amplifier family. It is published as a first-pass pin-compatible sibling candidate for sustainment review and should still be checked against grade, package, and precision requirements before substitution.",
+      "reason": "OP01GJ is published as a pin-compatible sibling candidate within the obsolete OP01 family for OP01CJ sustainment review.",
+      "series": "OP01",
+      "slug": "TCE000090890-OP01GJ",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": "https://www.trustcompo.com/product/detail/TCE000090890-OP01GJ"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {

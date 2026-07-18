@@ -4,6 +4,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000090893",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000032583",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Converter Type",
       "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "D/A CONVERTER"
+        },
         {
           "productCode": "TCE000032583",
           "value": "D/A CONVERTER"
@@ -24,6 +32,10 @@
       "attribute": "Lifecycle Status",
       "candidates": [
         {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000032583",
           "value": "PRODUCTION (Last Updated: 2 weeks ago)"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Package / Case",
       "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "24-CDIP"
+        },
         {
           "productCode": "TCE000032583",
           "value": "48-LQFP"
@@ -44,6 +60,10 @@
       "attribute": "Replacement Path",
       "candidates": [
         {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000032583",
           "value": "-"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Output Type",
       "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
         {
           "productCode": "TCE000032583",
           "value": "Current - Unbuffered"
@@ -64,6 +88,10 @@
       "attribute": "Resolution",
       "candidates": [
         {
+          "productCode": "TCE000090893",
+          "value": "4-bit x 3"
+        },
+        {
           "productCode": "TCE000032583",
           "value": "1.25 B"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Application Focus",
       "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
         {
           "productCode": "TCE000032583",
           "value": "-"
@@ -84,6 +116,10 @@
       "attribute": "Application Note",
       "candidates": [
         {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000032583",
           "value": "-"
         }
@@ -91,8 +127,68 @@
       "target": "Video timing and analog path review required"
     },
     {
+      "attribute": "Family Relationship",
+      "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "AD9702 sibling variant"
+        },
+        {
+          "productCode": "TCE000032583",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Application",
+      "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "Video DAC"
+        },
+        {
+          "productCode": "TCE000032583",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Channel Count",
+      "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "Triple"
+        },
+        {
+          "productCode": "TCE000032583",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Lifecycle Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "Legacy sustainment candidate"
+        },
+        {
+          "productCode": "TCE000032583",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
       "attribute": "Linearity Error-Max (EL)",
       "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
         {
           "productCode": "TCE000032583",
           "value": "0.0977%"
@@ -104,68 +200,12 @@
       "attribute": "Analog Output Voltage-Max",
       "candidates": [
         {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000032583",
           "value": "1.4V"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "JESD-609 Code",
-      "candidates": [
-        {
-          "productCode": "TCE000032583",
-          "value": "e3"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "RoHS Status",
-      "candidates": [
-        {
-          "productCode": "TCE000032583",
-          "value": "ROHS3 Compliant"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "REACH SVHC",
-      "candidates": [
-        {
-          "productCode": "TCE000032583",
-          "value": "No SVHC"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "HTSUS",
-      "candidates": [
-        {
-          "productCode": "TCE000032583",
-          "value": "8542.39.0001"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Moisture Sensitivity Level (MSL)",
-      "candidates": [
-        {
-          "productCode": "TCE000032583",
-          "value": "3  (168 Hours)"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "ECCN Code",
-      "candidates": [
-        {
-          "productCode": "TCE000032583",
-          "value": "EAR99"
         }
       ],
       "target": "-"
@@ -174,8 +214,40 @@
       "attribute": "Part Status",
       "candidates": [
         {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000032583",
           "value": "Active"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000032583",
+          "value": "Tray"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000090893",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000032583",
+          "value": "REACH Unaffected"
         }
       ],
       "target": "-"
@@ -186,38 +258,70 @@
   "displayPartNumber": "AD9702BW",
   "evidenceSummary": [
     {
-      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "excerpt": "ADI marks AD9702 obsolete and lists ADV7123 as the suggested replacement.",
       "signals": [
-        "datasheet",
-        "target-part"
+        "obsolete",
+        "replacement"
       ],
-      "sourceType": "catalog-datasheet",
-      "title": "AD9702BW datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9702.pdf"
+      "sourceType": "official-product-page",
+      "title": "AD9702 product page",
+      "url": "https://www.analog.com/en/products/ad9702.html"
     },
     {
-      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "catalog-lifecycle",
-      "title": "AD9702BW lifecycle note",
-      "url": ""
-    },
-    {
-      "excerpt": "ADI currently marks AD9702 obsolete and lists ADV7123 as the suggested video DAC replacement.",
-      "signals": [
-        "functional"
-      ],
-      "sourceType": "alternative-datasheet",
-      "title": "ADV7123JSTZ330 datasheet",
-      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-adv7123jstz330.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:25:58",
+  "generatedAt": "2026-07-18 15:18:25",
   "partNumber": "AD9702BW",
-  "reasoning": "ADI currently marks AD9702 obsolete and lists ADV7123 as the suggested video DAC replacement.",
+  "reasoning": "As of July 18, 2026, ADI marks AD9702 obsolete and lists ADV7123 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Identification": {
+          "Lifecycle Note": "Legacy sustainment candidate"
+        },
+        "Product Attribute": {
+          "Converter Type": "D/A CONVERTER",
+          "Family Relationship": "AD9702 sibling variant",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Package / Case": "24-CDIP",
+          "Resolution": "4-bit x 3"
+        },
+        "Product Parameter": {
+          "Application": "Video DAC",
+          "Channel Count": "Triple"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9702.pdf",
+      "description": "Legacy triple video DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9702 family.",
+      "fitNotes": [
+        "AD9702BD is published as a pin-compatible sibling candidate within the obsolete AD9702 family for AD9702BW sustainment review."
+      ],
+      "fitScore": 80,
+      "package": "24-CDIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000090893",
+      "productName": "AD9702BD",
+      "productOverview": "AD9702BD is a legacy exact-MPN variant within the obsolete AD9702 triple video DAC family. It is published as a first-pass pin-compatible sibling candidate for AD9702BW sustainment review and should still be checked against grade, package, and downstream video-interface assumptions before substitution.",
+      "reason": "AD9702BD is published as a pin-compatible sibling candidate within the obsolete AD9702 family for AD9702BW sustainment review.",
+      "series": "AD9702",
+      "slug": "TCE000090893-AD9702BD",
+      "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000090893-AD9702BD"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
@@ -340,14 +444,14 @@
     "categoryName": "Integrated Circuits (ICs)",
     "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9702.pdf",
     "description": "AD9702BW obsolete triple video DAC listed by ADI and redirected to ADV7123.",
-    "package": "44-CQFP",
+    "package": "24-CDIP",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
     },
     "productCode": "TCE000090886",
     "productName": "AD9702BW",
-    "productOverview": "ADI marks the AD9702 family as obsolete and points users to ADV7123 as the suggested replacement. We published AD9702BW as the complete MPN for this obsolete triple video DAC variant, and any migration to ADV7123JSTZ330 should include a deliberate review of channel count, speed, output behavior, package constraints, video timing, and downstream analog interface assumptions before release.",
+    "productOverview": "ADI marks the AD9702 family as obsolete and points users to ADV7123 as the suggested replacement. We corrected the package presentation for AD9702BW to the legacy 24-CDIP form reflected by distributor references, and any migration to ADV7123JSTZ330 should include a deliberate review of channel count, speed, output behavior, package constraints, video timing, and downstream analog interface assumptions before release.",
     "series": "-",
     "slug": "TCE000090886-AD9702BW",
     "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",

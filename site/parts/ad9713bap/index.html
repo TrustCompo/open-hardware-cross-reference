@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AD9713BAP cross reference | TrustCompo Open Hardware Cross Reference</title>
-  <meta name="description" content="As of July 18, 2026, ADI marks the AD9713B family obsolete and advises designers to evaluate AD975X or AD976X successors; this publication uses the full obsolete MPN AD9713BAP and maps it to AD9760ARZ for first-pass review.">
+  <meta name="description" content="As of July 18, 2026, ADI marks AD9713B obsolete and points designers to the AD975X/AD976X successor path.">
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
@@ -54,7 +54,7 @@
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>AD9713BAP</h1>
-      <p>As of July 18, 2026, ADI marks the AD9713B family obsolete and advises designers to evaluate AD975X or AD976X successors; this publication uses the full obsolete MPN AD9713BAP and maps it to AD9760ARZ for first-pass review.</p>
+      <p>As of July 18, 2026, ADI marks AD9713B obsolete and points designers to the AD975X/AD976X successor path.</p>
       <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090880-AD9713BAP">Open AD9713BAP on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090880-AD9713BAP/datasheet">View AD9713BAP datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>obsolete</div>
@@ -75,11 +75,18 @@
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000090889-AD9713BAN">AD9713BAN</a></h3>
+<p><strong>P2P</strong> · Fit score 80</p>
+<p>Legacy 12-bit 80 MSPS DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9713B family.</p>
+<p class="muted">Package: 28-PDIP | Series: AD9713B</p>
+<p class="muted">Lifecycle Note: Legacy sustainment candidate; Manufacturer: Analog Devices Inc./Maxim Integrated; Converter Type: D/A CONVERTER; Sampling Rate: 80 Msps</p>
+</article>
+<article class="candidate-card">
 <h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000012458-AD9760ARZ">AD9760ARZ</a></h3>
 <p><strong>Functional</strong> · Fit score 80</p>
 <p>IC DAC 10BIT 125MSPS 28-SOIC</p>
 <p class="muted">Package: 28-SOIC | Series: TxDAC®</p>
-<p class="muted">Contact Plating: Tin; Number of Bits: 10; Part Status: Active; Pbfree Code: NO</p>
+<p class="muted">Power Supplies: 5V; Linearity Error-Max (EL): 0.0977%; Contact Plating: Tin; Number of Bits: 10</p>
 </article>
       </div>
     </section>
@@ -90,10 +97,12 @@
 <thead><tr>
 <th>Attribute</th>
 <th>AD9713BAP</th>
+<th>AD9713BAN</th>
 <th>AD9760ARZ</th>
 </tr></thead><tbody>
 <tr>
 <td>Manufacturer</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 </tr>
@@ -101,86 +110,103 @@
 <td>Converter Type</td>
 <td>D/A CONVERTER</td>
 <td>D/A CONVERTER</td>
+<td>D/A CONVERTER</td>
 </tr>
 <tr>
 <td>Sampling Rate</td>
+<td>80 Msps</td>
 <td>80 Msps</td>
 <td>125 Msps</td>
 </tr>
 <tr>
 <td>Operating Temperature</td>
 <td>-25°C to +85°C</td>
+<td>-</td>
 <td>-40°C~85°C</td>
 </tr>
 <tr>
 <td>Resolution</td>
+<td>12-bit</td>
 <td>12-bit</td>
 <td>1.25 B</td>
 </tr>
 <tr>
 <td>Lifecycle Status</td>
 <td>OBSOLETE</td>
+<td>-</td>
 <td>PRODUCTION (Last Updated: 2 weeks ago)</td>
 </tr>
 <tr>
 <td>Package / Case</td>
 <td>28-pin plastic DIP / PLCC</td>
+<td>28-PDIP</td>
 <td>28-SOIC (0.295, 7.50mm Width)</td>
 </tr>
 <tr>
 <td>Replacement Path</td>
 <td>AD975X / AD976X</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Logic Compatibility</td>
 <td>TTL compatible</td>
+<td>TTL compatible</td>
 <td>-</td>
 </tr>
 <tr>
+<td>Lifecycle Note</td>
+<td>-</td>
+<td>Legacy sustainment candidate</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Family Relationship</td>
+<td>-</td>
+<td>AD9713B sibling variant</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Power Supplies</td>
+<td>-</td>
+<td>-</td>
+<td>5V</td>
+</tr>
+<tr>
+<td>Linearity Error-Max (EL)</td>
+<td>-</td>
+<td>-</td>
+<td>0.0977%</td>
+</tr>
+<tr>
 <td>Contact Plating</td>
+<td>-</td>
 <td>-</td>
 <td>Tin</td>
 </tr>
 <tr>
 <td>Number of Bits</td>
 <td>-</td>
+<td>-</td>
 <td>10</td>
 </tr>
 <tr>
 <td>Part Status</td>
+<td>-</td>
 <td>-</td>
 <td>Active</td>
 </tr>
 <tr>
 <td>Pbfree Code</td>
 <td>-</td>
+<td>-</td>
 <td>NO</td>
 </tr>
 <tr>
 <td>Differential Output</td>
 <td>-</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Surface Mount</td>
 <td>-</td>
 <td>Yes</td>
-</tr>
-<tr>
-<td>REACH Status</td>
-<td>-</td>
-<td>REACH Unaffected</td>
-</tr>
-<tr>
-<td>ECCN</td>
-<td>-</td>
-<td>EAR99</td>
-</tr>
-<tr>
-<td>Number of Converters</td>
-<td>-</td>
-<td>1</td>
 </tr>
 </tbody></table>
     </section>
@@ -193,7 +219,7 @@
     <section class="section">
       <h2>Evidence summary</h2>
       <ul class="evidence-list">
-<li><strong><a href="https://www.analog.com/en/products/ad9713b.html">AD9713B product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD9713B obsolete and advises customers to consider the AD975X and AD976X product families instead. Signals: obsolete, ad975x, ad976x.</li>
+<li><strong><a href="https://www.analog.com/en/products/ad9713b.html">AD9713B product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD9713B obsolete and points designers to the AD975X/AD976X successor path. Signals: obsolete, replacement.</li>
 <li><strong><a href="https://www.analog.com/en/support/product-life-cycle-information.html">ADI product life cycle information</a></strong> <span class="muted">(official-lifecycle-page)</span><br>ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools. Signals: obsolete, lifecycle.</li>
 </ul>
     </section>

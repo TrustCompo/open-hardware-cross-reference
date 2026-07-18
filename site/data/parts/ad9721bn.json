@@ -4,6 +4,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Converter Type",
       "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "D/A CONVERTER"
+        },
         {
           "productCode": "TCE000035905",
           "value": "D/A CONVERTER"
@@ -24,6 +32,10 @@
       "attribute": "Sampling Rate",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "400 Msps"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "125 Msps"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Lifecycle Status",
       "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
         {
           "productCode": "TCE000035905",
           "value": "PRODUCTION (Last Updated: 2 weeks ago)"
@@ -44,6 +60,10 @@
       "attribute": "Package / Case",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "28-PDIP"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "28-SOIC (0.295, 7.50mm Width)"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Replacement Path",
       "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
         {
           "productCode": "TCE000035905",
           "value": "-"
@@ -64,6 +88,10 @@
       "attribute": "Resolution",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "10-bit"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "1.25 B"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Output Type",
       "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "High-speed DAC"
+        },
         {
           "productCode": "TCE000035905",
           "value": "Current - Unbuffered"
@@ -84,6 +116,10 @@
       "attribute": "Application Note",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "-"
         }
@@ -91,11 +127,43 @@
       "target": "Legacy sustainment and redesign review only"
     },
     {
-      "attribute": "Linearity Error-Max (EL)",
+      "attribute": "Lifecycle Note",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "Legacy sustainment candidate"
+        },
+        {
           "productCode": "TCE000035905",
-          "value": "0.0977%"
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Family Relationship",
+      "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "AD9721 sibling variant"
+        },
+        {
+          "productCode": "TCE000035905",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Height Seated (Max)",
+      "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000035905",
+          "value": "2.65mm"
         }
       ],
       "target": "-"
@@ -103,6 +171,10 @@
     {
       "attribute": "Part Status",
       "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
         {
           "productCode": "TCE000035905",
           "value": "Active"
@@ -114,6 +186,10 @@
       "attribute": "REACH Status",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "REACH Unaffected"
         }
@@ -123,6 +199,10 @@
     {
       "attribute": "ECCN",
       "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
         {
           "productCode": "TCE000035905",
           "value": "EAR99"
@@ -134,6 +214,10 @@
       "attribute": "Packaging",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "Tube"
         }
@@ -143,6 +227,10 @@
     {
       "attribute": "Lead Free",
       "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
         {
           "productCode": "TCE000035905",
           "value": "Contains Lead"
@@ -154,28 +242,12 @@
       "attribute": "Mounting Type",
       "candidates": [
         {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000035905",
           "value": "Surface Mount"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Factory Lead Time",
-      "candidates": [
-        {
-          "productCode": "TCE000035905",
-          "value": "8 Weeks"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Contact Plating",
-      "candidates": [
-        {
-          "productCode": "TCE000035905",
-          "value": "Lead, Tin"
         }
       ],
       "target": "-"
@@ -206,10 +278,48 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:28:27",
+  "generatedAt": "2026-07-18 15:18:01",
   "partNumber": "AD9721BN",
-  "reasoning": "As of July 18, 2026, ADI marks the AD9721 family obsolete and lists AD9760 as the replacement path; this publication uses the full obsolete MPN AD9721BN.",
+  "reasoning": "As of July 18, 2026, ADI marks AD9721 obsolete and lists AD9760 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Identification": {
+          "Lifecycle Note": "Legacy sustainment candidate"
+        },
+        "Product Attribute": {
+          "Converter Type": "D/A CONVERTER",
+          "Family Relationship": "AD9721 sibling variant",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Output Type": "High-speed DAC",
+          "Package / Case": "28-PDIP",
+          "Resolution": "10-bit",
+          "Sampling Rate": "400 Msps"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9721.pdf",
+      "description": "Legacy 10-bit 400 MSPS DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9721 family.",
+      "fitNotes": [
+        "AD9721AN is published as a pin-compatible sibling candidate within the obsolete AD9721 family for AD9721BN sustainment review."
+      ],
+      "fitScore": 80,
+      "package": "28-PDIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000090888",
+      "productName": "AD9721AN",
+      "productOverview": "AD9721AN is a legacy exact-MPN variant in the obsolete AD9721 high-speed DAC family. It is published as a first-pass pin-compatible sibling candidate for AD9721BN sustainment review and should be checked against grade, package, and timing requirements before substitution.",
+      "reason": "AD9721AN is published as a pin-compatible sibling candidate within the obsolete AD9721 family for AD9721BN sustainment review.",
+      "series": "AD9721",
+      "slug": "TCE000090888-AD9721AN",
+      "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000090888-AD9721AN"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
@@ -294,7 +404,7 @@
       "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9760ar.pdf",
       "description": "IC DAC 10BIT 125MSPS 28-SOIC",
       "fitNotes": [
-        "Official ADI product page lists AD9760 as the suggested replacement family."
+        "ADI currently marks AD9721 obsolete and names AD9760 as the suggested replacement family."
       ],
       "fitScore": 80,
       "package": "28-SOIC",
@@ -305,14 +415,14 @@
       "productCode": "TCE000035905",
       "productName": "AD9760AR",
       "productOverview": "IC DAC 10BIT 125MSPS 28-SOIC",
-      "reason": "ADI lists AD9760 as the suggested replacement for AD9721.",
+      "reason": "ADI currently marks AD9721 obsolete and names AD9760 as the suggested replacement family.",
       "series": "TxDAC®",
       "slug": "TCE000035905-AD9760AR",
       "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
       "url": "https://www.trustcompo.com/product/detail/TCE000035905-AD9760AR"
     }
   ],
-  "sourceReportFile": "runtime/catalog-batches/2026-07-18-adi-obsolete-wave-1/lifecycle-and-crossrefs.json",
+  "sourceReportFile": "api:/product/cross-references",
   "target": {
     "attributeGroups": {
       "Product Attribute": {

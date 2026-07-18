@@ -1,8 +1,26 @@
 {
   "comparisonRows": [
     {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "-"
+        }
+      ],
+      "target": "Legacy sustainment review required before substitution"
+    },
+    {
       "attribute": "Manufacturer",
       "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
         {
           "productCode": "TCE000039937",
           "value": "Analog Devices Inc./Maxim Integrated"
@@ -14,6 +32,10 @@
       "attribute": "Sampling Rate",
       "candidates": [
         {
+          "productCode": "TCE000032700",
+          "value": "100 ksps"
+        },
+        {
           "productCode": "TCE000039937",
           "value": "100 ksps"
         }
@@ -23,6 +45,10 @@
     {
       "attribute": "Converter Type",
       "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "ADC, SUCCESSIVE APPROXIMATION"
+        },
         {
           "productCode": "TCE000039937",
           "value": "ADC, SUCCESSIVE APPROXIMATION"
@@ -34,6 +60,10 @@
       "attribute": "Lifecycle Status",
       "candidates": [
         {
+          "productCode": "TCE000032700",
+          "value": "PRODUCTION (Last Updated: 6 days ago)"
+        },
+        {
           "productCode": "TCE000039937",
           "value": "-"
         }
@@ -43,6 +73,10 @@
     {
       "attribute": "Package / Case",
       "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "16-DIP (0.300, 7.62mm)"
+        },
         {
           "productCode": "TCE000039937",
           "value": "16-DIP (0.300, 7.62mm)"
@@ -54,6 +88,10 @@
       "attribute": "Replacement Path",
       "candidates": [
         {
+          "productCode": "TCE000032700",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000039937",
           "value": "-"
         }
@@ -63,6 +101,10 @@
     {
       "attribute": "Architecture",
       "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "SAR"
+        },
         {
           "productCode": "TCE000039937",
           "value": "SAR"
@@ -74,6 +116,10 @@
       "attribute": "Resolution",
       "candidates": [
         {
+          "productCode": "TCE000032700",
+          "value": "2 B"
+        },
+        {
           "productCode": "TCE000039937",
           "value": "2 B"
         }
@@ -81,18 +127,26 @@
       "target": "16-bit"
     },
     {
-      "attribute": "Application Note",
+      "attribute": "Part Status",
       "candidates": [
         {
+          "productCode": "TCE000032700",
+          "value": "Active"
+        },
+        {
           "productCode": "TCE000039937",
-          "value": "-"
+          "value": "Obsolete"
         }
       ],
-      "target": "Legacy sustainment review required before substitution"
+      "target": "-"
     },
     {
       "attribute": "Mounting Type",
       "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "Through Hole"
+        },
         {
           "productCode": "TCE000039937",
           "value": "Through Hole"
@@ -101,8 +155,26 @@
       "target": "-"
     },
     {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "REACH Unaffected"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
       "attribute": "ECCN",
       "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "EAR99"
+        },
         {
           "productCode": "TCE000039937",
           "value": "EAR99"
@@ -114,6 +186,10 @@
       "attribute": "Packaging",
       "candidates": [
         {
+          "productCode": "TCE000032700",
+          "value": "Tube"
+        },
+        {
           "productCode": "TCE000039937",
           "value": "Tube"
         }
@@ -124,6 +200,10 @@
       "attribute": "Lead Free",
       "candidates": [
         {
+          "productCode": "TCE000032700",
+          "value": "Contains Lead"
+        },
+        {
           "productCode": "TCE000039937",
           "value": "Contains Lead"
         }
@@ -131,21 +211,15 @@
       "target": "-"
     },
     {
-      "attribute": "Part Status",
+      "attribute": "Factory Lead Time",
       "candidates": [
         {
-          "productCode": "TCE000039937",
-          "value": "Obsolete"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Contact Plating",
-      "candidates": [
+          "productCode": "TCE000032700",
+          "value": "8 Weeks"
+        },
         {
           "productCode": "TCE000039937",
-          "value": "Lead, Tin"
+          "value": "-"
         }
       ],
       "target": "-"
@@ -153,6 +227,10 @@
     {
       "attribute": "Categories",
       "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "Integrated Circuits (ICs)"
+        },
         {
           "productCode": "TCE000039937",
           "value": "Integrated Circuits (ICs)"
@@ -164,18 +242,12 @@
       "attribute": "Interface",
       "candidates": [
         {
-          "productCode": "TCE000039937",
+          "productCode": "TCE000032700",
           "value": "SPI, Serial"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Reach Compliance Code",
-      "candidates": [
+        },
         {
           "productCode": "TCE000039937",
-          "value": "not_compliant"
+          "value": "SPI, Serial"
         }
       ],
       "target": "-"
@@ -186,38 +258,130 @@
   "displayPartNumber": "AD1876JN",
   "evidenceSummary": [
     {
-      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "excerpt": "ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement.",
       "signals": [
-        "datasheet",
-        "target-part"
+        "obsolete",
+        "replacement"
       ],
-      "sourceType": "catalog-datasheet",
-      "title": "AD1876JN datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1876.pdf"
+      "sourceType": "official-product-page",
+      "title": "AD1876 product page",
+      "url": "https://www.analog.com/en/products/ad1876.html"
     },
     {
-      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "catalog-lifecycle",
-      "title": "AD1876JN lifecycle note",
-      "url": ""
-    },
-    {
-      "excerpt": "ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.",
-      "signals": [
-        "functional"
-      ],
-      "sourceType": "alternative-datasheet",
-      "title": "AD677JN datasheet",
-      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad677jn.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:26:03",
+  "generatedAt": "2026-07-18 15:18:19",
   "partNumber": "AD1876JN",
-  "reasoning": "ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.",
+  "reasoning": "As of July 18, 2026, ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.39.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "SAR",
+          "Base Part Number": "AD677",
+          "Categories": "Integrated Circuits (ICs)",
+          "Contact Plating": "Tin",
+          "Converter Type": "ADC, SUCCESSIVE APPROXIMATION",
+          "Data Interface": "SPI",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "8 Weeks",
+          "Height": "3.3mm",
+          "Input Capacitance": "50pF",
+          "Integral Nonlinearity (INL)": "2 LSB",
+          "Interface": "SPI, Serial",
+          "Lead Free": "Contains Lead",
+          "Length": "20.07mm",
+          "Lifecycle Status": "PRODUCTION (Last Updated: 6 days ago)",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "AD677JNZ",
+          "Max Input Voltage": "10V",
+          "Max Power Dissipation": "630mW",
+          "Max Supply Voltage": "12V",
+          "Min Input Voltage": "5V",
+          "Min Supply Voltage": "5V",
+          "Mount": "Through Hole",
+          "Mounting Type": "Through Hole",
+          "Nominal Supply Current": "14.5mA",
+          "Number of Bits": "16",
+          "Number of Functions": "1",
+          "Number of Terminations": "16",
+          "Operating Temperature": "0°C~70°C",
+          "Package / Case": "16-DIP (0.300, 7.62mm)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "no",
+          "Pin Count": "16",
+          "Polarity": "Bipolar",
+          "Power Dissipation": "630mW",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "No",
+          "Reference Type": "External",
+          "Resolution": "2 B",
+          "Sampling Rate": "100 ksps",
+          "Sub-Categories": "Data Acquisition - Analog to Digital Converters (ADC)",
+          "Subcategory": "Analog to Digital Converters",
+          "Supply Voltage": "12V",
+          "Technology": "BICMOS",
+          "Terminal Pitch": "2.54mm",
+          "Termination": "Through Hole",
+          "Voltage - Supply, Analog": "±12V",
+          "Width": "6.35mm"
+        },
+        "Product Parameter": {
+          "Configuration": "S/H-ADC",
+          "Dual Supply Voltage": "12V",
+          "Input Type": "Single Ended",
+          "Max Dual Supply Voltage": "12.6V",
+          "Min Dual Supply Voltage": "11.4V",
+          "Negative Supply Voltage-Nom": "-12V",
+          "Number of Analog In Channels": "1",
+          "Number of Channels": "1",
+          "Output Bit Code": "BINARY",
+          "Power Consumption": "450mW",
+          "Sample and Hold / Track and Hold": "SAMPLE",
+          "Sampling Rate (Per Second)": "100k",
+          "Supply Type": "Dual"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad677jnz.pdf",
+      "description": "IC ADC 16BIT SAMPLING 16-DIP",
+      "fitNotes": [
+        "AD677JNZ is published as a pin-compatible DIP-family ADC candidate for AD1876JN sustainment review."
+      ],
+      "fitScore": 80,
+      "package": "DIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000032700",
+      "productName": "AD677JNZ",
+      "productOverview": "IC ADC 16BIT SAMPLING 16-DIP",
+      "reason": "AD677JNZ is published as a pin-compatible DIP-family ADC candidate for AD1876JN sustainment review.",
+      "series": "-",
+      "slug": "TCE000032700-AD677JNZ",
+      "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000032700-AD677JNZ"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {

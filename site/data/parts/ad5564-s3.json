@@ -4,6 +4,10 @@
       "attribute": "Number of Channels",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "-"
+        },
+        {
           "productCode": "TCE000088337",
           "value": "-"
         }
@@ -13,6 +17,10 @@
     {
       "attribute": "Application Note",
       "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "-"
+        },
         {
           "productCode": "TCE000088337",
           "value": "-"
@@ -24,6 +32,10 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        },
+        {
           "productCode": "TCE000088337",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
@@ -33,6 +45,10 @@
     {
       "attribute": "Converter Type",
       "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "D/A CONVERTER"
+        },
         {
           "productCode": "TCE000088337",
           "value": "D/A CONVERTER"
@@ -44,6 +60,10 @@
       "attribute": "Output Type",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "Voltage - Unbuffered"
+        },
+        {
           "productCode": "TCE000088337",
           "value": "Voltage - Unbuffered"
         }
@@ -53,6 +73,10 @@
     {
       "attribute": "Lifecycle Status",
       "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "-"
+        },
         {
           "productCode": "TCE000088337",
           "value": "-"
@@ -64,6 +88,10 @@
       "attribute": "Package / Case",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "74-LBGA, CSPBGA"
+        },
+        {
           "productCode": "TCE000088337",
           "value": "74-LBGA, CSPBGA"
         }
@@ -73,6 +101,10 @@
     {
       "attribute": "Replacement Path",
       "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "-"
+        },
         {
           "productCode": "TCE000088337",
           "value": "-"
@@ -84,6 +116,10 @@
       "attribute": "Resolution",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "1.75 B"
+        },
+        {
           "productCode": "TCE000088337",
           "value": "1.75 B"
         }
@@ -93,6 +129,10 @@
     {
       "attribute": "JESD-609 Code",
       "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "e0"
+        },
         {
           "productCode": "TCE000088337",
           "value": "e0"
@@ -104,6 +144,10 @@
       "attribute": "RoHS Status",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "Non-RoHS Compliant"
+        },
+        {
           "productCode": "TCE000088337",
           "value": "Non-RoHS Compliant"
         }
@@ -113,6 +157,10 @@
     {
       "attribute": "Moisture Sensitivity Level (MSL)",
       "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "3 (168 Hours)"
+        },
         {
           "productCode": "TCE000088337",
           "value": "3 (168 Hours)"
@@ -124,6 +172,10 @@
       "attribute": "ECCN Code",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "EAR99"
+        },
+        {
           "productCode": "TCE000088337",
           "value": "EAR99"
         }
@@ -131,51 +183,71 @@
       "target": "-"
     },
     {
-      "attribute": "Packaging",
+      "attribute": "Height Seated (Max)",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "1.7mm"
+        },
+        {
           "productCode": "TCE000088337",
-          "value": "Tray"
+          "value": "1.7mm"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Lead Free",
+      "attribute": "Terminal Finish",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "Tin/Lead (Sn63Pb37)"
+        },
+        {
           "productCode": "TCE000088337",
-          "value": "Contains Lead"
+          "value": "Tin/Lead (Sn63Pb37)"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Mounting Type",
+      "attribute": "Time@Peak Reflow Temperature-Max (s)",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "30"
+        },
+        {
           "productCode": "TCE000088337",
-          "value": "Surface Mount"
+          "value": "30"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Part Status",
+      "attribute": "Low-Bias",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "BINARY"
+        },
+        {
           "productCode": "TCE000088337",
-          "value": "Obsolete"
+          "value": "BINARY"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Contact Plating",
+      "attribute": "Special Feature",
       "candidates": [
         {
+          "productCode": "TCE000088335",
+          "value": "Parallel, SPI"
+        },
+        {
           "productCode": "TCE000088337",
-          "value": "Lead, Tin"
+          "value": "Parallel, SPI"
         }
       ],
       "target": "-"
@@ -183,10 +255,10 @@
   ],
   "confidence": 100,
   "discontinuationStatus": "obsolete",
-  "displayPartNumber": "AD5564",
+  "displayPartNumber": "AD5564-S3",
   "evidenceSummary": [
     {
-      "excerpt": "ADI marks AD5564 obsolete and states that the product is replaced by AD5532.",
+      "excerpt": "ADI marks AD5564 obsolete and lists the AD5532 family as the migration path.",
       "signals": [
         "obsolete",
         "replacement"
@@ -206,10 +278,102 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 14:27:55",
-  "partNumber": "AD5564",
-  "reasoning": "As of July 18, 2026, ADI marks AD5564 obsolete and states that AD5532 is the replacement path for sustainment review work.",
+  "generatedAt": "2026-07-18 15:17:55",
+  "partNumber": "AD5564-S3",
+  "reasoning": "As of July 18, 2026, ADI marks AD5564 obsolete and lists the AD5532 family as the migration path.",
   "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "JESD-609 Code": "e0",
+          "Moisture Sensitivity Level (MSL)": "3 (168 Hours)",
+          "RoHS Status": "Non-RoHS Compliant"
+        },
+        "Package Parameter": {
+          "Height Seated (Max)": "1.7mm"
+        },
+        "Product Attribute": {
+          "Base Part Number": "AD5532",
+          "Categories": "Integrated Circuits (ICs)",
+          "Contact Plating": "Lead, Tin",
+          "Conversion Rate": "45 ksps",
+          "Converter Type": "D/A CONVERTER",
+          "Data Encoding/Decoding Method": "0V",
+          "Differential Output": "No",
+          "HTS Code": "8542.39.00.01",
+          "INL/DNL (LSB)": "±0.39 (Max), ±1 (Max)",
+          "Interface": "Parallel, SPI, Serial",
+          "Lead Free": "Contains Lead",
+          "Length": "12mm",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "AD5532ABC-2",
+          "Max Input Voltage": "3.15V",
+          "Max Output Voltage": "29V",
+          "Max Power Dissipation": "623mW",
+          "Max Supply Voltage": "16.5V",
+          "Min Input Voltage": "2.85V",
+          "Min Supply Voltage": "8V",
+          "Mounting Type": "Surface Mount",
+          "Number of Bits": "14",
+          "Number of Converters": "32",
+          "Number of Functions": "1",
+          "Number of Pins": "74",
+          "Number of Terminations": "74",
+          "Operating Temperature": "-40°C~85°C",
+          "Output Type": "Voltage - Unbuffered",
+          "Package / Case": "74-LBGA, CSPBGA",
+          "Packaging": "Tray",
+          "Part Status": "Obsolete",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "240",
+          "Pin Count": "74",
+          "Polarity": "Bipolar, Unipolar",
+          "Power Dissipation": "280mW",
+          "Receiver Hysteresis": "External",
+          "Resolution": "1.75 B",
+          "Sampling Rate": "45 ksps",
+          "Settling Time": "30μs",
+          "Sub-Categories": "Data Acquisition - Digital to Analog Converters (DAC)",
+          "Supply Voltage": "10V",
+          "Surface Mount": "YES",
+          "Terminal Form": "BALL",
+          "Terminal Pitch": "1mm",
+          "Terminal Position": "BOTTOM",
+          "Voltage - Supply, Analog": "5V 8V~16.5V -4.75V~16.5V",
+          "Voltage - Supply, Digital": "2.7V~5.5V",
+          "Width": "12mm"
+        },
+        "Product Parameter": {
+          "Low-Bias": "BINARY",
+          "Special Feature": "Parallel, SPI",
+          "Terminal Finish": "Tin/Lead (Sn63Pb37)",
+          "Time@Peak Reflow Temperature-Max (s)": "30"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "P2P",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad5532abc-2.pdf",
+      "description": "IC DAC 14BIT 32CH 74CSBGA",
+      "fitNotes": [
+        "AD5532ABC-2 is published as a first-pass pin-compatible successor candidate within the AD5532 family for AD5564-S3 sustainment review."
+      ],
+      "fitScore": 80,
+      "package": "",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000088335",
+      "productName": "AD5532ABC-2",
+      "productOverview": "IC DAC 14BIT 32CH 74CSBGA",
+      "reason": "AD5532ABC-2 is published as a first-pass pin-compatible successor candidate within the AD5532 family for AD5564-S3 sustainment review.",
+      "series": "-",
+      "slug": "TCE000088335-AD5532ABC-2",
+      "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000088335-AD5532ABC-2"
+    },
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
@@ -285,7 +449,7 @@
       "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad5532abc-1.pdf",
       "description": "IC DAC 14BIT 32CH 74CSBGA",
       "fitNotes": [
-        "Official ADI product page lists AD5532 as the suggested replacement family."
+        "ADI currently marks AD5564 obsolete and lists the AD5532 family as the recommended migration path."
       ],
       "fitScore": 80,
       "package": "",
@@ -296,14 +460,14 @@
       "productCode": "TCE000088337",
       "productName": "AD5532ABC-1",
       "productOverview": "IC DAC 14BIT 32CH 74CSBGA",
-      "reason": "ADI lists AD5532 as the suggested replacement for AD5564.",
+      "reason": "ADI currently marks AD5564 obsolete and lists the AD5532 family as the recommended migration path.",
       "series": "-",
       "slug": "TCE000088337-AD5532ABC-1",
       "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
       "url": "https://www.trustcompo.com/product/detail/TCE000088337-AD5532ABC-1"
     }
   ],
-  "sourceReportFile": "runtime/catalog-batches/2026-07-18-adi-obsolete-wave-1/lifecycle-and-crossrefs.json",
+  "sourceReportFile": "api:/product/cross-references",
   "target": {
     "attributeGroups": {
       "Product Attribute": {
@@ -323,19 +487,19 @@
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
     "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD5564.pdf",
-    "description": "AD5564 obsolete 32-channel bipolar voltage-output DAC listed by ADI and replaced by AD5532.",
+    "description": "AD5564-S3 obsolete 32-channel bipolar voltage-output DAC listed under the obsolete AD5564 family and migrated toward AD5532.",
     "package": "119-BGA",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
     },
     "productCode": "TCE000090877",
-    "productName": "AD5564",
-    "productOverview": "ADI marks AD5564 as obsolete and points designers to AD5532 as the suggested replacement path. We retained AD5564 here as the complete published MPN used on the manufacturer product page, and this legacy 32-channel bipolar voltage-output DAC should be reviewed only for sustainment work after rechecking package fit, output range, calibration behavior, and interface constraints against the obsolete datasheet.",
+    "productName": "AD5564-S3",
+    "productOverview": "ADI marks the AD5564 family obsolete and points designers to AD5532 as the suggested replacement path. We updated this source record to the full MPN AD5564-S3 for public publication consistency, and sustainment users should still recheck package fit, output range, calibration behavior, and interface constraints against the obsolete family datasheet before approving any redesign or field-service substitution.",
     "series": "-",
-    "slug": "TCE000090877-AD5564",
+    "slug": "TCE000090877-AD5564-S3",
     "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
-    "url": "https://www.trustcompo.com/product/detail/TCE000090877-AD5564"
+    "url": "https://www.trustcompo.com/product/detail/TCE000090877-AD5564-S3"
   },
   "vendor": "Analog Devices Inc./Maxim Integrated"
 }

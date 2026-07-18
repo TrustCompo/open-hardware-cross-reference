@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AD1672AP cross reference | TrustCompo Open Hardware Cross Reference</title>
-  <meta name="description" content="ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family.">
+  <meta name="description" content="As of July 18, 2026, ADI marks AD1672 obsolete and lists AD9221 as the suggested replacement.">
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
@@ -54,12 +54,12 @@
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
       <h1>AD1672AP</h1>
-      <p>ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family.</p>
+      <p>As of July 18, 2026, ADI marks AD1672 obsolete and lists AD9221 as the suggested replacement.</p>
       <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090883-AD1672AP">Open AD1672AP on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090883-AD1672AP/datasheet">View AD1672AP datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>obsolete</div>
         <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
-        <div class="meta-card"><strong>Package</strong><br>28-PLCC</div>
+        <div class="meta-card"><strong>Package</strong><br>28-PDIP</div>
         <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Analog to Digital Converters (ADC)</div>
       </div>
     </section>
@@ -67,7 +67,7 @@
     <section class="section">
       <h2>Target product summary</h2>
       <p><strong>AD1672AP</strong></p>
-      <p>ADI lists the AD1672 family as obsolete and names AD9221 as the suggested replacement on the current product page. We published AD1672AP as the complete MPN for this obsolete 12-bit 3 MSPS monolithic ADC variant, and sustainment or redesign work should compare resolution, throughput, input architecture, supply rails, package constraints, and timing interface behavior before treating AD9221ARZ as the qualified successor.</p>
+      <p>ADI lists the AD1672 family as obsolete and names AD9221 as the suggested replacement on the current product page. We retained AD1672AP as the source MPN but corrected the package presentation to match the legacy ordering information, and sustainment or redesign work should compare resolution, throughput, input architecture, supply rails, package constraints, and timing interface behavior before treating AD9221ARZ as the qualified successor.</p>
       <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090883-AD1672AP/datasheet</p>
     </section>
 
@@ -75,6 +75,13 @@
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000090891-AD1671AP">AD1671AP</a></h3>
+<p><strong>P2P</strong> · Fit score 60</p>
+<p>Legacy 12-bit 1.25 MSPS ADC exact MPN used as a pin-compatible shortlist candidate for AD1672AP sustainment review.</p>
+<p class="muted">Package: 28-PDIP | Series: AD1671</p>
+<p class="muted">Lifecycle Note: Legacy sustainment candidate; Manufacturer: Analog Devices Inc./Maxim Integrated; Sampling Rate: 1.25 Msps; Converter Type: A/D CONVERTER</p>
+</article>
+<article class="candidate-card">
 <h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000030773-AD9221ARZ">AD9221ARZ</a></h3>
 <p><strong>Functional</strong> · Fit score 80</p>
 <p>IC ADC 12BIT 1.5MSPS 28SOIC</p>
@@ -90,45 +97,54 @@
 <thead><tr>
 <th>Attribute</th>
 <th>AD1672AP</th>
+<th>AD1671AP</th>
 <th>AD9221ARZ</th>
 </tr></thead><tbody>
 <tr>
 <td>Manufacturer</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
 </tr>
 <tr>
 <td>Sampling Rate</td>
 <td>3 Msps</td>
+<td>1.25 Msps</td>
 <td>1.5 Msps</td>
 </tr>
 <tr>
 <td>Converter Type</td>
+<td>A/D CONVERTER</td>
 <td>A/D CONVERTER</td>
 <td>ADC, FLASH METHOD</td>
 </tr>
 <tr>
 <td>Resolution</td>
 <td>12-bit</td>
+<td>12-bit</td>
 <td>1.5 B</td>
 </tr>
 <tr>
 <td>Lifecycle Status</td>
 <td>OBSOLETE</td>
+<td>-</td>
 <td>PRODUCTION (Last Updated: 2 weeks ago)</td>
 </tr>
 <tr>
 <td>Package / Case</td>
 <td>Legacy package variants</td>
+<td>28-PDIP</td>
 <td>28-SOIC (0.295, 7.50mm Width)</td>
 </tr>
 <tr>
 <td>Replacement Path</td>
 <td>AD9221</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Architecture</td>
+<td>Monolithic ADC</td>
 <td>Monolithic ADC</td>
 <td>Pipelined</td>
 </tr>
@@ -136,51 +152,61 @@
 <td>Application Note</td>
 <td>Sustainment-only review and interface revalidation required</td>
 <td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lifecycle Note</td>
+<td>-</td>
+<td>Legacy sustainment candidate</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Family Relationship</td>
+<td>-</td>
+<td>High-speed 12-bit ADC shortlist candidate</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Part Status</td>
+<td>-</td>
 <td>-</td>
 <td>Active</td>
 </tr>
 <tr>
 <td>REACH Status</td>
 <td>-</td>
+<td>-</td>
 <td>REACH Unaffected</td>
 </tr>
 <tr>
 <td>ECCN</td>
+<td>-</td>
 <td>-</td>
 <td>EAR99</td>
 </tr>
 <tr>
 <td>Packaging</td>
 <td>-</td>
+<td>-</td>
 <td>Tube</td>
 </tr>
 <tr>
 <td>Lead Free</td>
+<td>-</td>
 <td>-</td>
 <td>Contains Lead</td>
 </tr>
 <tr>
 <td>Mounting Type</td>
 <td>-</td>
+<td>-</td>
 <td>Surface Mount</td>
 </tr>
 <tr>
 <td>Factory Lead Time</td>
 <td>-</td>
+<td>-</td>
 <td>8 Weeks</td>
-</tr>
-<tr>
-<td>Operating Temperature</td>
-<td>-</td>
-<td>-40°C~85°C</td>
-</tr>
-<tr>
-<td>Categories</td>
-<td>-</td>
-<td>Integrated Circuits (ICs)</td>
 </tr>
 </tbody></table>
     </section>
@@ -193,9 +219,8 @@
     <section class="section">
       <h2>Evidence summary</h2>
       <ul class="evidence-list">
-<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1672.pdf">AD1672AP datasheet</a></strong> <span class="muted">(catalog-datasheet)</span><br>Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point. Signals: datasheet, target-part.</li>
-<li><strong>AD1672AP lifecycle note</strong> <span class="muted">(catalog-lifecycle)</span><br>TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release. Signals: obsolete.</li>
-<li><strong><a href="https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9221arz.pdf">AD9221ARZ datasheet</a></strong> <span class="muted">(alternative-datasheet)</span><br>ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family. Signals: functional.</li>
+<li><strong><a href="https://www.analog.com/en/products/ad1672.html">AD1672 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD1672 obsolete and lists AD9221 as the suggested replacement. Signals: obsolete, replacement.</li>
+<li><strong><a href="https://www.analog.com/en/support/product-life-cycle-information.html">ADI product life cycle information</a></strong> <span class="muted">(official-lifecycle-page)</span><br>ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools. Signals: obsolete, lifecycle.</li>
 </ul>
     </section>
 
