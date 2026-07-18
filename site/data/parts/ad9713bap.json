@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:18:04",
+  "generatedAt": "2026-07-18 16:55:45",
   "partNumber": "AD9713BAP",
   "reasoning": "As of July 18, 2026, ADI marks AD9713B obsolete and points designers to the AD975X/AD976X successor path.",
   "replacementCandidates": [
@@ -302,7 +302,7 @@
       "brandName": "Analog Devices Inc./Maxim Integrated",
       "bucket": "P2P",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9713B.pdf",
+      "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad9713ban.pdf",
       "description": "Legacy 12-bit 80 MSPS DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9713B family.",
       "fitNotes": [
         "AD9713BAN is published as a pin-compatible sibling candidate within the obsolete AD9713B family for AD9713BAP sustainment review."
@@ -444,7 +444,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9713B.pdf",
+    "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad9713bap.pdf",
     "description": "AD9713BAP obsolete 12-bit 80 MSPS TTL-compatible DAC listed by ADI and redirected to AD9760.",
     "package": "28-PLCC",
     "pricing": {

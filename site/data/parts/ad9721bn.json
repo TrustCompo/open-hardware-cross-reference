@@ -1,6 +1,20 @@
 {
   "comparisonRows": [
     {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000035905",
+          "value": "-"
+        }
+      ],
+      "target": "Legacy sustainment and redesign review only"
+    },
+    {
       "attribute": "Manufacturer",
       "candidates": [
         {
@@ -113,34 +127,6 @@
       "target": "High-speed DAC"
     },
     {
-      "attribute": "Application Note",
-      "candidates": [
-        {
-          "productCode": "TCE000090888",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000035905",
-          "value": "-"
-        }
-      ],
-      "target": "Legacy sustainment and redesign review only"
-    },
-    {
-      "attribute": "Lifecycle Note",
-      "candidates": [
-        {
-          "productCode": "TCE000090888",
-          "value": "Legacy sustainment candidate"
-        },
-        {
-          "productCode": "TCE000035905",
-          "value": "-"
-        }
-      ],
-      "target": "-"
-    },
-    {
       "attribute": "Family Relationship",
       "candidates": [
         {
@@ -155,15 +141,15 @@
       "target": "-"
     },
     {
-      "attribute": "Height Seated (Max)",
+      "attribute": "Lifecycle Note",
       "candidates": [
         {
           "productCode": "TCE000090888",
-          "value": "-"
+          "value": "Legacy sustainment candidate"
         },
         {
           "productCode": "TCE000035905",
-          "value": "2.65mm"
+          "value": "-"
         }
       ],
       "target": "-"
@@ -251,6 +237,20 @@
         }
       ],
       "target": "-"
+    },
+    {
+      "attribute": "Factory Lead Time",
+      "candidates": [
+        {
+          "productCode": "TCE000090888",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000035905",
+          "value": "8 Weeks"
+        }
+      ],
+      "target": "-"
     }
   ],
   "confidence": 100,
@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:18:01",
+  "generatedAt": "2026-07-18 16:55:43",
   "partNumber": "AD9721BN",
   "reasoning": "As of July 18, 2026, ADI marks AD9721 obsolete and lists AD9760 as the suggested replacement.",
   "replacementCandidates": [
@@ -300,7 +300,7 @@
       "brandName": "Analog Devices Inc./Maxim Integrated",
       "bucket": "P2P",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9721.pdf",
+      "datasheetUrl": "",
       "description": "Legacy 10-bit 400 MSPS DAC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9721 family.",
       "fitNotes": [
         "AD9721AN is published as a pin-compatible sibling candidate within the obsolete AD9721 family for AD9721BN sustainment review."
@@ -441,7 +441,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9721.pdf",
+    "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad9721bn.pdf",
     "description": "AD9721BN obsolete 10-bit 400 MSPS D/A converter listed by ADI and redirected to AD9760.",
     "package": "28-PDIP",
     "pricing": {

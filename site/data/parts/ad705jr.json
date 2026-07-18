@@ -1,48 +1,6 @@
 {
   "comparisonRows": [
     {
-      "attribute": "Supply Note",
-      "candidates": [
-        {
-          "productCode": "TCE000041681",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000034007",
-          "value": "-"
-        }
-      ],
-      "target": "Check obsolete datasheet for model-specific limits"
-    },
-    {
-      "attribute": "Amplifier Type",
-      "candidates": [
-        {
-          "productCode": "TCE000041681",
-          "value": "General Purpose"
-        },
-        {
-          "productCode": "TCE000034007",
-          "value": "General Purpose"
-        }
-      ],
-      "target": "Bipolar operational amplifier"
-    },
-    {
-      "attribute": "Application Note",
-      "candidates": [
-        {
-          "productCode": "TCE000041681",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000034007",
-          "value": "-"
-        }
-      ],
-      "target": "Sustainment-only review and precision revalidation required"
-    },
-    {
       "attribute": "Manufacturer",
       "candidates": [
         {
@@ -127,127 +85,169 @@
       "target": "Picoampere class"
     },
     {
-      "attribute": "Terminal Finish",
+      "attribute": "Supply Note",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "Matte Tin (Sn)"
+          "value": "-"
         },
         {
           "productCode": "TCE000034007",
           "value": "-"
         }
       ],
-      "target": "-"
+      "target": "Check obsolete datasheet for model-specific limits"
     },
     {
-      "attribute": "Voltage - Input Offset",
+      "attribute": "Amplifier Type",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "20μV"
+          "value": "General Purpose"
         },
         {
           "productCode": "TCE000034007",
-          "value": "30μV"
+          "value": "General Purpose"
+        }
+      ],
+      "target": "Bipolar operational amplifier"
+    },
+    {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "-"
+        }
+      ],
+      "target": "Sustainment-only review and precision revalidation required"
+    },
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "Active"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "Active"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Power Supply Rejection Ratio (PSRR)",
+      "attribute": "REACH Status",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "125dB"
+          "value": "REACH Unaffected"
         },
         {
           "productCode": "TCE000034007",
-          "value": "132dB"
+          "value": "REACH Unaffected"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Voltage Gain",
+      "attribute": "ECCN",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "135.56dB"
+          "value": "EAR99"
         },
         {
           "productCode": "TCE000034007",
-          "value": "126.02dB"
+          "value": "EAR99"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Voltage - Supply, Single/Dual (±)",
+      "attribute": "Packaging",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "6V~36V ±3V~18V"
+          "value": "Tube"
         },
         {
           "productCode": "TCE000034007",
-          "value": "±2V~20V"
+          "value": "Tube"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Number of Channels",
+      "attribute": "Lead Free",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "1"
+          "value": "Contains Lead"
         },
         {
           "productCode": "TCE000034007",
-          "value": "1"
+          "value": "Contains Lead"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Dual Supply Voltage",
+      "attribute": "Mounting Type",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "15V"
+          "value": "Surface Mount"
         },
         {
           "productCode": "TCE000034007",
-          "value": "15V"
+          "value": "Surface Mount"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Neg Supply Voltage-Nom (Vsup)",
+      "attribute": "Factory Lead Time",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "-15V"
+          "value": "8 Weeks"
         },
         {
           "productCode": "TCE000034007",
-          "value": "-15V"
+          "value": "8 Weeks"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Low-Offset",
+      "attribute": "Operating Temperature",
       "candidates": [
         {
           "productCode": "TCE000041681",
-          "value": "YES"
+          "value": "-40°C~85°C"
         },
         {
           "productCode": "TCE000034007",
-          "value": "YES"
+          "value": "-40°C~85°C"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Categories",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "Integrated Circuits (ICs)"
+        },
+        {
+          "productCode": "TCE000034007",
+          "value": "Integrated Circuits (ICs)"
         }
       ],
       "target": "-"
@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:18:11",
+  "generatedAt": "2026-07-18 16:55:50",
   "partNumber": "AD705JR",
   "reasoning": "As of July 18, 2026, ADI marks AD705 obsolete and lists OP97 as the suggested replacement.",
   "replacementCandidates": [
@@ -498,7 +498,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD705.pdf",
+    "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad705jr.pdf",
     "description": "AD705JR obsolete picoampere input-current bipolar op amp listed by ADI and redirected to OP97.",
     "package": "8-SOIC",
     "pricing": {

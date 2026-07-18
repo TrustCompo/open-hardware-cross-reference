@@ -127,20 +127,6 @@
       "target": "Check obsolete datasheet for model-specific limits"
     },
     {
-      "attribute": "Lifecycle Note",
-      "candidates": [
-        {
-          "productCode": "TCE000090890",
-          "value": "Legacy sustainment candidate"
-        },
-        {
-          "productCode": "TCE000041681",
-          "value": "-"
-        }
-      ],
-      "target": "-"
-    },
-    {
       "attribute": "Family Relationship",
       "candidates": [
         {
@@ -155,7 +141,21 @@
       "target": "-"
     },
     {
-      "attribute": "Part Status",
+      "attribute": "Lifecycle Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "Legacy sustainment candidate"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "JESD-609 Code",
       "candidates": [
         {
           "productCode": "TCE000090890",
@@ -163,13 +163,13 @@
         },
         {
           "productCode": "TCE000041681",
-          "value": "Active"
+          "value": "e3"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "REACH Status",
+      "attribute": "Moisture Sensitivity Level (MSL)",
       "candidates": [
         {
           "productCode": "TCE000090890",
@@ -177,13 +177,55 @@
         },
         {
           "productCode": "TCE000041681",
-          "value": "REACH Unaffected"
+          "value": "1  (Unlimited)"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "ECCN",
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "ROHS3 Compliant"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH SVHC",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "No SVHC"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000090890",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000041681",
+          "value": "8542.33.0001"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN Code",
       "candidates": [
         {
           "productCode": "TCE000090890",
@@ -197,7 +239,7 @@
       "target": "-"
     },
     {
-      "attribute": "Packaging",
+      "attribute": "Terminal Finish",
       "candidates": [
         {
           "productCode": "TCE000090890",
@@ -205,49 +247,7 @@
         },
         {
           "productCode": "TCE000041681",
-          "value": "Tube"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Lead Free",
-      "candidates": [
-        {
-          "productCode": "TCE000090890",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041681",
-          "value": "Contains Lead"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Mounting Type",
-      "candidates": [
-        {
-          "productCode": "TCE000090890",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041681",
-          "value": "Surface Mount"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Factory Lead Time",
-      "candidates": [
-        {
-          "productCode": "TCE000090890",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000041681",
-          "value": "8 Weeks"
+          "value": "Matte Tin (Sn)"
         }
       ],
       "target": "-"
@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:18:08",
+  "generatedAt": "2026-07-18 16:55:47",
   "partNumber": "OP01CJ",
   "reasoning": "As of July 18, 2026, ADI marks OP01 obsolete and lists OP177 as the suggested replacement.",
   "replacementCandidates": [
@@ -302,7 +302,7 @@
       "brandName": "Analog Devices Inc./Maxim Integrated",
       "bucket": "P2P",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/OP01.pdf",
+      "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-op01gj.pdf",
       "description": "Legacy precision operational amplifier exact MPN variant used as a pin-compatible sibling candidate within the obsolete OP01 family.",
       "fitNotes": [
         "OP01GJ is published as a pin-compatible sibling candidate within the obsolete OP01 family for OP01CJ sustainment review."
@@ -439,7 +439,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/OP01.pdf",
+    "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-op01cj.pdf",
     "description": "OP01CJ obsolete precision operational amplifier listed by ADI and redirected to OP177.",
     "package": "8-CERDIP",
     "pricing": {

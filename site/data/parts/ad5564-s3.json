@@ -127,62 +127,6 @@
       "target": "Legacy family; review obsolete datasheet"
     },
     {
-      "attribute": "JESD-609 Code",
-      "candidates": [
-        {
-          "productCode": "TCE000088335",
-          "value": "e0"
-        },
-        {
-          "productCode": "TCE000088337",
-          "value": "e0"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "RoHS Status",
-      "candidates": [
-        {
-          "productCode": "TCE000088335",
-          "value": "Non-RoHS Compliant"
-        },
-        {
-          "productCode": "TCE000088337",
-          "value": "Non-RoHS Compliant"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Moisture Sensitivity Level (MSL)",
-      "candidates": [
-        {
-          "productCode": "TCE000088335",
-          "value": "3 (168 Hours)"
-        },
-        {
-          "productCode": "TCE000088337",
-          "value": "3 (168 Hours)"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "ECCN Code",
-      "candidates": [
-        {
-          "productCode": "TCE000088335",
-          "value": "EAR99"
-        },
-        {
-          "productCode": "TCE000088337",
-          "value": "EAR99"
-        }
-      ],
-      "target": "-"
-    },
-    {
       "attribute": "Height Seated (Max)",
       "candidates": [
         {
@@ -251,6 +195,62 @@
         }
       ],
       "target": "-"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "Tray"
+        },
+        {
+          "productCode": "TCE000088337",
+          "value": "Tray"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Lead Free",
+      "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "Contains Lead"
+        },
+        {
+          "productCode": "TCE000088337",
+          "value": "Contains Lead"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "Surface Mount"
+        },
+        {
+          "productCode": "TCE000088337",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000088335",
+          "value": "Obsolete"
+        },
+        {
+          "productCode": "TCE000088337",
+          "value": "Obsolete"
+        }
+      ],
+      "target": "-"
     }
   ],
   "confidence": 100,
@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:17:55",
+  "generatedAt": "2026-07-18 16:55:37",
   "partNumber": "AD5564-S3",
   "reasoning": "As of July 18, 2026, ADI marks AD5564 obsolete and lists the AD5532 family as the migration path.",
   "replacementCandidates": [
@@ -486,7 +486,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD5564.pdf",
+    "datasheetUrl": "",
     "description": "AD5564-S3 obsolete 32-channel bipolar voltage-output DAC listed under the obsolete AD5564 family and migrated toward AD5532.",
     "package": "119-BGA",
     "pricing": {

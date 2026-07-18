@@ -127,20 +127,6 @@
       "target": "Sustainment-only review and interface revalidation required"
     },
     {
-      "attribute": "Lifecycle Note",
-      "candidates": [
-        {
-          "productCode": "TCE000090891",
-          "value": "Legacy sustainment candidate"
-        },
-        {
-          "productCode": "TCE000030773",
-          "value": "-"
-        }
-      ],
-      "target": "-"
-    },
-    {
       "attribute": "Family Relationship",
       "candidates": [
         {
@@ -155,7 +141,21 @@
       "target": "-"
     },
     {
-      "attribute": "Part Status",
+      "attribute": "Lifecycle Note",
+      "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "Legacy sustainment candidate"
+        },
+        {
+          "productCode": "TCE000030773",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "JESD-609 Code",
       "candidates": [
         {
           "productCode": "TCE000090891",
@@ -163,13 +163,13 @@
         },
         {
           "productCode": "TCE000030773",
-          "value": "Active"
+          "value": "e3"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "REACH Status",
+      "attribute": "Moisture Sensitivity Level (MSL)",
       "candidates": [
         {
           "productCode": "TCE000090891",
@@ -177,13 +177,55 @@
         },
         {
           "productCode": "TCE000030773",
-          "value": "REACH Unaffected"
+          "value": "1  (Unlimited)"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "ECCN",
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030773",
+          "value": "ROHS3 Compliant"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH SVHC",
+      "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030773",
+          "value": "No SVHC"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000090891",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000030773",
+          "value": "8542.39.0001"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN Code",
       "candidates": [
         {
           "productCode": "TCE000090891",
@@ -197,7 +239,7 @@
       "target": "-"
     },
     {
-      "attribute": "Packaging",
+      "attribute": "Sample and Hold / Track and Hold",
       "candidates": [
         {
           "productCode": "TCE000090891",
@@ -205,49 +247,7 @@
         },
         {
           "productCode": "TCE000030773",
-          "value": "Tube"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Lead Free",
-      "candidates": [
-        {
-          "productCode": "TCE000090891",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000030773",
-          "value": "Contains Lead"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Mounting Type",
-      "candidates": [
-        {
-          "productCode": "TCE000090891",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000030773",
-          "value": "Surface Mount"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Factory Lead Time",
-      "candidates": [
-        {
-          "productCode": "TCE000090891",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000030773",
-          "value": "8 Weeks"
+          "value": "SAMPLE"
         }
       ],
       "target": "-"
@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:18:15",
+  "generatedAt": "2026-07-18 16:55:53",
   "partNumber": "AD1672AP",
   "reasoning": "As of July 18, 2026, ADI marks AD1672 obsolete and lists AD9221 as the suggested replacement.",
   "replacementCandidates": [
@@ -300,7 +300,7 @@
       "brandName": "Analog Devices Inc./Maxim Integrated",
       "bucket": "P2P",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD1671.pdf",
+      "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad1671ap.pdf",
       "description": "Legacy 12-bit 1.25 MSPS ADC exact MPN used as a pin-compatible shortlist candidate for AD1672AP sustainment review.",
       "fitNotes": [
         "AD1671AP is published as a first-pass pin-compatible shortlist candidate for AD1672AP sustainment review and must be verified against timing and interface needs."
@@ -440,7 +440,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1672.pdf",
+    "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad1672ap.pdf",
     "description": "AD1672AP obsolete 12-bit 3 MSPS monolithic ADC listed by ADI and redirected to AD9221.",
     "package": "28-PDIP",
     "pricing": {

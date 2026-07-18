@@ -127,20 +127,6 @@
       "target": "Legacy sustainment review required before substitution"
     },
     {
-      "attribute": "Family Relationship",
-      "candidates": [
-        {
-          "productCode": "TCE000090892",
-          "value": "AD9007 sibling variant"
-        },
-        {
-          "productCode": "TCE000011423",
-          "value": "-"
-        }
-      ],
-      "target": "-"
-    },
-    {
       "attribute": "Lifecycle Note",
       "candidates": [
         {
@@ -155,7 +141,21 @@
       "target": "-"
     },
     {
-      "attribute": "JESD-609 Code",
+      "attribute": "Family Relationship",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "AD9007 sibling variant"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "-"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Contact Plating",
       "candidates": [
         {
           "productCode": "TCE000090892",
@@ -163,13 +163,83 @@
         },
         {
           "productCode": "TCE000011423",
-          "value": "e3"
+          "value": "Tin"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "ECCN Code",
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "Active"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Radiation Hardening",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "NO"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Pbfree Code",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "NO"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Surface Mount",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "Yes"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000090892",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000011423",
+          "value": "REACH Unaffected"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN",
       "candidates": [
         {
           "productCode": "TCE000090892",
@@ -178,76 +248,6 @@
         {
           "productCode": "TCE000011423",
           "value": "EAR99"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "RoHS Status",
-      "candidates": [
-        {
-          "productCode": "TCE000090892",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000011423",
-          "value": "ROHS3 Compliant"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "REACH SVHC",
-      "candidates": [
-        {
-          "productCode": "TCE000090892",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000011423",
-          "value": "No SVHC"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "HTSUS",
-      "candidates": [
-        {
-          "productCode": "TCE000090892",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000011423",
-          "value": "8542.39.0001"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Moisture Sensitivity Level (MSL)",
-      "candidates": [
-        {
-          "productCode": "TCE000090892",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000011423",
-          "value": "3  (168 Hours)"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Number of Analog In Channels",
-      "candidates": [
-        {
-          "productCode": "TCE000090892",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000011423",
-          "value": "1"
         }
       ],
       "target": "-"
@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:18:22",
+  "generatedAt": "2026-07-18 16:55:58",
   "partNumber": "AD9007AM",
   "reasoning": "As of July 18, 2026, ADI marks AD9007 obsolete and lists AD9220 as the suggested replacement.",
   "replacementCandidates": [
@@ -300,7 +300,7 @@
       "brandName": "Analog Devices Inc./Maxim Integrated",
       "bucket": "P2P",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9007.pdf",
+      "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad9007bm.pdf",
       "description": "Legacy 12-bit 10 MSPS ADC exact MPN variant used as a pin-compatible sibling candidate within the obsolete AD9007 family.",
       "fitNotes": [
         "AD9007BM is published as a pin-compatible sibling candidate within the obsolete AD9007 family for AD9007AM sustainment review."
@@ -444,7 +444,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9007.pdf",
+    "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad9007am.pdf",
     "description": "AD9007AM obsolete 12-bit 10 MSPS ADC listed by ADI and redirected to AD9220.",
     "package": "46-DIP Module",
     "pricing": {

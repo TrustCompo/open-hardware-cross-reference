@@ -1,20 +1,6 @@
 {
   "comparisonRows": [
     {
-      "attribute": "Application Note",
-      "candidates": [
-        {
-          "productCode": "TCE000032700",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000039937",
-          "value": "-"
-        }
-      ],
-      "target": "Legacy sustainment review required before substitution"
-    },
-    {
       "attribute": "Manufacturer",
       "candidates": [
         {
@@ -127,6 +113,104 @@
       "target": "16-bit"
     },
     {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "-"
+        }
+      ],
+      "target": "Legacy sustainment review required before substitution"
+    },
+    {
+      "attribute": "JESD-609 Code",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "e3"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "e0"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Moisture Sensitivity Level (MSL)",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "1  (Unlimited)"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "Non-RoHS Compliant"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH SVHC",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "No SVHC"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "No SVHC"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "8542.39.0001"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "8542.39.0001"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN Code",
+      "candidates": [
+        {
+          "productCode": "TCE000032700",
+          "value": "EAR99"
+        },
+        {
+          "productCode": "TCE000039937",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
       "attribute": "Part Status",
       "candidates": [
         {
@@ -167,90 +251,6 @@
         }
       ],
       "target": "-"
-    },
-    {
-      "attribute": "ECCN",
-      "candidates": [
-        {
-          "productCode": "TCE000032700",
-          "value": "EAR99"
-        },
-        {
-          "productCode": "TCE000039937",
-          "value": "EAR99"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Packaging",
-      "candidates": [
-        {
-          "productCode": "TCE000032700",
-          "value": "Tube"
-        },
-        {
-          "productCode": "TCE000039937",
-          "value": "Tube"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Lead Free",
-      "candidates": [
-        {
-          "productCode": "TCE000032700",
-          "value": "Contains Lead"
-        },
-        {
-          "productCode": "TCE000039937",
-          "value": "Contains Lead"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Factory Lead Time",
-      "candidates": [
-        {
-          "productCode": "TCE000032700",
-          "value": "8 Weeks"
-        },
-        {
-          "productCode": "TCE000039937",
-          "value": "-"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Categories",
-      "candidates": [
-        {
-          "productCode": "TCE000032700",
-          "value": "Integrated Circuits (ICs)"
-        },
-        {
-          "productCode": "TCE000039937",
-          "value": "Integrated Circuits (ICs)"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Interface",
-      "candidates": [
-        {
-          "productCode": "TCE000032700",
-          "value": "SPI, Serial"
-        },
-        {
-          "productCode": "TCE000039937",
-          "value": "SPI, Serial"
-        }
-      ],
-      "target": "-"
     }
   ],
   "confidence": 100,
@@ -278,7 +278,7 @@
       "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 15:18:19",
+  "generatedAt": "2026-07-18 16:55:55",
   "partNumber": "AD1876JN",
   "reasoning": "As of July 18, 2026, ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement.",
   "replacementCandidates": [
@@ -502,7 +502,7 @@
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1876.pdf",
+    "datasheetUrl": "https://datasheet.trustcompo.com/datasheet/analog-devices-inc.-maxim-integrated-ad1876jn.pdf",
     "description": "AD1876JN obsolete 16-bit sampling ADC listed by ADI and redirected to AD677.",
     "package": "16-PDIP",
     "pricing": {
