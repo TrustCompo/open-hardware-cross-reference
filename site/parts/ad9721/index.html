@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AD9721 cross reference | TrustCompo Open Hardware Cross Reference</title>
+  <meta name="description" content="ADI currently marks AD9721 obsolete and lists AD9760 as the official replacement family for migration and sustainment review.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --card: rgba(255,253,248,0.96);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --accent-ink: #6a2f17;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.10), transparent 28%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 24%),
+      linear-gradient(180deg, #eee4d4 0%, var(--bg) 42%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
+    .hero { background: rgba(255,253,248,0.92); border: 1px solid var(--line); border-radius: 24px; padding: 28px; box-shadow: 0 18px 48px rgba(29,42,53,0.08); }
+    .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
+    h1, h2, h3 { line-height: 1.1; }
+    h1 { margin: 10px 0 10px; font-size: clamp(2rem, 4vw, 3.6rem); }
+    p { line-height: 1.6; }
+    .muted { color: var(--muted); }
+    .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin: 24px 0; }
+    .meta-card, .section, .candidate-card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
+    .meta-card { padding: 16px; }
+    .section { margin-top: 22px; padding: 22px; }
+    .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
+    .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
+    .candidate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .candidate-card { padding: 18px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
+    th { background: #f7f2e8; }
+    .evidence-list { padding-left: 18px; }
+    a { color: var(--accent); }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .hero h1, .section strong { font-variant-numeric: tabular-nums; }
+    @media (max-width: 760px) {
+      .candidate-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Open Hardware Cross Reference</div>
+      <h1>AD9721</h1>
+      <p>ADI currently marks AD9721 obsolete and lists AD9760 as the official replacement family for migration and sustainment review.</p>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090879-AD9721">Open AD9721 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090879-AD9721/datasheet">View AD9721 datasheet</a></div>
+      <div class="meta-grid">
+        <div class="meta-card"><strong>Status</strong><br>obsolete</div>
+        <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
+        <div class="meta-card"><strong>Package</strong><br>Legacy package variants</div>
+        <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Digital to Analog Converters (DAC)</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Target product summary</h2>
+      <p><strong>AD9721</strong></p>
+      <p>ADI marks AD9721 as obsolete and suggests AD9760 as the replacement on the current product page. Teams supporting legacy waveform-generation or communications hardware should recheck update rate, output topology, package constraints, and system timing before treating AD9760 as the validated service replacement for an AD9721-based design.</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090879-AD9721/datasheet</p>
+    </section>
+
+    <section class="section">
+      <h2>Replacement candidates</h2>
+      <div class="candidate-grid">
+        <article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000035905-AD9760AR">AD9760AR</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
+<p>IC DAC 10BIT 125MSPS 28-SOIC</p>
+<p class="muted">Package: 28-SOIC | Series: TxDAC®</p>
+<p class="muted">Linearity Error-Max (EL): 0.0977%; Moisture Sensitivity Level (MSL): 1  (Unlimited); REACH SVHC: Unknown; RoHS Status: ROHS3 Compliant</p>
+</article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Parameter comparison</h2>
+      <table>
+<thead><tr>
+<th>Attribute</th>
+<th>AD9721</th>
+<th>AD9760AR</th>
+</tr></thead><tbody>
+<tr>
+<td>Application Note</td>
+<td>Legacy sustainment and redesign review only</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Manufacturer</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
+</tr>
+<tr>
+<td>Converter Type</td>
+<td>D/A CONVERTER</td>
+<td>D/A CONVERTER</td>
+</tr>
+<tr>
+<td>Sampling Rate</td>
+<td>400 Msps</td>
+<td>125 Msps</td>
+</tr>
+<tr>
+<td>Lifecycle Status</td>
+<td>OBSOLETE</td>
+<td>PRODUCTION (Last Updated: 2 weeks ago)</td>
+</tr>
+<tr>
+<td>Package / Case</td>
+<td>Legacy package variants</td>
+<td>28-SOIC (0.295, 7.50mm Width)</td>
+</tr>
+<tr>
+<td>Replacement Path</td>
+<td>AD9760</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Resolution</td>
+<td>10-bit</td>
+<td>1.25 B</td>
+</tr>
+<tr>
+<td>Output Type</td>
+<td>High-speed DAC</td>
+<td>Current - Unbuffered</td>
+</tr>
+<tr>
+<td>Linearity Error-Max (EL)</td>
+<td>-</td>
+<td>0.0977%</td>
+</tr>
+<tr>
+<td>Moisture Sensitivity Level (MSL)</td>
+<td>-</td>
+<td>1  (Unlimited)</td>
+</tr>
+<tr>
+<td>REACH SVHC</td>
+<td>-</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td>RoHS Status</td>
+<td>-</td>
+<td>ROHS3 Compliant</td>
+</tr>
+<tr>
+<td>JESD-609 Code</td>
+<td>-</td>
+<td>e0</td>
+</tr>
+<tr>
+<td>HTSUS</td>
+<td>-</td>
+<td>8542.39.0001</td>
+</tr>
+<tr>
+<td>ECCN Code</td>
+<td>-</td>
+<td>EAR99</td>
+</tr>
+<tr>
+<td>Part Status</td>
+<td>-</td>
+<td>Active</td>
+</tr>
+<tr>
+<td>REACH Status</td>
+<td>-</td>
+<td>REACH Unaffected</td>
+</tr>
+</tbody></table>
+    </section>
+
+    <section class="section">
+      <h2>Engineer review boundary</h2>
+      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
+    </section>
+
+    <section class="section">
+      <h2>Evidence summary</h2>
+      <ul class="evidence-list">
+<li><strong><a href="https://www.analog.com/en/products/ad9721.html">AD9721 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD9721 obsolete and lists AD9760 as the suggested replacement. Signals: obsolete, replacement.</li>
+<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9721.pdf">AD9721 obsolete datasheet</a></strong> <span class="muted">(official-datasheet)</span><br>Official obsolete datasheet for the 10-bit 400 MSPS AD9721 family. Signals: obsolete-datasheet, 10-bit, 400-msps.</li>
+</ul>
+    </section>
+
+    <section class="section">
+      <h2>Contribute feedback</h2>
+      <p class="muted">If this page helped your review work, please consider starring the project on <a href="https://github.com/TrustCompo/open-hardware-cross-reference">GitHub</a>. If you spot incorrect data, missing alternatives, or context that needs clarification, please <a href="https://github.com/TrustCompo/open-hardware-cross-reference/issues">open an issue</a>.</p>
+    </section>
+
+    <section class="section">
+      <h2>Verification notes</h2>
+      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
+    </section>
+  </main>
+</body>
+</html>

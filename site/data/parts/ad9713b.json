@@ -1,0 +1,353 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "Logic Compatibility",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "-"
+        }
+      ],
+      "target": "TTL compatible"
+    },
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Converter Type",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "D/A CONVERTER"
+        }
+      ],
+      "target": "D/A CONVERTER"
+    },
+    {
+      "attribute": "Sampling Rate",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "125 Msps"
+        }
+      ],
+      "target": "80 Msps"
+    },
+    {
+      "attribute": "Operating Temperature",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "-40°C~85°C"
+        }
+      ],
+      "target": "-25°C to +85°C"
+    },
+    {
+      "attribute": "Resolution",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "1.25 B"
+        }
+      ],
+      "target": "12-bit"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "PRODUCTION (Last Updated: 2 weeks ago)"
+        }
+      ],
+      "target": "OBSOLETE"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "28-SOIC (0.295, 7.50mm Width)"
+        }
+      ],
+      "target": "28-pin plastic DIP / PLCC"
+    },
+    {
+      "attribute": "Replacement Path",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "-"
+        }
+      ],
+      "target": "AD975X / AD976X"
+    },
+    {
+      "attribute": "Contact Plating",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "Tin"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Number of Bits",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "10"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "Active"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Pbfree Code",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "NO"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Differential Output",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "Yes"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Surface Mount",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "Yes"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "REACH Unaffected"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Number of Converters",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "1"
+        }
+      ],
+      "target": "-"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "obsolete",
+  "displayPartNumber": "AD9713B",
+  "evidenceSummary": [
+    {
+      "excerpt": "ADI marks AD9713B obsolete and advises customers to consider the AD975X and AD976X product families instead.",
+      "signals": [
+        "obsolete",
+        "ad975x",
+        "ad976x"
+      ],
+      "sourceType": "official-product-page",
+      "title": "AD9713B product page",
+      "url": "https://www.analog.com/en/products/ad9713b.html"
+    },
+    {
+      "excerpt": "Official AD9713B datasheet covering the 12-bit 80 MSPS TTL compatible DAC family.",
+      "signals": [
+        "12-bit",
+        "80-msps",
+        "ttl-compatible"
+      ],
+      "sourceType": "official-datasheet",
+      "title": "AD9713B datasheet",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9713B.pdf"
+    }
+  ],
+  "generatedAt": "2026-07-18 13:50:27",
+  "partNumber": "AD9713B",
+  "reasoning": "ADI currently marks AD9713B obsolete and advises customers to evaluate the AD975X and AD976X successor families, making AD9760 the first-pass replacement path here.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.39.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "Current Source",
+          "Base Part Number": "AD9760",
+          "Categories": "Integrated Circuits (ICs)",
+          "Contact Plating": "Tin",
+          "Conversion Rate": "125 Msps",
+          "Converter Type": "D/A CONVERTER",
+          "Data Interface": "Parallel",
+          "Differential Output": "Yes",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "8 Weeks",
+          "Height": "2.35mm",
+          "INL/DNL (LSB)": "±0.5, ±0.25",
+          "Input Bit Code": "BINARY",
+          "Integral Nonlinearity (INL)": "1 LSB",
+          "Lead Free": "Contains Lead",
+          "Length": "18.1mm",
+          "Lifecycle Status": "PRODUCTION (Last Updated: 2 weeks ago)",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "AD9760ARZ",
+          "Max Input Voltage": "1.25V",
+          "Max Output Voltage": "2.5V",
+          "Max Power Dissipation": "175mW",
+          "Max Supply Voltage": "5.5V",
+          "Min Input Voltage": "100mV",
+          "Min Output Voltage": "100mV",
+          "Min Supply Voltage": "2.7V",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "25mA",
+          "Number of Bits": "10",
+          "Number of Converters": "1",
+          "Number of Functions": "1",
+          "Number of Pins": "28",
+          "Number of Terminations": "28",
+          "Operating Supply Voltage": "5V",
+          "Operating Temperature": "-40°C~85°C",
+          "Output Type": "Current - Unbuffered",
+          "Package / Case": "28-SOIC (0.295, 7.50mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "NO",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "28",
+          "Polarity": "Unipolar",
+          "Power Dissipation": "175mW",
+          "Qualification Status": "Not Qualified",
+          "REACH Status": "REACH Unaffected",
+          "Reference Type": "External, Internal",
+          "Reflow Temperature-Max (s)": "30",
+          "Resolution": "1.25 B",
+          "Sampling Rate": "125 Msps",
+          "Series": "TxDAC®",
+          "Settling Time": "35ns (Typ)",
+          "Sub-Categories": "Data Acquisition - Digital to Analog Converters (DAC)",
+          "Subcategory": "Other Converters",
+          "Supply Voltage": "5V",
+          "Surface Mount": "Yes",
+          "Technology": "CMOS",
+          "Terminal Form": "GULL WING",
+          "Terminal Position": "DUAL",
+          "Voltage - Supply, Analog": "2.7V~5.5V",
+          "Voltage - Supply, Digital": "2.7V~5.5V",
+          "Width": "7.6mm"
+        },
+        "Product Parameter": {
+          "Linearity Error-Max (EL)": "0.0977%",
+          "Power Supplies": "5V"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9760arz.pdf",
+      "description": "IC DAC 10BIT 125MSPS 28-SOIC",
+      "fitNotes": [
+        "ADI names the AD976X family as the successor path for AD9713B."
+      ],
+      "fitScore": 80,
+      "package": "28-SOIC",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000012458",
+      "productName": "AD9760ARZ",
+      "productOverview": "IC DAC 10BIT 125MSPS 28-SOIC",
+      "reason": "ADI lists the AD976X family as a successor path for AD9713B.",
+      "series": "TxDAC®",
+      "slug": "TCE000012458-AD9760ARZ",
+      "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000012458-AD9760ARZ"
+    }
+  ],
+  "sourceReportFile": "runtime/catalog-batches/2026-07-18-adi-obsolete-wave-1/lifecycle-and-crossrefs.json",
+  "target": {
+    "attributeGroups": {
+      "Product Attribute": {
+        "Converter Type": "D/A CONVERTER",
+        "Lifecycle Status": "OBSOLETE",
+        "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+        "Operating Temperature": "-25°C to +85°C",
+        "Package / Case": "28-pin plastic DIP / PLCC",
+        "Replacement Path": "AD975X / AD976X",
+        "Resolution": "12-bit",
+        "Sampling Rate": "80 Msps"
+      },
+      "Product Parameter": {
+        "Logic Compatibility": "TTL compatible"
+      }
+    },
+    "brandName": "Analog Devices Inc./Maxim Integrated",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9713B.pdf",
+    "description": "12-bit 80 MSPS TTL compatible DAC marked obsolete by ADI and redirected to AD975X or AD976X.",
+    "package": "28-pin plastic DIP / PLCC",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000090880",
+    "productName": "AD9713B",
+    "productOverview": "ADI currently lists AD9713B as obsolete and explicitly advises designers to consider the AD975X and AD976X product families instead. For sustainment programs, this 12-bit 80 MSPS TTL compatible DAC should be replaced only after confirming logic compatibility, output architecture, timing margins, package fit, and dynamic performance against the original AD9713B datasheet and the selected successor model.",
+    "series": "-",
+    "slug": "TCE000090880-AD9713B",
+    "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+    "url": "https://www.trustcompo.com/product/detail/TCE000090880-AD9713B"
+  },
+  "vendor": "Analog Devices Inc./Maxim Integrated"
+}

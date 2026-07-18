@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AD1876 cross reference | TrustCompo Open Hardware Cross Reference</title>
+  <meta name="description" content="ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --card: rgba(255,253,248,0.96);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --accent-ink: #6a2f17;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.10), transparent 28%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 24%),
+      linear-gradient(180deg, #eee4d4 0%, var(--bg) 42%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
+    .hero { background: rgba(255,253,248,0.92); border: 1px solid var(--line); border-radius: 24px; padding: 28px; box-shadow: 0 18px 48px rgba(29,42,53,0.08); }
+    .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
+    h1, h2, h3 { line-height: 1.1; }
+    h1 { margin: 10px 0 10px; font-size: clamp(2rem, 4vw, 3.6rem); }
+    p { line-height: 1.6; }
+    .muted { color: var(--muted); }
+    .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin: 24px 0; }
+    .meta-card, .section, .candidate-card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
+    .meta-card { padding: 16px; }
+    .section { margin-top: 22px; padding: 22px; }
+    .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
+    .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
+    .candidate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .candidate-card { padding: 18px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
+    th { background: #f7f2e8; }
+    .evidence-list { padding-left: 18px; }
+    a { color: var(--accent); }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .hero h1, .section strong { font-variant-numeric: tabular-nums; }
+    @media (max-width: 760px) {
+      .candidate-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Open Hardware Cross Reference</div>
+      <h1>AD1876</h1>
+      <p>ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.</p>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090884-AD1876">Open AD1876 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090884-AD1876/datasheet">View AD1876 datasheet</a></div>
+      <div class="meta-grid">
+        <div class="meta-card"><strong>Status</strong><br>obsolete</div>
+        <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
+        <div class="meta-card"><strong>Package</strong><br>Legacy package variants</div>
+        <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Analog to Digital Converters (ADC)</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Target product summary</h2>
+      <p><strong>AD1876</strong></p>
+      <p>ADI presents AD1876 as obsolete product information and lists AD677 as the suggested replacement on the current product page. Legacy support teams should treat AD677 as the first review candidate only after rechecking serial interface expectations, conversion speed, reference behavior, package constraints, and calibration or system-level timing requirements against the original AD1876 design.</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090884-AD1876/datasheet</p>
+    </section>
+
+    <section class="section">
+      <h2>Replacement candidates</h2>
+      <div class="candidate-grid">
+        <article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000039937-AD677JN">AD677JN</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
+<p>IC ADC 16BIT SAMPLING 16-DIP</p>
+<p class="muted">Package: DIP | Series: -</p>
+<p class="muted">Moisture Sensitivity Level (MSL): 1  (Unlimited); REACH SVHC: No SVHC; JESD-609 Code: e0; RoHS Status: Non-RoHS Compliant</p>
+</article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Parameter comparison</h2>
+      <table>
+<thead><tr>
+<th>Attribute</th>
+<th>AD1876</th>
+<th>AD677JN</th>
+</tr></thead><tbody>
+<tr>
+<td>Manufacturer</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
+</tr>
+<tr>
+<td>Sampling Rate</td>
+<td>100 ksps</td>
+<td>100 ksps</td>
+</tr>
+<tr>
+<td>Converter Type</td>
+<td>A/D CONVERTER</td>
+<td>ADC, SUCCESSIVE APPROXIMATION</td>
+</tr>
+<tr>
+<td>Lifecycle Status</td>
+<td>OBSOLETE</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Package / Case</td>
+<td>Legacy package variants</td>
+<td>16-DIP (0.300, 7.62mm)</td>
+</tr>
+<tr>
+<td>Replacement Path</td>
+<td>AD677</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Architecture</td>
+<td>Sampling ADC</td>
+<td>SAR</td>
+</tr>
+<tr>
+<td>Resolution</td>
+<td>16-bit</td>
+<td>2 B</td>
+</tr>
+<tr>
+<td>Application Note</td>
+<td>Legacy sustainment review required before substitution</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Moisture Sensitivity Level (MSL)</td>
+<td>-</td>
+<td>1  (Unlimited)</td>
+</tr>
+<tr>
+<td>REACH SVHC</td>
+<td>-</td>
+<td>No SVHC</td>
+</tr>
+<tr>
+<td>JESD-609 Code</td>
+<td>-</td>
+<td>e0</td>
+</tr>
+<tr>
+<td>RoHS Status</td>
+<td>-</td>
+<td>Non-RoHS Compliant</td>
+</tr>
+<tr>
+<td>HTSUS</td>
+<td>-</td>
+<td>8542.39.0001</td>
+</tr>
+<tr>
+<td>ECCN Code</td>
+<td>-</td>
+<td>EAR99</td>
+</tr>
+<tr>
+<td>Mounting Type</td>
+<td>-</td>
+<td>Through Hole</td>
+</tr>
+<tr>
+<td>ECCN</td>
+<td>-</td>
+<td>EAR99</td>
+</tr>
+<tr>
+<td>Packaging</td>
+<td>-</td>
+<td>Tube</td>
+</tr>
+</tbody></table>
+    </section>
+
+    <section class="section">
+      <h2>Engineer review boundary</h2>
+      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
+    </section>
+
+    <section class="section">
+      <h2>Evidence summary</h2>
+      <ul class="evidence-list">
+<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1876.pdf">AD1876 datasheet</a></strong> <span class="muted">(catalog-datasheet)</span><br>Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point. Signals: datasheet, target-part.</li>
+<li><strong>AD1876 lifecycle note</strong> <span class="muted">(catalog-lifecycle)</span><br>TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release. Signals: obsolete.</li>
+<li><strong><a href="https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad677jn.pdf">AD677JN datasheet</a></strong> <span class="muted">(alternative-datasheet)</span><br>ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC. Signals: functional.</li>
+</ul>
+    </section>
+
+    <section class="section">
+      <h2>Contribute feedback</h2>
+      <p class="muted">If this page helped your review work, please consider starring the project on <a href="https://github.com/TrustCompo/open-hardware-cross-reference">GitHub</a>. If you spot incorrect data, missing alternatives, or context that needs clarification, please <a href="https://github.com/TrustCompo/open-hardware-cross-reference/issues">open an issue</a>.</p>
+    </section>
+
+    <section class="section">
+      <h2>Verification notes</h2>
+      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AD5564 cross reference | TrustCompo Open Hardware Cross Reference</title>
+  <meta name="description" content="ADI currently marks AD5564 obsolete and lists the AD5532 family as the official replacement path for sustainment review work.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #f4eee2;
+      --ink: #16202a;
+      --muted: #5b6875;
+      --line: #d7ccba;
+      --card: rgba(255,253,248,0.96);
+      --accent: #9d4b29;
+      --accent-soft: #f3ddd2;
+      --accent-ink: #6a2f17;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif; background:
+      radial-gradient(circle at top left, rgba(157,75,41,0.10), transparent 28%),
+      radial-gradient(circle at top right, rgba(22,32,42,0.08), transparent 24%),
+      linear-gradient(180deg, #eee4d4 0%, var(--bg) 42%, #fbfaf6 100%); color: var(--ink); text-rendering: optimizeLegibility; }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
+    .hero { background: rgba(255,253,248,0.92); border: 1px solid var(--line); border-radius: 24px; padding: 28px; box-shadow: 0 18px 48px rgba(29,42,53,0.08); }
+    .eyebrow { letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-size: 12px; }
+    h1, h2, h3 { line-height: 1.1; }
+    h1 { margin: 10px 0 10px; font-size: clamp(2rem, 4vw, 3.6rem); }
+    p { line-height: 1.6; }
+    .muted { color: var(--muted); }
+    .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin: 24px 0; }
+    .meta-card, .section, .candidate-card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
+    .meta-card { padding: 16px; }
+    .section { margin-top: 22px; padding: 22px; }
+    .button { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; }
+    .button.secondary { background: var(--accent-soft); color: var(--accent-ink); }
+    .candidate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .candidate-card { padding: 18px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
+    th { background: #f7f2e8; }
+    .evidence-list { padding-left: 18px; }
+    a { color: var(--accent); }
+    .mpn { font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+    .hero h1, .section strong { font-variant-numeric: tabular-nums; }
+    @media (max-width: 760px) {
+      .candidate-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Open Hardware Cross Reference</div>
+      <h1>AD5564</h1>
+      <p>ADI currently marks AD5564 obsolete and lists the AD5532 family as the official replacement path for sustainment review work.</p>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564">Open AD5564 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564/datasheet">View AD5564 datasheet</a></div>
+      <div class="meta-grid">
+        <div class="meta-card"><strong>Status</strong><br>obsolete</div>
+        <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
+        <div class="meta-card"><strong>Package</strong><br>Legacy package variants</div>
+        <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Digital to Analog Converters (DAC)</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Target product summary</h2>
+      <p><strong>AD5564</strong></p>
+      <p>ADI currently marks AD5564 as obsolete and points designers to the AD5532 family as the official replacement path. This legacy multichannel DAC family should be reviewed only for sustainment work, with channel count, output range, package constraints, and calibration behavior rechecked against the obsolete datasheet before any redesign or service substitution.</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090877-AD5564/datasheet</p>
+    </section>
+
+    <section class="section">
+      <h2>Replacement candidates</h2>
+      <div class="candidate-grid">
+        <article class="candidate-card">
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000088337-AD5532ABC-1">AD5532ABC-1</a></h3>
+<p><strong>Functional</strong> · Fit score 80</p>
+<p>IC DAC 14BIT 32CH 74CSBGA</p>
+<p class="muted">Package: - | Series: -</p>
+<p class="muted">JESD-609 Code: e0; RoHS Status: Non-RoHS Compliant; Moisture Sensitivity Level (MSL): 3 (168 Hours); ECCN Code: EAR99</p>
+</article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Parameter comparison</h2>
+      <table>
+<thead><tr>
+<th>Attribute</th>
+<th>AD5564</th>
+<th>AD5532ABC-1</th>
+</tr></thead><tbody>
+<tr>
+<td>Manufacturer</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
+<td>Analog Devices Inc./Maxim Integrated</td>
+</tr>
+<tr>
+<td>Converter Type</td>
+<td>D/A CONVERTER</td>
+<td>D/A CONVERTER</td>
+</tr>
+<tr>
+<td>Output Type</td>
+<td>VOLTAGE OUTPUT</td>
+<td>Voltage - Unbuffered</td>
+</tr>
+<tr>
+<td>Lifecycle Status</td>
+<td>OBSOLETE</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Package / Case</td>
+<td>Legacy package variants</td>
+<td>74-LBGA, CSPBGA</td>
+</tr>
+<tr>
+<td>Replacement Path</td>
+<td>AD5532 family</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Resolution</td>
+<td>Legacy family; review obsolete datasheet</td>
+<td>1.75 B</td>
+</tr>
+<tr>
+<td>Number of Channels</td>
+<td>32</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Application Note</td>
+<td>Sustainment only; replacement review required</td>
+<td>-</td>
+</tr>
+<tr>
+<td>JESD-609 Code</td>
+<td>-</td>
+<td>e0</td>
+</tr>
+<tr>
+<td>RoHS Status</td>
+<td>-</td>
+<td>Non-RoHS Compliant</td>
+</tr>
+<tr>
+<td>Moisture Sensitivity Level (MSL)</td>
+<td>-</td>
+<td>3 (168 Hours)</td>
+</tr>
+<tr>
+<td>ECCN Code</td>
+<td>-</td>
+<td>EAR99</td>
+</tr>
+<tr>
+<td>Terminal Finish</td>
+<td>-</td>
+<td>Tin/Lead (Sn63Pb37)</td>
+</tr>
+<tr>
+<td>Time@Peak Reflow Temperature-Max (s)</td>
+<td>-</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Low-Bias</td>
+<td>-</td>
+<td>BINARY</td>
+</tr>
+<tr>
+<td>Special Feature</td>
+<td>-</td>
+<td>Parallel, SPI</td>
+</tr>
+<tr>
+<td>Height Seated (Max)</td>
+<td>-</td>
+<td>1.7mm</td>
+</tr>
+</tbody></table>
+    </section>
+
+    <section class="section">
+      <h2>Engineer review boundary</h2>
+      <p class="muted">This page is designed for first-pass shortlist work. Treat the candidates below as engineering starting points, then verify footprint compatibility, electrical limits, lifecycle timing, compliance requirements, and qualification scope before approving a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
+    </section>
+
+    <section class="section">
+      <h2>Evidence summary</h2>
+      <ul class="evidence-list">
+<li><strong><a href="https://www.analog.com/en/products/ad5564.html">AD5564 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD5564 obsolete and states that the product is replaced by AD5532. Signals: obsolete, replacement.</li>
+<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD5564.pdf">AD5564 obsolete datasheet</a></strong> <span class="muted">(official-datasheet)</span><br>Official obsolete datasheet for the AD5564 legacy family used for sustainment reference. Signals: obsolete-datasheet.</li>
+</ul>
+    </section>
+
+    <section class="section">
+      <h2>Contribute feedback</h2>
+      <p class="muted">If this page helped your review work, please consider starring the project on <a href="https://github.com/TrustCompo/open-hardware-cross-reference">GitHub</a>. If you spot incorrect data, missing alternatives, or context that needs clarification, please <a href="https://github.com/TrustCompo/open-hardware-cross-reference/issues">open an issue</a>.</p>
+    </section>
+
+    <section class="section">
+      <h2>Verification notes</h2>
+      <p class="muted">Cross-reference pages are useful starting points, not automatic design approvals. Always re-check footprint, electrical limits, lifecycle timing, qualification documents, firmware implications, and supply-chain constraints before releasing a BOM change. For official sample requests, full data verification, and legal warranty support, please consult through <a href="https://trustcompo.com/help-center">TrustCompo Inquiry Channel</a>.</p>
+    </section>
+  </main>
+</body>
+</html>

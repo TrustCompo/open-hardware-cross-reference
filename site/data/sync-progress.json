@@ -1,17 +1,22 @@
 {
-  "generatedAt": "2026-07-17 18:06:13",
+  "generatedAt": "2026-07-18 13:48:07",
   "workflowVersion": "2026-07-17-quality-gated-v2",
   "environment": "prod",
   "repoPath": "/home/chenxiaosen/workspace/trustcompo-open-source/repos/open-hardware-cross-reference",
   "repoProgressFile": "site/data/sync-progress.json",
-  "totalGroups": 5,
-  "apiReportedTotal": 5,
+  "totalGroups": 10,
+  "apiReportedTotal": 15,
   "sourceProductCodes": [
     "TCE000041826",
     "TCE000056780",
     "TCE000041557",
     "TCE000056779",
-    "TCE000046366"
+    "TCE000090886",
+    "TCE000090885",
+    "TCE000090884",
+    "TCE000090883",
+    "TCE000090882",
+    "TCE000090881"
   ],
   "sourceProducts": {
     "TCE000041557": {
@@ -92,11 +97,83 @@
         "TCE000065941",
         "TCE000032783"
       ]
+    },
+    "TCE000090886": {
+      "contentHash": "9e41aa3356cbe874b083afde2221cc93c9e22dc6493c8e0651e144ca2c3bffd3",
+      "syncedAt": "2026-07-18 13:47:18",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad9702/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "displayPartNumber": "AD9702",
+      "alternativeProductCodes": [
+        "TCE000032583"
+      ]
+    },
+    "TCE000090885": {
+      "contentHash": "df08dded0f92d230405e3481ab859f78693fe03d51d6a37af11a266a50129e8a",
+      "syncedAt": "2026-07-18 13:47:20",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad9007/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "displayPartNumber": "AD9007",
+      "alternativeProductCodes": [
+        "TCE000011423"
+      ]
+    },
+    "TCE000090884": {
+      "contentHash": "1b5829e78e0d8cae42f3ee2e91cac248ff3421700ae5b8d5880ee1e6a4a3b8f5",
+      "syncedAt": "2026-07-18 13:47:21",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad1876/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "displayPartNumber": "AD1876",
+      "alternativeProductCodes": [
+        "TCE000039937"
+      ]
+    },
+    "TCE000090883": {
+      "contentHash": "010de086d2c203eafdbf1a5c36fa4f83c58e0f9db03379388fa50f24cdae5429",
+      "syncedAt": "2026-07-18 13:47:24",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad1672/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "displayPartNumber": "AD1672",
+      "alternativeProductCodes": [
+        "TCE000030773"
+      ]
+    },
+    "TCE000090882": {
+      "contentHash": "eeac68d8ed72f243b36ae20ff65b1566e9eebe6aba9f51cbbaea5774a76b3960",
+      "syncedAt": "2026-07-18 13:47:27",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad705/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "displayPartNumber": "AD705",
+      "alternativeProductCodes": [
+        "TCE000034007"
+      ]
+    },
+    "TCE000090881": {
+      "contentHash": "54ea1874d07d6525332df40217d26becf43faabf928ff1d5b4e664f32af1246d",
+      "syncedAt": "2026-07-18 13:47:30",
+      "status": "published",
+      "workflowVersion": "2026-07-17-quality-gated-v2",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/op01/",
+      "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
+      "displayPartNumber": "OP01",
+      "alternativeProductCodes": [
+        "TCE000041681"
+      ]
     }
   },
   "lastRun": {
-    "syncedCount": 5,
-    "skippedCount": 0,
+    "syncedCount": 0,
+    "skippedCount": 10,
     "gatedCount": 0
   }
 }

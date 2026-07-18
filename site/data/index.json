@@ -1,6 +1,114 @@
 [
   {
     "confidence": 100,
+    "dataPath": "data/parts/ad1672.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:47:24",
+    "pagePath": "parts/ad1672/index.html",
+    "partNumber": "AD1672",
+    "partNumberSlug": "ad1672",
+    "targetProductCode": "TCE000090883",
+    "targetProductName": "AD1672",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad1876.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:47:21",
+    "pagePath": "parts/ad1876/index.html",
+    "partNumber": "AD1876",
+    "partNumberSlug": "ad1876",
+    "targetProductCode": "TCE000090884",
+    "targetProductName": "AD1876",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad5564.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:50:23",
+    "pagePath": "parts/ad5564/index.html",
+    "partNumber": "AD5564",
+    "partNumberSlug": "ad5564",
+    "targetProductCode": "TCE000090877",
+    "targetProductName": "AD5564",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad563.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:50:25",
+    "pagePath": "parts/ad563/index.html",
+    "partNumber": "AD563",
+    "partNumberSlug": "ad563",
+    "targetProductCode": "TCE000090878",
+    "targetProductName": "AD563",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad705.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:47:27",
+    "pagePath": "parts/ad705/index.html",
+    "partNumber": "AD705",
+    "partNumberSlug": "ad705",
+    "targetProductCode": "TCE000090882",
+    "targetProductName": "AD705",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad9007.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:47:20",
+    "pagePath": "parts/ad9007/index.html",
+    "partNumber": "AD9007",
+    "partNumberSlug": "ad9007",
+    "targetProductCode": "TCE000090885",
+    "targetProductName": "AD9007",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad9702.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:47:18",
+    "pagePath": "parts/ad9702/index.html",
+    "partNumber": "AD9702",
+    "partNumberSlug": "ad9702",
+    "targetProductCode": "TCE000090886",
+    "targetProductName": "AD9702",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad9713b.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:50:27",
+    "pagePath": "parts/ad9713b/index.html",
+    "partNumber": "AD9713B",
+    "partNumberSlug": "ad9713b",
+    "targetProductCode": "TCE000090880",
+    "targetProductName": "AD9713B",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/ad9721.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:50:26",
+    "pagePath": "parts/ad9721/index.html",
+    "partNumber": "AD9721",
+    "partNumberSlug": "ad9721",
+    "targetProductCode": "TCE000090879",
+    "targetProductName": "AD9721",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
+  },
+  {
+    "confidence": 100,
     "dataPath": "data/parts/bss138l.json",
     "discontinuationStatus": "at-risk",
     "generatedAt": "2026-07-17 18:05:57",
@@ -46,6 +154,18 @@
     "targetProductCode": "TCE000041557",
     "targetProductName": "NJM064M",
     "vendor": "Nisshinbo Micro Devices Inc."
+  },
+  {
+    "confidence": 100,
+    "dataPath": "data/parts/op01.json",
+    "discontinuationStatus": "obsolete",
+    "generatedAt": "2026-07-18 13:47:30",
+    "pagePath": "parts/op01/index.html",
+    "partNumber": "OP01",
+    "partNumberSlug": "op01",
+    "targetProductCode": "TCE000090881",
+    "targetProductName": "OP01",
+    "vendor": "Analog Devices Inc./Maxim Integrated"
   },
   {
     "confidence": 100,

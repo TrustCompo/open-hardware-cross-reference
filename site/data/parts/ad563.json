@@ -1,0 +1,347 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Converter Type",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "D/A CONVERTER"
+        }
+      ],
+      "target": "D/A CONVERTER"
+    },
+    {
+      "attribute": "Resolution",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "1.5 B"
+        }
+      ],
+      "target": "12-bit"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "PRODUCTION (Last Updated: 2 weeks ago)"
+        }
+      ],
+      "target": "OBSOLETE"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "20-TSSOP (0.173, 4.40mm Width)"
+        }
+      ],
+      "target": "Legacy package variants"
+    },
+    {
+      "attribute": "Replacement Path",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "-"
+        }
+      ],
+      "target": "AD5445"
+    },
+    {
+      "attribute": "Interface",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "-"
+        }
+      ],
+      "target": "Parallel review required"
+    },
+    {
+      "attribute": "Output Type",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Current - Unbuffered"
+        }
+      ],
+      "target": "Multiplying DAC"
+    },
+    {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "-"
+        }
+      ],
+      "target": "Replacement review required before reuse"
+    },
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Active"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "REACH Unaffected"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Tube"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Lead Free",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Contains Lead"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Factory Lead Time",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "8 Weeks"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Subcategory",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Other Converters"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Categories",
+      "candidates": [
+        {
+          "productCode": "TCE000036721",
+          "value": "Integrated Circuits (ICs)"
+        }
+      ],
+      "target": "-"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "obsolete",
+  "displayPartNumber": "AD563",
+  "evidenceSummary": [
+    {
+      "excerpt": "ADI marks AD563 obsolete and lists AD5445 as the suggested replacement.",
+      "signals": [
+        "obsolete",
+        "replacement"
+      ],
+      "sourceType": "official-product-page",
+      "title": "AD563 product page",
+      "url": "https://www.analog.com/en/products/ad563.html"
+    },
+    {
+      "excerpt": "Official obsolete datasheet for AD563 retained for sustainment reference.",
+      "signals": [
+        "obsolete-datasheet"
+      ],
+      "sourceType": "official-datasheet",
+      "title": "AD563 obsolete datasheet",
+      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD563.pdf"
+    }
+  ],
+  "generatedAt": "2026-07-18 13:50:25",
+  "partNumber": "AD563",
+  "reasoning": "ADI currently marks AD563 obsolete and points designers to AD5445 as the official replacement path for first-pass migration review.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.39.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "R-2R",
+          "Base Part Number": "AD5445",
+          "Categories": "Integrated Circuits (ICs)",
+          "Contact Plating": "Tin",
+          "Conversion Rate": "20.4 Msps",
+          "Converter Type": "D/A CONVERTER",
+          "Data Interface": "Parallel",
+          "Differential Output": "YES",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "8 Weeks",
+          "Height": "1.05mm",
+          "INL/DNL (LSB)": "±1 (Max), -1/+2 (Max)",
+          "Input Bit Code": "BINARY",
+          "Integral Nonlinearity (INL)": "1 LSB",
+          "Lead Free": "Contains Lead",
+          "Length": "6.5mm",
+          "Lifecycle Status": "PRODUCTION (Last Updated: 2 weeks ago)",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "AD5445YRUZ",
+          "Max Input Voltage": "10V",
+          "Max Output Voltage": "0V",
+          "Max Power Dissipation": "1.75μW",
+          "Max Supply Voltage": "5.5V",
+          "Min Input Voltage": "-10V",
+          "Min Output Voltage": "20V",
+          "Min Supply Voltage": "2.5V",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "600nA",
+          "Number of Bits": "12",
+          "Number of Converters": "1",
+          "Number of Functions": "1",
+          "Number of Pins": "20",
+          "Number of Terminations": "20",
+          "Operating Supply Voltage": "5V",
+          "Operating Temperature": "-40°C~125°C",
+          "Output Type": "Current - Unbuffered",
+          "Package / Case": "20-TSSOP (0.173, 4.40mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "20",
+          "Power Dissipation": "3μW",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "No",
+          "Reference Type": "External",
+          "Reflow Temperature-Max (s)": "40",
+          "Resolution": "1.5 B",
+          "Sampling Rate": "20.4 Msps",
+          "Settling Time": "120ns",
+          "Sub-Categories": "Data Acquisition - Digital to Analog Converters (DAC)",
+          "Subcategory": "Other Converters",
+          "Surface Mount": "YES",
+          "Technology": "CMOS",
+          "Terminal Form": "GULL WING",
+          "Terminal Pitch": "0.65mm",
+          "Terminal Position": "DUAL",
+          "Voltage - Supply, Analog": "2.5V~5.5V",
+          "Voltage - Supply, Digital": "2.5V~5.5V",
+          "Width": "4.4mm"
+        },
+        "Product Parameter": {
+          "Linearity Error-Max (EL)": "0.0244%"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad5445yruz.pdf",
+      "description": "IC DAC 12BIT PARALL IOUT 20TSSOP",
+      "fitNotes": [
+        "Official ADI product page lists AD5445 as the suggested replacement."
+      ],
+      "fitScore": 80,
+      "package": "TSSOP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000036721",
+      "productName": "AD5445YRUZ",
+      "productOverview": "IC DAC 12BIT PARALL IOUT 20TSSOP",
+      "reason": "ADI lists AD5445 as the suggested replacement for AD563.",
+      "series": "-",
+      "slug": "TCE000036721-AD5445YRUZ",
+      "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000036721-AD5445YRUZ"
+    }
+  ],
+  "sourceReportFile": "runtime/catalog-batches/2026-07-18-adi-obsolete-wave-1/lifecycle-and-crossrefs.json",
+  "target": {
+    "attributeGroups": {
+      "Product Attribute": {
+        "Converter Type": "D/A CONVERTER",
+        "Interface": "Parallel review required",
+        "Lifecycle Status": "OBSOLETE",
+        "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+        "Output Type": "Multiplying DAC",
+        "Package / Case": "Legacy package variants",
+        "Replacement Path": "AD5445",
+        "Resolution": "12-bit"
+      },
+      "Product Parameter": {
+        "Application Note": "Replacement review required before reuse"
+      }
+    },
+    "brandName": "Analog Devices Inc./Maxim Integrated",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD563.pdf",
+    "description": "Legacy 12-bit multiplying DAC family marked obsolete by ADI and redirected to AD5445.",
+    "package": "Legacy package variants",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000090878",
+    "productName": "AD563",
+    "productOverview": "ADI lists AD563 as obsolete and suggests the AD5445 as the replacement path on the current product page. For maintenance programs, this legacy DAC family should be compared against AD5445 on interface style, output topology, package constraints, and timing behavior before using the replacement in any active design or field-service transition.",
+    "series": "-",
+    "slug": "TCE000090878-AD563",
+    "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
+    "url": "https://www.trustcompo.com/product/detail/TCE000090878-AD563"
+  },
+  "vendor": "Analog Devices Inc./Maxim Integrated"
+}

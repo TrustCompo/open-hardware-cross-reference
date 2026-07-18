@@ -1,0 +1,357 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Sampling Rate",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "100 ksps"
+        }
+      ],
+      "target": "100 ksps"
+    },
+    {
+      "attribute": "Converter Type",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "ADC, SUCCESSIVE APPROXIMATION"
+        }
+      ],
+      "target": "A/D CONVERTER"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "-"
+        }
+      ],
+      "target": "OBSOLETE"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "16-DIP (0.300, 7.62mm)"
+        }
+      ],
+      "target": "Legacy package variants"
+    },
+    {
+      "attribute": "Replacement Path",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "-"
+        }
+      ],
+      "target": "AD677"
+    },
+    {
+      "attribute": "Architecture",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "SAR"
+        }
+      ],
+      "target": "Sampling ADC"
+    },
+    {
+      "attribute": "Resolution",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "2 B"
+        }
+      ],
+      "target": "16-bit"
+    },
+    {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "-"
+        }
+      ],
+      "target": "Legacy sustainment review required before substitution"
+    },
+    {
+      "attribute": "Moisture Sensitivity Level (MSL)",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "1  (Unlimited)"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH SVHC",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "No SVHC"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "JESD-609 Code",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "e0"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "Non-RoHS Compliant"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "8542.39.0001"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN Code",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "Through Hole"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000039937",
+          "value": "Tube"
+        }
+      ],
+      "target": "-"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "obsolete",
+  "displayPartNumber": "AD1876",
+  "evidenceSummary": [
+    {
+      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "signals": [
+        "datasheet",
+        "target-part"
+      ],
+      "sourceType": "catalog-datasheet",
+      "title": "AD1876 datasheet",
+      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1876.pdf"
+    },
+    {
+      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "signals": [
+        "obsolete"
+      ],
+      "sourceType": "catalog-lifecycle",
+      "title": "AD1876 lifecycle note",
+      "url": ""
+    },
+    {
+      "excerpt": "ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.",
+      "signals": [
+        "functional"
+      ],
+      "sourceType": "alternative-datasheet",
+      "title": "AD677JN datasheet",
+      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad677jn.pdf"
+    }
+  ],
+  "generatedAt": "2026-07-18 13:47:21",
+  "partNumber": "AD1876",
+  "reasoning": "ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.39.0001",
+          "JESD-609 Code": "e0",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "Non-RoHS Compliant"
+        },
+        "Package Parameter": {
+          "Height Seated (Max)": "5.33mm"
+        },
+        "Product Attribute": {
+          "Architecture": "SAR",
+          "Base Part Number": "AD677",
+          "Categories": "Integrated Circuits (ICs)",
+          "Contact Plating": "Lead, Tin",
+          "Converter Type": "ADC, SUCCESSIVE APPROXIMATION",
+          "Data Interface": "SPI",
+          "ECCN": "EAR99",
+          "Input Capacitance": "50pF",
+          "Integral Nonlinearity (INL)": "2 LSB",
+          "Interface": "SPI, Serial",
+          "Lead Free": "Contains Lead",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "AD677JN",
+          "Max Input Voltage": "10V",
+          "Max Power Dissipation": "630mW",
+          "Max Supply Voltage": "12V",
+          "Min Input Voltage": "5V",
+          "Min Supply Voltage": "5V",
+          "Mount": "Through Hole",
+          "Mounting Type": "Through Hole",
+          "Number of Bits": "16",
+          "Number of Functions": "1",
+          "Number of Terminations": "16",
+          "Operating Temperature": "0°C~70°C",
+          "Package / Case": "16-DIP (0.300, 7.62mm)",
+          "Packaging": "Tube",
+          "Part Status": "Obsolete",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "NOT APPLICABLE",
+          "Pin Count": "16",
+          "Polarity": "Bipolar",
+          "Power Dissipation": "630mW",
+          "Qualification Status": "Not Qualified",
+          "Reach Compliance Code": "not_compliant",
+          "Reference Type": "External",
+          "Reflow Temperature-Max (s)": "NOT APPLICABLE",
+          "Resolution": "2 B",
+          "Sampling Rate": "100 ksps",
+          "Sub-Categories": "Data Acquisition - Analog to Digital Converters (ADC)",
+          "Subcategory": "Analog to Digital Converters",
+          "Supply Voltage": "12V",
+          "Technology": "BICMOS",
+          "Terminal Pitch": "2.54mm",
+          "Termination": "Through Hole",
+          "Voltage - Supply, Analog": "±12V",
+          "Width": "7.62mm"
+        },
+        "Product Parameter": {
+          "Configuration": "S/H-ADC",
+          "Dual Supply Voltage": "12V",
+          "Input Type": "Single Ended",
+          "Max Dual Supply Voltage": "12.6V",
+          "Min Dual Supply Voltage": "11.4V",
+          "Negative Supply Voltage-Nom": "-12V",
+          "Number of Analog In Channels": "1",
+          "Number of Channels": "1",
+          "Output Bit Code": "BINARY",
+          "Power Consumption": "450mW",
+          "Sample and Hold / Track and Hold": "SAMPLE",
+          "Sampling Rate (Per Second)": "100k",
+          "Supply Type": "Dual"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad677jn.pdf",
+      "description": "IC ADC 16BIT SAMPLING 16-DIP",
+      "fitNotes": [
+        "ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC."
+      ],
+      "fitScore": 80,
+      "package": "DIP",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000039937",
+      "productName": "AD677JN",
+      "productOverview": "IC ADC 16BIT SAMPLING 16-DIP",
+      "reason": "ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.",
+      "series": "-",
+      "slug": "TCE000039937-AD677JN",
+      "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000039937-AD677JN"
+    }
+  ],
+  "sourceReportFile": "api:/product/cross-references",
+  "target": {
+    "attributeGroups": {
+      "Product Attribute": {
+        "Architecture": "Sampling ADC",
+        "Converter Type": "A/D CONVERTER",
+        "Lifecycle Status": "OBSOLETE",
+        "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+        "Package / Case": "Legacy package variants",
+        "Replacement Path": "AD677",
+        "Resolution": "16-bit",
+        "Sampling Rate": "100 ksps"
+      },
+      "Product Parameter": {
+        "Application Note": "Legacy sustainment review required before substitution"
+      }
+    },
+    "brandName": "Analog Devices Inc./Maxim Integrated",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1876.pdf",
+    "description": "16-bit 100 kSPS sampling ADC marked obsolete by ADI and redirected to AD677.",
+    "package": "Legacy package variants",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000090884",
+    "productName": "AD1876",
+    "productOverview": "ADI presents AD1876 as obsolete product information and lists AD677 as the suggested replacement on the current product page. Legacy support teams should treat AD677 as the first review candidate only after rechecking serial interface expectations, conversion speed, reference behavior, package constraints, and calibration or system-level timing requirements against the original AD1876 design.",
+    "series": "-",
+    "slug": "TCE000090884-AD1876",
+    "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",
+    "url": "https://www.trustcompo.com/product/detail/TCE000090884-AD1876"
+  },
+  "vendor": "Analog Devices Inc./Maxim Integrated"
+}
