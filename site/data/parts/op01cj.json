@@ -1,0 +1,354 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "PRODUCTION (Last Updated: 3 months ago)"
+        }
+      ],
+      "target": "OBSOLETE"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "8-SOIC (0.154, 3.90mm Width)"
+        }
+      ],
+      "target": "Legacy package variants"
+    },
+    {
+      "attribute": "Replacement Path",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        }
+      ],
+      "target": "OP177"
+    },
+    {
+      "attribute": "Category",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        }
+      ],
+      "target": "Operational Amplifier"
+    },
+    {
+      "attribute": "Amplifier Type",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "General Purpose"
+        }
+      ],
+      "target": "Inverting high-speed operational amplifier"
+    },
+    {
+      "attribute": "Precision Class",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        }
+      ],
+      "target": "Legacy review required"
+    },
+    {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        }
+      ],
+      "target": "Replacement review required before sustainment use"
+    },
+    {
+      "attribute": "Supply Note",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "-"
+        }
+      ],
+      "target": "Check obsolete datasheet for model-specific limits"
+    },
+    {
+      "attribute": "JESD-609 Code",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "e3"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Moisture Sensitivity Level (MSL)",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "1  (Unlimited)"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "ROHS3 Compliant"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH SVHC",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "No SVHC"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "HTSUS",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "8542.33.0001"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN Code",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "Active"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "REACH Unaffected"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000041681",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "obsolete",
+  "displayPartNumber": "OP01CJ",
+  "evidenceSummary": [
+    {
+      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "signals": [
+        "datasheet",
+        "target-part"
+      ],
+      "sourceType": "catalog-datasheet",
+      "title": "OP01CJ datasheet",
+      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/OP01.pdf"
+    },
+    {
+      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "signals": [
+        "obsolete"
+      ],
+      "sourceType": "catalog-lifecycle",
+      "title": "OP01CJ lifecycle note",
+      "url": ""
+    },
+    {
+      "excerpt": "ADI currently marks OP01 obsolete and lists OP177 as the suggested precision replacement path.",
+      "signals": [
+        "functional"
+      ],
+      "sourceType": "alternative-datasheet",
+      "title": "OP177GSZ datasheet",
+      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-op177gsz.pdf"
+    }
+  ],
+  "generatedAt": "2026-07-18 14:26:10",
+  "partNumber": "OP01CJ",
+  "reasoning": "ADI currently marks OP01 obsolete and lists OP177 as the suggested precision replacement path.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.33.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "VOLTAGE-FEEDBACK",
+          "Bandwidth": "600 kHz",
+          "Base Part Number": "OP177",
+          "Categories": "Integrated Circuits (ICs)",
+          "Common Mode Rejection Ratio": "140 dB",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "8 Weeks",
+          "Height": "1.5mm",
+          "Input Offset Voltage (Vos)": "25μV",
+          "Lead Free": "Contains Lead",
+          "Length": "5mm",
+          "Lifecycle Status": "PRODUCTION (Last Updated: 3 months ago)",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "OP177GSZ",
+          "Max Input Voltage": "14V",
+          "Max Power Dissipation": "500mW",
+          "Mounting Type": "Surface Mount",
+          "Nominal Supply Current": "1.6mA",
+          "Number of Functions": "1",
+          "Number of Pins": "8",
+          "Number of Terminations": "8",
+          "Operating Supply Current": "2mA",
+          "Operating Supply Voltage": "15V",
+          "Operating Temperature": "-40°C~85°C",
+          "Package / Case": "8-SOIC (0.154, 3.90mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "8",
+          "Power Dissipation": "500mW",
+          "Qualification Status": "Not Qualified",
+          "Quiescent Current": "2mA",
+          "REACH Status": "REACH Unaffected",
+          "Reflow Temperature-Max (s)": "30",
+          "Slew Rate": "0.3V/μs",
+          "Sub-Categories": "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps",
+          "Subcategory": "Operational Amplifier",
+          "Supply Voltage": "15V",
+          "Surface Mount": "YES",
+          "Technology": "BIPOLAR",
+          "Terminal Form": "GULL WING",
+          "Width": "4mm"
+        },
+        "Product Parameter": {
+          "Amplifier Type": "General Purpose",
+          "Average Bias Current-Max (IIB)": "0.006μA",
+          "Current - Input Bias": "1.2nA",
+          "Dual Supply Voltage": "15V",
+          "Frequency Compensation": "YES",
+          "Low-Offset": "YES",
+          "Neg Supply Voltage-Nom (Vsup)": "-15V",
+          "Number of Channels": "1",
+          "Power Supply Rejection Ratio (PSRR)": "125dB",
+          "Supply Type": "Dual",
+          "Supply Voltage Limit-Max": "22V",
+          "Terminal Finish": "Matte Tin (Sn)",
+          "Unity Gain BW-Nom": "600 kHz",
+          "Voltage - Input Offset": "20μV",
+          "Voltage - Supply, Single/Dual (±)": "6V~36V ±3V~18V",
+          "Voltage Gain": "135.56dB"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-op177gsz.pdf",
+      "description": "IC OPAMP GP 600KHZ 8SOIC",
+      "fitNotes": [
+        "ADI currently marks OP01 obsolete and lists OP177 as the suggested precision replacement path."
+      ],
+      "fitScore": 80,
+      "package": "8SOIC",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000041681",
+      "productName": "OP177GSZ",
+      "productOverview": "IC OPAMP GP 600KHZ 8SOIC",
+      "reason": "ADI currently marks OP01 obsolete and lists OP177 as the suggested precision replacement path.",
+      "series": "-",
+      "slug": "TCE000041681-OP177GSZ",
+      "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+      "url": "https://www.trustcompo.com/product/detail/TCE000041681-OP177GSZ"
+    }
+  ],
+  "sourceReportFile": "api:/product/cross-references",
+  "target": {
+    "attributeGroups": {
+      "Product Attribute": {
+        "Category": "Operational Amplifier",
+        "Lifecycle Status": "OBSOLETE",
+        "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+        "Package / Case": "Legacy package variants",
+        "Replacement Path": "OP177"
+      },
+      "Product Parameter": {
+        "Amplifier Type": "Inverting high-speed operational amplifier",
+        "Application Note": "Replacement review required before sustainment use",
+        "Precision Class": "Legacy review required",
+        "Supply Note": "Check obsolete datasheet for model-specific limits"
+      }
+    },
+    "brandName": "Analog Devices Inc./Maxim Integrated",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/OP01.pdf",
+    "description": "OP01CJ obsolete precision operational amplifier listed by ADI and redirected to OP177.",
+    "package": "8-CERDIP",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000090881",
+    "productName": "OP01CJ",
+    "productOverview": "ADI marks the OP01 family as obsolete and suggests OP177 as the replacement path. We published OP01CJ as the complete MPN for this obsolete precision operational amplifier variant, and any sustainment substitution should recheck offset, gain-bandwidth, stability, supply rails, and package constraints before approving OP177GSZ in a legacy analog design.",
+    "series": "-",
+    "slug": "TCE000090881-OP01CJ",
+    "subCategoryName": "Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers",
+    "url": "https://www.trustcompo.com/product/detail/TCE000090881-OP01CJ"
+  },
+  "vendor": "Analog Devices Inc./Maxim Integrated"
+}

@@ -1,6 +1,26 @@
 {
   "comparisonRows": [
     {
+      "attribute": "Number of Channels",
+      "candidates": [
+        {
+          "productCode": "TCE000088337",
+          "value": "-"
+        }
+      ],
+      "target": "32"
+    },
+    {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000088337",
+          "value": "-"
+        }
+      ],
+      "target": "Sustainment only; replacement review required"
+    },
+    {
       "attribute": "Manufacturer",
       "candidates": [
         {
@@ -71,26 +91,6 @@
       "target": "Legacy family; review obsolete datasheet"
     },
     {
-      "attribute": "Number of Channels",
-      "candidates": [
-        {
-          "productCode": "TCE000088337",
-          "value": "-"
-        }
-      ],
-      "target": "32"
-    },
-    {
-      "attribute": "Application Note",
-      "candidates": [
-        {
-          "productCode": "TCE000088337",
-          "value": "-"
-        }
-      ],
-      "target": "Sustainment only; replacement review required"
-    },
-    {
       "attribute": "JESD-609 Code",
       "candidates": [
         {
@@ -131,51 +131,51 @@
       "target": "-"
     },
     {
-      "attribute": "Terminal Finish",
+      "attribute": "Packaging",
       "candidates": [
         {
           "productCode": "TCE000088337",
-          "value": "Tin/Lead (Sn63Pb37)"
+          "value": "Tray"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Time@Peak Reflow Temperature-Max (s)",
+      "attribute": "Lead Free",
       "candidates": [
         {
           "productCode": "TCE000088337",
-          "value": "30"
+          "value": "Contains Lead"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Low-Bias",
+      "attribute": "Mounting Type",
       "candidates": [
         {
           "productCode": "TCE000088337",
-          "value": "BINARY"
+          "value": "Surface Mount"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Special Feature",
+      "attribute": "Part Status",
       "candidates": [
         {
           "productCode": "TCE000088337",
-          "value": "Parallel, SPI"
+          "value": "Obsolete"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Height Seated (Max)",
+      "attribute": "Contact Plating",
       "candidates": [
         {
           "productCode": "TCE000088337",
-          "value": "1.7mm"
+          "value": "Lead, Tin"
         }
       ],
       "target": "-"
@@ -196,18 +196,19 @@
       "url": "https://www.analog.com/en/products/ad5564.html"
     },
     {
-      "excerpt": "Official obsolete datasheet for the AD5564 legacy family used for sustainment reference.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete-datasheet"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "official-datasheet",
-      "title": "AD5564 obsolete datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD5564.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 13:50:23",
+  "generatedAt": "2026-07-18 14:27:55",
   "partNumber": "AD5564",
-  "reasoning": "ADI currently marks AD5564 obsolete and lists the AD5532 family as the official replacement path for sustainment review work.",
+  "reasoning": "As of July 18, 2026, ADI marks AD5564 obsolete and states that AD5532 is the replacement path for sustainment review work.",
   "replacementCandidates": [
     {
       "attributeGroups": {
@@ -322,15 +323,15 @@
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
     "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD5564.pdf",
-    "description": "Legacy multichannel voltage-output DAC family marked obsolete by ADI and replaced by AD5532.",
-    "package": "Legacy package variants",
+    "description": "AD5564 obsolete 32-channel bipolar voltage-output DAC listed by ADI and replaced by AD5532.",
+    "package": "119-BGA",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
     },
     "productCode": "TCE000090877",
     "productName": "AD5564",
-    "productOverview": "ADI currently marks AD5564 as obsolete and points designers to the AD5532 family as the official replacement path. This legacy multichannel DAC family should be reviewed only for sustainment work, with channel count, output range, package constraints, and calibration behavior rechecked against the obsolete datasheet before any redesign or service substitution.",
+    "productOverview": "ADI marks AD5564 as obsolete and points designers to AD5532 as the suggested replacement path. We retained AD5564 here as the complete published MPN used on the manufacturer product page, and this legacy 32-channel bipolar voltage-output DAC should be reviewed only for sustainment work after rechecking package fit, output range, calibration behavior, and interface constraints against the obsolete datasheet.",
     "series": "-",
     "slug": "TCE000090877-AD5564",
     "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",

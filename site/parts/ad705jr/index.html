@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AD563 cross reference | TrustCompo Open Hardware Cross Reference</title>
-  <meta name="description" content="ADI currently marks AD563 obsolete and points designers to AD5445 as the official replacement path for first-pass migration review.">
+  <title>AD705JR cross reference | TrustCompo Open Hardware Cross Reference</title>
+  <meta name="description" content="ADI currently marks AD705 obsolete and lists OP97 as the suggested replacement for sustainment review.">
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
@@ -53,32 +53,32 @@
   <main>
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
-      <h1>AD563</h1>
-      <p>ADI currently marks AD563 obsolete and points designers to AD5445 as the official replacement path for first-pass migration review.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090878-AD563">Open AD563 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090878-AD563/datasheet">View AD563 datasheet</a></div>
+      <h1>AD705JR</h1>
+      <p>ADI currently marks AD705 obsolete and lists OP97 as the suggested replacement for sustainment review.</p>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090882-AD705JR">Open AD705JR on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090882-AD705JR/datasheet">View AD705JR datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>obsolete</div>
         <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
-        <div class="meta-card"><strong>Package</strong><br>Legacy package variants</div>
-        <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Digital to Analog Converters (DAC)</div>
+        <div class="meta-card"><strong>Package</strong><br>8-SOIC</div>
+        <div class="meta-card"><strong>Category</strong><br>Linear - Amplifiers - Instrumentation, Operational Amplifiers, Buffer Amplifiers</div>
       </div>
     </section>
 
     <section class="section">
       <h2>Target product summary</h2>
-      <p><strong>AD563</strong></p>
-      <p>ADI lists AD563 as obsolete and suggests the AD5445 as the replacement path on the current product page. For maintenance programs, this legacy DAC family should be compared against AD5445 on interface style, output topology, package constraints, and timing behavior before using the replacement in any active design or field-service transition.</p>
-      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090878-AD563/datasheet</p>
+      <p><strong>AD705JR</strong></p>
+      <p>ADI marks the AD705 family as obsolete and recommends OP97 as the suggested replacement. We published AD705JR as the complete MPN for this obsolete low-bias-current bipolar op amp variant, and any migration to OP97FSZ should include a fresh review of bias current, offset, bandwidth, supply range, package fit, and long-term precision behavior in the target circuit.</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090882-AD705JR/datasheet</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000036721-AD5445YRUZ">AD5445YRUZ</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000034007-OP97FSZ">OP97FSZ</a></h3>
 <p><strong>Functional</strong> · Fit score 80</p>
-<p>IC DAC 12BIT PARALL IOUT 20TSSOP</p>
-<p class="muted">Package: TSSOP | Series: -</p>
+<p>IC OPAMP GP 900KHZ 8SOIC</p>
+<p class="muted">Package: 8SOIC | Series: -</p>
 <p class="muted">Part Status: Active; REACH Status: REACH Unaffected; ECCN: EAR99; Packaging: Tube</p>
 </article>
       </div>
@@ -89,8 +89,8 @@
       <table>
 <thead><tr>
 <th>Attribute</th>
-<th>AD563</th>
-<th>AD5445YRUZ</th>
+<th>AD705JR</th>
+<th>OP97FSZ</th>
 </tr></thead><tbody>
 <tr>
 <td>Manufacturer</td>
@@ -98,43 +98,43 @@
 <td>Analog Devices Inc./Maxim Integrated</td>
 </tr>
 <tr>
-<td>Converter Type</td>
-<td>D/A CONVERTER</td>
-<td>D/A CONVERTER</td>
-</tr>
-<tr>
-<td>Resolution</td>
-<td>12-bit</td>
-<td>1.5 B</td>
-</tr>
-<tr>
 <td>Lifecycle Status</td>
 <td>OBSOLETE</td>
-<td>PRODUCTION (Last Updated: 2 weeks ago)</td>
+<td>PRODUCTION (Last Updated: 1 week ago)</td>
 </tr>
 <tr>
 <td>Package / Case</td>
 <td>Legacy package variants</td>
-<td>20-TSSOP (0.173, 4.40mm Width)</td>
+<td>8-SOIC (0.154, 3.90mm Width)</td>
 </tr>
 <tr>
 <td>Replacement Path</td>
-<td>AD5445</td>
+<td>OP97</td>
 <td>-</td>
 </tr>
 <tr>
-<td>Interface</td>
-<td>Parallel review required</td>
+<td>Category</td>
+<td>Precision operational amplifier</td>
 <td>-</td>
 </tr>
 <tr>
-<td>Output Type</td>
-<td>Multiplying DAC</td>
-<td>Current - Unbuffered</td>
+<td>Input Bias Current</td>
+<td>Picoampere class</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Supply Note</td>
+<td>Check obsolete datasheet for model-specific limits</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Amplifier Type</td>
+<td>Bipolar operational amplifier</td>
+<td>General Purpose</td>
 </tr>
 <tr>
 <td>Application Note</td>
-<td>Replacement review required before reuse</td>
+<td>Sustainment-only review and precision revalidation required</td>
 <td>-</td>
 </tr>
 <tr>
@@ -173,9 +173,9 @@
 <td>8 Weeks</td>
 </tr>
 <tr>
-<td>Subcategory</td>
+<td>Operating Temperature</td>
 <td>-</td>
-<td>Other Converters</td>
+<td>-40°C~85°C</td>
 </tr>
 <tr>
 <td>Categories</td>
@@ -193,8 +193,9 @@
     <section class="section">
       <h2>Evidence summary</h2>
       <ul class="evidence-list">
-<li><strong><a href="https://www.analog.com/en/products/ad563.html">AD563 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD563 obsolete and lists AD5445 as the suggested replacement. Signals: obsolete, replacement.</li>
-<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD563.pdf">AD563 obsolete datasheet</a></strong> <span class="muted">(official-datasheet)</span><br>Official obsolete datasheet for AD563 retained for sustainment reference. Signals: obsolete-datasheet.</li>
+<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD705.pdf">AD705JR datasheet</a></strong> <span class="muted">(catalog-datasheet)</span><br>Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point. Signals: datasheet, target-part.</li>
+<li><strong>AD705JR lifecycle note</strong> <span class="muted">(catalog-lifecycle)</span><br>TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release. Signals: obsolete.</li>
+<li><strong><a href="https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-op97fsz.pdf">OP97FSZ datasheet</a></strong> <span class="muted">(alternative-datasheet)</span><br>ADI currently marks AD705 obsolete and lists OP97 as the suggested replacement for sustainment review. Signals: functional.</li>
 </ul>
     </section>
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AD5564 cross reference | TrustCompo Open Hardware Cross Reference</title>
-  <meta name="description" content="As of July 18, 2026, ADI marks AD5564 obsolete and states that AD5532 is the replacement path for sustainment review work.">
+  <title>AD1876JN cross reference | TrustCompo Open Hardware Cross Reference</title>
+  <meta name="description" content="ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.">
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <style>
     :root {
@@ -53,33 +53,33 @@
   <main>
     <section class="hero">
       <div class="eyebrow">Open Hardware Cross Reference</div>
-      <h1>AD5564</h1>
-      <p>As of July 18, 2026, ADI marks AD5564 obsolete and states that AD5532 is the replacement path for sustainment review work.</p>
-      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564">Open AD5564 on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090877-AD5564/datasheet">View AD5564 datasheet</a></div>
+      <h1>AD1876JN</h1>
+      <p>ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC.</p>
+      <div><a class="button" href="https://www.trustcompo.com/product/detail/TCE000090884-AD1876JN">Open AD1876JN on TrustCompo</a><a class="button secondary" href="https://www.trustcompo.com/product/detail/TCE000090884-AD1876JN/datasheet">View AD1876JN datasheet</a></div>
       <div class="meta-grid">
         <div class="meta-card"><strong>Status</strong><br>obsolete</div>
         <div class="meta-card"><strong>Vendor</strong><br>Analog Devices Inc./Maxim Integrated</div>
-        <div class="meta-card"><strong>Package</strong><br>119-BGA</div>
-        <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Digital to Analog Converters (DAC)</div>
+        <div class="meta-card"><strong>Package</strong><br>16-PDIP</div>
+        <div class="meta-card"><strong>Category</strong><br>Data Acquisition - Analog to Digital Converters (ADC)</div>
       </div>
     </section>
 
     <section class="section">
       <h2>Target product summary</h2>
-      <p><strong>AD5564</strong></p>
-      <p>ADI marks AD5564 as obsolete and points designers to AD5532 as the suggested replacement path. We retained AD5564 here as the complete published MPN used on the manufacturer product page, and this legacy 32-channel bipolar voltage-output DAC should be reviewed only for sustainment work after rechecking package fit, output range, calibration behavior, and interface constraints against the obsolete datasheet.</p>
-      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090877-AD5564/datasheet</p>
+      <p><strong>AD1876JN</strong></p>
+      <p>ADI presents the AD1876 family as obsolete product information and lists AD677 as the suggested replacement path. We published AD1876JN as the complete MPN for this obsolete 16-bit sampling ADC variant, and legacy support teams should recheck serial interface expectations, conversion speed, reference behavior, package constraints, and calibration or timing requirements before qualifying AD677JN as the service successor.</p>
+      <p class="muted">Series: - | Datasheet landing page: https://www.trustcompo.com/product/detail/TCE000090884-AD1876JN/datasheet</p>
     </section>
 
     <section class="section">
       <h2>Replacement candidates</h2>
       <div class="candidate-grid">
         <article class="candidate-card">
-<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000088337-AD5532ABC-1">AD5532ABC-1</a></h3>
+<h3 class="mpn"><a href="https://www.trustcompo.com/product/detail/TCE000039937-AD677JN">AD677JN</a></h3>
 <p><strong>Functional</strong> · Fit score 80</p>
-<p>IC DAC 14BIT 32CH 74CSBGA</p>
-<p class="muted">Package: - | Series: -</p>
-<p class="muted">JESD-609 Code: e0; RoHS Status: Non-RoHS Compliant; Moisture Sensitivity Level (MSL): 3 (168 Hours); ECCN Code: EAR99</p>
+<p>IC ADC 16BIT SAMPLING 16-DIP</p>
+<p class="muted">Package: DIP | Series: -</p>
+<p class="muted">Mounting Type: Through Hole; ECCN: EAR99; Packaging: Tube; Lead Free: Contains Lead</p>
 </article>
       </div>
     </section>
@@ -89,33 +89,23 @@
       <table>
 <thead><tr>
 <th>Attribute</th>
-<th>AD5564</th>
-<th>AD5532ABC-1</th>
+<th>AD1876JN</th>
+<th>AD677JN</th>
 </tr></thead><tbody>
-<tr>
-<td>Number of Channels</td>
-<td>32</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Application Note</td>
-<td>Sustainment only; replacement review required</td>
-<td>-</td>
-</tr>
 <tr>
 <td>Manufacturer</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 <td>Analog Devices Inc./Maxim Integrated</td>
 </tr>
 <tr>
-<td>Converter Type</td>
-<td>D/A CONVERTER</td>
-<td>D/A CONVERTER</td>
+<td>Sampling Rate</td>
+<td>100 ksps</td>
+<td>100 ksps</td>
 </tr>
 <tr>
-<td>Output Type</td>
-<td>VOLTAGE OUTPUT</td>
-<td>Voltage - Unbuffered</td>
+<td>Converter Type</td>
+<td>A/D CONVERTER</td>
+<td>ADC, SUCCESSIVE APPROXIMATION</td>
 </tr>
 <tr>
 <td>Lifecycle Status</td>
@@ -125,52 +115,47 @@
 <tr>
 <td>Package / Case</td>
 <td>Legacy package variants</td>
-<td>74-LBGA, CSPBGA</td>
+<td>16-DIP (0.300, 7.62mm)</td>
 </tr>
 <tr>
 <td>Replacement Path</td>
-<td>AD5532 family</td>
+<td>AD677</td>
 <td>-</td>
+</tr>
+<tr>
+<td>Architecture</td>
+<td>Sampling ADC</td>
+<td>SAR</td>
 </tr>
 <tr>
 <td>Resolution</td>
-<td>Legacy family; review obsolete datasheet</td>
-<td>1.75 B</td>
+<td>16-bit</td>
+<td>2 B</td>
 </tr>
 <tr>
-<td>JESD-609 Code</td>
+<td>Application Note</td>
+<td>Legacy sustainment review required before substitution</td>
 <td>-</td>
-<td>e0</td>
 </tr>
 <tr>
-<td>RoHS Status</td>
+<td>Mounting Type</td>
 <td>-</td>
-<td>Non-RoHS Compliant</td>
+<td>Through Hole</td>
 </tr>
 <tr>
-<td>Moisture Sensitivity Level (MSL)</td>
-<td>-</td>
-<td>3 (168 Hours)</td>
-</tr>
-<tr>
-<td>ECCN Code</td>
+<td>ECCN</td>
 <td>-</td>
 <td>EAR99</td>
 </tr>
 <tr>
 <td>Packaging</td>
 <td>-</td>
-<td>Tray</td>
+<td>Tube</td>
 </tr>
 <tr>
 <td>Lead Free</td>
 <td>-</td>
 <td>Contains Lead</td>
-</tr>
-<tr>
-<td>Mounting Type</td>
-<td>-</td>
-<td>Surface Mount</td>
 </tr>
 <tr>
 <td>Part Status</td>
@@ -181,6 +166,21 @@
 <td>Contact Plating</td>
 <td>-</td>
 <td>Lead, Tin</td>
+</tr>
+<tr>
+<td>Categories</td>
+<td>-</td>
+<td>Integrated Circuits (ICs)</td>
+</tr>
+<tr>
+<td>Interface</td>
+<td>-</td>
+<td>SPI, Serial</td>
+</tr>
+<tr>
+<td>Reach Compliance Code</td>
+<td>-</td>
+<td>not_compliant</td>
 </tr>
 </tbody></table>
     </section>
@@ -193,8 +193,9 @@
     <section class="section">
       <h2>Evidence summary</h2>
       <ul class="evidence-list">
-<li><strong><a href="https://www.analog.com/en/products/ad5564.html">AD5564 product page</a></strong> <span class="muted">(official-product-page)</span><br>ADI marks AD5564 obsolete and states that the product is replaced by AD5532. Signals: obsolete, replacement.</li>
-<li><strong><a href="https://www.analog.com/en/support/product-life-cycle-information.html">ADI product life cycle information</a></strong> <span class="muted">(official-lifecycle-page)</span><br>ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools. Signals: obsolete, lifecycle.</li>
+<li><strong><a href="https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1876.pdf">AD1876JN datasheet</a></strong> <span class="muted">(catalog-datasheet)</span><br>Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point. Signals: datasheet, target-part.</li>
+<li><strong>AD1876JN lifecycle note</strong> <span class="muted">(catalog-lifecycle)</span><br>TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release. Signals: obsolete.</li>
+<li><strong><a href="https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad677jn.pdf">AD677JN datasheet</a></strong> <span class="muted">(alternative-datasheet)</span><br>ADI lists AD1876 as obsolete product information and names AD677 as the suggested replacement ADC. Signals: functional.</li>
 </ul>
     </section>
 

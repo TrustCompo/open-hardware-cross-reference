@@ -1,16 +1,6 @@
 {
   "comparisonRows": [
     {
-      "attribute": "Logic Compatibility",
-      "candidates": [
-        {
-          "productCode": "TCE000012458",
-          "value": "-"
-        }
-      ],
-      "target": "TTL compatible"
-    },
-    {
       "attribute": "Manufacturer",
       "candidates": [
         {
@@ -89,6 +79,16 @@
         }
       ],
       "target": "AD975X / AD976X"
+    },
+    {
+      "attribute": "Logic Compatibility",
+      "candidates": [
+        {
+          "productCode": "TCE000012458",
+          "value": "-"
+        }
+      ],
+      "target": "TTL compatible"
     },
     {
       "attribute": "Contact Plating",
@@ -183,7 +183,7 @@
   ],
   "confidence": 100,
   "discontinuationStatus": "obsolete",
-  "displayPartNumber": "AD9713B",
+  "displayPartNumber": "AD9713BAP",
   "evidenceSummary": [
     {
       "excerpt": "ADI marks AD9713B obsolete and advises customers to consider the AD975X and AD976X product families instead.",
@@ -197,20 +197,19 @@
       "url": "https://www.analog.com/en/products/ad9713b.html"
     },
     {
-      "excerpt": "Official AD9713B datasheet covering the 12-bit 80 MSPS TTL compatible DAC family.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "12-bit",
-        "80-msps",
-        "ttl-compatible"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "official-datasheet",
-      "title": "AD9713B datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9713B.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 13:50:27",
-  "partNumber": "AD9713B",
-  "reasoning": "ADI currently marks AD9713B obsolete and advises customers to evaluate the AD975X and AD976X successor families, making AD9760 the first-pass replacement path here.",
+  "generatedAt": "2026-07-18 14:28:40",
+  "partNumber": "AD9713BAP",
+  "reasoning": "As of July 18, 2026, ADI marks the AD9713B family obsolete and advises designers to evaluate AD975X or AD976X successors; this publication uses the full obsolete MPN AD9713BAP and maps it to AD9760ARZ for first-pass review.",
   "replacementCandidates": [
     {
       "attributeGroups": {
@@ -335,19 +334,19 @@
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
     "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9713B.pdf",
-    "description": "12-bit 80 MSPS TTL compatible DAC marked obsolete by ADI and redirected to AD975X or AD976X.",
-    "package": "28-pin plastic DIP / PLCC",
+    "description": "AD9713BAP obsolete 12-bit 80 MSPS TTL-compatible DAC listed by ADI and redirected to AD9760.",
+    "package": "28-PLCC",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
     },
     "productCode": "TCE000090880",
-    "productName": "AD9713B",
-    "productOverview": "ADI currently lists AD9713B as obsolete and explicitly advises designers to consider the AD975X and AD976X product families instead. For sustainment programs, this 12-bit 80 MSPS TTL compatible DAC should be replaced only after confirming logic compatibility, output architecture, timing margins, package fit, and dynamic performance against the original AD9713B datasheet and the selected successor model.",
+    "productName": "AD9713BAP",
+    "productOverview": "ADI currently lists the AD9713B family as obsolete and advises designers to consider AD975X or AD976X successors. We published AD9713BAP as the complete MPN for this obsolete 12-bit 80 MSPS TTL-compatible DAC variant, and sustainment programs should recheck logic compatibility, output architecture, timing margins, package fit, and dynamic performance before approving AD9760ARZ as the practical replacement candidate.",
     "series": "-",
-    "slug": "TCE000090880-AD9713B",
+    "slug": "TCE000090880-AD9713BAP",
     "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
-    "url": "https://www.trustcompo.com/product/detail/TCE000090880-AD9713B"
+    "url": "https://www.trustcompo.com/product/detail/TCE000090880-AD9713BAP"
   },
   "vendor": "Analog Devices Inc./Maxim Integrated"
 }

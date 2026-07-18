@@ -1,0 +1,357 @@
+{
+  "comparisonRows": [
+    {
+      "attribute": "Manufacturer",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "Analog Devices Inc./Maxim Integrated"
+        }
+      ],
+      "target": "Analog Devices Inc./Maxim Integrated"
+    },
+    {
+      "attribute": "Sampling Rate",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "1.5 Msps"
+        }
+      ],
+      "target": "3 Msps"
+    },
+    {
+      "attribute": "Converter Type",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "ADC, FLASH METHOD"
+        }
+      ],
+      "target": "A/D CONVERTER"
+    },
+    {
+      "attribute": "Resolution",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "1.5 B"
+        }
+      ],
+      "target": "12-bit"
+    },
+    {
+      "attribute": "Lifecycle Status",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "PRODUCTION (Last Updated: 2 weeks ago)"
+        }
+      ],
+      "target": "OBSOLETE"
+    },
+    {
+      "attribute": "Package / Case",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "28-SOIC (0.295, 7.50mm Width)"
+        }
+      ],
+      "target": "Legacy package variants"
+    },
+    {
+      "attribute": "Replacement Path",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "-"
+        }
+      ],
+      "target": "AD9221"
+    },
+    {
+      "attribute": "Architecture",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "Pipelined"
+        }
+      ],
+      "target": "Monolithic ADC"
+    },
+    {
+      "attribute": "Application Note",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "-"
+        }
+      ],
+      "target": "Sustainment-only review and interface revalidation required"
+    },
+    {
+      "attribute": "Part Status",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "Active"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "REACH Status",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "REACH Unaffected"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "ECCN",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "EAR99"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Packaging",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "Tube"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Lead Free",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "Contains Lead"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Mounting Type",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "Surface Mount"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Factory Lead Time",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "8 Weeks"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Operating Temperature",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "-40°C~85°C"
+        }
+      ],
+      "target": "-"
+    },
+    {
+      "attribute": "Categories",
+      "candidates": [
+        {
+          "productCode": "TCE000030773",
+          "value": "Integrated Circuits (ICs)"
+        }
+      ],
+      "target": "-"
+    }
+  ],
+  "confidence": 100,
+  "discontinuationStatus": "obsolete",
+  "displayPartNumber": "AD1672AP",
+  "evidenceSummary": [
+    {
+      "excerpt": "Primary manufacturer or catalog datasheet for the target part used as a first-pass reference point.",
+      "signals": [
+        "datasheet",
+        "target-part"
+      ],
+      "sourceType": "catalog-datasheet",
+      "title": "AD1672AP datasheet",
+      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1672.pdf"
+    },
+    {
+      "excerpt": "TrustCompo catalog currently marks the target part lifecycle as obsolete. Reconfirm against current manufacturer notices before release.",
+      "signals": [
+        "obsolete"
+      ],
+      "sourceType": "catalog-lifecycle",
+      "title": "AD1672AP lifecycle note",
+      "url": ""
+    },
+    {
+      "excerpt": "ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family.",
+      "signals": [
+        "functional"
+      ],
+      "sourceType": "alternative-datasheet",
+      "title": "AD9221ARZ datasheet",
+      "url": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9221arz.pdf"
+    }
+  ],
+  "generatedAt": "2026-07-18 14:26:05",
+  "partNumber": "AD1672AP",
+  "reasoning": "ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family.",
+  "replacementCandidates": [
+    {
+      "attributeGroups": {
+        "Export Classifications & Environmental": {
+          "ECCN Code": "EAR99",
+          "HTSUS": "8542.39.0001",
+          "JESD-609 Code": "e3",
+          "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
+          "REACH SVHC": "No SVHC",
+          "RoHS Status": "ROHS3 Compliant"
+        },
+        "Product Attribute": {
+          "Architecture": "Pipelined",
+          "Base Part Number": "AD9221",
+          "Categories": "Integrated Circuits (ICs)",
+          "Contact Plating": "Tin",
+          "Converter Type": "ADC, FLASH METHOD",
+          "Data Interface": "Parallel",
+          "ECCN": "EAR99",
+          "Factory Lead Time": "8 Weeks",
+          "Height": "2.35mm",
+          "Input Capacitance": "16pF",
+          "Integral Nonlinearity (INL)": "1.25 LSB",
+          "Lead Free": "Contains Lead",
+          "Length": "18.1mm",
+          "Lifecycle Status": "PRODUCTION (Last Updated: 2 weeks ago)",
+          "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+          "Manufacturer's Part No.": "AD9221ARZ",
+          "Max Input Voltage": "5V",
+          "Max Power Dissipation": "70mW",
+          "Max Supply Voltage": "5.25V",
+          "Min Input Voltage": "1V",
+          "Min Supply Voltage": "4.75V",
+          "Mounting Type": "Surface Mount",
+          "Number of Bits": "12",
+          "Number of Functions": "1",
+          "Number of Pins": "28",
+          "Number of Terminations": "28",
+          "Operating Supply Voltage": "5V",
+          "Operating Temperature": "-40°C~85°C",
+          "Package / Case": "28-SOIC (0.295, 7.50mm Width)",
+          "Packaging": "Tube",
+          "Part Status": "Active",
+          "Pbfree Code": "no",
+          "Peak Reflow Temperature (Cel)": "260",
+          "Pin Count": "28",
+          "Polarity": "Unipolar",
+          "Power Dissipation": "70mW",
+          "REACH Status": "REACH Unaffected",
+          "Radiation Hardening": "No",
+          "Reference Type": "Internal",
+          "Reflow Temperature-Max (s)": "30",
+          "Resolution": "1.5 B",
+          "Sampling Rate": "1.5 Msps",
+          "Sub-Categories": "Data Acquisition - Analog to Digital Converters (ADC)",
+          "Supply Voltage": "5V",
+          "Surface Mount": "YES",
+          "Technology": "CMOS",
+          "Terminal Form": "GULL WING",
+          "Terminal Position": "DUAL",
+          "Voltage - Supply, Digital": "2.7V~5.25V",
+          "Width": "7.6mm"
+        },
+        "Product Parameter": {
+          "Configuration": "S/H-ADC",
+          "Differential Nonlinearity": "0.75 LSB",
+          "Input Type": "Differential, Single Ended",
+          "Linearity Error-Max (EL)": "0.0305%",
+          "Number of Analog In Channels": "1",
+          "Number of Channels": "1",
+          "Output Bit Code": "BINARY",
+          "Power Consumption": "59mW",
+          "Sample and Hold / Track and Hold": "SAMPLE",
+          "Sampling Rate (Per Second)": "1.5M",
+          "Signal to Noise Ratio (SNR)": "70.2 dB",
+          "Supply Type": "Analog, Digital"
+        }
+      },
+      "brandName": "Analog Devices Inc./Maxim Integrated",
+      "bucket": "Functional",
+      "categoryName": "Integrated Circuits (ICs)",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9221arz.pdf",
+      "description": "IC ADC 12BIT 1.5MSPS 28SOIC",
+      "fitNotes": [
+        "ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family."
+      ],
+      "fitScore": 80,
+      "package": "28SOIC",
+      "pricing": {
+        "priceRange": "",
+        "unitPrice": ""
+      },
+      "productCode": "TCE000030773",
+      "productName": "AD9221ARZ",
+      "productOverview": "IC ADC 12BIT 1.5MSPS 28SOIC",
+      "reason": "ADI currently marks AD1672 obsolete and names AD9221 as the suggested replacement ADC family.",
+      "series": "-",
+      "slug": "TCE000030773-AD9221ARZ",
+      "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",
+      "url": "https://www.trustcompo.com/product/detail/TCE000030773-AD9221ARZ"
+    }
+  ],
+  "sourceReportFile": "api:/product/cross-references",
+  "target": {
+    "attributeGroups": {
+      "Product Attribute": {
+        "Architecture": "Monolithic ADC",
+        "Converter Type": "A/D CONVERTER",
+        "Lifecycle Status": "OBSOLETE",
+        "Manufacturer": "Analog Devices Inc./Maxim Integrated",
+        "Package / Case": "Legacy package variants",
+        "Replacement Path": "AD9221",
+        "Resolution": "12-bit",
+        "Sampling Rate": "3 Msps"
+      },
+      "Product Parameter": {
+        "Application Note": "Sustainment-only review and interface revalidation required"
+      }
+    },
+    "brandName": "Analog Devices Inc./Maxim Integrated",
+    "categoryName": "Integrated Circuits (ICs)",
+    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD1672.pdf",
+    "description": "AD1672AP obsolete 12-bit 3 MSPS monolithic ADC listed by ADI and redirected to AD9221.",
+    "package": "28-PLCC",
+    "pricing": {
+      "priceRange": "",
+      "unitPrice": ""
+    },
+    "productCode": "TCE000090883",
+    "productName": "AD1672AP",
+    "productOverview": "ADI lists the AD1672 family as obsolete and names AD9221 as the suggested replacement on the current product page. We published AD1672AP as the complete MPN for this obsolete 12-bit 3 MSPS monolithic ADC variant, and sustainment or redesign work should compare resolution, throughput, input architecture, supply rails, package constraints, and timing interface behavior before treating AD9221ARZ as the qualified successor.",
+    "series": "-",
+    "slug": "TCE000090883-AD1672AP",
+    "subCategoryName": "Data Acquisition - Analog to Digital Converters (ADC)",
+    "url": "https://www.trustcompo.com/product/detail/TCE000090883-AD1672AP"
+  },
+  "vendor": "Analog Devices Inc./Maxim Integrated"
+}

@@ -4,7 +4,7 @@
       "attribute": "Manufacturer",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "Analog Devices Inc./Maxim Integrated"
         }
       ],
@@ -14,27 +14,27 @@
       "attribute": "Converter Type",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "D/A CONVERTER"
         }
       ],
       "target": "D/A CONVERTER"
     },
     {
-      "attribute": "Resolution",
+      "attribute": "Sampling Rate",
       "candidates": [
         {
-          "productCode": "TCE000036721",
-          "value": "1.5 B"
+          "productCode": "TCE000035905",
+          "value": "125 Msps"
         }
       ],
-      "target": "12-bit"
+      "target": "400 Msps"
     },
     {
       "attribute": "Lifecycle Status",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "PRODUCTION (Last Updated: 2 weeks ago)"
         }
       ],
@@ -44,8 +44,8 @@
       "attribute": "Package / Case",
       "candidates": [
         {
-          "productCode": "TCE000036721",
-          "value": "20-TSSOP (0.173, 4.40mm Width)"
+          "productCode": "TCE000035905",
+          "value": "28-SOIC (0.295, 7.50mm Width)"
         }
       ],
       "target": "Legacy package variants"
@@ -54,47 +54,57 @@
       "attribute": "Replacement Path",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "-"
         }
       ],
-      "target": "AD5445"
+      "target": "AD9760"
     },
     {
-      "attribute": "Interface",
+      "attribute": "Resolution",
       "candidates": [
         {
-          "productCode": "TCE000036721",
-          "value": "-"
+          "productCode": "TCE000035905",
+          "value": "1.25 B"
         }
       ],
-      "target": "Parallel review required"
+      "target": "10-bit"
     },
     {
       "attribute": "Output Type",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "Current - Unbuffered"
         }
       ],
-      "target": "Multiplying DAC"
+      "target": "High-speed DAC"
     },
     {
       "attribute": "Application Note",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "-"
         }
       ],
-      "target": "Replacement review required before reuse"
+      "target": "Legacy sustainment and redesign review only"
+    },
+    {
+      "attribute": "Linearity Error-Max (EL)",
+      "candidates": [
+        {
+          "productCode": "TCE000035905",
+          "value": "0.0977%"
+        }
+      ],
+      "target": "-"
     },
     {
       "attribute": "Part Status",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "Active"
         }
       ],
@@ -104,7 +114,7 @@
       "attribute": "REACH Status",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "REACH Unaffected"
         }
       ],
@@ -114,7 +124,7 @@
       "attribute": "ECCN",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "EAR99"
         }
       ],
@@ -124,7 +134,7 @@
       "attribute": "Packaging",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "Tube"
         }
       ],
@@ -134,7 +144,7 @@
       "attribute": "Lead Free",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "Contains Lead"
         }
       ],
@@ -144,7 +154,7 @@
       "attribute": "Mounting Type",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "Surface Mount"
         }
       ],
@@ -154,28 +164,18 @@
       "attribute": "Factory Lead Time",
       "candidates": [
         {
-          "productCode": "TCE000036721",
+          "productCode": "TCE000035905",
           "value": "8 Weeks"
         }
       ],
       "target": "-"
     },
     {
-      "attribute": "Subcategory",
+      "attribute": "Contact Plating",
       "candidates": [
         {
-          "productCode": "TCE000036721",
-          "value": "Other Converters"
-        }
-      ],
-      "target": "-"
-    },
-    {
-      "attribute": "Categories",
-      "candidates": [
-        {
-          "productCode": "TCE000036721",
-          "value": "Integrated Circuits (ICs)"
+          "productCode": "TCE000035905",
+          "value": "Lead, Tin"
         }
       ],
       "target": "-"
@@ -183,130 +183,133 @@
   ],
   "confidence": 100,
   "discontinuationStatus": "obsolete",
-  "displayPartNumber": "AD563",
+  "displayPartNumber": "AD9721BN",
   "evidenceSummary": [
     {
-      "excerpt": "ADI marks AD563 obsolete and lists AD5445 as the suggested replacement.",
+      "excerpt": "ADI marks AD9721 obsolete and lists AD9760 as the suggested replacement.",
       "signals": [
         "obsolete",
         "replacement"
       ],
       "sourceType": "official-product-page",
-      "title": "AD563 product page",
-      "url": "https://www.analog.com/en/products/ad563.html"
+      "title": "AD9721 product page",
+      "url": "https://www.analog.com/en/products/ad9721.html"
     },
     {
-      "excerpt": "Official obsolete datasheet for AD563 retained for sustainment reference.",
+      "excerpt": "ADI defines obsolete products as no longer available and directs users to suitable alternatives or cross-reference tools.",
       "signals": [
-        "obsolete-datasheet"
+        "obsolete",
+        "lifecycle"
       ],
-      "sourceType": "official-datasheet",
-      "title": "AD563 obsolete datasheet",
-      "url": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD563.pdf"
+      "sourceType": "official-lifecycle-page",
+      "title": "ADI product life cycle information",
+      "url": "https://www.analog.com/en/support/product-life-cycle-information.html"
     }
   ],
-  "generatedAt": "2026-07-18 13:50:25",
-  "partNumber": "AD563",
-  "reasoning": "ADI currently marks AD563 obsolete and points designers to AD5445 as the official replacement path for first-pass migration review.",
+  "generatedAt": "2026-07-18 14:28:27",
+  "partNumber": "AD9721BN",
+  "reasoning": "As of July 18, 2026, ADI marks the AD9721 family obsolete and lists AD9760 as the replacement path; this publication uses the full obsolete MPN AD9721BN.",
   "replacementCandidates": [
     {
       "attributeGroups": {
         "Export Classifications & Environmental": {
           "ECCN Code": "EAR99",
           "HTSUS": "8542.39.0001",
-          "JESD-609 Code": "e3",
+          "JESD-609 Code": "e0",
           "Moisture Sensitivity Level (MSL)": "1  (Unlimited)",
-          "REACH SVHC": "No SVHC",
+          "REACH SVHC": "Unknown",
           "RoHS Status": "ROHS3 Compliant"
         },
+        "Package Parameter": {
+          "Height Seated (Max)": "2.65mm"
+        },
         "Product Attribute": {
-          "Architecture": "R-2R",
-          "Base Part Number": "AD5445",
+          "Architecture": "Current Source",
+          "Base Part Number": "AD9760",
           "Categories": "Integrated Circuits (ICs)",
-          "Contact Plating": "Tin",
-          "Conversion Rate": "20.4 Msps",
+          "Contact Plating": "Lead, Tin",
+          "Conversion Rate": "125 Msps",
           "Converter Type": "D/A CONVERTER",
           "Data Interface": "Parallel",
           "Differential Output": "YES",
           "ECCN": "EAR99",
           "Factory Lead Time": "8 Weeks",
-          "Height": "1.05mm",
-          "INL/DNL (LSB)": "±1 (Max), -1/+2 (Max)",
+          "INL/DNL (LSB)": "±0.5, ±0.25",
           "Input Bit Code": "BINARY",
           "Integral Nonlinearity (INL)": "1 LSB",
           "Lead Free": "Contains Lead",
-          "Length": "6.5mm",
           "Lifecycle Status": "PRODUCTION (Last Updated: 2 weeks ago)",
           "Manufacturer": "Analog Devices Inc./Maxim Integrated",
-          "Manufacturer's Part No.": "AD5445YRUZ",
-          "Max Input Voltage": "10V",
-          "Max Output Voltage": "0V",
-          "Max Power Dissipation": "1.75μW",
+          "Manufacturer's Part No.": "AD9760AR",
+          "Max Input Voltage": "1.25V",
+          "Max Output Voltage": "2.5V",
+          "Max Power Dissipation": "175mW",
           "Max Supply Voltage": "5.5V",
-          "Min Input Voltage": "-10V",
-          "Min Output Voltage": "20V",
-          "Min Supply Voltage": "2.5V",
+          "Min Input Voltage": "100mV",
+          "Min Output Voltage": "100mV",
+          "Min Supply Voltage": "2.7V",
           "Mounting Type": "Surface Mount",
-          "Nominal Supply Current": "600nA",
-          "Number of Bits": "12",
+          "Number of Bits": "10",
           "Number of Converters": "1",
           "Number of Functions": "1",
-          "Number of Pins": "20",
-          "Number of Terminations": "20",
+          "Number of Pins": "28",
+          "Number of Terminations": "28",
           "Operating Supply Voltage": "5V",
-          "Operating Temperature": "-40°C~125°C",
+          "Operating Temperature": "-40°C~85°C",
           "Output Type": "Current - Unbuffered",
-          "Package / Case": "20-TSSOP (0.173, 4.40mm Width)",
+          "Package / Case": "28-SOIC (0.295, 7.50mm Width)",
           "Packaging": "Tube",
           "Part Status": "Active",
           "Pbfree Code": "no",
-          "Peak Reflow Temperature (Cel)": "260",
-          "Pin Count": "20",
-          "Power Dissipation": "3μW",
+          "Peak Reflow Temperature (Cel)": "240",
+          "Pin Count": "28",
+          "Polarity": "Unipolar",
+          "Power Dissipation": "175mW",
           "REACH Status": "REACH Unaffected",
           "Radiation Hardening": "No",
-          "Reference Type": "External",
-          "Reflow Temperature-Max (s)": "40",
-          "Resolution": "1.5 B",
-          "Sampling Rate": "20.4 Msps",
-          "Settling Time": "120ns",
+          "Reference Type": "External, Internal",
+          "Reflow Temperature-Max (s)": "30",
+          "Resolution": "1.25 B",
+          "Sampling Rate": "125 Msps",
+          "Series": "TxDAC®",
+          "Settling Time": "35ns (Typ)",
           "Sub-Categories": "Data Acquisition - Digital to Analog Converters (DAC)",
           "Subcategory": "Other Converters",
+          "Supply Voltage": "5V",
           "Surface Mount": "YES",
           "Technology": "CMOS",
           "Terminal Form": "GULL WING",
-          "Terminal Pitch": "0.65mm",
           "Terminal Position": "DUAL",
-          "Voltage - Supply, Analog": "2.5V~5.5V",
-          "Voltage - Supply, Digital": "2.5V~5.5V",
-          "Width": "4.4mm"
+          "Voltage - Supply, Analog": "2.7V~5.5V",
+          "Voltage - Supply, Digital": "2.7V~5.5V",
+          "Width": "7.5mm"
         },
         "Product Parameter": {
-          "Linearity Error-Max (EL)": "0.0244%"
+          "Linearity Error-Max (EL)": "0.0977%"
         }
       },
       "brandName": "Analog Devices Inc./Maxim Integrated",
       "bucket": "Functional",
       "categoryName": "Integrated Circuits (ICs)",
-      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad5445yruz.pdf",
-      "description": "IC DAC 12BIT PARALL IOUT 20TSSOP",
+      "datasheetUrl": "https://datasheet.trustcompo.com/analog-devices-inc.-maxim-integrated-ad9760ar.pdf",
+      "description": "IC DAC 10BIT 125MSPS 28-SOIC",
       "fitNotes": [
-        "Official ADI product page lists AD5445 as the suggested replacement."
+        "Official ADI product page lists AD9760 as the suggested replacement family."
       ],
       "fitScore": 80,
-      "package": "TSSOP",
+      "package": "28-SOIC",
       "pricing": {
         "priceRange": "",
         "unitPrice": ""
       },
-      "productCode": "TCE000036721",
-      "productName": "AD5445YRUZ",
-      "productOverview": "IC DAC 12BIT PARALL IOUT 20TSSOP",
-      "reason": "ADI lists AD5445 as the suggested replacement for AD563.",
-      "series": "-",
-      "slug": "TCE000036721-AD5445YRUZ",
+      "productCode": "TCE000035905",
+      "productName": "AD9760AR",
+      "productOverview": "IC DAC 10BIT 125MSPS 28-SOIC",
+      "reason": "ADI lists AD9760 as the suggested replacement for AD9721.",
+      "series": "TxDAC®",
+      "slug": "TCE000035905-AD9760AR",
       "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
-      "url": "https://www.trustcompo.com/product/detail/TCE000036721-AD5445YRUZ"
+      "url": "https://www.trustcompo.com/product/detail/TCE000035905-AD9760AR"
     }
   ],
   "sourceReportFile": "runtime/catalog-batches/2026-07-18-adi-obsolete-wave-1/lifecycle-and-crossrefs.json",
@@ -314,34 +317,34 @@
     "attributeGroups": {
       "Product Attribute": {
         "Converter Type": "D/A CONVERTER",
-        "Interface": "Parallel review required",
         "Lifecycle Status": "OBSOLETE",
         "Manufacturer": "Analog Devices Inc./Maxim Integrated",
-        "Output Type": "Multiplying DAC",
+        "Output Type": "High-speed DAC",
         "Package / Case": "Legacy package variants",
-        "Replacement Path": "AD5445",
-        "Resolution": "12-bit"
+        "Replacement Path": "AD9760",
+        "Resolution": "10-bit",
+        "Sampling Rate": "400 Msps"
       },
       "Product Parameter": {
-        "Application Note": "Replacement review required before reuse"
+        "Application Note": "Legacy sustainment and redesign review only"
       }
     },
     "brandName": "Analog Devices Inc./Maxim Integrated",
     "categoryName": "Integrated Circuits (ICs)",
-    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD563.pdf",
-    "description": "Legacy 12-bit multiplying DAC family marked obsolete by ADI and redirected to AD5445.",
-    "package": "Legacy package variants",
+    "datasheetUrl": "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/AD9721.pdf",
+    "description": "AD9721BN obsolete 10-bit 400 MSPS D/A converter listed by ADI and redirected to AD9760.",
+    "package": "28-PDIP",
     "pricing": {
       "priceRange": "",
       "unitPrice": ""
     },
-    "productCode": "TCE000090878",
-    "productName": "AD563",
-    "productOverview": "ADI lists AD563 as obsolete and suggests the AD5445 as the replacement path on the current product page. For maintenance programs, this legacy DAC family should be compared against AD5445 on interface style, output topology, package constraints, and timing behavior before using the replacement in any active design or field-service transition.",
+    "productCode": "TCE000090879",
+    "productName": "AD9721BN",
+    "productOverview": "ADI marks the AD9721 product family as obsolete and suggests AD9760 as the recommended replacement. We published AD9721BN as the complete MPN for this obsolete 10-bit 400 MSPS DAC variant, and legacy waveform-generation or communications designs should recheck update rate, output topology, package constraints, and system timing before approving AD9760 as a service replacement.",
     "series": "-",
-    "slug": "TCE000090878-AD563",
+    "slug": "TCE000090879-AD9721BN",
     "subCategoryName": "Data Acquisition - Digital to Analog Converters (DAC)",
-    "url": "https://www.trustcompo.com/product/detail/TCE000090878-AD563"
+    "url": "https://www.trustcompo.com/product/detail/TCE000090879-AD9721BN"
   },
   "vendor": "Analog Devices Inc./Maxim Integrated"
 }
