@@ -520,7 +520,7 @@
       "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 18:06:10",
+  "generatedAt": "2026-07-18 14:25:56",
   "partNumber": "NC7SZ125",
   "reasoning": "Functional low-power alternative to the obsolete onsemi NC7SZ125. 74AUP1G125GW is the Nexperia AUP (Advanced Ultra-low Power) single bus buffer gate in SOT-23-5 with identical pinout to NC7SZ125. Operates 0.8 V to 3.6 V VCC, <1 uA quiescent current, ~0.9 ns propagation delay. Same 3-state buffer function, lower power envelope than NC7SZ's UHS family. Use as drop-in for battery-powered and low-leakage applications where NC7SZ's UHS current is excessive.",
   "replacementCandidates": [

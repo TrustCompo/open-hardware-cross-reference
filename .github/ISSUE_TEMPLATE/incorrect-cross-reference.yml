@@ -1,0 +1,38 @@
+name: Incorrect cross-reference
+description: Report a replacement candidate that appears incorrect or unsafe.
+title: "[Incorrect cross-reference]: "
+labels: ["data-correction", "cross-reference"]
+body:
+  - type: input
+    id: original_part
+    attributes:
+      label: Original part number
+      placeholder: BSS138L
+    validations:
+      required: true
+  - type: input
+    id: candidate_part
+    attributes:
+      label: Candidate part number
+      placeholder: SI2302CDS-T1-E3
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What appears incorrect?
+      description: Describe the mismatch, risk, or overstatement.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Add public datasheet, manufacturer page, lifecycle notice, or distributor references.
+    validations:
+      required: true
+  - type: textarea
+    id: validation_notes
+    attributes:
+      label: Suggested validation note
+      description: If possible, suggest wording that would make the boundary clearer.

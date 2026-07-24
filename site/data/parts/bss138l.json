@@ -53,6 +53,188 @@
       "target": "8541.29.0095"
     },
     {
+      "attribute": "Part Number",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "BSS138N"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "BSS138L"
+    },
+    {
+      "attribute": "VDS (Drain-Source)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "60 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "50 V"
+    },
+    {
+      "attribute": "ID (Continuous Drain)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "0.23 A (Ta)"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "200 mA (Ta)"
+    },
+    {
+      "attribute": "VGS (Gate-Source)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "±20 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "±20 V"
+    },
+    {
+      "attribute": "Vth (Threshold)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "0.7 V to 1.5 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "0.8 V to 1.5 V"
+    },
+    {
+      "attribute": "Power Dissipation (max)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "360 mW (Ta)"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "350 mW (Ta)"
+    },
+    {
+      "attribute": "Rds(on)",
+      "candidates": [
+        {
+          "productCode": "TCE000048009",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000042253",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000055878",
+          "value": "-"
+        },
+        {
+          "productCode": "TCE000056789",
+          "value": "3.5 ohm @ Vgs = 10 V"
+        },
+        {
+          "productCode": "TCE000032963",
+          "value": "-"
+        }
+      ],
+      "target": "3.5 ohm @ Vgs = 4.5 V"
+    },
+    {
       "attribute": "ECCN",
       "candidates": [
         {
@@ -261,201 +443,19 @@
       "target": "SOT-23-3 (L suffix)"
     },
     {
-      "attribute": "Part Number",
+      "attribute": "Part Status",
       "candidates": [
         {
           "productCode": "TCE000048009",
-          "value": "-"
+          "value": "Active"
         },
         {
           "productCode": "TCE000042253",
-          "value": "-"
+          "value": "Active"
         },
         {
           "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "BSS138N"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "BSS138L"
-    },
-    {
-      "attribute": "VDS (Drain-Source)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "60 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "50 V"
-    },
-    {
-      "attribute": "ID (Continuous Drain)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "0.23 A (Ta)"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "200 mA (Ta)"
-    },
-    {
-      "attribute": "VGS (Gate-Source)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "±20 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "±20 V"
-    },
-    {
-      "attribute": "Vth (Threshold)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "0.7 V to 1.5 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "0.8 V to 1.5 V"
-    },
-    {
-      "attribute": "Power Dissipation (max)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "360 mW (Ta)"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "350 mW (Ta)"
-    },
-    {
-      "attribute": "Rds(on)",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000056789",
-          "value": "3.5 ohm @ Vgs = 10 V"
-        },
-        {
-          "productCode": "TCE000032963",
-          "value": "-"
-        }
-      ],
-      "target": "3.5 ohm @ Vgs = 4.5 V"
-    },
-    {
-      "attribute": "JESD-609 Code",
-      "candidates": [
-        {
-          "productCode": "TCE000048009",
-          "value": "e3"
-        },
-        {
-          "productCode": "TCE000042253",
-          "value": "e3"
-        },
-        {
-          "productCode": "TCE000055878",
-          "value": "e3"
+          "value": "Active"
         },
         {
           "productCode": "TCE000056789",
@@ -463,7 +463,7 @@
         },
         {
           "productCode": "TCE000032963",
-          "value": "e3"
+          "value": "Active"
         }
       ],
       "target": "-"
@@ -520,7 +520,7 @@
       "url": "https://datasheet.trustcompo.com/diodes-incorporated-bsn20-7.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 18:05:57",
+  "generatedAt": "2026-07-18 14:25:44",
   "partNumber": "BSS138L",
   "reasoning": "Current live pairing overstates compatibility. SI2302CDS-T1-E3 is a 20 V trench MOSFET and should not be presented as a normal functional replacement for the 50 V BSS138L shortlist.",
   "replacementCandidates": [

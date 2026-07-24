@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18 13:48:07",
+  "generatedAt": "2026-07-18 14:26:10",
   "workflowVersion": "2026-07-17-quality-gated-v2",
   "environment": "prod",
-  "repoPath": "/home/chenxiaosen/workspace/trustcompo-open-source/repos/open-hardware-cross-reference",
+  "repoPath": "../trustcompo-open-source/repos/open-hardware-cross-reference",
   "repoProgressFile": "site/data/sync-progress.json",
   "totalGroups": 10,
   "apiReportedTotal": 15,
@@ -21,7 +21,7 @@
   "sourceProducts": {
     "TCE000041557": {
       "contentHash": "ea86db02e8be4100041232ec748cf41c0a07e3fd111b2da00423bd6c9cff7c26",
-      "syncedAt": "2026-07-17 18:06:04",
+      "syncedAt": "2026-07-18 14:25:53",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/njm064m/",
@@ -39,7 +39,7 @@
     },
     "TCE000056780": {
       "contentHash": "d203e7baae54ae71df666602c6d59c9f1ea5ec0257f66fb9cd7264f02a37a158",
-      "syncedAt": "2026-07-17 18:05:57",
+      "syncedAt": "2026-07-18 14:25:44",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/bss138l/",
@@ -55,7 +55,7 @@
     },
     "TCE000041826": {
       "contentHash": "0547ddbf8dbd0ee5807308351d6bed39c9bcf2c2928cce47f111757dfabf0a36",
-      "syncedAt": "2026-07-17 18:05:52",
+      "syncedAt": "2026-07-18 14:25:39",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ncp1117st25t3g/",
@@ -71,7 +71,7 @@
     },
     "TCE000056779": {
       "contentHash": "0ba8395018ac35e7909bc691d072981122a46da44823d1bcaa41734b3f4bbf3d",
-      "syncedAt": "2026-07-17 18:06:10",
+      "syncedAt": "2026-07-18 14:25:56",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
       "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/nc7sz125/",
@@ -100,80 +100,80 @@
     },
     "TCE000090886": {
       "contentHash": "9e41aa3356cbe874b083afde2221cc93c9e22dc6493c8e0651e144ca2c3bffd3",
-      "syncedAt": "2026-07-18 13:47:18",
+      "syncedAt": "2026-07-18 14:25:58",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad9702/",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad9702bw/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
-      "displayPartNumber": "AD9702",
+      "displayPartNumber": "AD9702BW",
       "alternativeProductCodes": [
         "TCE000032583"
       ]
     },
     "TCE000090885": {
       "contentHash": "df08dded0f92d230405e3481ab859f78693fe03d51d6a37af11a266a50129e8a",
-      "syncedAt": "2026-07-18 13:47:20",
+      "syncedAt": "2026-07-18 14:26:00",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad9007/",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad9007am/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
-      "displayPartNumber": "AD9007",
+      "displayPartNumber": "AD9007AM",
       "alternativeProductCodes": [
         "TCE000011423"
       ]
     },
     "TCE000090884": {
       "contentHash": "1b5829e78e0d8cae42f3ee2e91cac248ff3421700ae5b8d5880ee1e6a4a3b8f5",
-      "syncedAt": "2026-07-18 13:47:21",
+      "syncedAt": "2026-07-18 14:26:03",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad1876/",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad1876jn/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
-      "displayPartNumber": "AD1876",
+      "displayPartNumber": "AD1876JN",
       "alternativeProductCodes": [
         "TCE000039937"
       ]
     },
     "TCE000090883": {
       "contentHash": "010de086d2c203eafdbf1a5c36fa4f83c58e0f9db03379388fa50f24cdae5429",
-      "syncedAt": "2026-07-18 13:47:24",
+      "syncedAt": "2026-07-18 14:26:05",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad1672/",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad1672ap/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
-      "displayPartNumber": "AD1672",
+      "displayPartNumber": "AD1672AP",
       "alternativeProductCodes": [
         "TCE000030773"
       ]
     },
     "TCE000090882": {
       "contentHash": "eeac68d8ed72f243b36ae20ff65b1566e9eebe6aba9f51cbbaea5774a76b3960",
-      "syncedAt": "2026-07-18 13:47:27",
+      "syncedAt": "2026-07-18 14:26:09",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad705/",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/ad705jr/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
-      "displayPartNumber": "AD705",
+      "displayPartNumber": "AD705JR",
       "alternativeProductCodes": [
         "TCE000034007"
       ]
     },
     "TCE000090881": {
       "contentHash": "54ea1874d07d6525332df40217d26becf43faabf928ff1d5b4e664f32af1246d",
-      "syncedAt": "2026-07-18 13:47:30",
+      "syncedAt": "2026-07-18 14:26:10",
       "status": "published",
       "workflowVersion": "2026-07-17-quality-gated-v2",
-      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/op01/",
+      "publicPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/parts/op01cj/",
       "vendorPageUrl": "https://trustcompo.github.io/open-hardware-cross-reference/vendors/analog-devices-inc-maxim-integrated/",
-      "displayPartNumber": "OP01",
+      "displayPartNumber": "OP01CJ",
       "alternativeProductCodes": [
         "TCE000041681"
       ]
     }
   },
   "lastRun": {
-    "syncedCount": 0,
-    "skippedCount": 10,
+    "syncedCount": 10,
+    "skippedCount": 0,
     "gatedCount": 0
   }
 }

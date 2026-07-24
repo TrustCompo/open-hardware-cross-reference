@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://trustcompo.github.io/open-hardware-cross-reference/sitemap.xml

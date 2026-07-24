@@ -520,7 +520,7 @@
       "url": "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 18:05:52",
+  "generatedAt": "2026-07-18 14:25:39",
   "partNumber": "NCP1117ST25T3G",
   "reasoning": "Current live pairing is not a normal replacement path. MIC29150-12WU is a 12 V, 1.5 A TO-263 regulator, while NCP1117ST25T3G is a 2.5 V, 1.0 A SOT-223 1117-family regulator. This can only be kept as a redesign-level similar reference, not as a functional alternative.",
   "replacementCandidates": [

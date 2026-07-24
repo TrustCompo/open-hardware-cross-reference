@@ -1,0 +1,43 @@
+name: Data correction
+description: Fix stale or inaccurate lifecycle, package, parameter, or link data.
+title: "[Data correction]: "
+labels: ["data-correction"]
+body:
+  - type: input
+    id: part
+    attributes:
+      label: Affected part or page
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: Field type
+      options:
+        - Lifecycle status
+        - Package or pinout
+        - Electrical parameter
+        - Compliance or regulatory
+        - Link or source
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current value
+      description: What does the project currently show?
+  - type: textarea
+    id: corrected
+    attributes:
+      label: Corrected value
+      description: What should it show instead?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Add public references that support the correction.
+    validations:
+      required: true

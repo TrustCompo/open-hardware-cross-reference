@@ -1,0 +1,7 @@
+TrustCompo Open Hardware Cross Reference
+
+Site: https://trustcompo.github.io/open-hardware-cross-reference/
+Repository: https://github.com/TrustCompo/open-hardware-cross-reference
+Purpose: Public hardware cross-reference pages for lifecycle-affected components, replacement shortlist screening, and engineering validation planning.
+
+Validation boundary: This site is a shortlist and review aid, not a design approval or final equivalence claim.

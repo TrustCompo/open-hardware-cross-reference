@@ -307,74 +307,6 @@
       "target": "DMP-14 (DIP-14 compatible)"
     },
     {
-      "attribute": "HTSUS",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "-"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "8542.33.0001"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "-"
-        }
-      ],
-      "target": "8542.33.0001"
-    },
-    {
-      "attribute": "RoHS Status",
-      "candidates": [
-        {
-          "productCode": "TCE000039147",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000033962",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000037565",
-          "value": "RoHS non-compliant"
-        },
-        {
-          "productCode": "TCE000008521",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000030931",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000037564",
-          "value": "ROHS3 Compliant"
-        },
-        {
-          "productCode": "TCE000041141",
-          "value": "ROHS3 Compliant"
-        }
-      ],
-      "target": "Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default"
-    },
-    {
       "attribute": "Number of Channels",
       "candidates": [
         {
@@ -579,35 +511,103 @@
       "target": "JFET-input operational amplifier"
     },
     {
-      "attribute": "Part Status",
+      "attribute": "HTSUS",
       "candidates": [
         {
           "productCode": "TCE000039147",
-          "value": "Active"
+          "value": "8542.33.0001"
         },
         {
           "productCode": "TCE000033962",
-          "value": "Active"
+          "value": "-"
         },
         {
           "productCode": "TCE000037565",
-          "value": "Active"
+          "value": "8542.33.0001"
         },
         {
           "productCode": "TCE000008521",
-          "value": "Active"
+          "value": "8542.33.0001"
         },
         {
           "productCode": "TCE000030931",
-          "value": "Active"
+          "value": "8542.33.0001"
         },
         {
           "productCode": "TCE000037564",
-          "value": "Active"
+          "value": "8542.33.0001"
         },
         {
           "productCode": "TCE000041141",
-          "value": "Active"
+          "value": "-"
+        }
+      ],
+      "target": "8542.33.0001"
+    },
+    {
+      "attribute": "RoHS Status",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "RoHS non-compliant"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "ROHS3 Compliant"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "ROHS3 Compliant"
+        }
+      ],
+      "target": "Confirm from manufacturer PCN; pre-EOL parts are typically non-RoHS by default"
+    },
+    {
+      "attribute": "Moisture Sensitivity Level (MSL)",
+      "candidates": [
+        {
+          "productCode": "TCE000039147",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000033962",
+          "value": "1 (Unlimited)"
+        },
+        {
+          "productCode": "TCE000037565",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000008521",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000030931",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000037564",
+          "value": "1  (Unlimited)"
+        },
+        {
+          "productCode": "TCE000041141",
+          "value": "1 (Unlimited)"
         }
       ],
       "target": "-"
@@ -646,7 +646,7 @@
       "url": "https://datasheet.trustcompo.com/stmicroelectronics-lf347dt.pdf"
     }
   ],
-  "generatedAt": "2026-07-17 18:06:04",
+  "generatedAt": "2026-07-18 14:25:53",
   "partNumber": "NJM064M",
   "reasoning": "Wide-bandwidth LF347-family option. Keep only as a clearly marked performance-variant alternative; it should not be presented as the canonical replacement for a low-power NJM064M design.",
   "replacementCandidates": [
